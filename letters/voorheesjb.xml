@@ -37,111 +37,111 @@
             <correspDesc xml:id="voorheesjb_01">
                 <correspAction type="sent">
                     <persName>John Brownlee Voorhees</persName>
-                    <placeName>Hartford, Connecticut</placeName>
+                    <placeName ref="#voorhees-parsonage">Hartford, Connecticut</placeName>
                     <date when="1918-04-20">April 20, 1918</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName cert="medium">Ralph S. Voorhees Jr.</persName>
-                    <placeName>unknown</placeName>
+                    <persName cert="low">Ralph S. Voorhees Jr.</persName>
+                    <placeName cert="low" ref="#rutgers">New Brunswick, New Jersey</placeName>
                 </correspAction>
             </correspDesc>
             <correspDesc xml:id="voorheesjb_02">
                 <correspAction type="sent">
                     <persName>Earl Reed Silvers</persName>
-                    <placeName>New Brunswick, New Jersey</placeName>
+                    <placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
                     <date when="1918-04-25">April 25, 1918</date>
                 </correspAction>
                 <correspAction type="received">
                     <persName>John Brownlee Voorhees</persName>
-                    <placeName>Hartford, Connecticut</placeName>
+                    <placeName ref="#voorhees-parsonage">Hartford, Connecticut</placeName>
                 </correspAction>
             </correspDesc>
             <correspDesc xml:id="voorheesjb_03">
                 <correspAction type="sent">
                     <persName>John Brownlee Voorhees</persName>
-                    <placeName>Hartford, Connecticut</placeName>
+                    <placeName ref="#voorhees-parsonage">Hartford, Connecticut</placeName>
                     <date when="1918-05-02">May 2, 1918</date>
                 </correspAction>
                 <correspAction type="received">
                     <persName>Earl Reed Silvers</persName>
-                    <placeName>New Brunswick, New Jersey</placeName>
+                    <placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
                 </correspAction>
             </correspDesc>
             <correspDesc xml:id="voorheesjb_04">
                 <correspAction type="sent">
                     <persName>John Brownlee Voorhees</persName>
-                    <placeName>Châtel-Guyon, France</placeName>
+                    <placeName ref="#base-hospital-20">Châtel-Guyon, France</placeName>
                     <date when="1918-09-18">September 18, 1918</date>
                 </correspAction>
                 <correspAction type="received">
                     <persName>Earl Reed Silvers</persName>
-                    <placeName>New Brunswick, New Jersey</placeName>
+                    <placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
                 </correspAction>
             </correspDesc>
             <correspDesc xml:id="voorheesjb_05">
                 <correspAction type="sent">
                     <persName>Earl Reed Silvers</persName>
-                    <placeName>New Brunswick, New Jersey</placeName>
+                    <placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
                     <date when="1918-10-24">October 24, 1918</date>
                 </correspAction>
                 <correspAction type="received">
                     <persName>John Brownlee Voorhees</persName>
-                    <placeName>Châtel-Guyon, France</placeName>
+                    <placeName ref="#base-hospital-20">Châtel-Guyon, France</placeName>
                 </correspAction>
             </correspDesc>
             <correspDesc xml:id="voorheesjb_06">
                 <correspAction type="sent">
                     <persName>Earl Reed Silvers</persName>
-                    <placeName>New Brunswick, New Jersey</placeName>
+                    <placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
                     <date when="1919-01-13">January 13, 1919</date>
                 </correspAction>
                 <correspAction type="received">
                     <persName>Juliana Deyo Voorhees</persName>
-                    <placeName>Hartford, Connecticut</placeName>
+                    <placeName ref="#voorhees-parsonage">Hartford, Connecticut</placeName>
                 </correspAction>
             </correspDesc>
             <correspDesc xml:id="voorheesjb_07">
                 <correspAction type="sent">
                     <persName>Earl Reed Silvers</persName>
-                    <placeName>New Brunswick, New Jersey</placeName>
+                    <placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
                     <date when="1919-02-03">February 3, 1919</date>
                 </correspAction>
                 <correspAction type="received">
                     <persName>Irving H. Berg</persName>
-                    <placeName>New York, New York</placeName>
+                    <placeName ref="#berg-home">New York, New York</placeName>
                 </correspAction>
             </correspDesc>
             <correspDesc xml:id="voorheesjb_08">
                 <correspAction type="sent">
                     <persName>Irving H. Berg</persName>
-                    <placeName>New York, New York</placeName>
+                    <placeName ref="#berg-home">New York, New York</placeName>
                     <date when="1919-02-04">February 4, 1919</date>
                 </correspAction>
                 <correspAction type="received">
                     <persName>Earl Reed Silvers</persName>
-                    <placeName>New Brunswick, New Jersey</placeName>
+                    <placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
                 </correspAction>
             </correspDesc>
             <correspDesc xml:id="voorheesjb_09">
                 <correspAction type="sent">
                     <persName>Earl Reed Silvers</persName>
-                    <placeName>New Brunswick, New Jersey</placeName>
+                    <placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
                     <date when="1919-02-05">February 5, 1919</date>
                 </correspAction>
                 <correspAction type="received">
                     <persName>Irving H. Berg</persName>
-                    <placeName>New York, New York</placeName>
+                    <placeName ref="#berg-church">New York, New York</placeName>
                 </correspAction>
             </correspDesc>
             <correspDesc xml:id="voorheesjb_10">
                 <correspAction type="sent">
                     <persName>Juliana Deyo Voorhees</persName>
-                    <placeName>Hartford, Connecticut</placeName>
+                    <placeName ref="#voorhees-parsonage">Hartford, Connecticut</placeName>
                     <date>unknown</date>
                 </correspAction>
                 <correspAction type="received">
                     <persName>Earl Reed Silvers</persName>
-                    <placeName>New Brunswick, New Jersey</placeName>
+                    <placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -158,6 +158,7 @@
             <change when="2018-07-11" who="#FG">Removed teiCorpus and individual TEI element sets
                 for each letter. Put letter metadata inside correspDesc elements. Moved letterhead
                 notes from opener up a node to letter divs. Added @resp to editorial notes.</change>
+            <change when="2018-07-13" who="#FG">Extracted unique places mentioned in body of letters and included them in a listPlace element in the back with @xml:id values inside place elements. Added references to those ids in the placeName values of the correspDesc elements in the teiHeader.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -576,37 +577,37 @@
         </body>
         <back>
             <listPlace>
-                <place>
+                <place xml:id="voorhees-parsonage">
                     <placeName>854 Asylum Ave., Hartford, CT</placeName>
                     <location>
                         <geo>41.770302 -72.692984</geo>
                     </location>
                 </place>
-                <place>
+                <place xml:id="rutgers">
                     <placeName>Rutgers College, New Brunswick, NJ</placeName>
                     <location>
                         <geo>40.500819 -74.447399</geo>
                     </location>
                 </place>
-                <place>
+                <place xml:id="paris-ymca">
                     <placeName>12 rue d'Aguesseau, Paris, France</placeName>
                     <location>
                         <geo>48.870355 2.319577</geo>
                     </location>
                 </place>
-                <place>
+                <place xml:id="base-hospital-20">
                     <placeName>U.S.A. Base Hospital No. 20, Châtel-Guyon, France</placeName>
                     <location>
                         <geo>45.918736 3.063976</geo>
                     </location>
                 </place>
-                <place>
+                <place xml:id="berg-home">
                     <placeName>2611 Sedgwick Ave, New York, NY</placeName>
                     <location>
                         <geo>40.869231 -73.905606</geo>
                     </location>
                 </place>
-                <place>
+                <place xml:id="berg-church">
                     <placeName>729 West 181st Street, New York, NY 10033</placeName>
                     <location>
                         <geo>40.851000 -73.937498</geo>
