@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="rulwsb_style.xsl"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Voorhees, John Brownlee</title>
+                <respStmt>
+                    <resp>Transcription and encoding by</resp>
+                    <name xml:id="FG"> Francesca Giannetti </name>
+                </respStmt>
+            </titleStmt>
+            <extent>18 p.</extent>
+            <publicationStmt>
+                <publisher>Rutgers University Libraries</publisher>
+                <distributor> Rutgers Community Repository (RUcore) URL:
+                    https://rucore.libraries.rutgers.edu </distributor>
+                <availability>
+                    <p>No Known Copyright</p>
+                </availability>
+                <authority>Transcribed from digital files available in RUcore</authority>
+                <idno type="URI">https://doi.org/doi:10.7282/T38918PB</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Special Collections and University Archives, Rutgers University
+                            Libraries</repository>
+                        <collection>Rutgers College. War Service Bureau. Records,
+                            1917-1919</collection>
+                        <idno>RG 33/C0/01</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc xml:id="voorheesjb_01">
+                <correspAction type="sent">
+                    <persName>John Brownlee Voorhees</persName>
+                    <placeName>Hartford, Connecticut</placeName>
+                    <date when="1918-04-20">April 20, 1918</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName cert="medium">Ralph S. Voorhees Jr.</persName>
+                    <placeName>unknown</placeName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc xml:id="voorheesjb_02">
+                <correspAction type="sent">
+                    <persName>Earl Reed Silvers</persName>
+                    <placeName>New Brunswick, New Jersey</placeName>
+                    <date when="1918-04-25">April 25, 1918</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>John Brownlee Voorhees</persName>
+                    <placeName>Hartford, Connecticut</placeName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc xml:id="voorheesjb_03">
+                <correspAction type="sent">
+                    <persName>John Brownlee Voorhees</persName>
+                    <placeName>Hartford, Connecticut</placeName>
+                    <date when="1918-05-02">May 2, 1918</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Earl Reed Silvers</persName>
+                    <placeName>New Brunswick, New Jersey</placeName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc xml:id="voorheesjb_04">
+                <correspAction type="sent">
+                    <persName>John Brownlee Voorhees</persName>
+                    <placeName>Châtel-Guyon, France</placeName>
+                    <date when="1918-09-18">September 18, 1918</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Earl Reed Silvers</persName>
+                    <placeName>New Brunswick, New Jersey</placeName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc xml:id="voorheesjb_05">
+                <correspAction type="sent">
+                    <persName>Earl Reed Silvers</persName>
+                    <placeName>New Brunswick, New Jersey</placeName>
+                    <date when="1918-10-24">October 24, 1918</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>John Brownlee Voorhees</persName>
+                    <placeName>Châtel-Guyon, France</placeName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc xml:id="voorheesjb_06">
+                <correspAction type="sent">
+                    <persName>Earl Reed Silvers</persName>
+                    <placeName>New Brunswick, New Jersey</placeName>
+                    <date when="1919-01-13">January 13, 1919</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Juliana Deyo Voorhees</persName>
+                    <placeName>Hartford, Connecticut</placeName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc xml:id="voorheesjb_07">
+                <correspAction type="sent">
+                    <persName>Earl Reed Silvers</persName>
+                    <placeName>New Brunswick, New Jersey</placeName>
+                    <date when="1919-02-03">February 3, 1919</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Irving H. Berg</persName>
+                    <placeName>New York, New York</placeName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc xml:id="voorheesjb_08">
+                <correspAction type="sent">
+                    <persName>Irving H. Berg</persName>
+                    <placeName>New York, New York</placeName>
+                    <date when="1919-02-04">February 4, 1919</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Earl Reed Silvers</persName>
+                    <placeName>New Brunswick, New Jersey</placeName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc xml:id="voorheesjb_09">
+                <correspAction type="sent">
+                    <persName>Earl Reed Silvers</persName>
+                    <placeName>New Brunswick, New Jersey</placeName>
+                    <date when="1919-02-05">February 5, 1919</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Irving H. Berg</persName>
+                    <placeName>New York, New York</placeName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc xml:id="voorheesjb_10">
+                <correspAction type="sent">
+                    <persName>Juliana Deyo Voorhees</persName>
+                    <placeName>Hartford, Connecticut</placeName>
+                    <date>unknown</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Earl Reed Silvers</persName>
+                    <placeName>New Brunswick, New Jersey</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2018-06-02" who="#FG">Added information in attributes of persName and
+                interp elements. Added notes inside of interp element.</change>
+            <change when="2018-06-20" who="#FG">Added xml:id attributes and values to interp
+                elements and separated notes with target pointing to respective interp element.
+                Added schema declarations.</change>
+            <change when="2018-06-25" who="#FG">Encoded two additional letters. Inserted addrLine
+                elements for each line of addresses. Updated schematron to reflect encoding
+                changes.</change>
+            <change when="2018-06-28" who="#FG">Added extent for each individual letter.</change>
+            <change when="2018-07-11" who="#FG">Removed teiCorpus and individual TEI element sets
+                for each letter. Put letter metadata inside correspDesc elements. Moved letterhead
+                notes from opener up a node to letter divs. Added @resp to editorial notes.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter" decls="#voorheesjb_01">
+                <pb n="1"/>
+                <note type="letterhead">
+                    <address>
+                            <addrLine>ASYLUM HILL CONGREGATIONAL CHURCH</addrLine>
+                            <addrLine>HARTFORD, CONN.</addrLine>
+                            <addrLine>JOHN BROWNLEE VOORHEES, MINISTER</addrLine>
+                            <addrLine>
+                              <placeName key="854 Asylum Ave., Hartford, CT" ref="https://tools.wmflabs.org/geohack/geohack.php?params=41_46_12_N_72_41_43_W">854 ASYLUM AVE.</placeName>
+                              </addrLine>
+                            </address>
+                </note>
+                <opener>
+                    <dateline>
+                        <date when="1918-04-20">April 20, 1918.</date>
+                    </dateline>
+                    <salute>My dear <persName key="Voorhees, Ralph S. Jr. [?]" cert="low"
+                            from-iso="189-" to-iso="19--" role="Private, Base Hospital #8"
+                            ref="https://doi.org/doi:10.7282/T3RB77D9">Ralph</persName>:</salute>
+                </opener>
+
+                <p> I am very sorry that I could not attend the meeting of the Alumni Council on
+                        <date when="1918-04-13">April 13th</date>. These happen to be very busy days with me, as I
+                    plan to start shortly for overseas service in connection with the <name
+                        type="org">Y.M.C.A.</name>, my Church having granted me eight months leave
+                    of absence. </p>
+
+                <closer>
+                    <salute>Very truly yours,</salute><lb/>
+                    <handShift medium="black-ink"/>
+                    <signed>
+                        <persName key="Voorhees, John Brownlee" from="1875" to="1919"
+                            role="Minister" ref="https://www.findagrave.com/memorial/130098973">John
+                            Brownlee Voorhees</persName>
+                    </signed>
+                </closer>
+            </div>
+
+            <div type="letter" decls="#voorheesjb_02">
+                <pb n="2"/>
+                <opener>
+                    <dateline>
+                        <date when="1918-04-25">April 25, 1918.</date><lb/>
+                    </dateline>
+                    <address>
+                          <addrLine>
+                            <persName key="Voorhees, John Brownlee" from="1875" to="1919" role="Minister" ref="https://www.findagrave.com/memorial/130098973">Dr.
+                                J. B. Voorhees,</persName>
+                          </addrLine>
+                          <addrLine>
+                            <name type="org">Asylum Hill Congregational Church,</name>
+                          </addrLine>
+                          <addrLine><placeName key="854 Asylum Ave., Hartford, CT" ref="https://tools.wmflabs.org/geohack/geohack.php?params=41_46_12_N_72_41_43_W"> 854 Asylum Ave.<lb/> Hartford, Conn.</placeName></addrLine>
+                        </address>
+                    <salute>Dear <persName key="Voorhees, John Brownlee" from="1875" to="1919"
+                            role="Minister" ref="https://www.findagrave.com/memorial/130098973">Dr.
+                            Voorhees</persName>: </salute>
+                </opener>
+                <p> I understand that you will leavershortly for overseas service with the Y.M.C.A.
+                    If you will send me your address, I shall be pleased to include you in the list
+                    of those who receive the benefits of our War Service Bureau. </p>
+                <closer>
+                    <salute> Wishing you success in this most interesting field of work, I am<lb/>
+                        Sincerely yours, </salute><lb/>
+                    <signed>
+                        <persName key="Silvers, Earl Reed" from="1891" to="1948"
+                            role="Director, War Service Bureau"
+                            ref="http://viaf.org/viaf/68516378">Director.
+                            <lb/>ERS/H</persName>
+                    </signed>
+                </closer>
+            </div>
+
+            <div type="letter" decls="#voorheesjb_03">
+                <pb n="3"/>
+
+                <note type="letterhead">
+                    <address>
+                          <addrLine>ASYLUM HILL CONGREGATIONAL CHURCH</addrLine>
+                          <addrLine>HARTFORD, CONN.</addrLine>
+                          <addrLine>JOHN BROWNLEE VOORHEES, MINISTER</addrLine>
+                          <addrLine>
+                            <placeName key="854 Asylum Ave., Hartford, CT" ref="https://tools.wmflabs.org/geohack/geohack.php?params=41_46_12_N_72_41_43_W">854 ASYLUM AVE.</placeName>
+                            </addrLine>
+                          </address>
+                </note>
+                <opener>
+                    <dateline>
+                        <date when="1918-05-02">May 2, 1918.</date>
+                    </dateline>
+                    <address>
+                          <addrLine>
+                            <persName key="Silvers, Earl Reed" from="1891" to="1948" role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378">Mr. Earl Reed
+                            Silvers,</persName>
+                          </addrLine>
+                          <addrLine>
+                            <placeName key="Rutgers College, New Brunswick, NJ" ref="https://tools.wmflabs.org/geohack/geohack.php?params=40_29_55_N_74_26_54_W">New Brunswick, N. J.</placeName>
+                          </addrLine>
+                        </address>
+                    <salute>My dear <persName key="Silvers, Earl Reed" from="1891" to="1948"
+                            role="Director, War Service Bureau"
+                            ref="http://viaf.org/viaf/68516378">Mr.
+                            Silvers</persName>:</salute>
+                </opener>
+                <p>I leave this week for eight months Y.M.C.A. service overseas. My address will be
+                    American Y.M.C.A., <placeName key="12 rue d'Aguesseau, Paris, France"
+                        ref="https://tools.wmflabs.org/geohack/geohack.php?params=48_52_13_N_2_19_10_E"
+                        >12 Rue d'Aggesseau, Paris, France</placeName>. I shall certainly appreciate
+                    being included in the benefits of the Rutgers War Service Bureau. News from
+                    college will look good across the seas.</p>
+                <closer>
+                    <salute>Cordially ever,</salute><lb/>
+                    <signed><persName key="Voorhees, John Brownlee" from="1875" to="1919"
+                            role="Minister" ref="https://www.findagrave.com/memorial/130098973">John
+                            Brownlee Voorhees</persName></signed>
+                </closer>
+            </div>
+
+            <div type="letter" decls="#voorheesjb_04">
+                <pb n="4"/>
+                <head>
+                    <stamp>GIFT OF THE<lb/> AMERICAN PEOPLE<lb/> THROUGH THE<lb/> AMERICAN RED
+                        CROSS<lb/> TO THOSE IN SERVICE</stamp>
+                </head>
+                <opener>
+                    <address>
+                          <addrLine>
+                            <placeName key="U.S.A. Base Hospital No. 20, Châtel-Guyon, France" ref="https://tools.wmflabs.org/geohack/geohack.php?params=45.9233_N_3.065_E">U.S.A. Base Hospital No. 20</placeName>
+                          </addrLine>
+                          <addrLine>Central France.</addrLine>
+                        </address>
+                    <dateline><date when="1918-09-18">Sept 18, 1918</date></dateline>
+                    <salute>My Dear <persName key="Silvers, Earl Reed" from="1891" to="1948"
+                            role="Director, War Service Bureau"
+                            ref="http://viaf.org/viaf/68516378"
+                        >Silvers</persName>:</salute>
+                </opener>
+                <p>This is just to thank you for the War Service letters. I came over last May to
+                    work under the Y.M.C.A.; but the <interp xml:id="fn1">Boche</interp>
+                    <note resp="#FG" type="gloss" target="#fn1">
+                        <ref
+                            target="http://www.oed.com.proxy.libraries.rutgers.edu/view/Entry/20870"
+                            > Boche, n. and adj. OED Online. June 2017. Oxford University
+                            Press.</ref>
+                        <p>A derogatory term for a German. Usually plural.</p>
+                    </note> considered my activities too dangerous, and decided to shoot up <interp
+                        xml:id="fn4">the town</interp><note resp="#FG" type="annotation"
+                        target="#fn4">
+                        <p>Voorhees was on duty with the 26th Division northwest of Toul, France,
+                            when the hut was bombarded on June 19th. Voorhees was with C.W. Peel, of
+                            Fitchburg, MA.</p>
+                        <ref target="https://books.google.com/books?id=cbvsmqOcR1wC">The
+                            Congregationalist and Advance, vol. 104</ref>
+                    </note> where my hut was located. They demolished the hut and incidentally sent
+                    a chunk of high explosive through my right leg. The result has been that I have
+                    spent the summer of 1918 on the flat of my back with the aforesaid leg hung up
+                    in a complicated apparatus which has kept my right toe pointing at the North
+                    star for three months.</p>
+                <p><interp xml:id="fn2">But it is not as bad as it sounds,</interp>
+                    <note resp="#FG" type="annotation" target="#fn2">
+                        <quote>cheerful, confident spirit</quote>
+                        <ref target="https://doi.org/doi:10.7282/T34M97D7">Silvers, Earl Reed.
+                            Obituaries and Memorials, p. 54.</ref>
+                    </note> and on the whole it has not been a bad summer. Uncle Sam's Army
+                    Hospitals are great institutions, and the best that medical science and surgical
+                    skill can offer is yours to command. Also it is cheap. I have saved at least
+                    $10000. in surgeon's fees by coming over to <pb n="5"/> to France to be shot up.
+                    So you see I am considerably ahead of the game.</p>
+                <p>Some day soon or late <interp xml:id="fn3">I expect to get back to the
+                        States</interp><note resp="#FG" type="annotation" target="#fn3">
+                        <quote>arrived in New York Christmas eve</quote>
+                        <ref target="https://books.google.com/books?id=XWQzAQAAMAAJ">Association
+                            Men. v. 44. International Committee of the Associations, 1918, p.
+                            456.</ref>
+                    </note>, and with a right leg adequate at last to the ancient and honorable game
+                    of golf. I am afraid, however, I have lost my drive.</p>
+                <p>It begins to look as if America had sent a real army overseas. Well, it has been
+                    on of the big privileges of my life to have some association with it, short as
+                    it was. It has been worth coming over, despite my contact with a ten inch
+                    shell.</p>
+                <p>Keep on with the letters. I shall be in the hospital some time yet.</p>
+                <closer>
+                    <salute>Yours ever</salute><lb/>
+                    <signed><persName key="Voorhees, John Brownlee" from="1875" to="1919"
+                            role="Minister" ref="https://www.findagrave.com/memorial/130098973">John
+                            Brownlee Voorhees</persName> '96</signed>
+                </closer>
+                <postscript>
+                    <p>LSS <unclear>files</unclear><lb/>1<hi rend="superscript">st</hi> Lt 314<hi
+                            rend="superscript">th</hi> Engrs.</p>
+                </postscript>
+            </div>
+
+            <div type="letter" decls="#voorheesjb_05">
+                <pb n="6"/>
+                <opener>
+                    <dateline><date when="1918-10-24">October 24, <lb/> 1 9 18</date></dateline>
+                    <persName key="Voorhees, John Brownlee" from="1875" to="1919" role="Minister"
+                        ref="https://www.findagrave.com/memorial/130098973">Dr. John B.
+                        Voorhees</persName>, <lb/>
+                    <placeName key="U.S.A. Base Hospital No. 20, Châtel-Guyon, France"
+                        ref="https://tools.wmflabs.org/geohack/geohack.php?params=45.9233_N_3.065_E"
+                        >Base Hospital #20 <lb/> American E.F.</placeName>
+                    <salute>Dear <persName key="Voorhees, John Brownlee" from="1875" to="1919"
+                            role="Minister" ref="https://www.findagrave.com/memorial/130098973">Dr.
+                            Voorhees</persName>:</salute>
+                </opener>
+                <p>Your letter of September 18 was very welcome. Here at the college we have been
+                    worrying about you and our only word has come indirectly. We are glad to know
+                    that your injured limb is in the process of healing and we trust that you will
+                    not have to spend very much more time in the hospital.</p>
+                <p>There must be a lot of satisfaction to you in the thought that you have served so
+                    bravely and courageously in the big cause in which you are enlisted.</p>
+                <closer>
+                    <salute>Very sincerely yours,</salute>
+                    <signed><persName key="Silvers, Earl Reed" from="1891" to="1948"
+                            role="Director, War Service Bureau"
+                            ref="http://viaf.org/viaf/68516378"
+                        >ERS/G</persName></signed>
+                </closer>
+            </div>
+
+            <div type="letter" decls="#voorheesjb_06">
+                <pb n="8"/>
+                <opener>
+                    <dateline><date when="1919-01-13">January 13, 1919</date></dateline>
+                    <persName key="Voorhees, Juliana Deyo" from="1880" to="1956" role="Spouse"
+                        ref="https://www.findagrave.com/memorial/130099011">Mrs. J. Brownlee
+                        Voorhees</persName>,<lb/>
+                    <placeName key="854 Asylum Ave., Hartford, CT"
+                        ref="https://tools.wmflabs.org/geohack/geohack.php?params=41_46_12_N_72_41_43_W"
+                        >854 Asylum Ave. <lb/> Hartford, Conn.</placeName>
+                    <salute>My dear <persName key="Voorhees, Juliana Deyo" from="1880" to="1956"
+                            role="Spouse" ref="https://www.findagrave.com/memorial/130099011">Mrs.
+                            Voorhees</persName>:</salute>
+                </opener>
+                <p> It is with very great regret that we have heard of the death of your husband,
+                        <persName key="Voorhees, John Brownlee" from="1875" to="1919"
+                        role="Minister" ref="https://www.findagrave.com/memorial/130098973">Dr. J.
+                        Brownlee Voorhees</persName>. May I express to you my deepest sympathy, both
+                    personally, and as Director of the War Service Bureau. Dr. Voorhees has sent us
+                    several letters from France and his continued optimism in the face of many
+                    difficulties has been a source of much inspiration for us. His loss is a big one
+                    and his place will be hard to fill, I know. </p>
+                <closer>
+                    <salute>Very sincerely yours,</salute>
+                </closer>
+            </div>
+
+            <div type="letter" decls="#voorheesjb_07">
+                <pb n="9"/>
+                <opener>
+                    <dateline>
+                        <date when="1919-02-03">February 3, 1919</date>
+                    </dateline>
+                    <persName key="Berg, Irving Husted" role="Minister" from="1878" to="1941"
+                        ref="http://www.jstor.org/stable/23135271">Rev. Irving H. Berg</persName>,<lb/>
+                    <placeName key="2611 Sedgwick Ave, New York, NY"
+                        ref="https://tools.wmflabs.org/geohack/geohack.php?params=40_52_8_N_73_54_19_W"
+                        >2611 Sedgewick Avenue,<lb/> New York, N.Y.</placeName>
+                    <salute>Dear Mr. Berg;-</salute>
+                </opener>
+                <p>We are very anxious to secure for the Rutgers Alumni Quarterly and for our
+                    college records, a photograph of the <persName key="Voorhees, John Brownlee"
+                        from="1875" to="1919" role="Minister"
+                        ref="https://www.findagrave.com/memorial/130098973">Rev. J. Brownlee
+                        Voorhees</persName>. <persName key="Demarest, William Henry Steele"
+                        role="President, Rutgers College" from="1863" to="1956"
+                        ref="http://viaf.org/viaf/28550683"
+                        >Dr. Demarest</persName> has suggested that possibly you may have one on
+                    hand. If you have, I shall be very grateful if you will permit us to use for the
+                    making of a zinc cut. It will only take a few days, and the picture will not be
+                    harmed.</p>
+                <p>I hesitate to write <persName key="Voorhees, Juliana Deyo" from="1880" to="1956"
+                        role="Spouse" ref="https://www.findagrave.com/memorial/130099011">Mrs.
+                        Voorhees</persName> at this time. Will you please advise us, if you have not
+                    a picture!</p>
+                <closer>
+                    <salute>Thanking you,<lb/> I am<lb/> Very sincerely yours,</salute>
+                </closer>
+            </div>
+
+            <div type="letter" decls="#voorheesjb_08">
+                <pb n="10"/>
+
+                <note type="letterhead">
+                    <address>
+                            <addrLine>FORT WASHINGTON COLLEGIATE CHURCH</addrLine>
+                            <addrLine>IRVING HUSTED BERG, MINISTER</addrLine>
+                            <addrLine>
+                            <placeName key="729 West 181st Street, New York, NY 10033" ref="https://tools.wmflabs.org/geohack/geohack.php?params=40_51_3_N_73_56_23_W">729 WEST 181ST STREET<lb/> NEW YORK</placeName>
+                            </addrLine>
+                                <addrLine>TELEPHONE</addrLine>
+                                <addrLine>ST. NICHOLAS 2942</addrLine>
+                            </address>
+                </note>
+                <opener>
+                    <address>
+                                    <placeName key="2611 Sedgwick Ave, New York, NY" ref="https://tools.wmflabs.org/geohack/geohack.php?params=40_52_8_N_73_54_19_W">2611 Sedgwick Ave.,</placeName>
+
+                            </address>
+                    <dateline>
+                        <date when="1919-02-04">Feb. 4, 1919</date>
+                    </dateline>
+                    <address>
+                            <addrLine>
+                        <persName key="Silvers, Earl Reed" from="1891" to="1948" role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378">Mr. Earl Reed
+                            Silvers,</persName></addrLine>
+                            <addrLine>
+                                <name type="org">War Service Bureau,</name>
+                            </addrLine>
+                            <addrLine>
+                                <placeName key="Rutgers College, New Brunswick, NJ" ref="https://tools.wmflabs.org/geohack/geohack.php?params=40_29_55_N_74_26_54_W">Rutgers College, New Brunswick, N.J.</placeName>
+                            </addrLine>
+                        </address>
+                    <salute>Dear <persName key="Silvers, Earl Reed" from="1891" to="1948"
+                            role="Director, War Service Bureau"
+                            ref="http://viaf.org/viaf/68516378">Mr.
+                            Silvers</persName>:-</salute>
+                </opener>
+
+                <p>I have sent your letter to <persName key="Voorhees, Juliana Deyo" from="1880"
+                        to="1956" role="Spouse" ref="https://www.findagrave.com/memorial/130099011"
+                        >Mrs. Voorhees</persName>, &amp; you will probably hear from her
+                    directly.</p>
+                <p>The only picture of <persName key="Voorhees, John Brownlee" from="1875" to="1919"
+                        role="Minister" ref="https://www.findagrave.com/memorial/130098973">Dr.
+                        Voorhees</persName> in my possession is also a picture of his first baby!
+                    This would hardly suit your purpose. Let me know if you are unsuccessful in
+                    hearing from Mrs. Voorhees.</p>
+                <closer>
+                    <salute>I am <lb/> Yours very truly,</salute><lb/>
+                    <signed><persName key="Berg, Irving Husted" role="Minister" from="1878"
+                            to="1941" ref="http://www.jstor.org/stable/23135271">Irving H.
+                            Berg</persName></signed>
+                </closer>
+            </div>
+
+            <div type="letter" decls="#voorheesjb_09">
+                <pb n="11"/>
+                <opener>
+                    <dateline>
+                        <date when="1919-02-05">February Fifth 1 9 1 9</date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                          <persName key="Berg, Irving Husted" role="Minister" from="1878" to="1941" ref="http://www.jstor.org/stable/23135271">Rev. Irving H. Berg,</persName>
+                        </addrLine>
+                        <addrLine>Fort Washington Collegiate Church,</addrLine>
+                        <addrLine>
+                          <placeName key="729 West 181st Street, New York, NY 10033" ref="https://tools.wmflabs.org/geohack/geohack.php?params=40_51_3_N_73_56_23_W">729 West 181st St.</placeName>,
+                      </addrLine>
+                        <addrLine>New York City.</addrLine>
+                      </address>
+                    <salute>My dear <persName key="Berg, Irving Husted" role="Minister" from="1878"
+                            to="1941" ref="http://www.jstor.org/stable/23135271">Dr.
+                        Berg</persName>:--</salute>
+                </opener>
+                <p>Thank you very such for your letter of February 4th.</p>
+                <p>I appreciate your writing to <persName key="Voorhees, Juliana Deyo" from="1880"
+                        to="1956" role="Spouse" ref="https://www.findagrave.com/memorial/130099011"
+                        >Mrs. Voorhees</persName>, and hope that the picture of <persName
+                        key="Voorhees, John Brownlee" from="1875" to="1919" role="Minister"
+                        ref="https://www.findagrave.com/memorial/130098973">Dr. Voorhees</persName>
+                    will reach us soon. I shall advise you if it does not come.</p>
+                <closer>
+                    <salute>Very sincerely yours,</salute>
+                    <signed>
+                        <persName key="Silvers, Earl Reed" from="1891" to="1948"
+                            role="Director, War Service Bureau"
+                            ref="http://viaf.org/viaf/68516378">ERS/W </persName>
+                    </signed>
+                </closer>
+            </div>
+
+            <div type="letter" decls="#voorheesjb_10">
+                <pb n="12"/>
+
+                <note type="letterhead">
+                    <address>
+                <addrLine>THE PARSONAGE</addrLine>
+                <addrLine><placeName key="854 Asylum Ave., Hartford, CT" ref="https://tools.wmflabs.org/geohack/geohack.php?params=41_46_12_N_72_41_43_W">854 ASYLUM AVENUE</placeName></addrLine>
+                <addrLine>HARTFORD, CONN</addrLine>
+              </address>
+                </note>
+                <opener>
+                    <salute>My dear <persName key="Silvers, Earl Reed" from="1891" to="1948"
+                            role="Director, War Service Bureau"
+                            ref="http://viaf.org/viaf/68516378"
+                        >Silvers</persName>,</salute>
+                </opener>
+
+                <p><persName key="Berg, Irving Husted" role="Minister" from="1878" to="1941"
+                        ref="http://www.jstor.org/stable/23135271">Dr. Berg</persName> sent me your
+                        <unclear quantity="2" unit="words"/> request for a picture of my husband.
+                    some had been ordered and they have just arrived after all these weeks. I am
+                    sending <unclear quantity="1" unit="words">one</unclear> to you under <unclear
+                        quantity="2" unit="words">separate cover</unclear>. I understand you will
+                        <pb n="13"/> return it. </p>
+                <p>There was certainly no more loyal son of Rutgers than <persName
+                        key="Voorhees, John Brownlee" from="1875" to="1919" role="Minister"
+                        ref="https://www.findagrave.com/memorial/130098973">Mr. Voorhees</persName>.
+                    The college was always close to his <unclear>heart</unclear>. </p>
+                <p>I deeply appreciate your sympathy at this time.</p>
+                <closer>
+                    <salute>Very sincerely yours,</salute>
+                    <signed><persName key="Voorhees, Juliana Deyo" from="1880" to="1956"
+                            role="Spouse" ref="https://www.findagrave.com/memorial/130099011"
+                            >Juliana Deyo Voorhees</persName></signed>
+                </closer>
+            </div>
+        </body>
+        <back>
+            <listPlace>
+                <place>
+                    <placeName>854 Asylum Ave., Hartford, CT</placeName>
+                    <location>
+                        <geo>41.770302 -72.692984</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>Rutgers College, New Brunswick, NJ</placeName>
+                    <location>
+                        <geo>40.500819 -74.447399</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>12 rue d'Aguesseau, Paris, France</placeName>
+                    <location>
+                        <geo>48.870355 2.319577</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>U.S.A. Base Hospital No. 20, Châtel-Guyon, France</placeName>
+                    <location>
+                        <geo>45.918736 3.063976</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>2611 Sedgwick Ave, New York, NY</placeName>
+                    <location>
+                        <geo>40.869231 -73.905606</geo>
+                    </location>
+                </place>
+                <place>
+                    <placeName>729 West 181st Street, New York, NY 10033</placeName>
+                    <location>
+                        <geo>40.851000 -73.937498</geo>
+                    </location>
+                </place>
+            </listPlace>
+        </back>
+    </text>
+</TEI>
