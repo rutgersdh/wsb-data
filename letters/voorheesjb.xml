@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="../processing/wsb_html_error-checking.xsl"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -193,7 +193,12 @@
             <change when="2018-07-11" who="#FG">Removed teiCorpus and individual TEI element sets
                 for each letter. Put letter metadata inside correspDesc elements. Moved letterhead
                 notes from opener up a node to letter divs. Added @resp to editorial notes.</change>
-            <change when="2018-07-13" who="#FG">Extracted unique places mentioned in body of letters and included them in a listPlace element in the back with @xml:id values inside place elements. Added references to those ids in the placeName values of the correspDesc elements in the teiHeader.</change>
+            <change when="2018-07-13" who="#FG">Extracted unique places mentioned in body of letters
+                and included them in a listPlace element in the back with @xml:id values inside
+                place elements. Added references to those ids in the placeName values of the
+                correspDesc elements in the teiHeader.</change>
+            <change when="2018-07-20" who="#FG">Encoded last of remaining letters. Added data in
+                listPlace and correspDesc elements.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -220,10 +225,10 @@
                 </opener>
 
                 <p> I am very sorry that I could not attend the meeting of the Alumni Council on
-                        <date when="1918-04-13">April 13th</date>. These happen to be very busy days with me, as I
-                    plan to start shortly for overseas service in connection with the <name
-                        type="org">Y.M.C.A.</name>, my Church having granted me eight months leave
-                    of absence. </p>
+                        <date when="1918-04-13">April 13th</date>. These happen to be very busy days
+                    with me, as I plan to start shortly for overseas service in connection with the
+                        <name type="org">Y.M.C.A.</name>, my Church having granted me eight months
+                    leave of absence. </p>
 
                 <closer>
                     <salute>Very truly yours,</salute><lb/>
@@ -264,9 +269,8 @@
                         Sincerely yours, </salute><lb/>
                     <signed>
                         <persName key="Silvers, Earl Reed" from="1891" to="1948"
-                            role="Director, War Service Bureau"
-                            ref="http://viaf.org/viaf/68516378">Director.
-                            <lb/>ERS/H</persName>
+                            role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"
+                            >Director. <lb/>ERS/H</persName>
                     </signed>
                 </closer>
             </div>
@@ -298,9 +302,8 @@
                           </addrLine>
                         </address>
                     <salute>My dear <persName key="Silvers, Earl Reed" from="1891" to="1948"
-                            role="Director, War Service Bureau"
-                            ref="http://viaf.org/viaf/68516378">Mr.
-                            Silvers</persName>:</salute>
+                            role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"
+                            >Mr. Silvers</persName>:</salute>
                 </opener>
                 <p>I leave this week for eight months Y.M.C.A. service overseas. My address will be
                     American Y.M.C.A., <placeName key="12 rue d'Aguesseau, Paris, France"
@@ -331,9 +334,8 @@
                         </address>
                     <dateline><date when="1918-09-18">Sept 18, 1918</date></dateline>
                     <salute>My Dear <persName key="Silvers, Earl Reed" from="1891" to="1948"
-                            role="Director, War Service Bureau"
-                            ref="http://viaf.org/viaf/68516378"
-                        >Silvers</persName>:</salute>
+                            role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"
+                            >Silvers</persName>:</salute>
                 </opener>
                 <p>This is just to thank you for the War Service letters. I came over last May to
                     work under the Y.M.C.A.; but the <interp xml:id="fn1">Boche</interp>
@@ -414,9 +416,8 @@
                 <closer>
                     <salute>Very sincerely yours,</salute>
                     <signed><persName key="Silvers, Earl Reed" from="1891" to="1948"
-                            role="Director, War Service Bureau"
-                            ref="http://viaf.org/viaf/68516378"
-                        >ERS/G</persName></signed>
+                            role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"
+                            >ERS/G</persName></signed>
                 </closer>
             </div>
 
@@ -466,11 +467,10 @@
                         ref="https://www.findagrave.com/memorial/130098973">Rev. J. Brownlee
                         Voorhees</persName>. <persName key="Demarest, William Henry Steele"
                         role="President, Rutgers College" from="1863" to="1956"
-                        ref="http://viaf.org/viaf/28550683"
-                        >Dr. Demarest</persName> has suggested that possibly you may have one on
-                    hand. If you have, I shall be very grateful if you will permit us to use for the
-                    making of a zinc cut. It will only take a few days, and the picture will not be
-                    harmed.</p>
+                        ref="http://viaf.org/viaf/28550683">Dr. Demarest</persName> has suggested
+                    that possibly you may have one on hand. If you have, I shall be very grateful if
+                    you will permit us to use for the making of a zinc cut. It will only take a few
+                    days, and the picture will not be harmed.</p>
                 <p>I hesitate to write <persName key="Voorhees, Juliana Deyo" from="1880" to="1956"
                         role="Spouse" ref="https://www.findagrave.com/memorial/130099011">Mrs.
                         Voorhees</persName> at this time. Will you please advise us, if you have not
@@ -514,9 +514,8 @@
                             </addrLine>
                         </address>
                     <salute>Dear <persName key="Silvers, Earl Reed" from="1891" to="1948"
-                            role="Director, War Service Bureau"
-                            ref="http://viaf.org/viaf/68516378">Mr.
-                            Silvers</persName>:-</salute>
+                            role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"
+                            >Mr. Silvers</persName>:-</salute>
                 </opener>
 
                 <p>I have sent your letter to <persName key="Voorhees, Juliana Deyo" from="1880"
@@ -567,8 +566,8 @@
                     <salute>Very sincerely yours,</salute>
                     <signed>
                         <persName key="Silvers, Earl Reed" from="1891" to="1948"
-                            role="Director, War Service Bureau"
-                            ref="http://viaf.org/viaf/68516378">ERS/W </persName>
+                            role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"
+                            >ERS/W </persName>
                     </signed>
                 </closer>
             </div>
@@ -585,9 +584,8 @@
                 </note>
                 <opener>
                     <salute>My dear <persName key="Silvers, Earl Reed" from="1891" to="1948"
-                            role="Director, War Service Bureau"
-                            ref="http://viaf.org/viaf/68516378"
-                        >Silvers</persName>,</salute>
+                            role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"
+                            >Silvers</persName>,</salute>
                 </opener>
 
                 <p><persName key="Berg, Irving Husted" role="Minister" from="1878" to="1941"
@@ -607,7 +605,8 @@
                     <signed><persName key="Voorhees, Juliana Deyo" from="1880" to="1956"
                             role="Spouse" ref="https://www.findagrave.com/memorial/130099011"
                             >Juliana Deyo Voorhees</persName></signed>
-                    <dateline><date when="1919-03-11" cert="medium">march <unclear>eleventh</unclear></date></dateline>
+                    <dateline><date when="1919-03-11" cert="medium">march
+                                <unclear>eleventh</unclear></date></dateline>
                 </closer>
             </div>
             <div type="letter" decls="#voorheesjb_11">
@@ -620,11 +619,12 @@
                         <addrLine>Hartford, Conn.</addrLine>
                     </address>
                     <salute>My dear <persName key="Voorhees, Juliana Deyo" from="1880" to="1956"
-                        role="Spouse" ref="https://www.findagrave.com/memorial/130099011"
-                        >Mrs. Voorhees</persName>;-</salute>
+                            role="Spouse" ref="https://www.findagrave.com/memorial/130099011">Mrs.
+                            Voorhees</persName>;-</salute>
                 </opener>
                 <p>Thank you for the photograph of Doctor Voorhees, which arrived this morning.</p>
-                <p>We shall take excellent care of it and return it to you within the next two weeks.</p>
+                <p>We shall take excellent care of it and return it to you within the next two
+                    weeks.</p>
                 <closer>
                     <salute>Very sincerely yours,</salute>
                 </closer>
@@ -638,21 +638,20 @@
                         <addrLine>NJ.</addrLine>
                     </address>
                     <salute>My dear <persName key="Silvers, Earl Reed" from="1891" to="1948"
-                        role="Director, War Service Bureau"
-                        ref="http://viaf.org/viaf/68516378"
-                        >Mr. Silvers</persName>.</salute>
+                            role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"
+                            >Mr. Silvers</persName>.</salute>
                 </opener>
-                <p>I understood that my husband's picture would be returned to me. perhaps it has been sent to Hartford since I left there. If not would you have it sent here. also I would
-                    <pb n="16"/>
-                    like a copy of the <title>Alumni Quarterly</title> that his picture was in.</p>
-                <p>Thanking  you for any <unclear>trouble</unclear> this may cause you.</p>
+                <p>I understood that my husband's picture would be returned to me. perhaps it has
+                    been sent to Hartford since I left there. If not would you have it sent here.
+                    also I would <pb n="16"/> like a copy of the <title>Alumni Quarterly</title>
+                    that his picture was in.</p>
+                <p>Thanking you for any <unclear>trouble</unclear> this may cause you.</p>
                 <closer>
                     <salute>I am most sincerely yours</salute>
                     <signed><persName key="Voorhees, Juliana Deyo" from="1880" to="1956"
-                        role="Spouse" ref="https://www.findagrave.com/memorial/130099011"
-                        >Juliana Deyo Voorhees</persName> (Mrs. J. B).</signed>
-                    <date when="1919-07-10">July 10</date> -
-                </closer>
+                            role="Spouse" ref="https://www.findagrave.com/memorial/130099011"
+                            >Juliana Deyo Voorhees</persName> (Mrs. J. B).</signed>
+                    <date when="1919-07-10">July 10</date> - </closer>
             </div>
             <div type="letter" decls="#voorheesjb_13">
                 <pb n="18"/>
@@ -664,17 +663,18 @@
                         <addrLine>Spring Lake, N. J.</addrLine>
                     </address>
                     <salute>My dear <persName key="Voorhees, Juliana Deyo" from="1880" to="1956"
-                        role="Spouse" ref="https://www.findagrave.com/memorial/130099011"
-                        >Mrs. Voorhees</persName>:-</salute>
+                            role="Spouse" ref="https://www.findagrave.com/memorial/130099011">Mrs.
+                            Voorhees</persName>:-</salute>
                 </opener>
-                <p>Dr. Voorhees' picture was returned to Hartford at least six weeks ago. I hope that it has not been lost.</p>
-                <p>Under separate cover I am sending you copies of the Quarterly in which are items concerning him.</p>
+                <p>Dr. Voorhees' picture was returned to Hartford at least six weeks ago. I hope
+                    that it has not been lost.</p>
+                <p>Under separate cover I am sending you copies of the Quarterly in which are items
+                    concerning him.</p>
                 <closer>
                     <salute>Very sincerely yours,</salute>
                     <signed><persName key="Silvers, Earl Reed" from="1891" to="1948"
-                        role="Director, War Service Bureau"
-                        ref="http://viaf.org/viaf/68516378"
-                        >ERS/b</persName></signed>
+                            role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"
+                            >ERS/b</persName></signed>
                 </closer>
             </div>
         </body>
