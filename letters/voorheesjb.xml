@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="rulwsb_style.xsl"?>
-
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../processing/wsb_html_error-checking.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -137,11 +139,44 @@
                 <correspAction type="sent">
                     <persName>Juliana Deyo Voorhees</persName>
                     <placeName ref="#voorhees-parsonage">Hartford, Connecticut</placeName>
-                    <date>unknown</date>
+                    <date when="1919-03-11" cert="medium">March 11, 1919</date>
                 </correspAction>
                 <correspAction type="received">
                     <persName>Earl Reed Silvers</persName>
                     <placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc xml:id="voorheesjb_11">
+                <correspAction type="sent">
+                    <persName>Earl Reed Silvers</persName>
+                    <placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+                    <date when="1919-03-17">March 17, 1919</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Juliana Deyo Voorhees</persName>
+                    <placeName ref="#voorhees-parsonage">Hartford, Connecticut</placeName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc xml:id="voorheesjb_12">
+                <correspAction type="sent">
+                    <persName>Juliana Deyo Voorhees</persName>
+                    <placeName ref="#voorhees-shore">Spring Lake, New Jersey</placeName>
+                    <date when="1919-07-10">July 10, 1919</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Earl Reed Silvers</persName>
+                    <placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc xml:id="voorheesjb_13">
+                <correspAction type="sent">
+                    <persName>Earl Reed Silvers</persName>
+                    <placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+                    <date when="1919-07-14">July 14, 1919</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Juliana Deyo Voorhees</persName>
+                    <placeName ref="#voorhees-shore">Spring Lake, New Jersey</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -572,6 +607,74 @@
                     <signed><persName key="Voorhees, Juliana Deyo" from="1880" to="1956"
                             role="Spouse" ref="https://www.findagrave.com/memorial/130099011"
                             >Juliana Deyo Voorhees</persName></signed>
+                    <dateline><date when="1919-03-11" cert="medium">march <unclear>eleventh</unclear></date></dateline>
+                </closer>
+            </div>
+            <div type="letter" decls="#voorheesjb_11">
+                <pb n="14"/>
+                <opener>
+                    <dateline><date when="1919-03-17">March 17th, 1919.</date></dateline>
+                    <address>
+                        <addrLine>Mrs. Julian D. Voorhees,</addrLine>
+                        <addrLine>854 Aslylum Avenue,</addrLine>
+                        <addrLine>Hartford, Conn.</addrLine>
+                    </address>
+                    <salute>My dear <persName key="Voorhees, Juliana Deyo" from="1880" to="1956"
+                        role="Spouse" ref="https://www.findagrave.com/memorial/130099011"
+                        >Mrs. Voorhees</persName>;-</salute>
+                </opener>
+                <p>Thank you for the photograph of Doctor Voorhees, which arrived this morning.</p>
+                <p>We shall take excellent care of it and return it to you within the next two weeks.</p>
+                <closer>
+                    <salute>Very sincerely yours,</salute>
+                </closer>
+            </div>
+            <div type="letter" decls="#voorheesjb_12">
+                <pb n="15"/>
+                <opener>
+                    <address>
+                        <addrLine><placeName key="205 Tuttle Ave, Spring Lake, NJ" ref="https://tools.wmflabs.org/geohack/geohack.php?params=40_9_30_N_74_1_33_W">205 Tuttle Ave</placeName></addrLine>
+                        <addrLine>Spring Lake</addrLine>
+                        <addrLine>NJ.</addrLine>
+                    </address>
+                    <salute>My dear <persName key="Silvers, Earl Reed" from="1891" to="1948"
+                        role="Director, War Service Bureau"
+                        ref="http://viaf.org/viaf/68516378"
+                        >Mr. Silvers</persName>.</salute>
+                </opener>
+                <p>I understood that my husband's picture would be returned to me. perhaps it has been sent to Hartford since I left there. If not would you have it sent here. also I would
+                    <pb n="16"/>
+                    like a copy of the <title>Alumni Quarterly</title> that his picture was in.</p>
+                <p>Thanking  you for any <unclear>trouble</unclear> this may cause you.</p>
+                <closer>
+                    <salute>I am most sincerely yours</salute>
+                    <signed><persName key="Voorhees, Juliana Deyo" from="1880" to="1956"
+                        role="Spouse" ref="https://www.findagrave.com/memorial/130099011"
+                        >Juliana Deyo Voorhees</persName> (Mrs. J. B).</signed>
+                    <date when="1919-07-10">July 10</date> -
+                </closer>
+            </div>
+            <div type="letter" decls="#voorheesjb_13">
+                <pb n="18"/>
+                <opener>
+                    <dateline><date when="1919-07-14">July 14th, 1919</date>.</dateline>
+                    <address>
+                        <addrLine><persName>Mrs. J. B. Voorhees</persName>,</addrLine>
+                        <addrLine><placeName key="205 Tuttle Ave, Spring Lake, NJ" ref="https://tools.wmflabs.org/geohack/geohack.php?params=40_9_30_N_74_1_33_W">205 Tuttle Ave.</placeName>,</addrLine>
+                        <addrLine>Spring Lake, N. J.</addrLine>
+                    </address>
+                    <salute>My dear <persName key="Voorhees, Juliana Deyo" from="1880" to="1956"
+                        role="Spouse" ref="https://www.findagrave.com/memorial/130099011"
+                        >Mrs. Voorhees</persName>:-</salute>
+                </opener>
+                <p>Dr. Voorhees' picture was returned to Hartford at least six weeks ago. I hope that it has not been lost.</p>
+                <p>Under separate cover I am sending you copies of the Quarterly in which are items concerning him.</p>
+                <closer>
+                    <salute>Very sincerely yours,</salute>
+                    <signed><persName key="Silvers, Earl Reed" from="1891" to="1948"
+                        role="Director, War Service Bureau"
+                        ref="http://viaf.org/viaf/68516378"
+                        >ERS/b</persName></signed>
                 </closer>
             </div>
         </body>
@@ -611,6 +714,12 @@
                     <placeName>729 West 181st Street, New York, NY 10033</placeName>
                     <location>
                         <geo>40.851000 -73.937498</geo>
+                    </location>
+                </place>
+                <place xml:id="voorhees-shore">
+                    <placeName>205 Tuttle Ave, Spring Lake, NJ</placeName>
+                    <location>
+                        <geo>40.158358 -74.025913</geo>
                     </location>
                 </place>
             </listPlace>

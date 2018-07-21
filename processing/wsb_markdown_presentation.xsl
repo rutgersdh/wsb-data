@@ -238,5 +238,6 @@
     </xsl:template>
 
     <xsl:template match="//note[not(@type='letterhead')]"/> <!-- ignore text of editorial notes -->
+    <xsl:template match="//back"/> <!-- ignore anything in the back element -->
 
 </xsl:stylesheet>
