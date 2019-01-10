@@ -214,8 +214,8 @@
         <xsl:text>&lt;/button&gt;</xsl:text>
     </xsl:template>
 
-    <!-- data balloons for interp element -->
-    <xsl:template match="interp">
+    <!-- data balloons for seg element -->
+    <xsl:template match="seg">
         <xsl:text>&lt;button data-balloon-pos="up" data-balloon-length="large" data-balloon="</xsl:text>
         <xsl:variable name="interp_id" select="current()/@xml:id"/>
         <xsl:if test="$interp_id eq current()/substring-after(following-sibling::note[1]/@target, '#')">

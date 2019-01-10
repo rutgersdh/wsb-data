@@ -7,6 +7,39 @@
 
     <xsl:template match="/">
         <html>
+            <head>
+                <style>
+                    /* Tooltip container */
+                    .tooltip {
+                    position: relative;
+                    display: inline-block;
+                    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+                    }
+                    
+                    /* Tooltip text */
+                    .tooltip .tooltiptext {
+                    visibility: hidden;
+                    width: 150px;
+                    background-color: rgb(128,128,128);opacity:0.6;
+                    color: #fff;
+                    text-align: center;
+                    padding: 5px 0;
+                    border-radius: 6px;
+                    
+                    /* Position the tooltip text */
+                    position: absolute;
+                    z-index: 1;
+                    bottom: 100%;
+                    left: 50%;
+                    margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+                    }
+                    
+                    /* Show the tooltip text when you mouse over the tooltip container */
+                    .tooltip:hover .tooltiptext {
+                    visibility: visible;
+                    }
+                </style>
+            </head>
             <body>
                 <div style="text-align: center;">
                     <h2>
@@ -107,18 +140,22 @@
             <xsl:value-of select="."/>
         </a>
     </xsl:template>
-    <xsl:template match="interp">
-         <a href="#{generate-id()}" style="color:red;text-decoration:none;"><xsl:apply-templates/></a>
-<!--        <xsl:for-each select="@xml:id">
-            <xsl:variable name="current_interp_id" select="."/>
-            <xsl:for-each select="//note[not(@type='letterhead')]">
-                <xsl:variable name="current_note_id" select="substring-after(./@target, '#')"/>
-                <xsl:if test="$current_interp_id eq $current_note_id">
-                <xsl:variable name="popup" select="//note[not(@type='letterhead')]/p | //note[not(@type='letterhead')]/quote"/>
-                    <a href="#{generate-id()}" style="color:red;text-decoration:none;" title="{$popup}"><xsl:apply-templates /></a>
+    <xsl:template match="seg">
+        <a style="color:red;text-decoration:none;" class="tooltip"><xsl:apply-templates/>
+            <span class="tooltiptext">
+                <xsl:variable name="interp_id" select="current()/@xml:id"/>
+                <xsl:if test="$interp_id eq current()/substring-after(following-sibling::note[1]/@target, '#')">
+                    <xsl:if test="following-sibling::note[1]/p">
+                        <xsl:value-of select="following-sibling::note[1]/p/text()"/>
+                    </xsl:if>
+                    <xsl:if test="following-sibling::note[1]/quote">
+                        <xsl:text>&apos;</xsl:text>
+                        <xsl:value-of select="following-sibling::note[1]/quote/text()"/>
+                        <xsl:text>&apos;</xsl:text>
+                    </xsl:if>
                 </xsl:if>
-            </xsl:for-each>
-        </xsl:for-each>-->
+            </span>
+        </a>
     </xsl:template>
     
     <xsl:template match="note[not(@type='letterhead')]"/> <!-- ignore editorial notes -->
