@@ -199,6 +199,8 @@
                 correspDesc elements in the teiHeader.</change>
             <change when="2018-07-20" who="#FG">Encoded last of remaining letters. Added data in
                 listPlace and correspDesc elements.</change>
+            <change when="2019-01-10" who="#FG">Swapped `interp` tags for `seg`, as this use seems
+                to be more consistent with definitions given in TEI guidelines.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -338,16 +340,15 @@
                             >Silvers</persName>:</salute>
                 </opener>
                 <p>This is just to thank you for the War Service letters. I came over last May to
-                    work under the Y.M.C.A.; but the <interp xml:id="fn1">Boche</interp>
-                    <note resp="#FG" type="gloss" target="#fn1">
+                    work under the Y.M.C.A.; but the <seg xml:id="fn1">Boche</seg>
+                    <note resp="#FG" target="#fn1" type="gloss">
                         <ref
                             target="http://www.oed.com.proxy.libraries.rutgers.edu/view/Entry/20870"
                             > Boche, n. and adj. OED Online. June 2017. Oxford University
                             Press.</ref>
                         <p>A derogatory term for a German. Usually plural.</p>
-                    </note> considered my activities too dangerous, and decided to shoot up <interp
-                        xml:id="fn4">the town</interp><note resp="#FG" type="annotation"
-                        target="#fn4">
+                    </note> considered my activities too dangerous, and decided to shoot up <seg
+                        xml:id="fn4">the town</seg><note resp="#FG" type="annotation" target="#fn4">
                         <p>Voorhees was on duty with the 26th Division northwest of Toul, France,
                             when the hut was bombarded on June 19th. Voorhees was with C.W. Peel, of
                             Fitchburg, MA.</p>
@@ -358,8 +359,8 @@
                     spent the summer of 1918 on the flat of my back with the aforesaid leg hung up
                     in a complicated apparatus which has kept my right toe pointing at the North
                     star for three months.</p>
-                <p><interp xml:id="fn2">But it is not as bad as it sounds,</interp>
-                    <note resp="#FG" type="annotation" target="#fn2">
+                <p><seg xml:id="fn2">But it is not as bad as it sounds</seg>, <note resp="#FG"
+                        type="annotation" target="#fn2">
                         <quote>cheerful, confident spirit</quote>
                         <ref target="https://doi.org/doi:10.7282/T34M97D7">Silvers, Earl Reed.
                             Obituaries and Memorials, p. 54.</ref>
@@ -368,8 +369,8 @@
                     skill can offer is yours to command. Also it is cheap. I have saved at least
                     $10000. in surgeon's fees by coming over to <pb n="5"/> to France to be shot up.
                     So you see I am considerably ahead of the game.</p>
-                <p>Some day soon or late <interp xml:id="fn3">I expect to get back to the
-                        States</interp><note resp="#FG" type="annotation" target="#fn3">
+                <p>Some day soon or late <seg xml:id="fn3">I expect to get back to the
+                        States</seg><note resp="#FG" type="annotation" target="#fn3">
                         <quote>arrived in New York Christmas eve</quote>
                         <ref target="https://books.google.com/books?id=XWQzAQAAMAAJ">Association
                             Men. v. 44. International Committee of the Associations, 1918, p.
