@@ -22,7 +22,7 @@
             <listPlace>
                 <xsl:for-each
                     select="distinct-values(//placeName/@key)">
-                    <place>
+                    <place xml:id="">
                         <placeName>
                             <xsl:value-of select="."/>
                         </placeName>

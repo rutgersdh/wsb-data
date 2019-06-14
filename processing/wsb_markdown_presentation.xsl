@@ -185,7 +185,7 @@
     <xsl:template match="persName">
         <xsl:text>&lt;button data-balloon-pos="up" data-balloon-length="large" data-balloon="</xsl:text>
         <xsl:value-of disable-output-escaping="yes"
-            select="@key/replace(replace(replace(replace(., '-', '—'), '\s+', ' '), $doubleQuotePat, $doubleQuoteRep), $singleQuotePat, $singleQuoteRep)"/>
+            select="@key[1]/replace(replace(replace(replace(., '-', '—'), '\s+', ' '), $doubleQuotePat, $doubleQuoteRep), $singleQuotePat, $singleQuoteRep)"/>
         <xsl:text> | Born: </xsl:text>
         <xsl:value-of select="@from | @from-iso"/>
         <xsl:text>. Died: </xsl:text>
@@ -204,7 +204,7 @@
     <xsl:template match="placeName">
         <xsl:text>&lt;button data-balloon-pos="up" data-balloon-length="large" data-balloon="</xsl:text>
         <xsl:value-of disable-output-escaping="yes"
-            select="@key/replace(replace(replace(replace(., '-', '—'), '\s+', ' '), $doubleQuotePat, $doubleQuoteRep), $singleQuotePat, $singleQuoteRep)"/>
+            select="@key[1]/replace(replace(replace(replace(., '-', '—'), '\s+', ' '), $doubleQuotePat, $doubleQuoteRep), $singleQuotePat, $singleQuoteRep)"/>
         <xsl:text>"&gt;</xsl:text>
         <xsl:text>&lt;a href=&apos;</xsl:text>
         <xsl:value-of select="@ref"/>

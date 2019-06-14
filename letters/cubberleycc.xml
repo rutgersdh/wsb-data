@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../TEI-Close-Reading/wsb.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cubberleycc">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cubberley, Chester Curtis</title>
+                <respStmt>
+                    <resp>Transcription and encoding by</resp>
+                    <name xml:id="dp"> Dhruv Patel </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription and encoding by</resp>
+                    <name xml:id="vp"> Vaibhav Patel </name>
+                </respStmt>
+                <principal xml:id="fg"> Francesca Giannetti </principal>
+            </titleStmt>
+            <extent> 25 pp. </extent>
+            <publicationStmt>
+                <publisher>Rutgers University Libraries</publisher>
+                <distributor> Rutgers Community Repository (RUcore) URL:
+                    https://rucore.libraries.rutgers.edu </distributor>
+                <availability>
+                    <p>No Known Copyright</p>
+                </availability>
+                <authority>Transcribed from digital files available in RUcore</authority>
+                <idno type="URI">https://doi.org/doi:10.7282/T3JD50HT</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Special Collections and University Archives, Rutgers University
+                            Libraries</repository>
+                        <collection>Rutgers College. War Service Bureau. Records,
+                            1917-1919</collection>
+                        <idno>RG 33/C0/01</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc xml:id="cubberleycc_05">
+                <correspAction type="sent">
+                    <persName>Earl Reed Silvers</persName>
+                    <placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+                    <date when="1918-09-25">September 25, 1918</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Mrs. Isaac N. Cubberley</persName>
+                    <placeName ref="#cubberley_home">Long Branch, New Jersey</placeName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc xml:id="cubberleycc_06">
+                <correspAction type="sent">
+                    <persName>Earl Reed Silvers</persName>
+                    <placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+                    <date when="1918-09-30">September 30, 1918</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Alfred Duncombe</persName>
+                    <placeName ref="#first_reformed_church">Long Branch, New Jersey</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-06-13" who="#fg">Combined and edited student encodings. Created correspDesc and listPlace nodes.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter" decls="#cubberleycc_05">
+                <pb n="9"/>
+                <opener>
+                    <dateline>
+                        <date when="1918-09-25" resp="#fg"> September 25, 1918 </date>
+                    </dateline>
+                    <address>
+						<addrLine>Mrs. <persName>Isaac N. Cubberley</persName></addrLine>
+						<addrLine>44 S. 5th Ave.,</addrLine>
+						<addrLine>Long Branch,N.J.</addrLine>
+					</address>
+                    <salute>Dear Mrs. Cubberley:</salute>
+                </opener>
+
+                <p>I have pictures and biographies of all our Rutgers men who have died in the
+                    service with the exception of your son <persName key="Cubberley, Chester C."
+                        from="1897" to="1918" role="Cadet, Naval Reserve Force"
+                        ref="https://books.google.com/books?id=BSlNAAAAMAAJ">Chester</persName>.
+                    From him I have a letter sent from <placeName corresp="#naval_support_activity" key="New Orleans, LA"
+                        ref="https://tools.wmflabs.org/geohack/geohack.php?params=29_56_59_N_90_1_45_W"
+                        >New Orleans</placeName> on July 31st but we are very anxious to have a
+                    complete record <sic resp="#fg">or</sic> our war heroes and would be grateful
+                    for your cooperation. May we have his picture and any facts concerning him which
+                    you would care to have printed in the <seg xml:id="fn1">Rutgers Alumni
+                        Quarterly</seg><note type="annotation" target="#fn1">
+                        <p>The first incarnation of the Rutgers Magazine. It ran from October 1914
+                            to July 1921.</p><ref
+                            target="https://www.libraries.rutgers.edu/alumni/rutgers_magazine"
+                        /></note>:</p>
+
+                <p> Here at College we thought a good deal of Chester and we wish to pay proper
+                    tribute to him for his sacrifice.</p>
+
+                <closer>
+                    <salute>Sincerely yours ,</salute><lb/>
+                    <signed><persName key="Silvers, Earl Reed" from="1891" to="1948"
+                            role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"
+                            >ERS/G</persName></signed>
+                </closer>
+
+            </div>
+            <div type="letter" decls="#cubberleycc_06">
+                <pb n="10"/>
+                <opener>
+                    <dateline>
+                        <date when="1918-09-30">September 30,1918</date>
+                    </dateline>
+                    <address>
+						<addrLine>Mr. <persName key="Duncombe, Alfred" from="1860" to="1944" role="Pastor, Dutch Reformed Church" ref="https://books.google.com/books?id=pYguAAAAYAAJ">Alfred Duncombe</persName></addrLine>
+						<addrLine>
+							<placeName corresp="#first_reformed_church" key="646 Broadway, Long Branch, NJ" ref="https://tools.wmflabs.org/geohack/geohack.php?params=40_17_56_N_74_0_17_W">646 Broadway,</placeName></addrLine>
+						<addrLine>
+							<seg xml:id="fn3">New York,N.Y.</seg><note type="annotation" target="#fn3"><p>The address given here appears to be incorrect. Duncombe was a pastor in Long Branch, not New York City.</p></note>
+						</addrLine>
+					</address>
+                    <salute>Dear Mr. Duncombe:</salute>
+                </opener>
+                <p><persName key="Cubberley, Chester C." from="1897" to="1918"
+                        role="Cadet, Naval Reserve Force"
+                        ref="https://books.google.com/books?id=BSlNAAAAMAAJ">Chester C.
+                        Cubberly</persName> of the class of 1920 was drowned while in the service of
+                    the United States on August 26th. I have written twice to his mother in
+                        <placeName corresp="#cubberley_home" key="44 South Fifth Avenue, Long Branch, NJ"
+                        ref="https://tools.wmflabs.org/geohack/geohack.php?params=40_17_43_N_73_59_23_W"
+                        >Long Branch</placeName> asking her for <seg xml:id="fn2">his
+                        picture</seg><note type="annotation" target="#fn2"><p>Silvers is often
+                            asking for pictures so that he can publish them in the Rutgers Alumni
+                            Quarterly.</p></note> and for a brief sketch of his life, but have
+                    received no reply. It is very desirous that we have these things in order to
+                    keep our college war records complete and I am calling on you to ask if you
+                    might not aid us in the matter. Mrs. Cubberly lives at 44 South 5th Avenue ,Long
+                    Branch. If you will take the time to visit her and ask her if we may not have
+                    the things I have requested, we shall be deeply grateful for your kindness. I am
+                    hoping to have the material on hand when the Alumni Quarterly goes to press on
+                    October 10th.</p>
+
+                <closer>
+                    <salute>Thanking you for whatever service you may be able to render, I am<lb/>
+                        Very sincerely yours,</salute><lb/>
+                    <signed>ERS/G</signed>
+                </closer>
+            </div>
+        </body>
+        <back>
+            <listPlace>
+                <place xml:id="naval_support_activity">
+                    <placeName>New Orleans, LA</placeName>
+                    <location>
+                        <geo>29.95 -90.029167</geo>
+                    </location>
+                </place>
+                <place xml:id="cubberley_home">
+                    <placeName>44 S. Fifth Ave., Long Branch, NJ</placeName>
+                    <location>
+                        <geo>40.302661 -73.990652</geo>
+                    </location>
+                </place>
+                <place xml:id="first_reformed_church">
+                    <placeName>First Reformed Church, 646 Broadway, Long Branch, NJ</placeName>
+                    <location>
+                        <geo>40.298889, -74.004722</geo>
+                    </location>
+                </place>
+                <place xml:id="rutgers">
+                    <placeName>Rutgers College, New Brunswick, NJ</placeName>
+                    <location>
+                        <geo>40.500819 -74.447399</geo>
+                    </location>
+                </place>
+            </listPlace>
+        </back>
+    </text>
+</TEI>
