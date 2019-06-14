@@ -156,6 +156,13 @@
             <xsl:text> [?]_</xsl:text>
         </xsl:if>
     </xsl:template>
+    <xsl:template match="list">
+        <xsl:for-each select="item">
+            <xsl:text>&#xD;</xsl:text>
+            <xsl:apply-templates/>
+            <xsl:text>&#160;&#160;</xsl:text>
+        </xsl:for-each>
+    </xsl:template>
 
     <!-- sanitize text nodes for kramdown -->
     <xsl:template match="text()">
@@ -172,6 +179,12 @@
         <xsl:text>**</xsl:text>
         <xsl:apply-templates/>
         <xsl:text>**</xsl:text>
+    </xsl:template>
+    
+    <xsl:template match="sic">
+        <xsl:text>_</xsl:text>
+        <xsl:apply-templates/>
+        <xsl:text>_&#160;[sic]</xsl:text>
     </xsl:template>
 
     <!-- add page numbers -->

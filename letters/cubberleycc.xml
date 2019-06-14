@@ -48,7 +48,7 @@
                     <date when="1918-09-25">September 25, 1918</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Mrs. Isaac N. Cubberley</persName>
+                    <persName>Mrs. Isaac N. Cubberley (Mary Ann Bowers)</persName>
                     <placeName ref="#cubberley_home">Long Branch, New Jersey</placeName>
                 </correspAction>
             </correspDesc>
@@ -77,7 +77,7 @@
                         <date when="1918-09-25" resp="#fg"> September 25, 1918 </date>
                     </dateline>
                     <address>
-						<addrLine>Mrs. <persName>Isaac N. Cubberley</persName></addrLine>
+						<addrLine><persName key="Bowers, Mary Ann" from="1853" to="1934" ref="https://familysearch.org/ark:/61903/1:1:QV97-NYJG">Mrs. Isaac N. Cubberley</persName></addrLine>
 						<addrLine>44 S. 5th Ave.,</addrLine>
 						<addrLine>Long Branch,N.J.</addrLine>
 					</address>
@@ -98,7 +98,7 @@
                         <p>The first incarnation of the Rutgers Magazine. It ran from October 1914
                             to July 1921.</p><ref
                             target="https://www.libraries.rutgers.edu/alumni/rutgers_magazine"
-                        /></note>:</p>
+                        >Special Collections and University Archives, Rutgers University Libraries</ref></note>:</p>
 
                 <p> Here at College we thought a good deal of Chester and we wish to pay proper
                     tribute to him for his sacrifice.</p>
@@ -170,7 +170,7 @@
                 <place xml:id="first_reformed_church">
                     <placeName>First Reformed Church, 646 Broadway, Long Branch, NJ</placeName>
                     <location>
-                        <geo>40.298889, -74.004722</geo>
+                        <geo>40.298889 -74.004722</geo>
                     </location>
                 </place>
                 <place xml:id="rutgers">

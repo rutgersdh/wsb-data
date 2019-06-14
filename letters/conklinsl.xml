@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../processing/wsb_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Conklin, Sherman Lindsley</title>
+                <respStmt>
+                    <resp>Transcription and encoding by</resp>
+                    <name xml:id="jma"> Juan Martinez Aviles </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription and encoding by</resp>
+                    <name xml:id="ed"> Elijah McDaniel </name>
+                </respStmt>
+                <principal xml:id="fg"> Francesca Giannetti </principal>
+            </titleStmt>
+            <extent> 39 pp. </extent>
+            <publicationStmt>
+                <publisher>Rutgers University Libraries</publisher>
+                <distributor> Rutgers Community Repository (RUcore) URL:
+                    https://rucore.libraries.rutgers.edu </distributor>
+                <availability>
+                    <p>No Known Copyright</p>
+                </availability>
+                <authority>Transcribed from digital files available in RUcore</authority>
+                <idno type="URI">https://doi.org/doi:10.7282/T3MC92RK</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Special Collections and University Archives, Rutgers University
+                            Libraries</repository>
+                        <collection>Rutgers College. War Service Bureau. Records,
+                            1917-1919</collection>
+                        <idno>RG 33/C0/01</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc xml:id="conklinsl_02">
+                <correspAction type="sent">
+                    <persName>Various</persName>
+                    <placeName ref="#ssu_635">Montgobert, France</placeName>
+                    <date when="1918-06-17">June 17, 1918</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Elizabeth J. Conklin</persName>
+                    <placeName ref="#belleville_ave">Newark, New Jersey</placeName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc xml:id="conklinsl_16">
+                <correspAction type="sent">
+                    <persName>Earl Reed Silvers</persName>
+                    <placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+                    <date when="1919-01-31">January 31, 1919</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Elizabeth J. Conklin</persName>
+                    <placeName ref="#conklin_texas">San Antonio, Texas</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter" decls="#conklinsl_02">
+                <pb n="3"/>
+                <opener>
+                    <dateline>
+                        <date when="1918-06-17">June 17th 1918.</date>
+                    </dateline>
+                    <name>S.S.U.NO. 635</name>
+                    <placeName key="Montgobert, France"
+                        ref="https://tools.wmflabs.org/geohack/geohack.php?params=49_18_28_N_3_8_57_E">With
+                        the French Army.</placeName>
+                    <salute>My dear Mrs. <persName key="Lindsley, Elizabeth Jane" from="1852"
+                            to-iso="19--" role="Mother"
+                            ref="https://familysearch.org/ark:/61903/1:1:FCGK-NY7"
+                            >Conklin</persName>:</salute>
+                </opener>
+
+                <p>We, the members of <seg xml:id="fn2">S.S.U.635</seg><note type="annotation"
+                        target="#fn2"><p>SSU 635 had formerly been called
+                            Section 17. They were stationed in Paris prior to April 1917, and became
+                            Section 635 in November 1917.</p><ref
+                            target="http://net.lib.byu.edu/estu/wwi/memoir/AFShist/AFS3i.htm"
+                            >History of the American Field Service in France</ref></note> whose
+                    privilege it has been to work with <persName key="Conklin, Sherman L."
+                        from="1894" to="1918" role="Private, Abulence Corps"
+                        ref="https://rucore.libraries.rutgers.edu/rutgers-lib/53661/"
+                        >Sherman</persName> for many happy months, desire to convey to you our
+                    deepest sympathy. To have known Sherman was to have loved him, and this we all
+                    did and,we think, he returned our affection, so that we also have suffered a
+                    great loss, Sherman's unfailing good nature, his ready sympathy and his
+                    eagerness to be always doing something for someone else, were <seg xml:id="fn1"
+                        >an inspiration</seg><note type="annotation" target="#fn1"><quote>In January
+                            1918, he was awarded the Croix de Guerre for saving the life of a
+                            comrade whose clothing had been set on fire by an explosion of gasoline.
+                            He himself was so badly burned that he was confined to the hospital for
+                            two months. Immediately after his release, he returned to duty,
+                            performing brave and splendid service until he met his death at the
+                            village of Montgobert.</quote><ref
+                            target="https://doi.org/doi:10.7282/T34M97D7">Silvers, E. R. Obituaries
+                            and Memorials.</ref></note> to us all. In all the time we have known
+                    "Cub”, as we called him, not one of us ever heard him say one word in anger <sic>noe</sic>
+                    express even one unkind thought of anyone. Indeed, the memory of his great heart
+                    and larger nature will always remain one of our most cherished possessions.</p>
+
+
+                <p>Our sorrow and our loss are too great to be conveyed in words, but we want you to
+                    know how much we loved Sherman, and that we can never forget him. We shall be
+                    always guided by the example he set us, and when we most miss him, we shall try
+                    to remember that his call found him ready and unafraid to answer, and that he
+                    gave his life in the greatest work of this great cause, the relief of pain and
+                    torture.</p>
+
+                <p>If we could be of any service at all to you, please let us know.</p>
+
+                <closer>
+                    <salute> Sincerely,</salute><lb/>
+                    <signed>
+                        <list>
+                            <item>Ethelbert D. Warfield, Jr.</item>
+                            <item>R.B.Johnson,</item>
+                            <item>James W.D.Seymour,</item>
+                            <item>William A.Edwards,</item>
+                            <item>Albert L.Gandy,</item>
+                            <item>James F.Hunter,</item>
+                            <item>Berbard A. Bridget</item>
+                            <item>Chas.M.Peck,</item>
+                            <item>John K. Tellien,</item>
+                            <item>Hugh Ward Lutz,</item>
+                            <item>James Palmer,</item>
+                            <item>William W. McCarthy</item>
+                            <item>Carleton Day Wright,</item>
+                            <item>John V.Ward,Jr.,</item>
+                            <item>Edmund J. Coolidge,</item>
+                            <item>John C. Farmer,</item>
+                            <item>Samuel Bernstein,</item>
+                            <item>Chester McArthur,</item>
+                            <item>C. Hayne Walton,</item>
+                            <item>Charles S. Richardson,</item>
+                            <item>Guy C.Bishop,</item>
+                            <item>Walter G. Garritt,</item>
+                            <item>William H.Richards,</item>
+                            <item>Gouverneur Smyth,</item>
+                            <item>Edwin W. Gheer,</item>
+                            <item>Charles H. Christian,</item>
+                            <item>J. DeWitt Toll, Jr.,</item>
+                            <item>W.B. Wood,</item>
+                            <item>Lewis W. Mustard,Jr.,</item>
+                            <item>William P. Church,</item>
+                            <item>James F. Hunter,</item>
+                            <item>J.P Fletcher</item>
+                        </list>
+                       
+                            <pb n="4"/>
+                        
+                        <list>
+                            <item>Howard W.Vander Voorth,</item>
+                            <item>J.P. Fletcher,</item>
+                            <item>Joaquin B. Calvo.</item>
+                            <item>1st Lieut. B. K Niftel.</item>
+                            <item>John M. Nazel,(in hospital),</item>
+                            <item>Sidney M.Eddy, " "</item>
+                            <item>Herbert Harvey, " "</item>
+                            <item>Robert Ogden, (in Officers' School).</item>
+                        </list>
+                    </signed>
+                </closer>
+            </div>
+
+            <div type="letter" decls="#conklinsl_16">
+                <pb n="39"/>
+                <opener>
+                    <dateline>
+                        <date when="1919-01-31">January 31, 1919</date>
+                    </dateline>
+                    <address>
+					 	<addrLine><persName key="Lindsley, Elizabeth Jane" from="1852" to-iso="19--" role="Mother" ref="https://familysearch.org/ark:/61903/1:1:FCGK-NY7">Mrs.Elizabeth J. Conklin</persName></addrLine>
+					 	<addrLine><placeName key="San Antonio, Texas" ref="https://tools.wmflabs.org/geohack/geohack.php?params=29_27_0_N_98_29_35_W">135 East French Place</placeName></addrLine>
+					 	<addrLine>San Antonia, Texas</addrLine>
+					 </address>
+                    <salute>Dear Mrs.Conklin</salute>
+                </opener>
+
+                <p>I would gladly send you fifty copies of the October issue of the Quarterly if we
+                    had them, but calls have been so frequent and many that there are only twenty
+                    left. For college records and filing purposes, we should really have more than
+                    that number. </p>
+
+                <p>I think, however, that by dropping a line to a few of <persName
+                        key="Conklin, Sherman L." from="1894" to="1918"
+                        role="Private, Abulence Corps" ref="https://doi.org/doi:10.7282/T34M97D7"
+                        >Sherman</persName>’s classmates, I can gather a few extra copies together.
+                    Under separate cover I am mailing you six.</p>
+
+                <p>Please do not bother about their cost. I am very sorry that I cannot send you a
+                    great many more.</p>
+
+                <p>Just as soon as things are straightened out here at the college, I shall take up
+                    the matter of collecting <seg xml:id="fn3">Sherman's writings</seg><note
+                        type="annotation" target="#fn3"><p>Conklin wrote poetry and prose for the
+                            Field Service Bulletin (published by the American Field Service in
+                            Paris). While a student of Rutgers College, he served as an associate
+                            editor of the Targum.</p><ref
+                            target="https://doi.org/doi:10.7282/T34M97D7">Daily Home News, Thursday,
+                            July 11, 1918</ref></note>. What a splendid tribute to him appeared in
+                    the current Christian Intelligencer.</p>
+
+                <closer>
+                    <salute>Sincerely yours,</salute><lb/>
+                    <signed><persName key="Silvers, Earl Reed" from="1891" to="1948"
+                            role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"
+                        /></signed>
+                </closer>
+
+            </div>
+
+        </body>
+        <back>
+            <listPlace>
+                <place xml:id="belleville_ave">
+                    <placeName>247 Belleville Ave., Newark, New Jersey</placeName>
+                    <location>
+                        <geo>40.755556 -74.169722</geo>
+                    </location>
+                </place>
+                <place xml:id="ssu_635">
+                    <placeName>Montgobert, France</placeName>
+                    <location>
+                        <geo>49.3078 3.1492</geo>
+                    </location>
+                </place>
+                <place xml:id="conklin_texas">
+                    <placeName>San Antonio, Texas</placeName>
+                    <location>
+                        <geo>29.45 -98.493056</geo>
+                    </location>
+                </place>
+                <place xml:id="rutgers">
+                    <placeName>Rutgers College, New Brunswick, NJ</placeName>
+                    <location>
+                        <geo>40.500819 -74.447399</geo>
+                    </location>
+                </place>
+            </listPlace>
+        </back>
+    </text>
+</TEI>
