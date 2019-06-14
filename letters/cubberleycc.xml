@@ -77,7 +77,7 @@
                         <date when="1918-09-25" resp="#fg"> September 25, 1918 </date>
                     </dateline>
                     <address>
-						<addrLine><persName key="Bowers, Mary Ann" from="1853" to="1934" ref="https://familysearch.org/ark:/61903/1:1:QV97-NYJG">Mrs. Isaac N. Cubberley</persName></addrLine>
+						<addrLine><persName key="Bowers, Mary Ann" from="1853" to="1934" role="Mother" ref="https://familysearch.org/ark:/61903/1:1:QV97-NYJG">Mrs. Isaac N. Cubberley</persName></addrLine>
 						<addrLine>44 S. 5th Ave.,</addrLine>
 						<addrLine>Long Branch,N.J.</addrLine>
 					</address>
@@ -88,7 +88,7 @@
                     service with the exception of your son <persName key="Cubberley, Chester C."
                         from="1897" to="1918" role="Cadet, Naval Reserve Force"
                         ref="https://books.google.com/books?id=BSlNAAAAMAAJ">Chester</persName>.
-                    From him I have a letter sent from <placeName corresp="#naval_support_activity" key="New Orleans, LA"
+                    From him I have a letter sent from <placeName corresp="#naval_support_activity" key="Naval Support Activity, New Orleans, LA"
                         ref="https://tools.wmflabs.org/geohack/geohack.php?params=29_56_59_N_90_1_45_W"
                         >New Orleans</placeName> on July 31st but we are very anxious to have a
                     complete record <sic resp="#fg">or</sic> our war heroes and would be grateful
