@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="../processing/wsb_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="conklinsl">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -13,6 +13,10 @@
                 <respStmt>
                     <resp>Transcription and encoding by</resp>
                     <name xml:id="ed"> Elijah McDaniel </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription and encoding by</resp>
+                    <name xml:id="sm"> Steven Mai </name>
                 </respStmt>
                 <principal xml:id="fg"> Francesca Giannetti </principal>
             </titleStmt>
@@ -51,6 +55,17 @@
                     <placeName ref="#belleville_ave">Newark, New Jersey</placeName>
                 </correspAction>
             </correspDesc>
+            <correspDesc xml:id="conklinsl_08">
+                <correspAction type="sent">
+                    <persName>Earl Reed Silvers</persName>
+                    <placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+                    <date when="1918-09-03">September 3, 1918</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Elizabeth J. Conklin</persName>
+                    <placeName ref="#belleville_ave">Newark, New Jersey</placeName>
+                </correspAction>
+            </correspDesc>
             <correspDesc xml:id="conklinsl_16">
                 <correspAction type="sent">
                     <persName>Earl Reed Silvers</persName>
@@ -64,7 +79,7 @@
             </correspDesc>
         </profileDesc>
         <revisionDesc>
-            <change/>
+            <change when="2020-02-21" who="#fg">Added Steven's letter from last August. Updated a few elements to play nicely with the XSLT for markdown presentation.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -75,18 +90,21 @@
                     <dateline>
                         <date when="1918-06-17">June 17th 1918.</date>
                     </dateline>
-                    <name>S.S.U.NO. 635</name>
-                    <placeName key="Montgobert, France"
+                    <address>
+                        <addrLine><name>S.S.U.NO. 635</name></addrLine>
+                        <addrLine><placeName key="Montgobert, France"
                         ref="https://tools.wmflabs.org/geohack/geohack.php?params=49_18_28_N_3_8_57_E">With
-                        the French Army.</placeName>
+                        the French Army.</placeName></addrLine>
+                    </address>
+                    
                     <salute>My dear Mrs. <persName key="Lindsley, Elizabeth Jane" from="1852"
                             to-iso="19--" role="Mother"
                             ref="https://familysearch.org/ark:/61903/1:1:FCGK-NY7"
                             >Conklin</persName>:</salute>
                 </opener>
 
-                <p>We, the members of <seg xml:id="fn2">S.S.U.635</seg><note type="annotation"
-                        target="#fn2"><p>SSU 635 had formerly been called
+                <p>We, the members of <seg xml:id="fn1">S.S.U.635</seg><note type="annotation"
+                        target="#fn1" resp="#jma"><p>SSU 635 had formerly been called
                             Section 17. They were stationed in Paris prior to April 1917, and became
                             Section 635 in November 1917.</p><ref
                             target="http://net.lib.byu.edu/estu/wwi/memoir/AFShist/AFS3i.htm"
@@ -98,8 +116,8 @@
                     deepest sympathy. To have known Sherman was to have loved him, and this we all
                     did and,we think, he returned our affection, so that we also have suffered a
                     great loss. Sherman's unfailing good nature, his ready sympathy and his
-                    eagerness to be always doing something for someone else, were <seg xml:id="fn1"
-                        >an inspiration</seg><note type="annotation" target="#fn1"><quote>In January
+                    eagerness to be always doing something for someone else, were <seg xml:id="fn2"
+                        >an inspiration</seg><note type="annotation" target="#fn2"><quote>In January
                             1918, he was awarded the Croix de Guerre for saving the life of a
                             comrade whose clothing had been set on fire by an explosion of gasoline.
                             He himself was so badly burned that he was confined to the hospital for
@@ -125,57 +143,102 @@
                 <closer>
                     <salute> Sincerely,</salute><lb/>
                     <signed>
-                        <list>
-                            <item>Ethelbert D. Warfield, Jr.</item>
-                            <item>R.B.Johnson,</item>
-                            <item>James W.D.Seymour,</item>
-                            <item>William A.Edwards,</item>
-                            <item>Albert L.Gandy,</item>
-                            <item>James F.Hunter,</item>
-                            <item>Berbard A. Bridget</item>
-                            <item>Chas.M.Peck,</item>
-                            <item>John K. Tellien,</item>
-                            <item>Hugh Ward Lutz,</item>
-                            <item>James Palmer,</item>
-                            <item>William W. McCarthy</item>
-                            <item>Carleton Day Wright,</item>
-                            <item>John V.Ward,Jr.,</item>
-                            <item>Edmund J. Coolidge,</item>
-                            <item>John C. Farmer,</item>
-                            <item>Samuel Bernstein,</item>
-                            <item>Chester McArthur,</item>
-                            <item>C. Hayne Walton,</item>
-                            <item>Charles S. Richardson,</item>
-                            <item>Guy C.Bishop,</item>
-                            <item>Walter G. Garritt,</item>
-                            <item>William H.Richards,</item>
-                            <item>Gouverneur Smyth,</item>
-                            <item>Edwin W. Gheer,</item>
-                            <item>Charles H. Christian,</item>
-                            <item>J. DeWitt Toll, Jr.,</item>
-                            <item>W.B. Wood,</item>
-                            <item>Lewis W. Mustard,Jr.,</item>
-                            <item>William P. Church,</item>
-                            <item>James F. Hunter,</item>
-                            <item>J.P Fletcher</item>
-                        </list>
+                        <persName>Ethelbert D. Warfield, Jr.</persName><lb/>
+                            <persName>R.B.Johnson,</persName><lb/>
+                            <persName>James W.D.Seymour,</persName><lb/>
+                            <persName>William A.Edwards,</persName><lb/>
+                            <persName>Albert L.Gandy,</persName><lb/>
+                            <persName>James F.Hunter,</persName><lb/>
+                            <persName>Berbard A. Bridget</persName><lb/>
+                            <persName>Chas.M.Peck,</persName><lb/>
+                            <persName>John K. Tellien,</persName><lb/>
+                            <persName>Hugh Ward Lutz,</persName><lb/>
+                            <persName>James Palmer,</persName><lb/>
+                            <persName>William W. McCarthy</persName><lb/>
+                            <persName>Carleton Day Wright,</persName><lb/>
+                            <persName>John V.Ward,Jr.,</persName><lb/>
+                            <persName>Edmund J. Coolidge,</persName><lb/>
+                            <persName>John C. Farmer,</persName><lb/>
+                            <persName>Samuel Bernstein,</persName><lb/>
+                            <persName>Chester McArthur,</persName><lb/>
+                            <persName>C. Hayne Walton,</persName><lb/>
+                            <persName>Charles S. Richardson,</persName><lb/>
+                            <persName>Guy C.Bishop,</persName><lb/>
+                            <persName>Walter G. Garritt,</persName><lb/>
+                            <persName>William H.Richards,</persName><lb/>
+                            <persName>Gouverneur Smyth,</persName><lb/>
+                            <persName>Edwin W. Gheer,</persName><lb/>
+                            <persName>Charles H. Christian,</persName><lb/>
+                            <persName>J. DeWitt Toll, Jr.,</persName><lb/>
+                            <persName>W.B. Wood,</persName><lb/>
+                            <persName>Lewis W. Mustard,Jr.,</persName><lb/>
+                            <persName>William P. Church,</persName><lb/>
+                            <persName>James F. Hunter,</persName><lb/>
+                            <persName>J.P Fletcher</persName><lb/>
+        
                        
                             <pb n="4"/>
                         
-                        <list>
-                            <item>Howard W.Vander Voorth,</item>
-                            <item>J.P. Fletcher,</item>
-                            <item>Joaquin B. Calvo.</item>
-                            <item>1st Lieut. B. K Niftel.</item>
-                            <item>John M. Nazel,(in hospital),</item>
-                            <item>Sidney M.Eddy, " "</item>
-                            <item>Herbert Harvey, " "</item>
-                            <item>Robert Ogden, (in Officers' School).</item>
-                        </list>
+
+                            <persName>Howard W.Vander Voorth,</persName><lb/>
+                            <persName>J.P. Fletcher,</persName><lb/>
+                            <persName>Joaquin B. Calvo.</persName><lb/>
+                            <persName>1st Lieut. B. K Niftel.</persName><lb/>
+                            <persName>John M. Nazel,(in hospital),</persName><lb/>
+                            <persName>Sidney M.Eddy, " "</persName><lb/>
+                            <persName>Herbert Harvey, " "</persName><lb/>
+                            <persName>Robert Ogden, (in Officers' School).</persName><lb/>
                     </signed>
                 </closer>
             </div>
 
+            <div type="letter" decls="#conklinsl_08">
+                
+                <pb n="26" />
+                <opener>
+                    <dateline>
+                        <date when="1918-09-03">September 3,1918.</date>
+                    </dateline>
+                    <address>
+						<addrLine>Mrs. J. W. Conklin,</addrLine>
+						<addrLine><placeName key="Newark, N.J." ref="https://tools.wmflabs.org/geohack/geohack.php?params=40_43_11_N_74_10_12_W">263 Belleville Avenue</placeName>,</addrLine>
+						<addrLine>Newark, N.J.</addrLine>
+					</address>
+                    <salute>Dear <persName key="Conklin, Elizabeth" from="1852" to-iso="19--" role="Mother">Mrs. Conklin</persName>,</salute>
+                </opener>
+                
+                <p>
+                    We are anxious to have <persName key="Conklin, Sherman" from="1894" to="1918" role="Private">Sherman</persName>'s picture in
+                    the October issue of the <seg xml:id="fn3">RUTGERS ALUMNI QUARTERLY</seg><note type="annotation" target="#fn3" resp="#sm"> <p>The first incarnation of what is now the Rutgers Magazine </p> <ref target="https://www.libraries.rutgers.edu/alumni/rutgers_magazine">Rutgers University Libraries</ref> </note> together with
+                    a full account of his life and death. We shall be very grateful
+                    if you will send us a photograph of him; also whatever details
+                    you may have about his death. perhaps a letter or two from his
+                    comrades, or a letter from Sherman himself. Everything will
+                    be well taken care of and returned to you undamaged within a
+                    week of its receipt.
+                    
+                </p>
+                <p>
+                    Sherman's death was a big shock to his many
+                    friends at the college. His life was so full of promise that
+                    it seemed wrong, somehow, to have it cut off so abruptly. But
+                    it must be a world of comfort to you to have hod such a son. I
+                    am sure that he died with a smile on his lips, and with the knowledge 
+                    that he had not made so splendid a sacrifice in vain. We
+                    Rutgers men are very proud of him.
+                </p>
+                
+                <closer>
+                    <salute>Very sincerely yours,</salute><lb/>
+                    <signed>
+                        <persName key="Silvers, Earl Reed" from="1891" to="1948"
+                            role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"
+                            ></persName>
+                    </signed>
+                </closer>
+      
+            </div>
+            
             <div type="letter" decls="#conklinsl_16">
                 <pb n="39"/>
                 <opener>
@@ -205,8 +268,8 @@
                     great many more.</p>
 
                 <p>Just as soon as things are straightened out here at the college, I shall take up
-                    the matter of collecting <seg xml:id="fn3">Sherman's writings</seg><note
-                        type="annotation" target="#fn3"><p>Conklin wrote poetry and prose for the
+                    the matter of collecting <seg xml:id="fn4">Sherman's writings</seg><note
+                        type="annotation" target="#fn4"><p>Conklin wrote poetry and prose for the
                             Field Service Bulletin (published by the American Field Service in
                             Paris). While a student of Rutgers College, he served as an associate
                             editor of the Targum.</p><ref

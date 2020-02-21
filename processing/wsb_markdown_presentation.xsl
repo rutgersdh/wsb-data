@@ -108,7 +108,7 @@
 
     <xsl:template match="lb | addrLine">
         <xsl:apply-templates/>
-        <xsl:text>&#x0A;</xsl:text>
+        <xsl:text>&lt;br&gt;</xsl:text>
     </xsl:template>
 
     <xsl:template match="head | note[@type='letterhead']">
@@ -240,14 +240,21 @@
                 <xsl:value-of disable-output-escaping="yes" select="following-sibling::note[1]/quote/replace(replace(replace(replace(., '-', '—'), '\s+', ' '), $doubleQuotePat, $doubleQuoteRep), $singleQuotePat, $singleQuoteRep)"/>
                 <xsl:text>&apos;</xsl:text>
             </xsl:if>
+            <xsl:if test="following-sibling::note[1]/ref/text()"> <!-- if note has text in ref element -->
+                <xsl:text> | From: </xsl:text>
+                <xsl:value-of select="following-sibling::note[1]//ref"/> <!-- grab text and -->
+                <xsl:text>&quot;&gt; &lt;a href=&quot;</xsl:text>
+                <xsl:value-of select="following-sibling::note[1]//ref/@target"/> <!-- include link -->
+                <xsl:text>&quot;&gt;</xsl:text>
+                <xsl:apply-templates/>
+                <xsl:text>&lt;/a&gt; &lt;/button&gt;</xsl:text>
+            </xsl:if>
+            <xsl:if test="following-sibling::note[1][not(ref)]"> <!-- if note has no child ref, close double quote -->
+                <xsl:text>&quot;&gt;</xsl:text>
+                <xsl:apply-templates/>
+                <xsl:text>&lt;/button&gt;</xsl:text>
+            </xsl:if>
         </xsl:if>
-        <xsl:text> | From: </xsl:text>
-        <xsl:value-of select="following-sibling::note[1]//ref"/>
-        <xsl:text>"&gt; &lt;a href=&quot;</xsl:text>
-        <xsl:value-of select="following-sibling::note[1]//ref/@target"/>
-        <xsl:text>&quot;&gt;</xsl:text>
-        <xsl:apply-templates/>
-        <xsl:text>&lt;/a&gt; &lt;/button&gt;</xsl:text>
     </xsl:template>
 
     <xsl:template match="//note[not(@type='letterhead')]"/> <!-- ignore text of editorial notes -->

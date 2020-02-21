@@ -9,35 +9,57 @@
         <html>
             <head>
                 <style>
-                    /* Tooltip container */
+                    
                     .tooltip {
-                    position: relative;
-                    display: inline-block;
-                    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+                    display:inline-block;
+                    position:relative;
+                    border-bottom:1px dotted #666;
+                    text-align:left;
                     }
                     
-                    /* Tooltip text */
-                    .tooltip .tooltiptext {
-                    visibility: hidden;
-                    width: 150px;
-                    background-color: rgb(128,128,128);opacity:0.6;
-                    color: #fff;
-                    text-align: center;
-                    padding: 5px 0;
-                    border-radius: 6px;
-                    
-                    /* Position the tooltip text */
-                    position: absolute;
-                    z-index: 1;
-                    bottom: 100%;
-                    left: 50%;
-                    margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+                    .tooltip .top {
+                    min-width:200px; 
+                    top:-20px;
+                    left:50%;
+                    transform:translate(-50%, -100%);
+                    padding:10px 20px;
+                    color:#444444;
+                    background-color:#EEEEEE;
+                    font-weight:normal;
+                    font-size:13px;
+                    border-radius:8px;
+                    position:absolute;
+                    z-index:99999999;
+                    box-sizing:border-box;
+                    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+                    display:none;
                     }
                     
-                    /* Show the tooltip text when you mouse over the tooltip container */
-                    .tooltip:hover .tooltiptext {
-                    visibility: visible;
+                    .tooltip:hover .top {
+                    display:block;
                     }
+                    
+                    .tooltip .top i {
+                    position:absolute;
+                    top:100%;
+                    left:50%;
+                    margin-left:-12px;
+                    width:24px;
+                    height:12px;
+                    overflow:hidden;
+                    }
+                    
+                    .tooltip .top i::after {
+                    content:'';
+                    position:absolute;
+                    width:12px;
+                    height:12px;
+                    left:50%;
+                    transform:translate(-50%,-50%) rotate(45deg);
+                    background-color:#EEEEEE;
+                    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+                    }
+                    
                 </style>
             </head>
             <body>
@@ -141,8 +163,8 @@
         </a>
     </xsl:template>
     <xsl:template match="seg">
-        <a style="color:red;text-decoration:none;" class="tooltip"><xsl:apply-templates/>
-            <span class="tooltiptext">
+        <a style="color:red;text-decoration:none;" class="btn btn-primary tooltip"><xsl:apply-templates/>
+            <span class="top">
                 <xsl:variable name="interp_id" select="current()/@xml:id"/>
                 <xsl:if test="$interp_id eq current()/substring-after(following-sibling::note[1]/@target, '#')">
                     <xsl:if test="following-sibling::note[1]/p">
@@ -158,7 +180,7 @@
         </a>
     </xsl:template>
     
-    <xsl:template match="note[not(@type='letterhead')]"/> <!-- ignore editorial notes -->
+    <xsl:template match="note[not(@type='letterhead')] | note[not(@type='annotation')]"/> <!-- ignore editorial notes -->
     
     <xsl:template match="pb">
         <h4>Page: <xsl:value-of select="@n"/></h4>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../../TEI-Close-Reading/wsb.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 
+<?xml-model href="../processing/wsb_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cubberleycc">
     <teiHeader>
         <fileDesc>
@@ -14,6 +14,10 @@
                 <respStmt>
                     <resp>Transcription and encoding by</resp>
                     <name xml:id="vp"> Vaibhav Patel </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription and encoding by</resp>
+                    <name xml:id="mr"> Marielba Ramirez Cantoran</name>
                 </respStmt>
                 <principal xml:id="fg"> Francesca Giannetti </principal>
             </titleStmt>
@@ -63,8 +67,20 @@
                     <placeName ref="#first_reformed_church">Long Branch, New Jersey</placeName>
                 </correspAction>
             </correspDesc>
+            <correspDesc xml:id="cubberleycc_16">
+                <correspAction type="sent">
+                    <persName>Earl Reed Silvers</persName>
+                    <placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+                    <date when="1918-12-23">December 23, 1918</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Mrs. Isaac N. Cubberley (Mary Ann Bowers)</persName>
+                    <placeName ref="#cubberley_home">Long Branch, New Jersey</placeName>
+                </correspAction>
+            </correspDesc>
         </profileDesc>
         <revisionDesc>
+            <change when="2020-02-20" who="#fg">Added Marielba's encoding from Aug 2019. Updated correspDesc.</change>
             <change when="2019-06-13" who="#fg">Combined and edited student encodings. Created correspDesc and listPlace nodes.</change>
         </revisionDesc>
     </teiHeader>
@@ -122,7 +138,7 @@
 						<addrLine>
 							<placeName corresp="#first_reformed_church" key="646 Broadway, Long Branch, NJ" ref="https://tools.wmflabs.org/geohack/geohack.php?params=40_17_56_N_74_0_17_W">646 Broadway,</placeName></addrLine>
 						<addrLine>
-							<seg xml:id="fn3">New York,N.Y.</seg><note type="annotation" target="#fn3"><p>The address given here appears to be incorrect. Duncombe was a pastor in Long Branch, not New York City.</p></note>
+							<seg xml:id="fn2">New York,N.Y.</seg><note type="annotation" target="#fn2"><p>The address given here appears to be incorrect. Duncombe was a pastor in Long Branch, not New York City.</p></note>
 						</addrLine>
 					</address>
                     <salute>Dear Mr. Duncombe:</salute>
@@ -134,8 +150,8 @@
                     the United States on August 26th. I have written twice to his mother in
                         <placeName corresp="#cubberley_home" key="44 South Fifth Avenue, Long Branch, NJ"
                         ref="https://tools.wmflabs.org/geohack/geohack.php?params=40_17_43_N_73_59_23_W"
-                        >Long Branch</placeName> asking her for <seg xml:id="fn2">his
-                        picture</seg><note type="annotation" target="#fn2"><p>Silvers is often
+                        >Long Branch</placeName> asking her for <seg xml:id="fn3">his
+                        picture</seg><note type="annotation" target="#fn3"><p>Silvers is often
                             asking for pictures so that he can publish them in the Rutgers Alumni
                             Quarterly.</p></note> and for a brief sketch of his life, but have
                     received no reply. It is very desirous that we have these things in order to
@@ -151,6 +167,44 @@
                         Very sincerely yours,</salute><lb/>
                     <signed>ERS/G</signed>
                 </closer>
+            </div>
+            <div type="letter" decls="#cubberleycc_16">
+                <pb n="24" />
+                <opener>
+                    <dateline>
+                        <date when="1918-12-23">December 23rd, 1918.</date>
+                    </dateline>
+                    <address>
+						<addrLine>
+							<persName key="Bowers, Mary Ann" from="1853" to="1934" role="Mother">Mrs. I. N. Cubberley,</persName>
+						</addrLine>
+						<addrLine>
+							<placeName key="Long Branch, NJ" ref=
+								"https://tools.wmflabs.org/geohack/geohack.php?params=40_18_9_N_73_59_34_W"> 44 South Fifth Ave.</placeName>
+						</addrLine>
+						<addrLine>Long Branch, N.J.</addrLine>
+					</address>
+                    <salute>
+                        My dear Mrs. Cubberley:-</salute>
+                </opener>
+                
+                <p>
+                    I am very sorry that I have neglected to return <persName key="Cubberley, Chester C." from="1897" to="1918" role="Cadet, Navel Reserve Force">Chester's</persName> picture and letter to you. I did not know that there was any immediate desire for it and I have not given it the attention which it should have had. I am sending you now under separate cover both the picture and letter but I am afraid that the rush of Christmas season will not permit your receiving it by Wednesday. However,
+                    I sincerely hope that you do get it in time. 
+                    
+                    
+                </p>
+                <p>I am also sending you the <seg xml:id="fn4">plate</seg> <note type="annotation" target="#fn4" resp="#mr"><p>Probably a getatin dry plate, regarded as a practical improvement upon the collodion negative process. Its period of greatest use was 1880 to 1900.</p><ref target="https://hdl.handle.net/2027/pst.000067784790?urlappend=%3Bseq=47">Kennel, Sarah. In the darkroom: an illustrated guide to photographic processes before the digital age. Washington, DC: National Gallery of Art, 2010.</ref></note> from which the picture was made. Any good printer will strike off as many copies as you care to have, Please do not forget to return it as we are going to use Chester's picture in the permanent book which will issued some time with the next year and the cut is necessary for that publication.</p>
+                <p>I thank you very much for your good Christmas wishes. 
+                </p>
+                
+                <closer>
+                    <salute>Very sincerely yours,</salute><lb/>
+                    <signed><persName key="Silvers, Earl Reed" from="1891" to="1948"
+                        role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"
+                        ></persName></signed>
+                </closer>
+                
             </div>
         </body>
         <back>
