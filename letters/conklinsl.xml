@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../processing/wsb_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="conklinsl">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../processing/wsb_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="conklinsl">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Conklin, Sherman Lindsley</title>
+                <respStmt>
+                    <resp>Transcription and encoding by</resp>
+                    <name xml:id="ar"> Alissa Renales </name>
+                </respStmt>
                 <respStmt>
                     <resp>Transcription and encoding by</resp>
                     <name xml:id="jma"> Juan Martinez Aviles </name>
@@ -44,6 +45,17 @@
             </sourceDesc>
         </fileDesc>
         <profileDesc>
+            <correspDesc xml:id="conklinsl_01">
+                <correspAction type="sent">
+                    <persName>Elizabeth J. Lindsley</persName>
+                    <placeName ref="#belleville_ave">Newark, New Jersey</placeName>
+                    <date when="1917-11-25">November 25, 1917</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Earl Reed Silvers</persName>
+                    <placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+                </correspAction>
+            </correspDesc>
             <correspDesc xml:id="conklinsl_02">
                 <correspAction type="sent">
                     <persName>Various</persName>
@@ -51,80 +63,209 @@
                     <date when="1918-06-17">June 17, 1918</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Elizabeth J. Conklin</persName>
+                    <persName>Elizabeth J. Lindsley</persName>
                     <placeName ref="#belleville_ave">Newark, New Jersey</placeName>
                 </correspAction>
             </correspDesc>
-            <correspDesc xml:id="conklinsl_08">
+            <correspDesc xml:id="conklinsl_03">
+                <correspAction type="sent">
+                    <persName>Elizabeth J. Lindsley</persName>
+                    <placeName ref="#belleville_ave">Newark, New Jersey</placeName>
+                    <date>n.d.</date>
+                </correspAction>
+                <correspAction type="received" cert="unknown">
+                    <persName>Earl Reed Silvers</persName>
+                    <placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc xml:id="conklinsl_04">
+                <correspAction type="sent">
+                    <persName>J. B. Pelletier</persName>
+                    <placeName ref="ssu_635" cert="unknown">France</placeName>
+                    <date when="1918-08-05">August 5, 1918</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Elizabeth J. Lindsley</persName>
+                    <placeName ref="#belleville_ave" cert="unknown">Newark, New Jersey</placeName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc xml:id="conklinsl_05">
+                <correspAction type="sent">
+                    <persName>Charles Peck</persName>
+                    <placeName ref="ssu_635" cert="unknown">France</placeName>
+                    <date when="1918-08-16">August 16, 1918</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Elizabeth J. Lindsley</persName>
+                    <placeName ref="#belleville_ave" cert="unknown">Newark, New Jersey</placeName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc xml:id="conklinsl_06">
+                <correspAction type="sent">
+                    <persName>Elisabeth W. Conklin</persName>
+                    <placeName ref="#belleville_ave">Newark, New Jersey</placeName>
+                    <date when="1918-09-12">September 12, 1918</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Earl Reed Silvers</persName>
+                    <placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc xml:id="conklinsl_07">
                 <correspAction type="sent">
                     <persName>Earl Reed Silvers</persName>
                     <placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
                     <date when="1918-09-03">September 3, 1918</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Elizabeth J. Conklin</persName>
+                    <persName>Elizabeth J. Lindsley</persName>
                     <placeName ref="#belleville_ave">Newark, New Jersey</placeName>
                 </correspAction>
             </correspDesc>
-            <correspDesc xml:id="conklinsl_16">
+            <correspDesc xml:id="conklinsl_08">
+                <correspAction type="sent">
+                    <persName>Elizabeth J. Lindsley</persName>
+                    <placeName>Glastonbury, Connecticut</placeName>
+                    <date when="1918-09-09">September 9, 1918</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Earl Reed Silvers</persName>
+                    <placeName ref="#rutgers" cert="high">New Brunswick, New Jersey</placeName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc xml:id="conklinsl_09">
+                <correspAction type="sent">
+                    <persName>Earl Reed Silvers</persName>
+                    <placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+                    <date when="1918-09-27">September 27, 1918</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Elizabeth J. Lindsley</persName>
+                    <placeName ref="#belleville_ave">Newark, New Jersey</placeName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc xml:id="conklinsl_10">
+                <correspAction type="sent">
+                    <persName>Elizabeth J. Lindsley</persName>
+                    <placeName ref="#summer_ave">Newark, New Jersey</placeName>
+                    <date when="1918-10-04">October 4, 1918</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Earl Reed Silvers</persName>
+                    <placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc xml:id="conklinsl_11">
+                <correspAction type="sent">
+                    <persName>Elizabeth J. Lindsley</persName>
+                    <placeName ref="#summer_ave">Newark, New Jersey</placeName>
+                    <date when="1918-10-06">October 6, 1918</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Earl Reed Silvers</persName>
+                    <placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc xml:id="conklinsl_12">
+                <correspAction type="sent">
+                    <persName>Earl Reed Silvers</persName>
+                    <placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+                    <date when="1918-10-10">October 10, 1918</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Elizabeth J. Lindsley</persName>
+                    <placeName ref="#summer_ave">Newark, New Jersey</placeName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc xml:id="conklinsl_13">
+                <correspAction type="sent">
+                    <persName>Earl Reed Silvers</persName>
+                    <placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+                    <date when="1919-01-02">January 2, 1919</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Elisabeth W. Conklin</persName>
+                    <placeName ref="#summer_ave">Newark, New Jersey</placeName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc xml:id="conklinsl_14">
+                <correspAction type="sent">
+                    <persName>Elizabeth J. Lindsley</persName>
+                    <placeName ref="#conklin_texas">San Antonio, Texas</placeName>
+                    <date when="1919-01-24">January 24, 1919</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Earl Reed Silvers</persName>
+                    <placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+                </correspAction>
+            </correspDesc>
+            <correspDesc xml:id="conklinsl_15">
                 <correspAction type="sent">
                     <persName>Earl Reed Silvers</persName>
                     <placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
                     <date when="1919-01-31">January 31, 1919</date>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Elizabeth J. Conklin</persName>
+                    <persName>Elizabeth J. Lindsley</persName>
                     <placeName ref="#conklin_texas">San Antonio, Texas</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
         <revisionDesc>
             <change when="2020-02-21" who="#fg">Added Steven's letter from last August. Updated a few elements to play nicely with the XSLT for markdown presentation.</change>
+            <change when="2020-11-04" who="#fg">Added Alissa's encodings and updated correspDesc and back elements.</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
+            <div type="letter" decls="#conklinsl_01">
+                <pb n="1"/>
+                <opener>
+                    <address>
+                        <addrLine><persName key="Silvers, Earl Reed" from="1891" to="1948" role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378">Earl Reed Silvers</persName></addrLine>
+                        <addrLine>Rutgers College</addrLine>
+                        <addrLine>New Brunswick N. J.</addrLine>
+                    </address>
+                </opener>
+                <pb n="2"/>
+                <p>Sherman L. Conklin, '16 is with the Government Ambulance in France. His latest sent address is S.S.U 17 - Convoi Automobiles <seg xml:id="fn1">par B. C. M</seg><note type="gloss" target="#fn1"><p>B.C.M., or bureau central militaire, was the postal service of the automobile service.</p><ref target="https://books.google.com/books?id=fyRJAQAAIAAJ">United States Surgeon-General's Office, The Medical Dept. of the U.S. Army in the World War, p. 239.</ref></note> - Paris, France</p>
+                <p>He is at the front, with the French Army - "somewhere in France"</p>
+                <closer>
+                    <signed>
+                        (Mrs) <persName key="Lindsley, Elizabeth Jane" from="1852" to-iso="19--" role="Mother" ref="https://familysearch.org/ark:/61903/1:1:FCGK-NY7">Elizabeth J. Conklin</persName>
+                    </signed>
+                    <address><addrLine><placeName key="247 Belleville Ave" ref="https://geohack.toolforge.org/geohack.php?params=40_45_33_N_74_10_8_W">247 Belleville Ave</placeName>, Newark</addrLine></address>
+                </closer>
+            </div>
             <div type="letter" decls="#conklinsl_02">
                 <pb n="3"/>
                 <opener>
+                    <add place="margin"> Copy </add>
+                    <address>
+                        <addrLine><name>S.S.U.NO. 635</name></addrLine>
+                        <addrLine><placeName key="Montgobert, France" ref="https://tools.wmflabs.org/geohack/geohack.php?params=49_18_28_N_3_8_57_E">With
+                        the French Army.</placeName></addrLine>
+                    </address>
                     <dateline>
                         <date when="1918-06-17">June 17th 1918.</date>
                     </dateline>
-                    <address>
-                        <addrLine><name>S.S.U.NO. 635</name></addrLine>
-                        <addrLine><placeName key="Montgobert, France"
-                        ref="https://tools.wmflabs.org/geohack/geohack.php?params=49_18_28_N_3_8_57_E">With
-                        the French Army.</placeName></addrLine>
-                    </address>
-                    
-                    <salute>My dear Mrs. <persName key="Lindsley, Elizabeth Jane" from="1852"
-                            to-iso="19--" role="Mother"
-                            ref="https://familysearch.org/ark:/61903/1:1:FCGK-NY7"
-                            >Conklin</persName>:</salute>
+                    <salute>My dear Mrs. <persName key="Lindsley, Elizabeth Jane" from="1852" to-iso="19--" role="Mother" ref="https://familysearch.org/ark:/61903/1:1:FCGK-NY7">Conklin</persName>:</salute>
                 </opener>
 
-                <p>We, the members of <seg xml:id="fn1">S.S.U.635</seg><note type="annotation"
-                        target="#fn1" resp="#jma"><p>SSU 635 had formerly been called
+                <p>We, the members of <seg xml:id="fn2">S.S.U.635</seg><note type="annotation" target="#fn2" resp="#jma"><p>SSU 635 had formerly been called
                             Section 17. They were stationed in Paris prior to April 1917, and became
-                            Section 635 in November 1917.</p><ref
-                            target="http://net.lib.byu.edu/estu/wwi/memoir/AFShist/AFS3i.htm"
-                            >History of the American Field Service in France</ref></note> whose
-                    privilege it has been to work with <persName key="Conklin, Sherman L."
-                        from="1894" to="1918" role="Private, Ambulence Corps"
-                        ref="https://rucore.libraries.rutgers.edu/rutgers-lib/53661/"
-                        >Sherman</persName> for many happy months, desire to convey to you our
+                            Section 635 in November 1917.</p><ref target="http://net.lib.byu.edu/estu/wwi/memoir/AFShist/AFS3i.htm">History of the American Field Service in France</ref></note> whose
+                    privilege it has been to work with <persName key="Conklin, Sherman L." from="1894" to="1918" role="Private, Ambulence Corps" ref="https://rucore.libraries.rutgers.edu/rutgers-lib/53661/">Sherman</persName> for many happy months, desire to convey to you our
                     deepest sympathy. To have known Sherman was to have loved him, and this we all
                     did and,we think, he returned our affection, so that we also have suffered a
                     great loss. Sherman's unfailing good nature, his ready sympathy and his
-                    eagerness to be always doing something for someone else, were <seg xml:id="fn2"
-                        >an inspiration</seg><note type="annotation" target="#fn2"><quote>In January
+                    eagerness to be always doing something for someone else, were <seg xml:id="fn3">an inspiration</seg><note type="annotation" target="#fn3"><quote>In January
                             1918, he was awarded the Croix de Guerre for saving the life of a
                             comrade whose clothing had been set on fire by an explosion of gasoline.
                             He himself was so badly burned that he was confined to the hospital for
                             two months. Immediately after his release, he returned to duty,
                             performing brave and splendid service until he met his death at the
-                            village of Montgobert.</quote><ref
-                            target="https://doi.org/doi:10.7282/T34M97D7">Silvers, E. R. Obituaries
+                            village of Montgobert.</quote><ref target="https://doi.org/doi:10.7282/T34M97D7">Silvers, E. R. Obituaries
                             and Memorials.</ref></note> to us all. In all the time we have known
                     "Cub”, as we called him, not one of us ever heard him say one word in anger <sic>noe</sic>
                     express even one unkind thought of anyone. Indeed, the memory of his great heart
@@ -143,73 +284,144 @@
                 <closer>
                     <salute> Sincerely,</salute><lb/>
                     <signed>
-                        <persName>Ethelbert D. Warfield, Jr.</persName><lb/>
-                            <persName>R.B.Johnson,</persName><lb/>
-                            <persName>James W.D.Seymour,</persName><lb/>
-                            <persName>William A.Edwards,</persName><lb/>
-                            <persName>Albert L.Gandy,</persName><lb/>
-                            <persName>James F.Hunter,</persName><lb/>
-                            <persName>Berbard A. Bridget</persName><lb/>
-                            <persName>Chas.M.Peck,</persName><lb/>
-                            <persName>John K. Tellien,</persName><lb/>
-                            <persName>Hugh Ward Lutz,</persName><lb/>
-                            <persName>James Palmer,</persName><lb/>
-                            <persName>William W. McCarthy</persName><lb/>
-                            <persName>Carleton Day Wright,</persName><lb/>
-                            <persName>John V.Ward,Jr.,</persName><lb/>
-                            <persName>Edmund J. Coolidge,</persName><lb/>
-                            <persName>John C. Farmer,</persName><lb/>
-                            <persName>Samuel Bernstein,</persName><lb/>
-                            <persName>Chester McArthur,</persName><lb/>
-                            <persName>C. Hayne Walton,</persName><lb/>
-                            <persName>Charles S. Richardson,</persName><lb/>
-                            <persName>Guy C.Bishop,</persName><lb/>
-                            <persName>Walter G. Garritt,</persName><lb/>
-                            <persName>William H.Richards,</persName><lb/>
-                            <persName>Gouverneur Smyth,</persName><lb/>
-                            <persName>Edwin W. Gheer,</persName><lb/>
-                            <persName>Charles H. Christian,</persName><lb/>
-                            <persName>J. DeWitt Toll, Jr.,</persName><lb/>
-                            <persName>W.B. Wood,</persName><lb/>
-                            <persName>Lewis W. Mustard,Jr.,</persName><lb/>
-                            <persName>William P. Church,</persName><lb/>
-                            <persName>James F. Hunter,</persName><lb/>
-                            <persName>J.P Fletcher</persName><lb/>
-        
+                        Ethelbert D. Warfield, Jr.  R.B.Johnson,  James W.D.Seymour, <lb/>
+                        William A.Edwards,  Albert L.Gandy, James F.Hunter, Berbard A. Bridget <lb/>
+                        Chas.M.Peck,  John K. Tellien, Hugh Ward Lutz, <lb/>
+                        James Palmer,  William W. McCarthy  Carleton Day Wright, <lb/>
+                        John V.Ward,Jr.,  Edmund J. Coolidge,  John C. Farmer,  Samuel Bernstein, <lb/>
+                        Chester McArthur,  C. Hayne Walton,  Charles S. Richardson, <lb/>
+                        Guy C.Bishop,  Walter G. Garritt,  William H.Richards,<lb/>
+                        Gouverneur Smyth,  Edwin W. Gheer,  Charles H. Christian,  J. DeWitt Toll, Jr., <lb/>
+                        W.B. Wood, Lewis W. Mustard,Jr.,  William P. Church, James F. Hunter, J.P Fletcher <add> (over) </add></signed>
                        
                             <pb n="4"/>
-                        
-
-                            <persName>Howard W.Vander Voorth,</persName><lb/>
-                            <persName>J.P. Fletcher,</persName><lb/>
-                            <persName>Joaquin B. Calvo.</persName><lb/>
-                            <persName>1st Lieut. B. K Niftel.</persName><lb/>
-                            <persName>John M. Nazel,(in hospital),</persName><lb/>
-                            <persName>Sidney M.Eddy, " "</persName><lb/>
-                            <persName>Herbert Harvey, " "</persName><lb/>
-                            <persName>Robert Ogden, (in Officers' School).</persName><lb/>
+                         
+                         <signed>Howard W.Vander Voorth,  J.P. Fletcher,  Joaquin B. Calvo.<lb/>
+                         1st Lieut. B. K Niftel. <lb/>
+                         John M. Nazel,(in hospital), <lb/>
+                         Sidney M.Eddy, " " <lb/>
+                         Herbert Harvey, " " <lb/>
+                         Robert Ogden, (in Officers' School). <lb/>
                     </signed>
+                    <add place="below"> Do not return </add>
                 </closer>
             </div>
-
-            <div type="letter" decls="#conklinsl_08">
+            <div type="letter" decls="#conklinsl_03">
+                <pb n="5"/>
+                <note type="letterhead">
+                    <address>
+                        <addrLine>Woman's Board of Foreign Missions,</addrLine>
+                        <addrLine>REFORMED CHURCH IN AMERICA.</addrLine>
+                        <addrLine>Editor of THE MISSION GLEANER,</addrLine>
+                        <addrLine><persName key="Lindsley, Elizabeth Jane" from="1852" to-iso="19--" role="Mother" ref="https://familysearch.org/ark:/61903/1:1:FCGK-NY7">Mrs. John W. Conklin</persName>,</addrLine>
+                        <addrLine>247 Belleville Ave., Newark, N.J.</addrLine>
+                    </address>
+                </note>
+                <opener>
+                    <salute><del rend="overwritten">My dear Annie -</del></salute>
+                </opener>
+                <ab>
+                    <del rend="strikethrough">For <unclear>Aberdeen</unclear>
+                        Maryland He <lb/> has a Captain’s Commission!
+                    </del>
+                    <unclear>Lovingly</unclear><lb/>
+                    EJC
+                </ab>
+                <ab><del rend="strikethrough">Thank you so much - It is <hi rend="underline">beautiful</hi>. I <orig>donot</orig> see how any other color could be any prettier, and I shall use it daily.</del></ab>
+                <p>Our latest excitement is the news from Sherman - He was near a comrade whose coat was on fire - (saturated with <orig>gasolene</orig>) and Sherman caught him and tried to beat the fire with his hands. They tell me he succeeded in saving the man’s life, but was badly burned - They were both taken to the Hospital &amp; have the best of care - but of course Sherman cannot write with bandaged
+                    <pb n="6"/>
+                    hands - The new treatment spraying with wax seems almost miraculous in its effects. Both boys are getting well - the other one was more seriously burned on chest Sherman will have one scar on cheek and one between eyebrows - The officer who wrote home said: “We are everlastingly proud of him” The French general has given him a Croix de Guerre with a silver star which means “divisional citation” Yesterdays letter said the other man had taken a turn for the better - The dressing <add place="above">of the burns</add> has been very painful -  but I am so grateful that eyes are saved.</p> 
+                <ab><del rend="strikethrough"> Herbert Burlings engagement is announced to Mayone Kelly of Chatham - Jay <unclear>started</unclear> today </del></ab>
+            </div>
+            <div type="letter" decls="#conklinsl_04">
+                <pb n="20"/>
+                <opener>
+                    <dateline>
+                        <date when="1918-08-05">August 5, 1918.</date>
+                    </dateline>
+                    <salute><persName key="Lindsley, Elizabeth Jane" from="1852" to-iso="19--" role="Mother" ref="https://familysearch.org/ark:/61903/1:1:FCGK-NY7">Madam</persName>,</salute>		
+                </opener>
+                <p>It is a Catholic Chaplain attached to the <seg xml:id="fn4">8th infantry cuirassiers</seg> <note type="annotation" target="#fn4"><p>The prestige of the French cuirassiers, a unit of cavalry known for their elaborate uniforms, dated from the Napoleonic Wars. They were last fielded in World War I.</p>
+                    <ref target="https://en.wikipedia.org/wiki/French_Army_in_World_War_I">Wikipedia</ref></note>
+                    who addresses these lines these lines to you. Kindly pardon me; but I thought you might be happy to know that he who writes you this was with your son when the shell exploded.</p>
+                <p>
+                    I liked <persName key="Conklin, Sherman L." from="1894" to="1918" role="Private" ref="https://familysearch.org/ark:/61903/1:1:QVKR-GNWB"><orig>Herman</orig></persName> very much, so serious a nature and so artistic a soul. We were rapidly becoming friends in spite of the fact that our acquaintance was so recent. Your son, Madam was very <sic>conjenial</sic> to me.</p>
+                <p>
+                    We happened upon one another before <seg xml:id="fn5">Donusnerton in the Somme</seg><note type="annotation" target="#fn5" resp="#fg"><p>This letter was translated from the original French, which was not kept by Silvers. A few errors may have been introduced, such as this reference to 'Donusnerton' which does not appear to exist. Perhaps Dammartin was intended?</p></note>, in the forest not far from <placeName key="Montgobert, France" ref="https://tools.wmflabs.org/geohack/geohack.php?params=49_18_22_N_3_8_56_E">Montgobert</placeName>. We were chatting peacefully in spite of the shells that were exploding around us. Alas! It was to be our last conversation. A shell fell in our midst and several men were struck, among them your dear son. After the first shock, I went to him, made the sign of the cross upon his forehead as a last benediction and repeated a prayer in the name of his mother. Your son, Madam, was as though he slept.
+                </p>
+                <p>Some of the men unfortunately were wounded: two of our surgeons. After having carried these off with the assistance of Bridget, a friend of <orig>Herman's</orig>, I returned I did my utmost to bring the body of our poor comrade to his American friends who buried him at <placeName key="Mortefontaine, France" ref="https://tools.wmflabs.org/geohack/geohack.php?params=49_19_53_N_3_4_31_E">Mortefontain</placeName>.</p>
+                    <p>These particulars, Madam, may be of					
+                    <pb n="21"/>
+                    interest to you.</p>
+                <p>Permit a Catholic priest to express to you, Madam, his feelings of sincere condolence. May God be with you in your great sorrow.</p>
+                <closer>
+                    <salute>Kindly accept, Madam, the assurance of my deep and religious respect.</salute><lb/>
+                    <salute><add place="above">(Signed)</add></salute>
+                    <signed>J. B. Pelletier, S.J.</signed>
+                </closer>
+            </div>
+            <div type="letter" decls="#conklinsl_05">
+                <pb n="24"/>
+                <opener>
+                    <dateline>
+                        <date when="1918-08-16">Aug. 16, 1918</date>
+                    </dateline>
+                    <salute>My dear Mrs. <persName key="Lindsley, Elizabeth Jane" from="1852" to-iso="19--" role="Mother" ref="https://familysearch.org/ark:/61903/1:1:FCGK-NY7">Conklin</persName>,-</salute>
+                </opener>
+                <p>I cannot express my regard for the bravery of you have sacrificed so much more than a mere physical life. I know <persName key="Conklin, Sherman L." from="1894" to="1918" role="Private" ref="https://familysearch.org/ark:/61903/1:1:QVKR-GNWB">Sherman</persName> appreciates it with all the vividness of his present understanding.</p>
                 
-                <pb n="26" />
+                <p>Nothing could have been nearer to Sherman’s desire concerning, if necessary, than were the actual circumstances. He was waiting for his load of wounded at our farthest post in front of the village of <placeName key="Montgobert, France" ref="https://tools.wmflabs.org/geohack/geohack.php?params=49_18_22_N_3_8_56_E">Montgobert</placeName>, a little north of the <placeName key="Villers-Cotterêts, France" ref="https://tools.wmflabs.org/geohack/geohack.php?params=49_15_36_N_3_05_26_E">Villers Cotterets</placeName>. At the time he was speaking to a French priest who is attached to one of the regiments. The shell struck in the midst of the little group killing Sherman <hi rend="underline">instantly</hi> and wounding several others. He died as he had wished with a smile on his lips, and for the lives of the men who fall. The body was laid at rest the next day in the little village cemetery of <placeName key="Taillefontaine, France" ref="https://tools.wmflabs.org/geohack/geohack.php?params=49_18_43_N_3_02_36_E">Taillefontaine</placeName> and the spot is marked with a cross. The French Catholic mass was read while cannon roared in the valley at one side and shrapnel burst over the other side.</p>
+                <p>Our hearts are all with you in your great sacrifice, tho' we can express our sympathy only in clumsy words.</p>
+                <closer>
+                    <salute>Very sincerely yours,</salute><lb/>
+                    <signed><seg xml:id="fn8"><add place="above"> (Signed) </add></seg> <note type="annotation" target="#fn8"><p>This letter is evidently a typed transcription of an original that was not retained in Silvers's files.</p></note> <persName key="Peck, Charles Howard" from="1870" to="1927" role="Doctor" ref="https://viaf.org/viaf/4791952/">Chas. Peck.</persName></signed>
+                </closer>
+            </div>
+            <div type="letter" decls="#conklinsl_06">
+                <opener>
+                    <handShift medium="black-ink"/>
+                    <address>
+                        <addrLine><placeName key="247 Belleville Ave" ref="https://geohack.toolforge.org/geohack.php?params=40_45_33_N_74_10_8_W">247 Belleville Ave.,</placeName></addrLine>
+                        <addrLine>Newark, N.J.</addrLine>
+                    </address>
+                    <dateline><date when="1918-09-12">Sept. 12, 1918.</date></dateline>
+                    <address>
+                        <addrLine>Mr. <persName key="Silvers, Earl Reed" from="1891" to="1948" role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378">E.R. Silvers</persName>,</addrLine>
+                        <addrLine><placeName key="Rutgers College, New Brunswick, NJ" ref="https://tools.wmflabs.org/geohack/geohack.php?params=40_30_2_N_74_26_50_W">Rutgers College</placeName></addrLine>
+                        <addrLine>New Brunswick, N.J.</addrLine>
+                    </address>
+                    <salute>My dear Mr. Silvers,</salute>
+                </opener>
+                <p>The original of the above came to Mother in this morning’s mail, and I am hurrying it at once to you, if you can and care to, include it with the letters Mother has already sent. I am also enclosing the original of a letter from the priest to whom <persName key="Conklin, Sherman L." from="1894" to="1918" role="Private" ref="https://familysearch.org/ark:/61903/1:1:QVKR-GNWB">Sherman</persName> was speaking at the time. As I am unfamiliar with
+                    <pb n="25"/>
+                    French, I dare not copy it. Of course you realize how very precious this letter is to us, and I know you will not let it go out of your hands, and will return it at once to us, please. And may I ask that you have it translated very accurately please, for in the article the "Home News", - <orig>"blessè"</orig> was carelessly translated to <del rend="strikethrough">from</del> <hi rend="underline">"blessed"</hi>!!</p>
+                <closer>
+                    <salute>Yours sincerely,</salute><lb/>
+                    <signed>'Miss.' <persName key="Conklin, Elisabeth Woodruff" from="1885" to="1964" role="Sister" ref="https://www.familysearch.org/tree/person/details/MPCF-QWM">Elisabeth W. Conklin</persName></signed>
+                </closer>		
+                <postscript>
+                    <label>P.S.</label> 
+                    <p>If you cannot use the enclosed <unclear>snap</unclear> shot taken the day before, please return it at once to us, in the enclosed envelope.</p>
+                    <p>E. W. Conklin</p>
+                </postscript>
+            </div>
+            <div type="letter" decls="#conklinsl_07">
+                <pb n="26"/>
                 <opener>
                     <dateline>
                         <date when="1918-09-03">September 3,1918.</date>
                     </dateline>
                     <address>
 						<addrLine>Mrs. J. W. Conklin,</addrLine>
-						<addrLine><placeName key="Newark, N.J." ref="https://tools.wmflabs.org/geohack/geohack.php?params=40_43_11_N_74_10_12_W">263 Belleville Avenue</placeName>,</addrLine>
+                        <addrLine><placeName key="247 Belleville Ave" ref="https://geohack.toolforge.org/geohack.php?params=40_45_33_N_74_10_8_W">263 Belleville Avenue</placeName>,</addrLine>
 						<addrLine>Newark, N.J.</addrLine>
 					</address>
-                    <salute>Dear <persName key="Conklin, Elizabeth" from="1852" to-iso="19--" role="Mother">Mrs. Conklin</persName>,</salute>
+                    <salute>Dear Mrs. <persName key="Lindsley, Elizabeth Jane" from="1852" to-iso="19--" role="Mother">Conklin</persName>,</salute>
                 </opener>
                 
                 <p>
-                    We are anxious to have <persName key="Conklin, Sherman" from="1894" to="1918" role="Private">Sherman</persName>'s picture in
-                    the October issue of the <seg xml:id="fn3">RUTGERS ALUMNI QUARTERLY</seg><note type="annotation" target="#fn3" resp="#sm"> <p>The first incarnation of what is now the Rutgers Magazine </p> <ref target="https://www.libraries.rutgers.edu/alumni/rutgers_magazine">Rutgers University Libraries</ref> </note> together with
+                    We are anxious to have <persName key="Conklin, Sherman L." from="1894" to="1918" role="Private">Sherman</persName>'s picture in
+                    the October issue of the <seg xml:id="fn6">RUTGERS ALUMNI QUARTERLY</seg><note type="annotation" target="#fn6" resp="#sm"> <p>The first incarnation of what is now the Rutgers Magazine </p> <ref target="https://www.libraries.rutgers.edu/alumni/rutgers_magazine">Rutgers University Libraries</ref> </note> together with
                     a full account of his life and death. We shall be very grateful
                     if you will send us a photograph of him; also whatever details
                     you may have about his death. perhaps a letter or two from his
@@ -231,15 +443,164 @@
                 <closer>
                     <salute>Very sincerely yours,</salute><lb/>
                     <signed>
-                        <persName key="Silvers, Earl Reed" from="1891" to="1948"
-                            role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"
-                            ></persName>
+                        <persName key="Silvers, Earl Reed" from="1891" to="1948" role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"/>
                     </signed>
                 </closer>
-      
             </div>
-            
-            <div type="letter" decls="#conklinsl_16">
+            <div type="letter" decls="#conklinsl_08">
+                    <pb n="27"/>
+                    <opener>
+                        <address>
+                            <addrLine><placeName key="Glastonbury, CT" ref="https://geohack.toolforge.org/geohack.php?params=41_42_44_N_72_36_30_W">Glastonbury, Conn.</placeName></addrLine>
+                        </address>
+                        <dateline><date when="1918-09-09">Sept 9. 1918</date></dateline>
+                        <salute>My dear Mr <persName key="Silvers, Earl Reed" from="1891" to="1948" role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378">Silvers</persName>, —</salute>
+                    </opener>
+                    <p>I am very sorry for this delay, but I have not been home and your letter has just reached me - I will send at once this evening or tomorrow morning, a photograph of <persName key="Conklin, Sherman L." from="1894" to="1918" role="Private" ref="https://familysearch.org/ark:/61903/1:1:QVKR-GNWB">Sherman</persName> - with copies of letters from the section
+                        <pb n="28"/>
+                        and from him. I cannot get them together just now in time for this mail - but will send them within twenty four hours. I know your time is limited if you need copy for the October number. I have sent to the D.U. Quarterly for a copy of the June issue containing
+                        <pb n="29"/>
+                        six poems by Sherman. It is to come to you direct.</p>
+                <p>I cannot think of Sherman as gone. He has <hi rend="underline">not</hi> gone for I know he is very near me all the time.</p>
+                    <closer>
+                        <salute>Yours very sincerely</salute><lb/>
+                        <signed><persName key="Lindsley, Elizabeth Jane" from="1852" to-iso="19--" role="Mother" ref="https://familysearch.org/ark:/61903/1:1:FCGK-NY7">Elizabeth J Conklin</persName></signed>
+                        <address>
+                            <addrLine><placeName key="247 Belleville Ave" ref="https://geohack.toolforge.org/geohack.php?params=40_45_33_N_74_10_8_W">247 Belleville Ave</placeName></addrLine>
+                            <addrLine>Newark, N.J.</addrLine>
+                        </address>
+                    </closer>
+            </div>
+            <div type="letter" decls="#conklinsl_09">
+                <pb n="30"/>
+                <opener>  
+                    <dateline>
+                        <date when="1918-09-27">September 27 <lb/> 1  9  1  8</date>
+                    </dateline>
+                    <address>
+                        <addrLine><persName key="Lindsley, Elizabeth Jane" from="1852" to-iso="19--" role="Mother" ref="https://familysearch.org/ark:/61903/1:1:FCGK-NY7">Mrs. J. W. Conklin</persName></addrLine>
+                        <addrLine><placeName key="247 Belleville Ave" ref="https://geohack.toolforge.org/geohack.php?params=40_45_33_N_74_10_8_W">247 Belleville Ave.</placeName>,</addrLine>
+                        <addrLine>Newark, N.J.</addrLine>
+                    </address>
+                    <salute>My dear Mrs. Conklin:</salute>
+                </opener>
+                <p>Owing to the unusual pressure of business accompanying the opening of college I have been unable to have the enclosed letter translated until now. I am, however, sending you a translation which was made by Professor Hauch of our faculty. Thank you very much for your kindness in sending it to us.</p>
+                <closer>
+                    <salute>Very sincerely yours,</salute><lb/>
+                    <signed><persName key="Silvers, Earl Reed" from="1891" to="1948" role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"/></signed>
+                </closer>
+                <postscript><ab>Enc.</ab></postscript>
+            </div>
+            <div type="letter" decls="#conklinsl_10">
+                <pb n="31"/>
+                <opener>
+                    <salute>My dear Mr. <persName key="Silvers, Earl Reed" from="1891" to="1948" role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378">Silvers</persName> - </salute>
+                </opener>
+                <p>Thank you for the letter ＆ translation from the French Priest.- </p>
+                <p>Will you send us at least one dozen copies of the Alumni Quarterly and let us know the cost? If before Oct. 12 - at <placeName key="313 Summer Ave" ref="https://geohack.toolforge.org/geohack.php?params=40_45_45_N_74_10_11_W">313 Summer Ave Newark, NJ</placeName>. After that my address will be <seg xml:id="fn9">International Institute</seg><note type="annotation" target="#fn9"><p>The International Institute had only just been established and was a sister organization to the YWCA in San Antonio. Its mission was to serve 'women and girls of varied ethnic and cultural backgrounds.'</p><ref target="https://www.ywcasa.org/who-we-are/history/">History, YWCA San Antonio</ref></note>
+                    <pb n="32"/>
+                    <placeName key="515 North Pecos St, San Antonio, TX" ref="https://geohack.toolforge.org/geohack.php?params=29_25_52_N_98_30_4_W">San Antonio, Texas</placeName></p>
+                <closer>
+                    <salute>Thanking you for your kindness, I am <lb/> Yours sincerely</salute><lb/>
+                    <signed><persName key="Lindsley, Elizabeth Jane" from="1852" to-iso="19--" role="Mother" ref="https://familysearch.org/ark:/61903/1:1:FCGK-NY7">Elizabeth J Conklin</persName></signed>
+                    <dateline><date when="1918-10-04"> October <del rend="strikethrough">12</del> '4' 1918</date></dateline>
+                </closer>
+            </div>
+            <div type="letter" decls="#conklinsl_11">
+                <pb n="33"/>
+                <opener>
+                    <dateline>
+                        <date when="1918-10-06">October 6. 1918</date>
+                    </dateline>
+                    <salute>My dear Mr. <persName key="Silvers, Earl Reed" from="1891" to="1948" role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378">Silvers</persName>-</salute>
+                </opener>
+                <p>
+                    I am sorry to trouble you - but can you return the photograph used in making the cut? It’s the only one I have of that kind. &amp; it would take some time to replace it - 
+                </p>
+                <closer>
+                    <salute>Yours sincerely,</salute><lb/>
+                    <signed><persName key="Lindsley, Elizabeth Jane" from="1852" to-iso="19--" role="Mother" ref="https://familysearch.org/ark:/61903/1:1:FCGK-NY7">Elizabeth J Conklin</persName></signed>
+                </closer>
+                <postscript>
+                    <p>I am leaving for Texas on the 12' but mail sent to 313 Summer Ave, Newark will reach me</p>
+                </postscript>
+            </div>
+            <div type="letter" decls="#conklinsl_12">
+                <pb n="34"/>
+                <opener>
+                    <dateline>
+                        <date when="1918-10-10">October 10 1 9 1 8</date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <persName key="Lindsley, Elizabeth Jane" from="1852" to-iso="19--" role="Mother" ref="https://familysearch.org/ark:/61903/1:1:FCGK-NY7">Mrs. Elizabeth J. Conklin</persName>,
+                        </addrLine>
+                        <addrLine>
+                            <placeName key="313 Summer Ave" ref="https://geohack.toolforge.org/geohack.php?params=40_45_45_N_74_10_11_W">313 Summer Ave.,</placeName>,
+                        </addrLine>
+                        <addrLine>Newark,N. J.</addrLine>
+                    </address>
+                    <salute>My dear Mrs. Conklin:</salute>
+                </opener>
+                <p>
+                    I am sending you under seperate cover <persName key="Conklin, Sherman L." from="1894" to="1918" role="Private" ref="https://familysearch.org/ark:/61903/1:1:QVKR-GNWB">Sherman</persName>'s picture. I am sorry that I have not returned it sooner but it has been necessary to hold it in order to have the cut made.
+                </p>
+                <closer>
+                    <salute>Very sincerely yours,</salute><lb/>
+                    <signed><persName key="Silvers, Earl Reed" from="1891" to="1948" role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378">G.</persName></signed>
+                </closer>
+            </div>
+            <div type="letter" decls="#conklinsl_13">
+                <pb n="35"/>
+                <opener>
+                    <dateline><date when="1919-01-02">January 2,1919</date></dateline>
+                    <address>
+                        <addrLine>
+                            <persName key="Conklin, Elisabeth Woodruff" from="1885" to-iso="1964" role="Sister" ref="https://www.familysearch.org/tree/person/details/MPCF-QWM">Miss Elisabeth W. Conklin</persName>,
+                        </addrLine>
+                        <addrLine>313 Summer Avenue</addrLine>
+                        <addrLine>Newark, N.J.</addrLine>
+                    </address>
+                    <salute>My dear Miss Conklin:-</salute>
+                </opener>
+                <p>Thank you very much for your letter of December 22nd enclosing check for $4.00 for the Alumni Quarterlies which were sent you. I hope you do not mind, but I am returning your check. It is very good of you to send it but the Alumni Quarterly is at present self-supporting and we are only too glad to be able to serve in sending to <persName key="Conklin, Sherman L." from="1894" to="1918" role="Private" ref="https://familysearch.org/ark:/61903/1:1:QVKR-GNWB">Sherman</persName>'s family copies of the magazine containing his 'In Memoriam' article. It is very little that we can do but I trust we can do that much for him.</p>
+                <p>I am rather at a loss as to how to answer definetely your question about securing copies of the 
+                    <seg xml:id="fn10">Targum</seg>
+                    <note type="annotation" target="#fn10">
+                        <p>Founded in 1869, The Targum is the second oldest college newspaper in the United States. Since its founding, the newspaper has been published continuously with the exception of 19 months during the second world war.</p>
+                        <ref target="https://doi.org/doi:10.7282/t3-gqks-4z62">The targum (1869:Nov.)</ref>
+                    </note>. If you will give me <orig>allitle</orig> time I shall try to find out the best way in which we may gather together all of Sherman's writings. I shall try very hard to find some way which will not necessitate <orig>yur</orig> coming to New Brunswick and doing the work yourself and shall write you just as soon as I can conveniently arrange things.</p>
+                <p>Under seperate cover is going six copies of the Quarterly to Miss Ellen C. Hovey.</p>
+                <closer>
+                    <salute>Very sincerely yours,</salute><lb/>
+                    <signed><persName key="Silvers, Earl Reed" from="1891" to="1948" role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"/></signed>
+                </closer>
+            </div>
+            <div type="letter" decls="#conklinsl_14">
+                <pb n="36"/>
+                <opener>
+                    <address>
+                        <addrLine>135 East French Place</addrLine>
+                        <addrLine>San Antonio</addrLine>
+                        <addrLine>Texas</addrLine>
+                    </address>
+                    <dateline>
+                        <date when="1919-01-24">January 24, 1919</date>
+                    </dateline>
+                    <salute>My dear Mr. <persName key="Silvers, Earl Reed" from="1891" to="1948" role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378">Silvers</persName>-</salute>
+                </opener>
+                <p>It was very kind to let us have all of those copies of the Quarterly, and I cannot half thank you - I feel as if I should not ask for any more copies without paying for them - There are so
+                <pb n="37"/>
+                    many of <persName key="Conklin, Sherman L." from="1894" to="1918" role="Private" ref="https://familysearch.org/ark:/61903/1:1:QVKR-GNWB">Sherman</persName>'s friends, who would not see the Quarterly to whom I want to send copies - I am thinking of the men in his Ambulance Section in France, and of others.</p>
+                <p>Would it be possible for us to have more copies? I will be so glad to pay for them
+                    <pb n="38"/>
+                    with kind regards &amp; thanks for your great kindness, and memories of hearing of happy hours Sherman spent with <unclear/></p>
+                <closer>
+                    <salute>I am <lb/> yours sincerely <lb/> Sherman's mother</salute><lb/>
+                    <signed><persName key="Lindsley, Elizabeth Jane" from="1852" to-iso="19--" role="Mother" ref="https://familysearch.org/ark:/61903/1:1:FCGK-NY7">Elizabeth J Conklin</persName></signed>
+                </closer>
+            </div>
+            <div type="letter" decls="#conklinsl_15">
                 <pb n="39"/>
                 <opener>
                     <dateline>
@@ -247,10 +608,10 @@
                     </dateline>
                     <address>
 					 	<addrLine><persName key="Lindsley, Elizabeth Jane" from="1852" to-iso="19--" role="Mother" ref="https://familysearch.org/ark:/61903/1:1:FCGK-NY7">Mrs.Elizabeth J. Conklin</persName></addrLine>
-					 	<addrLine><placeName key="San Antonio, Texas" ref="https://tools.wmflabs.org/geohack/geohack.php?params=29_27_0_N_98_29_35_W">135 East French Place</placeName></addrLine>
+					 	<addrLine><placeName key="135 East French Pl, San Antonio, TX" ref="https://tools.wmflabs.org/geohack/geohack.php?params=29_27_0_N_98_29_35_W">135 East French Place</placeName></addrLine>
 					 	<addrLine>San Antonia, Texas</addrLine>
 					 </address>
-                    <salute>Dear Mrs.Conklin</salute>
+                    <salute>Dear Mrs. Conklin;-</salute>
                 </opener>
 
                 <p>I would gladly send you fifty copies of the October issue of the Quarterly if we
@@ -258,34 +619,25 @@
                     left. For college records and filing purposes, we should really have more than
                     that number. </p>
 
-                <p>I think, however, that by dropping a line to a few of <persName
-                        key="Conklin, Sherman L." from="1894" to="1918"
-                        role="Private, Ambulence Corps" ref="https://doi.org/doi:10.7282/T34M97D7"
-                        >Sherman</persName>’s classmates, I can gather a few extra copies together.
+                <p>I think, however, that by dropping a line to a few of <persName key="Conklin, Sherman L." from="1894" to="1918" role="Private, Ambulence Corps" ref="https://doi.org/doi:10.7282/T34M97D7">Sherman</persName>’s classmates, I can gather a few extra copies together.
                     Under separate cover I am mailing you six.</p>
 
                 <p>Please do not bother about their cost. I am very sorry that I cannot send you a
                     great many more.</p>
 
                 <p>Just as soon as things are straightened out here at the college, I shall take up
-                    the matter of collecting <seg xml:id="fn4">Sherman's writings</seg><note
-                        type="annotation" target="#fn4"><p>Conklin wrote poetry and prose for the
+                    the matter of collecting <seg xml:id="fn7">Sherman's writings</seg><note type="annotation" target="#fn7"><p>Conklin wrote poetry and prose for the
                             Field Service Bulletin (published by the American Field Service in
                             Paris). While a student of Rutgers College, he served as an associate
-                            editor of the Targum.</p><ref
-                            target="https://doi.org/doi:10.7282/T34M97D7">Daily Home News, Thursday,
+                            editor of the Targum.</p><ref target="https://doi.org/doi:10.7282/T34M97D7">Daily Home News, Thursday,
                             July 11, 1918</ref></note>. What a splendid tribute to him appeared in
                     the current Christian Intelligencer.</p>
 
                 <closer>
                     <salute>Sincerely yours,</salute><lb/>
-                    <signed><persName key="Silvers, Earl Reed" from="1891" to="1948"
-                            role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"
-                        /></signed>
+                    <signed><persName key="Silvers, Earl Reed" from="1891" to="1948" role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"/></signed>
                 </closer>
-
             </div>
-
         </body>
         <back>
             <listPlace>
@@ -301,16 +653,52 @@
                         <geo>49.3078 3.1492</geo>
                     </location>
                 </place>
-                <place xml:id="conklin_texas">
-                    <placeName>San Antonio, Texas</placeName>
+                <place xml:id="conlin_grave_a">
+                    <placeName>Mortefontaine, France</placeName>
                     <location>
-                        <geo>29.45 -98.493056</geo>
+                        <geo>49.331389 3.075278</geo>
+                    </location>
+                </place>
+                <place xml:id="villers-cotterets">
+                    <placeName>Villers-Cotterêts, France</placeName>
+                    <location>
+                        <geo>49.26 3.090556</geo>
+                    </location>
+                </place>
+                <place xml:id="conklin_grave_b">
+                    <placeName>Taillefontaine, France</placeName>
+                    <location>
+                        <geo>49.311944 3.043333</geo>
                     </location>
                 </place>
                 <place xml:id="rutgers">
                     <placeName>Rutgers College, New Brunswick, NJ</placeName>
                     <location>
                         <geo>40.500819 -74.447399</geo>
+                    </location>
+                </place>
+                <place xml:id="glastonbury">
+                    <placeName>Glastonbury, Connecticut</placeName>
+                    <location>
+                        <geo>41.712222 -72.608333</geo>
+                    </location>
+                </place>
+                <place xml:id="summer_ave">
+                    <placeName>313 Summer Ave</placeName>
+                    <location>
+                        <geo>40.7625 -74.169722</geo>
+                    </location>
+                </place>
+                <place xml:id="international_institute">
+                    <placeName>515 North Pecos St, San Antonio, TX</placeName>
+                    <location>
+                        <geo>29.431111 -98.501111</geo>
+                    </location>
+                </place>
+                <place xml:id="conklin_texas">
+                    <placeName>135 East French Pl, San Antonio, TX</placeName>
+                    <location>
+                        <geo>29.45 -98.493056</geo>
                     </location>
                 </place>
             </listPlace>
