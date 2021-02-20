@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="johnsonjw">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Johnson, John W.</title>
+				<respStmt>
+					<resp>Transcription and encoding by</resp>
+					<name xml:id="GH"> Gabriella Hudyka </name>
+				</respStmt>
+				<principal xml:id="fg"> Francesca Giannetti </principal>
+			</titleStmt>
+			<extent>7 p.</extent>
+			<publicationStmt>
+				<publisher>Rutgers University Libraries</publisher>
+				<distributor> Rutgers Community Repository (RUcore) URL:
+					https://rucore.libraries.rutgers.edu </distributor>
+				<availability>
+					<p>No Known Copyright</p>
+				</availability>
+				<authority>Transcribed from digital files available in RUcore</authority>
+				<idno type="URI">https://doi.org/doi:10.7282/T39C7150</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>Special Collections and University Archives, Rutgers University
+							Libraries</repository>
+						<collection>Rutgers College. War Service Bureau. Records,
+							1917-1919</collection>
+						<idno>RG 33/C0/01</idno>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<correspDesc xml:id="johnsonjw_01">
+				<correspAction type="sent">
+					<persName>Jennie Opdyke Creveling</persName>
+					<placeName ref="#johnson-home">Stanton, New Jersey</placeName>
+					<date when="1917-10-30">October 30, 1917</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>Earl Reed Silvers</persName>
+					<placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="johnsonjw_02">
+				<correspAction type="sent">
+					<persName>Jennie Opdyke Creveling</persName>
+					<placeName ref="#johnson-home">Stanton, New Jersey</placeName>
+					<date when="1918-01-30">January 30, 1918</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>Earl Reed Silvers</persName>
+					<placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="johnsonjw_03">
+				<correspAction type="sent">
+					<persName>John W. Johnson</persName>
+					<placeName ref="#us-base-hospital-8">Savenay, France</placeName>
+					<date when="1918-03-28">March 28, 1918</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>Earl Reed Silvers</persName>
+					<placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="johnsonjw_04">
+				<correspAction type="sent">
+					<persName>Earl Reed Silvers</persName>
+					<placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+					<date when="1918-04-25">April 25, 1918</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>John W. Johnson</persName>
+					<placeName ref="#us-base-hospital-8">Savenay, France</placeName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2021-01-28" who="#GH"> Added page and line breaks.</change>
+			<change when="2021-02-01" who="#GH"> roughly encoded all four letters.</change>
+			<change when="2021-02-02" who="#GH"> encoded stamp and added additional correspondent
+				descriptions.</change>
+			<change when="2021-02-05" who="#GH"> added in more data for soldiers
+				(Skinner,Burch,Costa,Norcum,Storck,Bracher); added more correspAction.</change>
+			<change when="2021-02-14" who="#fg">Edited letters and standardized/normalized elements and attributes.</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="letter" decls="#johnsonjw_01">
+				<pb n="1"/>
+				<ab type="postmark">
+					<placeName key="Stanton, NJ"
+						ref="https://geohack.toolforge.org/geohack.php?params=40_34_30_N_74_50_16_W"
+						> STANTON N.J.</placeName><lb/>
+					<date when="1917-10-30"> Oct <lb/> 30 <lb/> 1917 </date>
+				</ab><lb/>
+				<ab type="pre-printed">THIS SIDE OF CARD IS FOR ADDRESS</ab>
+				<lb/>
+				<ab>
+					<address>
+						<addrLine>EARL REED SILVERS</addrLine>
+						<addrLine>ALUMNI HOUSE</addrLine>
+						<addrLine><placeName key="Rutgers College, New Brunswick, NJ"
+								ref="https://tools.wmflabs.org/geohack/geohack.php?params=40_29_55_N_74_26_54_W"
+								>NEW BRUNSWICK, N.J.</placeName>
+						</addrLine>
+					</address>
+				</ab>
+
+				<pb n="2"/>
+				<ab>
+					<address>
+						<addrLine>Private <persName key="Johnson, John W." from="1895" to-iso="19--"
+								role="Sergeant, Medical Department"
+								ref="https://www.familysearch.org/tree/person/details/G754-5C5">John
+								W. Johnson</persName>,</addrLine>
+						<addrLine><placeName
+								key="American Hospital of Paris, Neuilly-sur-Seine, France"
+								ref="https://geohack.toolforge.org/geohack.php?params=48_53_34_N_2_16_21_E"
+								>U.S. Army Hospital #6</placeName>,</addrLine>
+						<addrLine>Paris, France</addrLine>
+						<addrLine>A.E.F via New York.</addrLine>
+					</address>
+				</ab>
+				<closer>
+					<signed><seg xml:id="fn1">Frederick L. Johnson</seg><note type="annotation" target="#fn1"
+								><p>Although this postcard is signed as if it were being sent by
+								Johnson's father, the handwriting bears a close resemblance to that
+								of the next letter from Johnson's mother, Jennie Johnson, née
+								Creveling.</p></note>.</signed>
+				</closer>
+			</div>
+			<div type="letter" decls="#johnsonjw_02">
+				<pb n="3"/>
+				<note type="letterhead">
+					<p>DR. <persName key="Johnson, Frederick Lincoln" from="1865" to="1922"
+							role="Father and physician"
+							ref="https://www.familysearch.org/tree/person/details/KZC5-NYH">F. L.
+							JOHNSON.</persName></p>
+					<p>
+						<placeName key="Stanton, NJ"
+							ref="https://geohack.toolforge.org/geohack.php?params=40_34_30_N_74_50_16_W"
+							>STANTON, N. J.</placeName>
+					</p>
+				</note>
+				<opener>
+					<dateline>
+						<date when="1918-01-30">January 30<hi rend="superscript">th</hi> 1918</date>
+					</dateline>
+					<address>
+						<addrLine>Mr. Earl Reed Silvers '13</addrLine>
+						<addrLine>Director War Service Bureau</addrLine>
+						<addrLine><placeName key="Rutgers College, New Brunswick, NJ"
+								ref="https://tools.wmflabs.org/geohack/geohack.php?params=40_29_55_N_74_26_54_W"
+								>Rutgers College, New Brunswick, N.J.</placeName>
+						</addrLine>
+					</address>
+					<salute>Dear <persName key="Silvers, Earl Reed" from="1891" to="1948"
+							role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"
+							>Sir</persName>, </salute>
+				</opener>
+				<p>I wish to notify you that <persName key="Johnson, John W." from="1895"
+						to-iso="19--" role="Sergeant, Medical Department"
+						ref="https://www.familysearch.org/tree/person/details/G754-5C5">John W.
+						Johnson</persName>'s '17 address has been changed to <placeName
+						key="US Base Hospital #8, Savenay, France"
+						ref="https://geohack.toolforge.org/geohack.php?params=47_21_52_N_1_56_31_W">
+						<add>U.S.</add> Base Hospital #8, A.E.F. France</placeName>. You are doing a
+					wonderful work and I think every mother appreciates it.</p>
+				<closer>
+					<salute>Sincerely,</salute>
+					<signed><persName key="Creveling, Jennie Opdyke" from="1863" to="1929"
+							role="Mother"
+							ref="https://www.familysearch.org/tree/person/details/K4FW-FVP">Mrs. F.
+							L. Johnson</persName>.</signed>
+				</closer>
+			</div>
+			<div type="letter" decls="#johnsonjw_03">
+				<pb n="4"/>
+				<note type="letterhead"> AMERICAN YMCA <lb/> ON ACTIVE SERVICE <lb/> WITH THE <lb/>
+					AMERICAN EXPEDITIONARY FORCE </note>
+				<opener>
+					<dateline>
+						<placeName key="US Base Hospital #8, Savenay, France"
+							ref="https://geohack.toolforge.org/geohack.php?params=47_21_52_N_1_56_31_W"
+							>U.S Base Hospital #8</placeName>
+						<date when="1918-03-28"> Mar. 28, 1918</date>
+					</dateline>
+					<salute> My dear <persName key="Silvers, Earl Reed" from="1891" to="1948"
+							role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"
+							>Silvers</persName>, </salute>
+				</opener>
+				<p>Although it is rather a late date I want to thank you very much for the various
+					college publications which you have sent. The letters and quarterlies have been
+					a fine thing in keeping us in touch with the college news. As you already know
+					there are a large number of Rutgers fellows in this unit and a larger delegation
+					from Princeton.</p>
+				<p>So far I have heard from <persName key="Skinner, Alfred Phillips" from="1895"
+						to="1955" role="Private, Ambulance Service"
+						ref="https://www.familysearch.org/ark:/61903/1:1:QK1G-77NS">Al
+						Skinner</persName> and <persName key="Sabbath, Jesse Monroe" from="1894"
+						to="1947" role="Private, Ambulance Service"
+						ref="https://www.familysearch.org/ark:/61903/1:1:W75F-K1PZ">Jesse
+						Sabbath</persName> in '17 who is over here with the <seg xml:id="fn2">165
+						Amb. Co. San. Tn. </seg><note type="annotation" target="#fn2"><p>Standing for
+							Ambulance Company Sanitary Train. The term 'train' is unique to the
+							first World War. There were four assigned to each infantry division:
+							ammunition, supply, engineer, and sanitary. All were mobile and used
+							either horse-drawn or motorized wagons to support the division. Sanitary
+							trains were composed of camp infirmaries, ambulance companies, and field
+							hospitals. An ambulance company's main objective was to transport
+							wounded soldiers from a batallion aid station back to a field hospital. In
+							cases where medical emergencies were dire, ambulance companies set up
+							dressing stations en route to field hospitals in order to provide
+							continuous care to soldiers.</p><ref
+							target="https://hdl.handle.net/2027/nnc1.cu09332723">Ireland, M. W.
+							(1925). The medical department of the United States Army in the world
+							war, vol. VIII Field Operations.</ref></note>
+					<persName key="Burch, William. D." from="1899" to-iso="19--"
+						role="Sargeant, Ambulance Service"
+						ref="https://www.familysearch.org/ark:/61903/1:1:K4PV-JTZ"> Burch </persName>
+					'20 who is a Sergeant in the Med Corps stepped off to see us the other day. I
+					have also seen <pb n="5"/>
+					<persName key="Costa, Joseph Louis" from-iso="18--" to-iso="19--"
+						role="Cadet, French Army" ref="https://doi.org/doi:10.7282/T38055VR">Joe
+						Costa</persName>, Y.M.C.A, <persName key="Church, Franklin O."
+						from-iso="18--" to-iso="19--" role="1st Lietuenant, Engineers"
+						ref="https://doi.org/doi:10.7282/T38055VR">Lt. Church</persName> '14 and
+						<persName key="Norcom, George D." from="1892" to="1964"
+						role="Captain, Sanitary Corps"
+						ref="https://www.familysearch.org/ark:/61903/1:1:7BN8-WS3Z">Lt.
+						Norcum</persName> '15. I think these are all the Rutgers men in the service
+					whom I have seen here.</p>
+				<p>Any news which I may be able to tell you about the hospital will no doubt be old
+					to you. We have been having a few fall games recently — three in all of which we
+					have won two. <persName key="Storck, Donald G." from="1897" to="1987"
+						role="Sergeant, Medical Corps"
+						ref="https://www.familysearch.org/tree/person/details/L2VB-2B8">"Don"
+						Storck</persName> is capt of the team and <persName key="Bracher, Elmer G."
+						from="1894" to="1923" role="Sergeant, Medical Corps"
+						ref="https://www.findagrave.com/memorial/210183871/elmer-gladstone-bracher"
+						>"Toady" Bracher</persName> played in two games so you see they
+						<supplied>are</supplied> upholding reputations. "Toady's" efforts in getting
+					a football team together last fall were not very successful.</p>
+				<p>We were all mighty proud <pb n="6"/> of the record of the football team last year
+					and hope the football team is equally as good. With best wishes for further
+					success in your War Service Bureau work.</p>
+				<closer>
+					<salute>I am <lb/> Sincerely<lb/></salute>
+					<signed>
+						<persName key="Johnson, John W." from="1895" to-iso="19--"
+							role="Sergeant, Medical Department">J.W. Johnson</persName> '17
+					</signed>
+				</closer>
+			</div>
+			<div type="letter" decls="#johnsonjw_04">
+				<pb n="7"/>
+				<opener>
+					<dateline>
+						<date when="1918-04-25"> April 25, 1918.</date>
+					</dateline>
+					<address>
+						<addrLine>J.W. Johnson,</addrLine>
+						<addrLine><placeName key="US Base Hospital #8, Savenay, France"
+								ref="https://geohack.toolforge.org/geohack.php?params=47_21_52_N_1_56_31_W"
+								>U.S Base Hospital #8,</placeName></addrLine>
+						<addrLine>American Expeditionary Force.</addrLine>
+					</address>
+					<salute>Dear <persName key="Johnson, John W." from="1895" to-iso="19--"
+							role="Sergeant, Medical Department"
+							ref="https://www.familysearch.org/tree/person/details/G754-5C5"
+							>Johnson</persName>:</salute>
+				</opener>
+				<p>It was good of you to write your letter of <choice>
+						<orig>Earch</orig>
+						<corr>March</corr>
+					</choice> 28th and to tell me that you fellows over there appreciate the War
+					Service Bureau and its work. Remember me to all of the Rutgers men at the Base
+					Hospital and tell them to write to me whenever they can find the time.</p>
+				<closer>
+					<salute>Very cordially yours, </salute>
+					<signed>
+						<persName key="Silvers, Earl Reed" from="1891" to="1948"
+							role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"
+							>Director</persName>
+						<lb/> ERS/H </signed>
+				</closer>
+			</div>
+		</body>
+		<back>
+			<listPlace>
+				<place xml:id="johnson-home">
+					<placeName>Stanton, NJ</placeName>
+					<location>
+						<geo>40.575 -74.837778</geo>
+					</location>
+				</place>
+				<place xml:id="rutgers">
+					<placeName>Rutgers College, New Brunswick, NJ</placeName>
+					<location>
+						<geo> 40.498611 -74.448333</geo>
+
+					</location>
+				</place>
+				<place xml:id="american-hospital-of-paris">
+					<placeName>American Hospital of Paris, Neuilly-sur-Seine, France</placeName>
+					<location>
+						<geo>48.8929 2.2725</geo>
+					</location>
+				</place>
+				<place xml:id="us-base-hospital-8">
+					<placeName>US Base Hospital #8, Savenay, France </placeName>
+					<location>
+						<geo>47.3619 -1.9406</geo>
+					</location>
+				</place>
+			</listPlace>
+		</back>
+	</text>
+</TEI>

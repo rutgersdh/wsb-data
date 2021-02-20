@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ainsworthwpe">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ainsworth, William P. E.</title>
+            <respStmt>
+               <resp>Transcription and encoding by</resp>
+               <name xml:id="ar"> Alissa Renales </name>
+            </respStmt>
+            <principal xml:id="fg"> Francesca Giannetti </principal>
+         </titleStmt>
+         <extent>53 p.</extent>
+         <publicationStmt>
+            <publisher>Rutgers University Libraries</publisher>
+            <distributor> Rutgers Community Repository (RUcore) URL:
+               https://rucore.libraries.rutgers.edu </distributor>
+            <availability>
+               <p>No Known Copyright</p>
+            </availability>
+            <authority>Transcribed from digital files available in RUcore</authority>
+            <idno type="URI">https://doi.org/doi:10.7282/T3DF6TXM</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Special Collections and University Archives, Rutgers University
+                     Libraries</repository>
+                  <collection>Rutgers College. War Service Bureau. Records, 1917-1919</collection>
+                  <idno>RG 33/C0/01</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc xml:id="ainsworthwpe_01">
+            <correspAction type="sent">
+               <persName>William P. E. Ainsworth</persName>
+               <placeName ref="#fort-monroe"/>
+               <date when="1917-06-30">June 30, 1917</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Earl Reed Silvers</persName>
+               <placeName ref="#rutgers"/>
+            </correspAction>
+         </correspDesc>
+         <correspDesc xml:id="ainsworthwpe_02">
+            <correspAction type="sent">
+               <persName>William P. E. Ainsworth</persName>
+               <placeName ref="#fort-monroe"/>
+               <date when="1917-07-06">July 6, 1917</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Earl Reed Silvers</persName>
+               <placeName ref="#rutgers"/>
+            </correspAction>
+         </correspDesc>
+         <correspDesc xml:id="ainsworthwpe_03">
+            <correspAction type="sent">
+               <persName>William P. E. Ainsworth</persName>
+               <placeName ref="#fort-hancock"/>
+               <date notAfter-iso="1918-02-21">n.d.</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Earl Reed Silvers</persName>
+               <placeName ref="#rutgers"/>
+            </correspAction>
+         </correspDesc>
+         <correspDesc xml:id="ainsworthwpe_04">
+            <correspAction type="sent">
+               <persName>Earl Reed Silvers</persName>
+               <placeName ref="#rutgers"/>
+               <date when="1918-02-21">February 21, 1918</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>William P. E. Ainsworth</persName>
+               <placeName ref="#fort-hancock"/>
+            </correspAction>
+         </correspDesc>
+         <correspDesc xml:id="ainsworthwpe_05">
+            <correspAction type="sent">
+               <persName>George C. Ainsworth</persName>
+               <placeName ref="#ainsworth-home"/>
+               <date when="1918-05-27">May 27, 1918</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Earl Reed Silvers</persName>
+               <placeName ref="#rutgers"/>
+            </correspAction>
+         </correspDesc>
+         <correspDesc xml:id="ainsworthwpe_06">
+            <correspAction type="sent">
+               <persName>Earl Reed Silvers</persName>
+               <placeName ref="#rutgers"/>
+               <date when="1918-05-29">May 29, 1918</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>George C. Ainsworth</persName>
+               <placeName ref="#ainsworth-home"/>
+            </correspAction>
+         </correspDesc>
+         <correspDesc xml:id="ainsworthwpe_07">
+            <correspAction type="sent">
+               <persName>William P. E. Ainsworth</persName>
+               <placeName ref="#france"/>
+               <date notAfter-iso="1918-06-07">n.d.</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Earl Reed Silvers</persName>
+               <placeName ref="#silvers-home"/>
+            </correspAction>
+         </correspDesc>
+         <correspDesc xml:id="ainsworthwpe_08">
+            <correspAction type="sent">
+               <persName>William P. E. Ainsworth</persName>
+               <placeName ref="#france"/>
+               <date when="1918-06-07">June 7, 1918</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Earl Reed Silvers</persName>
+               <placeName ref="#rutgers" cert="unknown"/>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#fg" when="2021-01-27">Compiled and edited individual letters into letter
+            anthology.</change>
+         <change when="2021-02-21" who="#fg">Minor tweaks to trigger stylesheet behavior.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter" decls="#ainsworthwpe_01">
+            <pb n="3"/>
+            <opener>
+               <address>
+                  <addrLine>2<hi rend="superscript">nd</hi> Training Camp C.A.C.</addrLine>
+                  <addrLine><placeName key="Fort Monroe, VA"
+                        ref="https://tools.wmflabs.org/geohack/geohack.php?params=37_00_13_N_76_18_27_W"
+                        >Fortress Monroe Va.</placeName></addrLine>
+               </address>
+               <dateline>
+                  <date when="1917-06-30">June 30, 1917.</date>
+               </dateline>
+               <salute>Dear <persName key="Silvers, Earl Reed" from="1891" to="1948"
+                     role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"
+                     >Reed</persName>:</salute>
+            </opener>
+            <p>I received your letter and am glad to hear that you and "friend" are at the shore. It
+               will do you both lots of good. Thank "friend" for the postal. It is very nice that
+               you have a chance to get a commission but hold off and stay where you are. There are
+               plenty to do the work.</p>
+            <p>I had to run out just then and take a look at an aeroplane passing over the barracks
+               - a big flying boat affair only about 500 feet up.</p>
+            <pb n="4"/>
+            <p>We see all kinds of interesting sights every day - new flying machine, search lights,
+               boats and men of war.</p>
+            <p>The work continues just about the same. We plug on geometry, trig, and physics; play
+               war games, drill on the guns, attend lectures, <unclear>snatch</unclear> half an
+               hours swim and wait for Sunday and rest to come.</p>
+            <p>The hard thing is not being able to see home or any of you there. There is not the
+               excitement of <placeName key="Fort Myer, VA"
+                  ref="https://geohack.toolforge.org/geohack.php?params=38_52_54_N_77_4_58_W">Fort
+                  Myer</placeName> here and that is what makes things go harder. The kind of work we
+               have to me however more than compensates for the grind.</p>
+            <p> If we go to France it will </p>
+            <pb n="5"/>
+            <p>be with heavy field and <sic>seige</sic> guns. Some of us will probably be there by
+               fall. Don't tell anyone about that however. It would scare my aunt to death. She
+               thinks that none of us will ever leave the country.</p>
+            <p>Give my best to the "gang" Tell <unclear>Dave</unclear> that I will write him soon
+               but not to wait for me to do that little thing.</p>
+            <closer>
+               <salute>Wishing you best of luck in that which you decide to do. <add>In the
+                     bonds,</add></salute><lb/>
+               <signed><persName key="Ainsworth, William P. E." from="1893" to="1968"
+                     role="Captain, Coast Artillery Corps"
+                     ref="https://www.familysearch.org/tree/person/details/L5L1-516"
+                  >Pete</persName></signed>
+            </closer>
+         </div>
+         <div type="letter" decls="#ainsworthwpe_02">
+            <pb n="6"/>
+            <opener>
+               <address>
+                  <addrLine>2<hi rend="superscript">nd</hi> Training Co. C.A.C.</addrLine>
+                  <addrLine><placeName key="Fort Monroe, VA"
+                        ref="https://tools.wmflabs.org/geohack/geohack.php?params=37_00_13_N_76_18_27_W"
+                        >Fortress Monroe Va</placeName></addrLine>
+               </address>
+               <dateline>
+                  <date when="1917-07-06">July 6, 1917</date>
+               </dateline>
+               <salute>Dear <persName key="Silvers, Earl Reed" from="1891" to="1948"
+                     role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"
+                     >Sil</persName>:</salute>
+            </opener>
+            <p> I am enclosing a sample of paper of which I wish you could get me 100 sheets at the
+                  <placeName key="Rutgers College, New Brunswick, NJ"
+                  ref="https://tools.wmflabs.org/geohack/geohack.php?params=40_30_2_N_74_26_50_W"
+                  >College</placeName> supply store or at Reids. I am using it in notebook work and
+               cannot get any down here. If you can get some please let me know how much it is and I
+               will send you a check.</p>
+            <p>Everything is going very <pb n="7"/> smoothly.</p>
+            <p>Last evening a <seg xml:id="fn1">german submarine</seg>
+               <note type="annotation" target="#fn1">
+                  <p>German U-boats frequently visited the Eastern shores of the United States to
+                     attack wartime supply chains and demoralize the American public.</p><ref
+                     target="http://www.worldcat.org/oclc/858902048">Lurie, M. N., &amp; Mappen, M.
+                     (2004). Encyclopedia of New Jersey.</ref></note> was reported in the bay. A
+               battleship and several destroyers went out and all shipping was sent up the river.
+               They also had the <seg xml:id="fn2">submarine net</seg>
+               <note type="annotation" target="#fn2">
+                  <p>The German submarine fleet spurred the creation of new forms of defense,
+                     including anti-submarine nets, developed by the British and adopted by the U.S.
+                     Navy. The security they provided was largely revealed to be illusory,
+                     especially when confronted with torpedoes and submarines equipped with
+                     cutters.</p><ref target="https://www.jstor.org/stable/1982775">Rowland, B.
+                     (1947). Revolution in Nets: An Unglamorous But Essential Phase of Naval
+                     Warfare.</ref></note> ready to close. </p>
+            <p>Three of our small batteries were manned all night and the search-lights swept the
+                  <placeName key="Chesapeake Bay, VA"
+                  ref="https://tools.wmflabs.org/geohack/geohack.php?params=37.8_N_76.1_W_"
+                  >bay</placeName> for miles around but outside of some shooting we heard from the
+               boats nothing happened. I have not heard yet whether they captured anything. The
+               first taste of war.</p>
+            <pb n="8"/>
+            <p>We finished our work on the big guns and are starting on the smaller ones which is
+               much less exciting but necessary nevertheless.</p>
+            <p>I have had a couple of good suppers at <seg xml:id="fn3">the Chamberlin</seg><note
+                  type="annotation" target="#fn3"><p>The Chamberlin Hotel, on the property of Fort
+                     Monroe, catered to both tourists and officers. Ainsworth would have visited the
+                     first Chamberlin (1896-1920), which burned to the ground. A second Chamberlin
+                     opened on the site in 1928.</p><ref
+                     target="https://en.wikipedia.org/wiki/The_Chamberlin">Wikipedia</ref></note>
+               and believe me it is <hi rend="underline">some</hi> food. All you said about it was
+               true.</p>
+            <p>Give my best to friend and tell her that I thought of her when they brought in the
+               big eats.</p>
+            <closer>
+               <salute>Thanking you in advance for the trouble, I am</salute><lb/>
+               <salute>In the bonds</salute><lb/>
+               <signed><persName key="Ainsworth, William P. E." from="1893" to="1968"
+                     role="Captain, Coast Artillery Corps"
+                     ref="https://www.familysearch.org/tree/person/details/L5L1-516"
+                  >Pete</persName></signed>
+            </closer>
+         </div>
+         <div type="letter" decls="#ainsworthwpe_03">
+            <pb n="9"/>
+            <opener>
+               <address>
+                  <addrLine>#6 Quarter</addrLine>
+                  <addrLine><placeName key="Fort Hancock, NJ"
+                        ref="https://tools.wmflabs.org/geohack/geohack.php?params=40_27_50_N_74_00_10_W"
+                        > Fort Hancock</placeName>,</addrLine>
+                  <addrLine>Sandy Hook, N.J.</addrLine>
+               </address>
+               <salute>Dear <persName key="Silvers, Earl Reed" from="1891" to="1948"
+                     role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"
+                     >Reed</persName>:</salute>
+            </opener>
+
+            <p> I find in making arrangements for disposing of my estate in case anything happens to
+               me that I have a couple of rather valuable instruments and one very valuable book
+               that I would like to leave to the <placeName key="Rutgers College, New Brunswick, NJ"
+                  ref="https://tools.wmflabs.org/geohack/geohack.php?params=40_30_2_N_74_26_50_W"
+                  >College</placeName> as I think they would be used and appreciated there more than
+               anywhere else.</p>
+            <p> These are: One <unclear>microscope</unclear> with several rather fine English made
+                  <pb n="10"/> lenses and French slides which I think are of biological subjects;
+               One astronomical instrument built like a sextant very old and probably an antique but
+               probably of some service; a book which was written in 1662 (or published at that
+               time) about science in general and a reference in it about communication by magnetic
+               attraction which is quite singular. </p>
+            <p> If you think these things are or would be in order just drop me a quiet line. </p>
+            <closer>
+               <salute>Regards to all. <lb/> I.T.B.</salute>
+               <signed><persName key="Ainsworth, William P. E." from="1893" to="1968"
+                     role="Captain, Coast Artillery Corps"
+                     ref="https://www.familysearch.org/tree/person/details/L5L1-516"
+                  >Pete</persName></signed>
+            </closer>
+         </div>
+         <div type="letter" decls="#ainsworthwpe_04">
+            <pb n="11"/>
+            <opener>
+               <dateline>
+                  <date when="1918-02-21">February 21, 1918.</date>
+               </dateline>
+               <address>
+                  <addrLine>
+                     <persName key="Ainsworth, William P. E." from="1893" to="1968"
+                        role="Captain, Coast Artillery Corps"
+                        ref="https://www.familysearch.org/tree/person/details/L5L1-516">Lieut. W. P.
+                        Ainsworth,</persName></addrLine>
+                  <addrLine>#6 Quarters,</addrLine>
+                  <addrLine><placeName key="Fort Hancock, NJ"
+                        ref="https://tools.wmflabs.org/geohack/geohack.php?params=40_27_50_N_74_00_10_W"
+                        >Fort Hancock,</placeName> Sandy Hook, N.J.</addrLine>
+               </address>
+               <salute>Dear Pete:</salute>
+            </opener>
+
+            <p>I am sure that the <placeName key="Rutgers College, New Brunswick, NJ"
+                  ref="https://tools.wmflabs.org/geohack/geohack.php?params=40_30_2_N_74_26_50_W">
+                  College</placeName> would greatly appreciate what you mention in your letter. I
+               have spoken to the <persName key="Demarest, William Henry Steele"
+                  role="President, Rutgers College" from="1863" to="1956"
+                  ref="http://viaf.org/viaf/28550683">President</persName> and he wishes to thank
+               you for your thoughtfulness and sends his best wishes.</p>
+            <p> Do not forget to come to see us. </p>
+            <closer>
+               <salute>Cordially yours,</salute><lb/>
+               <signed><persName key="Silvers, Earl Reed" from="1891" to="1948"
+                     role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"
+                     >Director</persName><lb/> ERS/MVH</signed>
+            </closer>
+         </div>
+         <div type="letter" decls="#ainsworthwpe_05">
+            <pb n="12"/>
+            <note type="letterhead">
+               <address>
+                  <addrLine><placeName key="45 and 47 Wall Street, New York, NY"
+                        ref="https://geohack.toolforge.org/geohack.php?params=40_42_23_N_74_0_37_W"
+                        >45 &amp; 47 WALL STREET</placeName>.</addrLine>
+                  <addrLine>NEW YORK.</addrLine>
+               </address>
+            </note>
+            <opener>
+               <dateline>
+                  <date when="1918-05-27">May 27/18</date>
+               </dateline>
+               <salute>My dear <persName key="Silvers, Earl Reed" from="1891" to="1948"
+                     role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"
+                     >Reed</persName></salute>
+            </opener>
+            <p>I received the usual form of Postal this morning advising me of the safe arrival of
+               the ship W<hi rend="superscript">m</hi> sailed on and he requested me in his last
+               letter to send you his address when I had received the postal It is 57<hi
+                  rend="superscript">th</hi> Artillery C.A.C. American Expeditionary Forces c/o
+               Postmaster N.Y. Write as often as you can Earl as Peter will be pleased I know <pb
+                  n="13"/> to hear from one he thinks so much of </p>
+            <closer>
+               <salute>With regards to the <unclear>college</unclear>
+                  <lb/> I am sincerely yours </salute><lb/>
+               <signed><persName key="Ainsworth, George C." from="1867" to="1954" role="Father"
+                     ref="https://www.familysearch.org/tree/person/details/L5L1-RNW"
+                        ><unclear>Geo</unclear> C. Ainsworth</persName></signed>
+            </closer>
+            <postscript>
+               <p>In W<hi rend="superscript">m</hi><supplied>'s</supplied> letter he said "Tell Reed
+                  to send any mail to my new address"</p>
+            </postscript>
+         </div>
+         <div type="letter" decls="#ainsworthwpe_06">
+            <pb n="14"/>
+            <opener>
+               <dateline>
+                  <date when="1918-05-29">May 29, 1918.</date>
+               </dateline>
+               <address>
+                  <addrLine>
+                     <persName key="Ainsworth, George C." role="Father" from="1867" to="1954"
+                        ref="https://www.familysearch.org/tree/person/details/L5L1-RNW">Mr. G. C.
+                        Ainsworth</persName>, </addrLine>
+                  <addrLine> 45 to 47 Wall Street,</addrLine>
+                  <addrLine> New York City. </addrLine>
+               </address>
+               <salute>My dear Mr. Ainsworth:</salute>
+            </opener>
+
+            <p> Thank you very much for <orig>yourletter</orig> of May 27th concerning <persName
+                  key="Ainsworth, William P. E." from="1893" to="1968"
+                  role="Captain, Coast Artillery Corps"
+                  ref="https://www.familysearch.org/tree/person/details/L5L1-516">Pete</persName>. I
+               shall most certainly write to him at least once a week and shall also send him our
+               regular college circular which contains the college news. I was mighty sorry that he
+               did not drop up to see me the last time he was in Rahway. This is the only time since
+               he entered the service that he has neglected us and we did not have a chance,
+               therefore, to say good bye to him, however, let us all hope that he may get back
+               again soon and that the old good times will be renewed. </p>
+
+            <closer>
+               <salute>Very cordially yours,</salute><lb/>
+               <signed>ERS/H</signed>
+            </closer>
+         </div>
+         <div type="letter" decls="#ainsworthwpe_07">
+            <pb n="15"/>
+            <ab type="pre-printed">SOLDIERS' MAIL NO POSTAGE NECESSARY</ab><lb/>
+            <ab type="stamped">SOLDIERS MAIL <lb/> CAPT. E. W. HAMLEN, <seg xml:id="fn4">Q. M. R.
+                  C.</seg><note type="gloss" target="#fn4"><p>Quartermaster Reserve Corps</p><ref
+                     target="https://books.google.com/books?id=ErpLAAAAYAAJ">U.S. Government
+                     Printing Office. (1917). Annual Report of the Quartermaster-General to the
+                     Secretary of War.</ref></note></ab><lb/>
+            <ab type="pre-printed">THIS SIDE FOR ADDRESS ONLY.</ab><lb/>
+            <ab><lb/>
+               <address>
+                  <addrLine>Mr. E. R. Silvers</addrLine>
+                  <addrLine><placeName key="Commerce St., Rahway, NJ" ref="https://geohack.toolforge.org/geohack.php?params=40_36_20_N_74_16_55_W">Commerce St.</placeName></addrLine>
+                  <addrLine>Rahway N.J.</addrLine>
+               </address>
+               <pb n="16"/>
+            </ab>
+            <ab type="pre-printed">I HAVE ARRIVED SAFELY OVERSEAS.</ab><lb/>
+            <ab type="hand-written">Pete</ab><lb/>
+            <ab type="pre-printed">This card will be held until safe arrival of the boat on which I
+               sailed.</ab>
+         </div>
+         <div type="letter" decls="#ainsworthwpe_08">
+            <opener>
+               <dateline>
+                  <placeName>Somewhere in France. </placeName><date when="1918-06-07">June 7,
+                     1918</date>
+               </dateline>
+               <salute>Dear Reed:</salute>
+            </opener>
+            <p>At last I am "over here" and everything is so peaceful in the locality where I am
+               situated that it hardly seems I am in a country which has been at war for four years.
+               Of course I am in a place very many miles from the firing line which accounts for the
+               tranquility. You must understand, while I censor my own mail, that I cannot reveal
+               many things and must deal largely in generalities in writing you. </p>
+            <pb n="18"/>
+            <p>
+               <add place="margin">[2]</add> ( First of all I want to <orig>enquire</orig> for
+               "friend-wife" and "Mike" I hope both are as well as ever and suppose "Mike" is
+               growing everyday. Tickle him for me. ) </p>
+            <p>The trip over was wonderful. The sea was very calm and the weather beautiful all the
+               way over except for about two days when it blew up rather rough and as the seas
+               caught us sideways the boat rocked to beat the band. It sometimes rocked so that for
+               hours if you were sitting on deck you were looking alternatively at the sky above and
+               the water beneath you and unless you braced your steamer chair you would slide, chair
+               and all across the deck. Many of the men were dreadfully seasick but it did not
+               effect me in the least, in fact I thoroughly enjoyed it.</p>
+            <p>I have often heard what <pb n="19"/>
+               <add place="margin">[3]</add> a wonderful sight land is after days at sea but never
+               realized is until I saw it at the end of our voyage.</p>
+            <p> Of our debarking and train trip I may say little except that the scenery was
+               wonderful but in a different way from America. Our beautiful sections as a rule are
+               the wild ones but the beautiful sections of France are after the cultivated ones.</p>
+            <p>At present our company is billetted in an old French estate surrounded by vineyards.
+               The officers live in the chateau which is a great white stone house with a tile roof
+               (one of the originals from which the millionnaires take their plans for their seaside
+               homes)</p>
+            <p>I have a nice big room with an adjoining second floor parlour. In back there is a
+               terrace with a <pb n="20"/> palm and rose garden containing a wonderful pagoda. A
+               brook with a deep curving hole runs <orig>thru</orig> a nearby meadow and affords the
+               men an opportunity for bathing. The days are very warm and the nights cool.</p>
+            <p>What more could one ask for?</p>
+            <p>I am very well and very happy and, I believe, very fortunate.</p>
+            <p>I will write in the near future and want you to do that little thing very often.</p>
+            <p>Don't forget the letters from College and the Quarterly.</p>
+            <closer>
+               <salute>In the bonds.</salute><lb/>
+               <signed><persName key="Ainsworth, William P. E." from="1893" to="1968"
+                     role="Captain, Coast Artillery Corps"
+                     ref="https://www.familysearch.org/tree/person/details/L5L1-516">" Pete "</persName></signed>
+            </closer>
+         </div>
+      </body>
+      <back>
+         <listPlace>
+            <place xml:id="fort-monroe">
+               <placeName>Fort Monroe, VA</placeName>
+               <location>
+                  <geo>37.003611 -76.3075</geo>
+               </location>
+            </place>
+            <place xml:id="fort-myer">
+               <placeName>Fort Myer, VA</placeName>
+               <location>
+                  <geo>38.881667 -77.082778</geo>
+               </location>
+            </place>
+            <place xml:id="rutgers">
+               <placeName>Rutgers College, New Brunswick, NJ</placeName>
+               <location>
+                  <geo>40.500556 -74.447222</geo>
+               </location>
+            </place>
+            <place xml:id="chesapeake-bay">
+               <placeName>Chesapeake Bay, VA</placeName>
+               <location>
+                  <geo>37.8 -76.1</geo>
+               </location>
+            </place>
+            <place xml:id="fort-hancock">
+               <placeName>Fort Hancock, NJ</placeName>
+               <location>
+                  <geo>40.463889 -74.002778</geo>
+               </location>
+            </place>
+            <place xml:id="ainsworth-home">
+               <placeName>45 and 47 Wall Street, New York, NY</placeName>
+               <location>
+                  <geo>40.706389 -74.010278</geo>
+               </location>
+            </place>
+            <place xml:id="france">
+               <placeName>Somewhere in France</placeName>
+               <location>
+                  <geo>46.227638 2.213749</geo>
+               </location>
+            </place>
+            <place xml:id="silvers-home">
+               <placeName>Commerce St., Rahway, NJ</placeName>
+               <location>
+                  <geo>40.605556 -74.281944</geo>
+               </location>
+            </place>
+         </listPlace>
+      </back>
+   </text>
+</TEI>

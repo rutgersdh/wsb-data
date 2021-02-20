@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../processing/wsb_schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cubberleycc">
     <teiHeader>
         <fileDesc>
@@ -243,6 +243,7 @@
             <change when="2020-06-23" who="#fg">Added Alissa's encodings and updated correspDesc and back elements.</change>
             <change when="2020-02-20" who="#fg">Added Marielba's encoding from Aug 2019. Updated correspDesc.</change>
             <change when="2019-06-13" who="#fg">Combined and edited student encodings. Created correspDesc and listPlace nodes.</change>
+            <change when="2021-02-21" who="#fg">Minor tweaks to trigger stylesheet behavior.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -255,7 +256,7 @@
                         <addrLine><placeName key="Whitestone, NY" ref="https://tools.wmflabs.org/geohack/geohack.php?params=40_47_48_N_73_48_58_W">Whitestone L.I.</placeName></addrLine>
                     </address>
                     <dateline>
-                        <date when="1917-12-17" instant="false">Dec. 17,1917.</date>
+                        <date when="1917-12-17">Dec. 17,1917.</date>
                     </dateline>
                     <salute>Dear Sir:-</salute>
                 </opener>
@@ -278,7 +279,7 @@
                     I have had some pictures taken and only just received the proofs, but I will forward one to you as soon as I get the finished product.
                 </p>
                 <p>
-                    I might also state that we had quite a blizzard here last week and that a north west storm is raging <orig>to-day</orig>.
+                    I might also state that we had quite a blizzard here last week and that a north west storm is raging to-day.
                 </p>
                 
                 <closer>
@@ -346,7 +347,7 @@
                 </opener>
                 <lb/>
                 <p>
-                    Have been transferred to the Naval Auxiliary Reserve. I have been to <placeName key="Tampico, Mexico" ref="https://tools.wmflabs.org/geohack/geohack.php?params=22_15_19_N_97_52_07_W">Tampico Mex.</placeName> and <orig>to-day</orig> am in <placeName key="New Orleans, LA" ref="https://tools.wmflabs.org/geohack/geohack.php?params=29_56_59_N_90_4_47_W"> New Orleans</placeName>. Expect to leave for Tampico <orig>to-morrow</orig>. My N.Y address is: 
+                    Have been transferred to the Naval Auxiliary Reserve. I have been to <placeName key="Tampico, Mexico" ref="https://tools.wmflabs.org/geohack/geohack.php?params=22_15_19_N_97_52_07_W">Tampico Mex.</placeName> and to-day am in <placeName key="New Orleans, LA" ref="https://tools.wmflabs.org/geohack/geohack.php?params=29_56_59_N_90_4_47_W"> New Orleans</placeName>. Expect to leave for Tampico to-morrow. My N.Y address is: 
                     <address>
                         <addrLine>
                             Naval Auxiliary Reserve.			
@@ -699,7 +700,7 @@
                 <postscript>
                     <label>P.s.</label>
                     <p>
-                        Would it be <orig>possiable</orig> for you to lend me the block that Chesters pictures was taken from. There are so many that want his picture. I will return it as soon as I can.
+                        Would it be <sic>possiable</sic> for you to lend me the block that Chesters pictures was taken from. There are so many that want his picture. I will return it as soon as I can.
                     </p>
                 </postscript>
             </div>
@@ -735,20 +736,21 @@
                 
             </div>
             <div type="form" decls="#cubberleycc_17">
+                <pb n="25"/>
                 <head>For the Rutgers Alumni Quarterly</head>
                 <ab>
                        <list rend="numbered">
-                           <item n="1a">Name-- Chester C. Cubberley.</item>
-                           <item n="1b">Class 1920</item>
-                           <item n="2">Date and place of birth <handShift medium="black-ink"/>Long Branch April 8.<hi rend="superscript">th</hi> 1897.</item>
-                           <item n="3">What public schools attended <handShift medium="black-ink"/><add rend="above">Garfield School and then</add> to the Grammar School</item>
-                           <item n="4">Graduated from what High School <handShift medium="black-ink"/>Chattle High School</item>
-                           <item n="5">Entered Rutgers in what year <handShift medium="black-ink"/>1916.</item>
-                           <item n="6">Date of enlistment <handShift medium="black-ink"/>March 1917.</item>
-                           <item n="7">Any facts regarding his service for the U.S. <handShift medium="black-ink"/>was at <choice><orig>pelms bay</orig><corr instant="false">Pelham Bay</corr></choice> three or four months. and from there he went to Whitestone and from there was advanced to the merchants marine. Sailed July 16.<hi rend="superscript">th</hi> for Texas. Was lost at sea august 13.<hi rend="superscript">th</hi></item>
-                           <item n="8">Any facts in his life which may be interesting (cities lived in, school honors, etc.) <handShift medium="black-ink"/>Graduated with the highest honors.</item>
-                           <item n="9">Copies of any of Chester’s letters or letters about him----</item>
-                           <item n="10">Anything you care to send will be returned promptly.</item>
+                           <item n="1"><ab type="pre-printed">Name-- Chester C. Cubberley. </ab></item>
+                           <item n="2"><ab type="pre-printed">Class 1920 </ab></item>
+                           <item n="2"><ab type="pre-printed">Date and place of birth </ab> <handShift medium="black-ink"/> Long Branch April 8.<hi rend="superscript">th</hi> 1897.</item>
+                           <item n="3"><ab type="pre-printed">What public schools attended </ab> <handShift medium="black-ink"/><add rend="above"> Garfield School and then</add> to the Grammar School</item>
+                           <item n="4"><ab type="pre-printed">Graduated from what High School</ab> <handShift medium="black-ink"/> Chattle High School</item>
+                           <item n="5"><ab type="pre-printed">Entered Rutgers in what year </ab> <handShift medium="black-ink"/> 1916.</item>
+                           <item n="6"><ab type="pre-printed">Date of enlistment </ab> <handShift medium="black-ink"/>  March 1917.</item>
+                           <item n="7"><ab type="pre-printed">Any facts regarding his service for the U.S. </ab> <handShift medium="black-ink"/> was at <choice><orig>pelms bay</orig><corr>Pelham Bay</corr></choice> three or four months. and from there he went to Whitestone and from there was advanced to the merchants marine. Sailed July 16.<hi rend="superscript">th</hi> for Texas. Was lost at sea august 13.<hi rend="superscript">th</hi></item>
+                           <item n="8"><ab type="pre-printed">Any facts in his life which may be interesting (cities lived in, school honors, etc.) </ab> <handShift medium="black-ink"/> Graduated with the highest honors.</item>
+                           <item n="9"><ab type="pre-printed">Copies of any of Chester’s letters or letters about him---- </ab></item>
+                           <item n="10"><ab type="pre-printed">Anything you care to send will be returned promptly.</ab></item>
                        </list>
                 </ab>
             </div>

@@ -2,7 +2,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="voorheesjb">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -201,6 +201,7 @@
                 listPlace and correspDesc elements.</change>
             <change when="2019-01-10" who="#FG">Swapped `interp` tags for `seg`, as this use seems
                 to be more consistent with definitions given in TEI guidelines.</change>
+            <change when="2021-02-20" who="#FG">Minor changes to persName attributes to harmonize information.</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -221,8 +222,8 @@
                     <dateline>
                         <date when="1918-04-20">April 20, 1918.</date>
                     </dateline>
-                    <salute>My dear <persName key="Voorhees, Ralph S. Jr. [?]" cert="low"
-                            from-iso="189-" to-iso="19--" role="Private, Base Hospital #8"
+                    <salute>My dear <persName key="Voorhees, Ralph Spencer Jr." cert="low"
+                            from-iso="189-" to-iso="19--" role="Sargeant, Medical Department"
                             ref="https://doi.org/doi:10.7282/T3RB77D9">Ralph</persName>:</salute>
                 </opener>
 
@@ -260,7 +261,7 @@
                           <addrLine><placeName key="854 Asylum Ave., Hartford, CT" ref="https://tools.wmflabs.org/geohack/geohack.php?params=41_46_12_N_72_41_43_W"> 854 Asylum Ave.<lb/> Hartford, Conn.</placeName></addrLine>
                         </address>
                     <salute>Dear <persName key="Voorhees, John Brownlee" from="1875" to="1919"
-                            role="Minister" ref="https://www.findagrave.com/memorial/130098973">Dr.
+                            role="Minister, Asylum Hill Congregational Church, and Secretary, YMCA" ref="https://www.findagrave.com/memorial/130098973">Dr.
                             Voorhees</persName>: </salute>
                 </opener>
                 <p> I understand that you will leavershortly for overseas service with the Y.M.C.A.

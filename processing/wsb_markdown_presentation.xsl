@@ -105,6 +105,11 @@
             <xsl:text>&#x0A;* * * &#x0A;</xsl:text>
         </xsl:for-each>
     </xsl:template>
+    
+    <!-- sanitize text nodes for kramdown -->
+    <xsl:template match="text()">
+        <xsl:value-of select="replace(replace(., '-', '—'), '\s+', ' ')"/>
+    </xsl:template>
 
     <xsl:template match="lb | addrLine">
         <xsl:apply-templates/>
@@ -156,17 +161,31 @@
             <xsl:text> [?]_</xsl:text>
         </xsl:if>
     </xsl:template>
-    <xsl:template match="list">
+    <xsl:template match="choice"> <!-- take normalized text where available -->
+        <xsl:text>[</xsl:text>
+        <xsl:value-of select="corr | reg | expan"/>
+        <xsl:text>]</xsl:text>
+    </xsl:template>
+    <xsl:template match="del"> <!-- handle deletions of text -->
+        <xsl:text>&lt;del&gt;</xsl:text>
+        <xsl:apply-templates/>
+        <xsl:text>&lt;/del&gt;</xsl:text>
+    </xsl:template>
+    <xsl:template match="list[@rend = 'numbered']">
         <xsl:for-each select="item">
-            <xsl:text>&#xD;</xsl:text>
+            <xsl:text>&lt;br /&gt;</xsl:text>
+            <xsl:number value="position()"/>
+            <xsl:text>.&#x20;&#x20;</xsl:text>
             <xsl:apply-templates/>
-            <xsl:text>&#160;&#160;</xsl:text>
         </xsl:for-each>
     </xsl:template>
-
-    <!-- sanitize text nodes for kramdown -->
-    <xsl:template match="text()">
-        <xsl:value-of select="replace(replace(., '-', '—'), '\s+', ' ')"/>
+    
+    <xsl:template match="figure">
+        <xsl:text>&lt;p class="small"&gt;</xsl:text>
+        <xsl:text>&lt;i&gt;[</xsl:text><xsl:value-of select="figDesc"/><xsl:text>]&lt;/i&gt;</xsl:text>
+        <xsl:text>&lt;br /&gt;</xsl:text>
+        <xsl:value-of select="head"/>
+        <xsl:text>&lt;/p&gt;&#x0A;</xsl:text>
     </xsl:template>
 
     <xsl:template match="hi[@rend = 'italic']">
@@ -182,16 +201,30 @@
     </xsl:template>
     
     <xsl:template match="sic">
-        <xsl:text>_</xsl:text>
+        <xsl:text>*</xsl:text>
         <xsl:apply-templates/>
-        <xsl:text>_&#160;[sic]</xsl:text>
+        <xsl:text>*&#160;[sic]</xsl:text>
+    </xsl:template>
+    
+    <!-- make marginal additions centered and smaller -->
+    <xsl:template match="add[@place = 'margin']">
+        <xsl:text>&lt;p class="centered small"&gt;</xsl:text>
+        <xsl:apply-templates/>
+        <xsl:text>&lt;/p&gt;</xsl:text>
+    </xsl:template>
+    
+    <!-- render pre-printed text as monotype (this picks up stuff defined in _ed.scss) -->
+    <xsl:template match="ab[@type = 'pre-printed'] | ab[@type = 'postmark']">
+        <xsl:text>&lt;span class="pre-printed centered"&gt;</xsl:text>
+        <xsl:apply-templates/>
+        <xsl:text>&lt;/span&gt;</xsl:text>
     </xsl:template>
 
     <!-- add page numbers -->
     <xsl:template match="pb">
-        <xsl:text>&#x0A;### Page: </xsl:text>
+        <xsl:text>&#x0A;&lt;p class="small centered"&gt; - Page: </xsl:text>
         <xsl:value-of select="@n"/>
-        <xsl:text>&#x0A;&#x0A;</xsl:text>
+        <xsl:text>&#160;- &lt;/p&gt;&#x0A;&#x0A;</xsl:text>
     </xsl:template>
 
     <!-- data balloons for names of people and places -->
@@ -256,7 +289,7 @@
             </xsl:if>
         </xsl:if>
     </xsl:template>
-
+    
     <xsl:template match="//note[not(@type='letterhead')]"/> <!-- ignore text of editorial notes -->
     <xsl:template match="//back"/> <!-- ignore anything in the back element -->
 
