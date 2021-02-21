@@ -127,7 +127,7 @@
       <revisionDesc>
          <change who="#fg" when="2021-01-27">Compiled and edited individual letters into letter
             anthology.</change>
-         <change when="2021-02-21" who="#fg">Minor tweaks to trigger stylesheet behavior.</change>
+         <change when="2021-02-21" who="#fg">Minor tweaks to trigger stylesheet behavior. Added missing pb.</change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -411,6 +411,7 @@
                sailed.</ab>
          </div>
          <div type="letter" decls="#ainsworthwpe_08">
+            <pb n="17"/>
             <opener>
                <dateline>
                   <placeName>Somewhere in France. </placeName><date when="1918-06-07">June 7,
