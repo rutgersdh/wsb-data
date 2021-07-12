@@ -200,6 +200,10 @@
         <xsl:text>**</xsl:text>
     </xsl:template>
     
+    <xsl:template match="hi[@rend = 'superscript']">
+        <xsl:text>&lt;sup&gt;</xsl:text><xsl:apply-templates/><xsl:text>&lt;/sup&gt;</xsl:text>
+    </xsl:template>
+    
     <xsl:template match="sic">
         <xsl:text>*</xsl:text>
         <xsl:apply-templates/>
@@ -222,9 +226,9 @@
 
     <!-- add page numbers -->
     <xsl:template match="pb">
-        <xsl:text>&#x0A;&lt;p class="small centered"&gt; - Page: </xsl:text>
+        <xsl:text>&#x0A;&lt;p class="small centered"&gt; [Page: </xsl:text>
         <xsl:value-of select="@n"/>
-        <xsl:text>&#160;- &lt;/p&gt;&#x0A;&#x0A;</xsl:text>
+        <xsl:text>&#160;] &lt;/p&gt;&#x0A;&#x0A;</xsl:text>
     </xsl:template>
 
     <!-- data balloons for names of people and places -->

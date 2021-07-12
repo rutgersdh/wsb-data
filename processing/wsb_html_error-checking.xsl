@@ -151,6 +151,9 @@
             <xsl:text> [?]</xsl:text>
         </i>
     </xsl:template>
+    <xsl:template match="del">
+        <del><xsl:apply-templates/></del>
+    </xsl:template>
     <xsl:template match="persName | name[@type='person']">
         <a style="color:blue;text-decoration:none;" href="{@ref}"
             title="{@key}&#013;({@from | @from-iso}-{@to | @to-iso})&#013;{@role}">
@@ -180,7 +183,7 @@
         </a>
     </xsl:template>
     
-    <xsl:template match="note[not(@type='letterhead')] | note[not(@type='annotation')]"/> <!-- ignore editorial notes -->
+    <xsl:template match="note[not(@type='letterhead')]"/> <!-- ignore editorial notes -->
     
     <xsl:template match="pb">
         <h4>Page: <xsl:value-of select="@n"/></h4>
