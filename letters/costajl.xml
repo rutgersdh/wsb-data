@@ -81,7 +81,7 @@
 					</correspDesc>
 					<correspDesc xml:id="costajl_05">
 						<correspAction type="sent">
-							<persName>Joseph Louis Costa</persName>
+							<persName>Joseph L. Costa</persName>
 							<placeName ref="#artillery-school"/>
 							<date notAfter-iso="1918-02-15">February 1918 [?]</date>
 						</correspAction>
@@ -487,7 +487,7 @@
 				<place xml:id="paris-ymca">
 					<placeName>12 rue d'Aguesseau, Paris, France</placeName>
 					<location>
-						<geo>48.870278 2.319444</geo>
+						<geo>48.870338 2.319580</geo>
 					</location>
 				</place>
 				<place xml:id="costa-addr1">

@@ -116,8 +116,7 @@
 				<pb n="2"/>
 				<ab>
 					<address>
-						<addrLine>Private <persName key="Johnson, John W." from="1895" to-iso="19--"
-								role="Sergeant, Medical Department"
+						<addrLine>Private <persName key="Johnson, John William" from="1895" to="1960" role="Sergeant, Medical Department"
 								ref="https://www.familysearch.org/tree/person/details/G754-5C5">John
 								W. Johnson</persName>,</addrLine>
 						<addrLine><placeName
@@ -165,8 +164,7 @@
 							role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"
 							>Sir</persName>, </salute>
 				</opener>
-				<p>I wish to notify you that <persName key="Johnson, John W." from="1895"
-						to-iso="19--" role="Sergeant, Medical Department"
+				<p>I wish to notify you that <persName key="Johnson, John William" from="1895" to="1960" role="Sergeant, Medical Department"
 						ref="https://www.familysearch.org/tree/person/details/G754-5C5">John W.
 						Johnson</persName>'s '17 address has been changed to <placeName
 						key="US Base Hospital #8, Savenay, France"
@@ -254,8 +252,7 @@
 				<closer>
 					<salute>I am <lb/> Sincerely<lb/></salute>
 					<signed>
-						<persName key="Johnson, John W." from="1895" to-iso="19--"
-							role="Sergeant, Medical Department">J.W. Johnson</persName> '17
+						<persName key="Johnson, John William" from="1895" to="1960" role="Sergeant, Medical Department">J.W. Johnson</persName> '17
 					</signed>
 				</closer>
 			</div>
@@ -272,9 +269,7 @@
 								>U.S Base Hospital #8,</placeName></addrLine>
 						<addrLine>American Expeditionary Force.</addrLine>
 					</address>
-					<salute>Dear <persName key="Johnson, John W." from="1895" to-iso="19--"
-							role="Sergeant, Medical Department"
-							ref="https://www.familysearch.org/tree/person/details/G754-5C5"
+					<salute>Dear <persName key="Johnson, John William" from="1895" to="1960" role="Sergeant, Medical Department" ref="https://www.familysearch.org/tree/person/details/G754-5C5"
 							>Johnson</persName>:</salute>
 				</opener>
 				<p>It was good of you to write your letter of <choice>
@@ -304,7 +299,7 @@
 				<place xml:id="rutgers">
 					<placeName>Rutgers College, New Brunswick, NJ</placeName>
 					<location>
-						<geo> 40.498611 -74.448333</geo>
+						<geo>40.500819 -74.447399</geo>
 
 					</location>
 				</place>

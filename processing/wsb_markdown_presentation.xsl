@@ -207,7 +207,7 @@
     <xsl:template match="sic">
         <xsl:text>*</xsl:text>
         <xsl:apply-templates/>
-        <xsl:text>*&#160;[sic]</xsl:text>
+        <xsl:text>* &#160;[sic]</xsl:text>
     </xsl:template>
     
     <!-- make marginal additions centered and smaller -->
@@ -228,7 +228,7 @@
     <xsl:template match="pb">
         <xsl:text>&#x0A;&lt;p class="small centered"&gt; [Page: </xsl:text>
         <xsl:value-of select="@n"/>
-        <xsl:text>&#160;] &lt;/p&gt;&#x0A;&#x0A;</xsl:text>
+        <xsl:text>] &lt;/p&gt;&#x0A;&#x0A;</xsl:text>
     </xsl:template>
 
     <!-- data balloons for names of people and places -->
@@ -260,7 +260,7 @@
         <xsl:value-of select="@ref"/>
         <xsl:text>&apos;&gt;</xsl:text>
         <xsl:value-of select="."/>
-        <xsl:text>&lt;/a&gt;&#160;</xsl:text>
+        <xsl:text>&lt;/a&gt;</xsl:text>
         <xsl:text>&lt;/button&gt;</xsl:text>
     </xsl:template>
 
