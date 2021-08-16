@@ -219,9 +219,9 @@
     
     <!-- render pre-printed text as monotype (this picks up stuff defined in _ed.scss) -->
     <xsl:template match="ab[@type = 'pre-printed'] | ab[@type = 'postmark']">
-        <xsl:text>&lt;span class="pre-printed centered"&gt;</xsl:text>
+        <xsl:text>&lt;p class="pre-printed centered"&gt;</xsl:text>
         <xsl:apply-templates/>
-        <xsl:text>&lt;/span&gt;</xsl:text>
+        <xsl:text>&lt;/p&gt;</xsl:text>
     </xsl:template>
 
     <!-- add page numbers -->

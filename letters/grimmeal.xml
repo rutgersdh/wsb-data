@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="grimmeal">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Grimme, August L.</title>
+				<respStmt>
+					<resp>Transcription and encoding by</resp>
+					<name xml:id="eb"> Eden Biskin </name>
+				</respStmt>
+				<principal xml:id="fg"> Francesca Giannetti </principal>
+			</titleStmt>
+			<extent>21 p.</extent>
+			<publicationStmt>
+				<publisher>Rutgers University Libraries</publisher>
+				<distributor> Rutgers Community Repository (RUcore) URL:
+					https://rucore.libraries.rutgers.edu </distributor>
+				<availability>
+					<p>No Known Copyright</p>
+				</availability>
+				<authority>Transcribed from digital files available in RUcore</authority>
+				<idno type="URI">https://doi.org/doi:10.7282/T3J105W4</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>Special Collections and University Archives, Rutgers University
+							Libraries</repository>
+						<collection>Rutgers College. War Service Bureau. Records,
+							1917-1919</collection>
+						<idno>RG 33/C0/01</idno>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<correspDesc xml:id="grimmeal_01">
+				<correspAction type="sent">
+					<persName>August L. Grimme</persName>
+					<placeName ref="#leaside-aerodrome"/>
+					<date notAfter="1917-09-06">September 1917</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>William E. Grimme</persName>
+					<placeName ref="#william-grimme-home" />
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="grimmeal_02">
+				<correspAction type="sent">
+					<persName>George Grimme</persName>
+					<placeName ref="#grimme-home"/>
+					<date when="1917-10-28">October 28, 1917</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>Earl Reed Silvers</persName>
+					<placeName ref="#van-nest-hall"/>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="grimmeal_03">
+				<correspAction type="sent">
+					<persName>August L. Grimme</persName>
+					<placeName ref="#camp-hicks"/>
+					<date when="1917-11-22">November 22, 2017</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>Earl Reed Silvers</persName>
+					<placeName ref="#van-nest-hall"/>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="grimmeal_04">
+				<correspAction type="sent">
+					<persName>August L. Grimme</persName>
+					<placeName ref="#castle-bromwich-aerodrome" cert="low"/>
+					<date when="1918-04-25">April 25, 1918</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>Earl Reed Silvers</persName>
+					<placeName ref="#van-nest-hall"/>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="grimmeal_05">
+				<correspAction type="sent">
+					<persName>Earl Reed Silvers</persName>
+					<placeName ref="#van-nest-hall"/>
+					<date when="1918-05-13">May 13, 1918</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>August L. Grimme</persName>
+					<placeName ref="#seligman-london"/>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="grimmeal_06">
+				<correspAction type="sent">
+					<persName>August L. Grimme</persName>
+					<placeName ref="#castle-bromwich-aerodrome" cert="low"/>
+					<date when="1918-05-12">May 12, 1918</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>Bertha Alice von Elbing</persName>
+					<placeName ref="#grimme-home"/>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="grimmeal_07">
+				<correspAction type="sent">
+					<persName>Frederick G. Grimme</persName>
+					<placeName ref="#frederick-grimme-work"/>
+					<date when="1918-06-06">June 6, 1918</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>Earl Reed Silvers</persName>
+					<placeName ref="#van-nest-hall"/>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="grimmeal_08">
+				<correspAction type="sent">
+					<persName>Earl Reed Silvers</persName>
+					<placeName ref="#van-nest-hall"/>
+					<date when="1918-06-18">June 18, 1918</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>Frederick G. Grimme</persName>
+					<placeName ref="#frederick-grimme-work"/>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="grimmeal_09">
+				<correspAction type="sent">
+					<persName>George Grimme</persName>
+					<placeName ref="#grimme-home"/>
+					<date when="1918-07-25">July 25, 1918</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>Earl Reed Silvers</persName>
+					<placeName ref="#van-nest-hall"/>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="grimmeal_10">
+				<correspAction type="sent">
+					<persName>George Grimme</persName>
+					<placeName ref="#grimme-home"/>
+					<date when="1918-08-13">August 13, 1918</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>Earl Reed Silvers</persName>
+					<placeName ref="#van-nest-hall"/>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="grimmeal_11">
+				<correspAction type="sent">
+					<persName>Colin W. G. Gibson</persName>
+					<placeName ref="#british-embassy"/>
+					<date when="1919-03-10">March 10, 1919</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>August L. Grimme</persName>
+					<placeName ref="#grimme-home" cert="medium"/>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2020-12-07" who="#fg">Started edited Eden's encodings.</change>
+			<change when="2021-08-16" who="#fg">Finished editing Eden's letters. Added correspDesc and listPlace elements.</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="letter" decls="#grimmeal_01">
+				<pb n="2"/>
+				<opener>
+					<add>From First Lieutenant <persName key="Grimme, August Louis" from="1895" to="1959" role="First Lieutenant, Air Service" ref="https://www.familysearch.org/ark:/61903/1:1:QPRY-4FLZ"> August L. Grimme '19</persName></add>
+					<dateline><date notAfter="1917-09-06">September 1917.</date></dateline>
+					<salute><supplied>Dear <persName key="Grimme, William Elbing" from="1885" to-iso="19--" role="Brother to August (Gustav) Grimme">Will</persName>-</supplied></salute>
+				</opener>
+				<p> I have good eats, good quarters, and a good time <seg xml:id="fn1">flying</seg><note type="annotation" target="#fn1"><p>1st Lt. Grimme would
+							be assigned to the United States Army Air Service, the
+							precursor to the present-day Air Force, established in 1918.</p><ref target="https://www.google.com/books/edition/U_S_Air_Services/Usc7AAAAMAAJ">U.S. Air Service, vol. 5, no. 5</ref></note>. Went up this morning for a
+					two-hour joy ride; went burning all over the country. It's wonderful, the
+					distance one can cover in a flying machine. Was up about 7000 feet this morning.
+					It was so clear that I could see the opposite side of the lake and got a glimpse
+					of United States soil. It sure did look good, even so far away. </p>
+				<p> Have been posted to the Ninety-first Squadron this evening. Haven't any more
+					time for joy rides. I was doing artillery observation this evening; it was my
+					fifty-seventh time up; have done about twenty-nine hours of "solo-flying" - did
+					three and a half to-day. </p>
+				<p> I have had three crashes, but they don't bother me in the least. Came down in a
+					spiral nose dive a couple of weeks ago at a rate of about 150 miles an hour, but
+					managed to nose the machine up again before it hit the ground - came within
+					about fifteen yards of the earth. <seg xml:id="fn2">"<sic>Hungary</sic>
+						Lizzie"</seg><note target="#fn2" type="annotation">
+						<p>Grimme was training at a pilot training camp in Leaside, North Toronto,
+					Canada. Hungry Lizzie, the ambulance of the Royal Flying Corps, would have been stationed at the edge of the airfield during flying hours.</p></note><!-- "Hungry Lizzie" (https://www.flickr.com/photos/deserontoarchives/3722205815/) -->
+					(the ambulance) came chasing across the field, but got fooled. We have a peach of an ambulance; it is a big white Packard with a regular hospital inside. </p>
+				<p> I will probably leave camp shortly, having <sic>complete</sic> my course here,
+					and will go back to the University of Toronto for the school of aeronautics.
+					Will be there three weeks, and then go to <placeName key="Camp Borden, Ontario, Canada" ref="https://geohack.toolforge.org/geohack.php?params=44_16_18_N_079_54_45_W">Camp Borden</placeName> for aerial gunnery and photography. This latter
+					course is a three weeks' course; and then I'm through and ready for my
+					commission. We have tests and examinations as we go along. Passed my
+					instructor's flying test the other day. </p>
+				<p><supplied>I tell you what you could send me-the Newark Evening News. I seldom see a states paper, and then it is from New York, Chicago, Detroit, Washington, San Francisco or some other town, but never Newark.</supplied></p>
+			</div>
+
+			<div type="letter" decls="#grimmeal_02">
+				<pb n="3"/>
+				<div type="recto">
+				<ab type="postmark">
+					NEWARK, N.J. <lb/>
+					<date when="1917-10-29">OCT 29 <lb/> 10-AM <lb/> 1917</date>
+				</ab> <lb/>
+				<ab>
+					<address>
+						<addrLine>EARL REED SILVERS</addrLine>
+						<addrLine><placeName key="Rutgers Alumni House, New Brunswick, NJ" ref="https://geohack.toolforge.org/geohack.php?params=40_29_55_N_74_26_49_W">ALUMNI HOUSE</placeName></addrLine>
+						<addrLine>NEW BRUNSWICK, N.J.</addrLine>
+					</address>
+				</ab>
+			</div>
+				<pb n="4"/>
+				<div type="verso">
+				<opener>
+					<date when="1917-10-28">Oct. 28, 1917.</date>
+					<salute>Dear Sir:-</salute>
+				</opener>
+				<p>Kindly pardon delay in answering your communication but it was unavoidable.</p>
+
+					<p> August L. Grimme, '18, is stationed at <placeName key="Hicks Field, Fort Worth, TX" ref="https://www.wikidata.org/wiki/Q14710494">Camp Hicks, Fort Worth, Texas</placeName>
+					in the 22<hi rend="superscript">nd</hi> U.S. Aero Squadron. </p>
+
+				<closer>
+					<salute>Yours truly,</salute><lb/>
+					<signed><persName key="Grimme, George" role="Father of August (Gustav) Grimme" from="1855" to="1925" ref="https://www.familysearch.org/tree/person/details/KHXY-2MG">George Grimme</persName></signed>
+				</closer>
+			</div>
+			</div>
+			<div type="letter" decls="#grimmeal_03">
+				<pb n="5"/>
+				<div type="recto">
+				<ab type="postmark">
+					FORT WORTH, TEXAS <lb/> <date when="1917-12-01">DEC 1 <lb/> 4<hi rend="superscript">30</hi> PM <lb/> 1917</date>
+				</ab> <lb/>
+				<ab>
+					<address style="text-align: center;">
+						<addrLine>EARL REED SILVERS</addrLine>
+						<addrLine>ALUMNI HOUSE</addrLine>
+						<addrLine>NEW BRUNSWICK, N.J.</addrLine>
+					</address>
+				</ab>
+				</div>
+				<pb n="6"/>
+				<div type="verso">
+				<opener>
+					<dateline><date when="1917-11-22">11/22/17</date></dateline>
+					<salute>Dear Mr. Silvers</salute>
+				</opener>
+
+				<p> I have the pleasure of announcing the correction in my address from plain August L. Grimme to Lieut.
+					August L. Grimme 22nd U.S. Aero Squadron, Camp Hicks, Fort Worth Tx.
+				</p>
+
+				<closer>
+					<salute>Sincerely,</salute><lb/>
+					<signed>Lt. A.L. Grimme.</signed>
+				</closer>
+			</div>
+			</div>
+
+			<div type="letter" decls="#grimmeal_04">
+				<pb n="7"/>
+				<note type="letterhead">
+						<p>U.S.A.</p>
+						<p>22<hi rend="superscript">nd</hi> AERO SQUADRON</p>
+				</note>
+				<opener>
+					<dateline>England, <date when="1918-04-25">April 25, 1918</date>.</dateline>
+					<salute>Dear Mr. Silvers,</salute>
+				</opener>
+
+				<p> Allow me to add my appreciation of the work you and your Bureau are doing. It
+					was a fine idea and has proved a success, for once a Rutgers man, always a
+					Rutgers man. Have read the January number of the Alumni
+						Quarterly from cover to cover and am
+					anxiously looking forward to the next number. No doubt my copy of this cherished
+					magazine is not the only one to receive this treatment. </p>
+
+				<p> An American cadet tells me of <pb n="8"/> having come across <persName key="Gaipa, Alfred August" from="1890" to="1980" role="First lieutenant, Air Service" ref="http://kenlew.com/collections/Rutgers/programs/RutgersClassDayJune1914/">Al Gaipa</persName>, of the Class of 1914, who is aviating as a cadet here
+					in England. Would like to come across him and have a pow-wow about the Home of
+					the Scarlet. I am now located at a flying school in the Midlands of England
+					where I have undergone a course of instruction on the type of machine which I 
+					<sic>ex-pect</sic> to fly in France. Am going to another camp to receive a bit more training before going to the front. </p>
+
+				<p> Although I am shifting around so much, mail will reach me if addressed c/o
+						<placeName key="18 Austin Friars, London, UK" ref="https://geohack.toolforge.org/geohack.php?params=51_30_57_N_0_5_10_W">Seligman Bros., <pb n="9"/> 18 August Friars, London, E.C.</placeName> who
+					are very kindly forwarding my mail wherever I may be sent. </p>
+
+				<p> Here's hoping the next Alumni Quarterly will soon be here and that the next
+					weekly letter will contain continued good news of the Alma Mater. </p>
+
+				<closer>
+					<salute>Sincerely</salute><lb/>
+					<signed>August L. Grimme '18</signed>
+				</closer>
+			</div>
+
+			<div type="letter" decls="#grimmeal_05">
+				<pb n="12"/>
+				<opener>
+					<dateline><date when="1918-05-13">May 13, 1918.</date></dateline>
+					<address style="text-align: left;">
+						<addrLine>August L. Grimme,</addrLine>
+						<addrLine><placeName key="18 Austin Friars, London, UK">18 Austin
+								Friars</placeName>,</addrLine>
+						<addrLine>London, E.C.</addrLine>
+					</address>
+					<salute>Dear Mr. Grimme:</salute>
+				</opener>
+
+				<p> Thank you very much for you letter of April 26th. I have been trying to get
+					track of you for some time but have not succeeded and am surely glad to get
+					track of you again. Best wishes and good luck. </p>
+
+				<closer>
+					<salute>Very sincerely yours,</salute><lb/>
+					<signed>Director<lb/>ERS/H</signed>
+				</closer>
+			</div>
+
+			<div type="letter" decls="#grimmeal_06">
+				<pb n="13"/>
+				<opener>
+					<add>From Lieut. August L. Grimme, '18.</add>
+						
+					<dateline>England, <lb/><date when="1918-05-12">May 12, 1918.</date></dateline>
+					<salute>Dearest <persName key="Von Elbing, Bertha Alice" from="1857" to="1919" role="Mother of August (Gustav) Grimme" ref="https://www.familysearch.org/tree/person/details/KZBV-TF1">Mother</persName>:-</salute>
+				</opener>
+
+				<p> The following telegram has been sent by our Commander in Chief, General Pershing: "<quote>All commanding
+						officers ask that every officer and soldier of the <seg xml:id="fn4">American Expeditionary Forces</seg><note type="gloss" target="#fn4"><p>The AEF comprised the United States' troops who fought on the
+								Western Front.</p><ref target="https://www.loc.gov/collections/stars-and-stripes/articles-and-essays/a-world-at-war/american-expeditionary-forces/">Library of Congress</ref></note> would write a letter home on
+						Mother's day. This is a little thing for one to do, but these letters will
+						carry back our courage and our affection to the patriotic women whose love
+						and prayers inspire us and cheer us to victory.</quote>" </p>
+
+				<p>&#9;&#9;&#9;&#9;&#9;Pershing.</p>
+
+				<p> Today is Mother's day and a good opportunity to write you and say how much I
+					think of home and you. But every day is <pb n="14"/> Mother's day for me. I will
+					soon be in France. The thought of you will give me added courage and the
+					knowledge that I cannot come home until the message of victory comes with me.
+				</p>
+			</div>
+
+			<div type="letter" decls="#grimmeal_07">
+				<pb n="15"/>
+				<note type="letterhead">
+					<address>
+						<addrLine>FREDERICK G. GRIMME</addrLine>
+						<addrLine>ATTORNEY AND COUNSELLOR AT LAW</addrLine>
+						<addrLine><placeName key="165 Broadway, New York, NY" ref="https://geohack.toolforge.org/geohack.php?params=40_42_35_N_74_00_39_W">165 BROADWAY</placeName></addrLine>
+						<addrLine>NEW YORK</addrLine>
+					</address>
+				</note>
+				<opener>
+					<dateline><date when="1918-06-06">June 6th, 1918.</date></dateline>
+					<address style="text-align: left;">
+						<addrLine>Mr. Earl Reed Silvers,</addrLine>
+						<addrLine>Managing Editor,</addrLine>
+						<addrLine>Rutgers Alumni Quarterly,</addrLine>
+						<addrLine>New Brunswick, N.J.</addrLine>
+					</address>
+					<salute>My dear Sir:</salute>
+				</opener>
+
+				<p> My Father asked me to acknowledge the receipt of your letter of May 17th, and to
+					state that he would be very glad to receive a copy of your Quarterly. </p>
+				<p> He has asked me also to send you extracts from my brother's letters written from
+					Abroad. In his last communication, he states, that upon its receipt he would be
+					in France. Undoubtedly at this writing he is at the Front, and I am certain, one
+					of the many Rutgers' boys who are upholding the best traditions of their Alma
+					Mater. </p>
+
+				<closer>
+					<salute>Yours very truly,</salute><lb/>
+					<signed><persName key="Grimme, Frederick George" from="1884" to="1925" role="Lawyer, brother of August (Gustav) Grimme">Frederick G. Grimme.</persName>
+					<lb/>FGG HGP <lb/>Enc.</signed>
+				</closer>
+			</div>
+
+			<div type="letter" decls="#grimmeal_08">
+				<pb n="16"/>
+				<opener>
+					<dateline><date when="1918-06-18">June 18,<lb/>1 9 1 8.</date></dateline>
+					<address style="text-align: left;">
+						<addrLine>Mr. Frederick G. Grimme</addrLine>
+						<addrLine>165 Broadway,</addrLine>
+						<addrLine>New York, N.Y.</addrLine>
+					</address>
+					<salute>My dear Mr. Grimme:</salute>
+				</opener>
+
+				<p> I make this tardy acknowledgement of your kind letter of June 6th containing
+					letters from your brother. We appreciate your kindness in sending them and shall
+					return them to you as soon as we possibly can have copies made. They have
+					arrived too late for the July issue of the Quarterly but we are saving them and
+					shall print them in the October number. </p>
+
+				<closer>
+					<salute>Very truly yours,</salute><lb/>
+					<signed><persName key="Silvers, Earl Reed" from="1891" to="1948" role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378">ERS/W</persName></signed>
+				</closer>
+			</div>
+
+			<div type="letter" decls="#grimmeal_09">
+				<pb n="17"/>
+				<ab type="postmark">
+					NEWARK, N.J. <lb/> <date when="1918-07-25">JUL 25 <lb/> 1 PM <lb/> 1918</date>
+				</ab> <lb/>
+				<ab>
+					<address style="text-align: center;">
+						<addrLine>Earl Reed Silvers</addrLine>
+						<addrLine>Rutgers College</addrLine>
+						<addrLine>New Brunswick, N.J.</addrLine>
+					</address>
+				</ab>
+
+				<pb n="18"/>
+				<ab>
+					<date when="1918-07-25">July 25, 1918</date>
+					Dear sir;-
+				</ab>
+
+				<p> The present address of August L Grimme is <placeName key="Bergues, France" ref="https://geohack.toolforge.org/geohack.php?params=50.9692_N_2.435_E">#217 Squadron, 61st. Wing. R A F., France</placeName>. The person to
+					communicate with concerning him is, his Father, <persName key="Grimme, George" role="Father of August (Gustav) Grimme" from="1855" to="1925" ref="https://www.familysearch.org/tree/person/details/KHXY-2MG">George Grimme</persName>, <placeName key="75 Belmont Avenue, Newark, NJ" ref="https://geohack.toolforge.org/geohack.php?params=40_43_56_N_74_11_20_W">75 Belmont Ave., Newark, N. J.</placeName> or <placeName key="1045 Sanford Avenue, Irvington, NJ" ref="https://geohack.toolforge.org/geohack.php?params=40_43_35_N_74_14_29_W">1045 Sanford Ave Irvington N.J.</placeName>
+				</p>
+
+				<closer>
+					<salute>Yours very truly,</salute><lb/>
+					<signed>George Grimme</signed>
+				</closer>
+				<postscript><p> Sorry I could not answer your communication before today. Received a letter from
+					my son today with the above new address. </p></postscript>
+			</div>
+
+			<div type="letter" decls="#grimmeal_10">
+				<pb n="19"/>
+				<ab type="stamp">Geo. Grimme</ab> <lb/>
+				<ab type="postmark">NEWARK, N.J. <lb/> <date when="1918-08-13">AUG 13 <lb/> 12<hi rend="superscript">30</hi> PM <lb/>
+					1918</date></ab> <lb/>
+				<ab type="pre-printed">THIS SIDE OF CARD IS FOR ADDRESS</ab> <lb/>
+				<ab>
+					<address style="text-align: center;">
+						<addrLine>Mr Earl Reed Silvers</addrLine>
+						<addrLine>Rutgers College</addrLine>
+						<addrLine>New Brunswick NJ</addrLine>
+					</address>
+				</ab>
+
+				<pb n="20"/>
+				<ab>
+					<address style="text-align: right;">
+						<addrLine><placeName key="1045 Sanford Avenue, Irvington, NJ" ref="https://geohack.toolforge.org/geohack.php?params=40_43_35_N_74_14_29_W">1045 Sanford
+								ave Irvington NJ.</placeName></addrLine>
+					</address> <lb/>
+					Dear Sir
+				</ab> <lb/>
+
+				<p> Your communication to my son August I have sent to his new address "<lb/>
+					August L Grimme 1st Lieutenant Sig. R C.
+					U.S <lb/> 217<hi rend="superscript">th</hi> Squadron 61<hi rend="superscript">th</hi> Wing R.A.F.<lb/>
+					France "<lb/> and requested him to answer your questions at once. </p>
+				<closer>
+					<salute>Yours truly,</salute><lb/>
+					<signed>George Grimme</signed>
+				</closer>
+			</div>
+
+			<div type="letter" decls="#grimmeal_11">
+				<pb n="21"/>
+				<note type="letterhead">
+					<seg xml:id="fn3">RUTGERS COLLEGE</seg>
+					<note type="annotation" target="#fn3"><p>This appears to be a typewritten copy of an original letter that was not kept in Silvers's files.</p></note> <lb/> NEW BRUNSWICK, NEW JERSEY
+				</note>
+				<opener>
+					<address style="text-align: right;">
+						<addrLine>The Military Attache</addrLine>
+						<addrLine><placeName key="3100 Massachusetts Avenue NW, Washington, DC" ref="https://geohack.toolforge.org/geohack.php?params=38_55_11_N_77_03_40_W">B<del type="overstrike">e</del><add>r</add>itish Embassy</placeName></addrLine>
+						<addrLine>Washington, D.C.</addrLine>
+					</address>
+					<date when="1919-03-10">10th March, 1919</date>
+					<salute>Dear Mr. Grimme,</salute>
+				</opener>
+
+				<p> I am glad to say that I have been able to find out for you the date the London
+					Gazette in which your name was mentioned for <sic>distinguish</sic> service. It
+					appeared in the London Gazette dated January 1st, 1919 and was as follows:- </p>
+				<p>
+					<quote> "Officers of the Royal Air Force who have been mentioned in dispatches
+						for distinguished service in War Areas:-- 1st Lieut. August L. Grimme
+						(U.S.A. Air Service attd R.A.F. Flanders)." </quote><ref target="https://www.thegazette.co.uk/London/issue/31098/supplement/101">London Gazette, Issue 31098, Supplement 101</ref>
+				</p>
+				<p> A copy of this Gazette may be obtained from the printers Messrs. Wyman &amp;
+					Sons, Ltd., Fetter Lane, London, E.C. 4 England, at the price of four pence. (8
+					pence) </p>
+			
+			<closer>
+				<salute>Yours sincerely,</salute><lb/>
+				<signed><persName key="Gibson, Colin William George" from="1891" to="1974" role="Assistant Military Attaché, British Embassy" ref="http://www.canadaveteranshallofvalour.com/GibsonCWG.htm">C.W.E. Gibson</persName><lb/> Captain<lb/> Assistant Military Attache</signed>
+			</closer>
+			</div>
+		</body>
+		<back>
+			<listPlace>
+				<place xml:id="leaside-aerodrome">
+					<placeName>Leaside, Toronto, Canada</placeName>
+					<location>
+						<geo>43.713589 -79.364792</geo>
+					</location>
+					<note>The newspaper clipping in Grimme's file appears to make a mistake with the name of the location. The aerodrome where Grimme was training would have been in Leaside according to <ref target="http://www.rcaf-arc.forces.gc.ca/en/history-heritage/royal-flying-corps-canada/timeline.page#a-1917">A brief timeline of military aviation training in Canada</ref>.</note>
+				</place>
+				<place xml:id="william-grimme-home">
+					<placeName>61 Richelieu Terrace, Newark, NJ</placeName>
+					<location>
+						<geo>40.7435319 -74.2342885</geo>
+					</location>
+				</place>
+				<place xml:id="camp-borden">
+					<placeName>Camp Borden, Ontario, Canada</placeName>
+					<location>
+						<geo>44.271667 -79.9125</geo>
+					</location>
+				</place>
+				<place xml:id="van-nest-hall">
+					<placeName>Rutgers Alumni House, New Brunswick, NJ</placeName>
+					<location>
+						<geo>40.498611 -74.446944</geo>
+					</location>
+				</place>
+				<place xml:id="camp-hicks">
+					<placeName>Hicks Field, Fort Worth, TX</placeName>
+					<location>
+						<geo>32.912222 -97.401389</geo>
+					</location>
+				</place>
+				<place xml:id="castle-bromwich-aerodrome">
+					<placeName>22nd Aero Squadron</placeName>
+					<location>
+						<geo>52.517222 -1.786667</geo>
+					</location>
+					<note>According to <title>Gorrell's History of the American Expeditionary Forces Air Service, 1917-1919</title>, the men of the 22nd Aero Squadron landed in Liverpool, England on February 16, 1918 and proceeded to American rest camps at Romsey. "The pilots were sent to various training schools in England while the enlisted personnel, under the administrative officers went to Dunkerque... No records are available at present to follow the course of the pilots. (p. 4)" Given Grimme's mention of the Midlands, he could have been sent to any of several places to train, including: Royal Air Force Shawbury, Castle Bromwich Aerodrome, Coventry/Radford Aerodrome, Ansty, Whitley, Elmdon, RAF Libourne. Bromwich is a guess, based on the fact that another American unit trained here. See <ref target="http://www.aviationarchaeology.org.uk/marg/flying_units.htm">Military flying units in the south west Midlands</ref> </note>
+				</place>
+				<place xml:id="seligman-london">
+					<placeName>18 Austin Friars, London, UK</placeName>
+					<location>
+						<geo>51.515871 -0.0867675</geo>
+					</location>
+				</place>
+				<place xml:id="frederick-grimme-work">
+					<placeName>165 Broadway, New York, NY</placeName>
+					<location>
+						<geo>40.7096195 -74.0110556</geo>
+					</location>
+				</place>
+				<place xml:id="bergues">
+					<placeName>Bergues, France</placeName>
+					<location>
+						<geo>50.9692 2.435</geo>
+					</location>
+				</place>
+				<place xml:id="grimme-work">
+					<placeName>75 Belmont Avenue, Newark, NJ</placeName>
+					<location>
+						<geo>40.732222 -74.188889</geo>
+					</location>
+					<note>Belmont Avenue was changed to Irvine Turner Boulevard.</note>
+				</place>
+				<place xml:id="grimme-home">
+					<placeName>1045 Sanford Avenue, Irvington, NJ</placeName>
+					<location>
+						<geo>40.726389 -74.241389</geo>
+					</location>
+				</place>
+				<place xml:id="british-embassy">
+					<placeName>3100 Massachusetts Avenue NW, Washington, DC</placeName>
+					<location>
+						<geo>38.919722 -77.061111</geo>
+					</location>
+				</place>
+			</listPlace>
+		</back>
+	</text>
+</TEI>
