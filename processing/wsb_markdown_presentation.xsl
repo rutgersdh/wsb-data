@@ -207,7 +207,7 @@
     <xsl:template match="sic">
         <xsl:text>*</xsl:text>
         <xsl:apply-templates/>
-        <xsl:text>* &#160;[sic]</xsl:text>
+        <xsl:text>* [sic]</xsl:text>
     </xsl:template>
     
     <!-- make marginal additions centered and smaller -->
@@ -217,11 +217,38 @@
         <xsl:text>&lt;/p&gt;</xsl:text>
     </xsl:template>
     
-    <!-- render pre-printed text as monotype (this picks up stuff defined in _ed.scss) -->
-    <xsl:template match="ab[@type = 'pre-printed'] | ab[@type = 'postmark']">
+    <!-- render postmarks as monotype (this picks up stuff defined in _ed.scss) -->
+    <xsl:template match="ab[@type = 'postmark']">
         <xsl:text>&lt;p class="pre-printed centered"&gt;</xsl:text>
         <xsl:apply-templates/>
         <xsl:text>&lt;/p&gt;</xsl:text>
+    </xsl:template>
+    <!-- render pre-printed forms using span because handwriting usually follows and I don't want to start a newline when that happens -->
+    <xsl:template match="ab[@type = 'pre-printed']">
+        <xsl:text>&lt;span class="pre-printed"&gt;</xsl:text>
+        <xsl:apply-templates/>
+        <xsl:text>&lt;/span&gt;</xsl:text>
+    </xsl:template>
+    
+    <!-- justify addresses correctly -->
+    <xsl:template match="address">
+        <xsl:choose>
+            <xsl:when test='@style="text-align: right;"'>
+                <xsl:text>&lt;p class="right"&gt;</xsl:text>
+                <xsl:apply-templates/>
+                <xsl:text>&lt;/p&gt;</xsl:text>
+            </xsl:when>
+            <xsl:when test='@style="text-align: center;"'>
+                <xsl:text>&lt;p class="centered"&gt;</xsl:text>
+                <xsl:apply-templates/>
+                <xsl:text>&lt;/p&gt;</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:text>&lt;p class="left"&gt;</xsl:text>
+                <xsl:apply-templates/>
+                <xsl:text>&lt;/p&gt;</xsl:text> 
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
 
     <!-- add page numbers -->

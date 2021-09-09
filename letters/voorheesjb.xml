@@ -223,7 +223,7 @@
                         <date when="1918-04-20">April 20, 1918.</date>
                     </dateline>
                     <salute>My dear <persName key="Voorhees, Ralph Spencer Jr." cert="low"
-                            from-iso="189-" to-iso="19--" role="Sargeant, Medical Department"
+                        from="1897" to="1987" role="Sergeant, Medical Department"
                             ref="https://doi.org/doi:10.7282/T3RB77D9">Ralph</persName>:</salute>
                 </opener>
 
@@ -697,7 +697,7 @@
                 <place xml:id="paris-ymca">
                     <placeName>12 rue d'Aguesseau, Paris, France</placeName>
                     <location>
-                        <geo>48.870338 2.319580</geo>
+                        <geo>48.870355 2.319577</geo>
                     </location>
                 </place>
                 <place xml:id="base-hospital-20">

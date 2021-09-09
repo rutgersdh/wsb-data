@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="groendykejw">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Groendyke, Jacob W.</title>
+				<respStmt>
+					<resp>Transcription and encoding by</resp>
+					<name xml:id="eb"> Eden Biskin </name>
+				</respStmt>
+				<principal xml:id="fg"> Francesca Giannetti </principal>
+			</titleStmt>
+			<extent>26 p.</extent>
+			<publicationStmt>
+				<publisher>Rutgers University Libraries</publisher>
+				<distributor> Rutgers Community Repository (RUcore) URL:
+					https://rucore.libraries.rutgers.edu </distributor>
+				<availability>
+					<p>No Known Copyright</p>
+				</availability>
+				<authority>Transcribed from digital files available in RUcore</authority>
+				<idno type="URI">https://doi.org/doi:10.7282/T3D79F4T</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>Special Collections and University Archives, Rutgers University
+							Libraries</repository>
+						<collection>Rutgers College. War Service Bureau. Records,
+							1917-1919</collection>
+						<idno>RG 33/C0/01</idno>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<correspDesc xml:id="groendykejw_01">
+				<correspAction type="sent">
+					<persName>Jacob W. Groendyke</persName>
+					<placeName ref="#groendyke_home"/>
+					<date when="1917-08-05">August 5, 1917</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>Earl Reed Silvers</persName>
+					<placeName ref="#rutgers"/>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="groendykejw_02">
+				<correspAction type="sent">
+					<persName>Earl Reed Silvers</persName>
+					<placeName ref="#rutgers"/>
+					<date when="1917-09-06">September 6, 1917</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>Jacob W. Groendyke</persName>
+					<placeName ref="#groendyke_home"/>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="groendykejw_03">
+				<correspAction type="sent">
+					<persName>Jacob W. Groendyke</persName>
+					<placeName ref="#camp-dix"/>
+					<date when="1917-10-31">October 31, 1917</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>Earl Reed Silvers</persName>
+					<placeName ref="#rutgers"/>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="groendykejw_04">
+				<correspAction type="sent">
+					<persName>Earl Reed Silvers</persName>
+					<placeName ref="#rutgers"/>
+					<date when="1917-11-01">November 1, 1917</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>Jacob W. Groendyke</persName>
+					<placeName ref="#camp-dix"/>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="groendykejw_05">
+				<correspAction type="sent">
+					<persName>Jacob W. Groendyke</persName>
+					<placeName ref="#camp-dix"/>
+					<date when="1917-11-11">November 11, 1917</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>Earl Reed Silvers</persName>
+					<placeName ref="#rutgers"/>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="groendykejw_06">
+				<correspAction type="sent">
+					<persName>Jacob W. Groendyke</persName>
+					<placeName ref="#camp-dix"/>
+					<date when="1918-05-18">May 18, 2018</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>Earl Reed Silvers</persName>
+					<placeName ref="#rutgers"/>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="groendykejw_07">
+				<correspAction type="sent">
+					<persName>Jacob W. Groendyke</persName>
+					<placeName ref="#washington-dc"/>
+					<date when="1918-06-08">June 8, 2018</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>Earl Reed Silvers</persName>
+					<placeName ref="#rutgers"/>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="groendykejw_08">
+				<correspAction type="sent">
+					<persName>Jacob W. Groendyke</persName>
+					<placeName ref="#oudezeele"/>
+					<date when="1918-07-08">July 8, 2018</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>Earl Reed Silvers</persName>
+					<placeName ref="#rutgers"/>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="groendykejw_09">
+				<correspAction type="sent">
+					<persName>Jacob W. Groendyke</persName>
+					<placeName ref="#oudezeele"/>
+					<date when="1918-07-05">July 5, 2018</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>Jacob J. Groendyke</persName>
+					<placeName ref="#groendyke_home"/>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="groendykejw_10">
+				<correspAction type="sent">
+					<persName>Earl Reed Silvers</persName>
+					<placeName ref="#rutgers"/>
+					<date when="1918-07-31">July 31, 1918</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>Jacob W. Groendyke</persName>
+					<placeName ref="#oudezeele"/>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="groendykejw_11">
+				<correspAction type="sent">
+					<persName>Jacob W. Groendyke</persName>
+					<placeName ref="#langres"/>
+					<date when="1918-10-01">October 1, 2018</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>Earl Reed Silvers</persName>
+					<placeName ref="#rutgers"/>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="groendykejw_12">
+				<correspAction type="sent">
+					<persName>Howard H. Groendyke</persName>
+					<placeName ref="#groendyke_home"/>
+					<date when="1918-10-17">October 17, 2018</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>Earl Reed Silvers</persName>
+					<placeName ref="#rutgers"/>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="groendykejw_13">
+				<correspAction type="sent">
+					<persName>Earl Reed Silvers</persName>
+					<placeName ref="#rutgers"/>
+					<date when="1918-10-30">October 30, 1918</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>Howard H. Groendyke</persName>
+					<placeName ref="#groendyke_home"/>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="groendykejw_14">
+				<correspAction type="sent">
+					<persName>Earl Reed Silvers</persName>
+					<placeName ref="#rutgers"/>
+					<date when="1918-03-28">March 28, 1919</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>Jacob W. Groendyke</persName>
+					<placeName ref="#groendyke_home"/>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="groendykejw_15">
+				<correspAction type="sent">
+					<persName>Earl Reed Silvers</persName>
+					<placeName ref="#rutgers"/>
+					<date when="1918-05-23">May 23, 1919</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>Jacob J. Groendyke</persName>
+					<placeName ref="#groendyke_home_2"/>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="groendykejw_16">
+				<correspAction type="sent">
+					<persName>Earl Reed Silvers</persName>
+					<placeName ref="#rutgers"/>
+					<date when="1918-06-13">June 13, 1919</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>Jacob J. Groendyke</persName>
+					<placeName ref="#groendyke_home_2"/>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change who="#eb" when="2020-12-01">First pass at encoding letter anthology.</change>
+			<change who="#fg" when="2021-09-08">Finished encoding anthology. Added correspDesc and listPlace elements.</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="letter" decls="#groendykejw_01">
+				<pb n="1"/>
+				<opener>
+					<address style="text-align: right;">
+						<addrLine><placeName key="139 Wakeman Avenue, Newark, NJ" ref="https://geohack.toolforge.org/geohack.php?params=40_45_59_N_74_9_59_W">139 Wakeman Ave.</placeName></addrLine>
+						<addrLine>Newark N.J.</addrLine>
+					</address>
+					<dateline><date when="1917-08-05">August 5.</date></dateline>
+					<salute>Mr. <persName key="Silvers, Earl Reed" from="1891" to="1948" role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378">Earl R.
+						Silvers</persName>,</salute>
+				</opener>
+
+				<p> In reply to your query received today: I am drafted in Division No. 8, City of
+					Newark. </p>
+				<p> I'll be glad if you can do anything toward getting me placed in a department
+					where I will fit. I of course expect to gain some preference on account of
+					having had training in tactics and rifle range work and am wondering if a letter from Lieut. <persName key="Ahrends, Arthur Emmett" from="1879" to="1951" role="Lieutenant Colonel, 29th Infantry">Ahrends</persName> would be of any value. If you believe it would and know where he is stationed I'd be glad to
+					hear from you. </p>
+
+				<closer>
+					<salute>With best personal regards, I am<lb/> very truly yours,</salute><lb/>
+					<signed><persName key="Groendyke, Jacob Walter" from="1891" to="1973" role="First Lieutenant, Infantry">Jacob W Groendyke</persName>.</signed>
+				</closer>
+			</div>
+
+			<div type="letter" decls="#groendykejw_02">
+				<pb n="2"/>
+				<opener>
+					<dateline><date when="1917-09-06">September 6, 1917</date></dateline>
+					<address style="text-align: left;">
+						<addrLine>Mr. Jacob W. Groendyke</addrLine>
+						<addrLine>139 Wakeman Ave.,</addrLine>
+						<addrLine>Newark, N.J.</addrLine>
+					</address>
+					<salute>Dear Jake:-</salute>
+				</opener>
+
+				<p> I am sending your name to Washington with the recommendation that you be placed
+					in some form of work for which your college course has fitted you. We have lost
+					track of <seg xml:id="fn1">Lieutenant Ahrends</seg> <note type="annotation" target="#fn1"><p>Ahrends was a professor of Military Science and Tactics at Rutgers College from 1910 to 1913.</p><ref target="https://scarletandblackproject.com/archive/files/original/ccb7207712850d02744f3bc324fba6cc.pdf">Catalogue of the Officers and Alumni of Rutgers College (originally Queen's College) in New Brunswick, N.J. 1766 to 1916</ref></note> so
+					I am afraid we cannot induce him to write a letter for you. I doubt very much if
+					it would do much <sic>good.at</sic> the present time. </p>
+
+				<closer>
+					<salute>Sincerely yours,</salute><lb/>
+					<signed/>
+				</closer>
+			</div>
+
+			<div type="letter" decls="#groendykejw_03">
+				<pb n="3"/>
+				<ab type="postmark">
+					TRENTON, N.J. <lb/> <date when="1917-10-31">OCT 31<lb/>7 AM<lb/>1917</date> <lb/> DIX BRANCH
+				</ab>
+				<ab>
+					<address style="text-align: center;">
+						<addrLine>EARL REED SILVERS</addrLine>
+						<addrLine>ALUMNI HOUSE</addrLine>
+						<addrLine>NEW BRUNSWICK, N.J.</addrLine>
+					</address>
+				</ab>
+
+				<pb n="4"/>
+				<ab>
+					<address style="text-align: left;">
+						<addrLine>Company "C" - 312 Infantry - 1st Battalion</addrLine>
+						<addrLine><placeName key="Fort Dix, NJ" ref="https://geohack.toolforge.org/geohack.php?params=40.006_N_74.611_W">Camp Dix, N.J.</placeName></addrLine>
+					</address>
+					<date when="1917-10-30">10-30-17</date><lb/>
+					Dear Reed:
+				</ab>
+
+				<p> Your forwarded letter received today. I was drafted from 8 <unclear reason="illegible" extent="4" unit="char">dist</unclear> Newark
+					came here Sept. <unclear reason="illegible">29</unclear>, was made corporal
+					October 27. Your War Service Bureau shows fine spirit and originality I'm sure we all will
+					receive much benefit from it. </p>
+				<p> Reed here's something you can do right now for me, viz.
+					have 2 good seats at the game with <seg xml:id="fn2">WVa.</seg><note target="#fn2" type="gloss"><p>West Virginia University</p></note> on Nov. 3 reserved for me at Registrars office till 2 P.M.
+					on that day. I'll call before then and pay for same- </p>
+
+				<closer>
+					<salute>Best personal regards,</salute>
+					<signed>J.W. Groendyke.</signed>
+				</closer>
+			</div>
+
+			<div type="letter" decls="#groendykejw_04">
+				<pb n="5"/>
+				<opener>
+					<dateline><date when="1917-11-01">November 1st. 1917.</date></dateline>
+					<address style="text-align: left;">
+						<addrLine>Mr. J. W. Groendyke,</addrLine>
+						<addrLine>Company C.,</addrLine>
+						<addrLine>312th. Infantry,</addrLine>
+						<addrLine>First Battery,</addrLine>
+						<addrLine>Camp Dix, N.J.</addrLine>
+					</address>
+					<salute>My dear Jake:-</salute>
+				</opener>
+
+				<p> Thank you for your good word about the War Service Bureau. I am taking up the
+					matter of the tickets this morning and will have them reserved for you in the
+					Registrar's Office until 2 o'clock Saturday afternoon. If, by any chance, the
+					office is <sic>close</sic>, I shall be waiting outside the field at the main
+					entrance and will have the tickets. </p>
+
+				<closer>
+					<salute>Hastily yours,</salute><lb/>
+					<signed/>
+				</closer>
+			</div>
+
+			<div type="letter" decls="#groendykejw_05">
+				<pb n="6"/>
+				<ab type="postmark">
+					TRENTON, N.J. <lb/> <date when="1917-11-11">NOV 11<lb/>7 PM<lb/>1917</date> <lb/> DIX BRANCH
+				</ab> <lb/>
+				<ab type="pre-printed">THIS SIDE OF CARD IS FOR ADDRESS</ab><lb/>
+				<ab>
+					<address style="text-align: center;">
+						<addrLine>Earl Reed Silvers Esq.</addrLine>
+						<addrLine>New Brunswick</addrLine>
+						<addrLine>N.J.</addrLine>
+						<addrLine>Rutgers College</addrLine>
+					</address>
+				</ab>
+				<pb n="7"/>
+				<ab>
+					<date when="1917-11-11">11/11/17</date><lb/>
+					Dear Reed,
+				</ab>
+
+				<p> I was out of luck to some degree Sat. I arrived at the gate at 2:30 and inquired
+					at the window and of <unclear reason="illegible">General</unclear> about the
+					tickets and you. They were both chock full of ignorance. However I succeeded in
+					buying two seats where the view was not half bad. </p>
+				<p> You did all you could I'm sure and I do appreciate it a lot. </p>
+				<p> The game was a dazzler. The letters are coming regularly, and are a good binder
+					between the boys and the college I'm sure. </p>
+
+				<closer>
+					<signed>Jake.<lb/>Groendyke</signed>
+				</closer>
+			</div>
+
+			<div type="letter" decls="#groendykejw_06">
+				<pb n="8"/>
+				<ab type="postmark">
+					TRENTON, N.J. <lb/> <date when="1918-05-18">MAY 18<lb/>8 PM<lb/>1918</date> DIX BRANCH
+				</ab><lb/>
+				<ab type="pre-printed">THIS SIDE OF CARD IS FOR ADDRESS</ab><lb/>
+				<ab>
+					<address style="text-align: center;">
+						<addrLine>Earl Reed Silvers Esq.</addrLine>
+						<addrLine>New Brunswick</addrLine>
+						<addrLine>N.J.</addrLine>
+						<addrLine>Rutgers College</addrLine>
+					</address>
+				</ab>
+				<pb n="9"/>
+				<ab>
+					<date when="1918-05-18">5/18/18</date><lb/>
+				</ab>
+
+				<p> Please discontinue all mail to me until further notice. Things have been so
+					dizzy that all good intentions in regard to keeping you informed of my
+					whereabouts have failed. </p>
+
+				<closer>
+					<signed>J W Groendyke.</signed>
+				</closer>
+			</div>
+
+			<div type="letter" decls="#groendykejw_07">
+				<pb n="10"/>
+				<ab type="pre-printed">SOLDIER'S MAIL 			 NO POSTAGE <lb/> NECESSARY.</ab>
+				<ab type="pre-printed">Soldiers Mail.</ab>
+				<ab type="postmark">
+					WASHINGTON D.C. <lb/> <date when="1918-06-08">JUN 8 <lb/> 4 30 PM <lb/>1918</date>
+				</ab>
+				<ab type="pre-printed">THE AMERICAN RED CROSS</ab>
+				<ab type="pre-printed">THIS SIDE FOR ADDRESS ONLY.</ab>
+				<ab type="postmark">PASSED BY THE CHIEF MILITARY CENSOR 3 WASHINGTON</ab>
+				<ab>
+					<address style="text-align: center;">
+						<addrLine>Earl Reed Silvers</addrLine>
+						<addrLine>In Rutgers College</addrLine>
+						<addrLine>New Brunswick</addrLine>
+						<addrLine>N.J.</addrLine>
+					</address>
+				</ab>
+				
+				<pb n="11"/>
+
+				<ab type="pre-printed">	THE SHIP ON WHICH I SAILED HAS ARRIVED SAFELY OVERSEAS. </ab>
+				<ab type="pre-printed"> Name </ab>
+				<ab type="handwritten"> J W Groendyke </ab><lb/>
+				<ab type="pre-printed"> Organization </ab>
+				<ab type="handwritten"><seg xml:id="fn3"> Co E 312 Inf. </seg><note type="gloss" target="#fn3"><p>Company E, 312th Infantry</p><ref target="https://catalog.hathitrust.org/Record/008400293">Morgan, G.R.
+							Company E, 312th Infantry, 78th Division in France, May 19th, 1918 to
+							May 31st, 1919.</ref></note></ab><lb/>
+				<ab type="pre-printed"> American Expeditionary Forces. </ab>
+			</div>
+
+			<div type="letter" decls="#groendykejw_08">
+				<pb n="12"/>
+				<!-- Letterhead may warrant additional transcription. -->
+				<note type="letterhead">For God, For King &amp; For Country.<lb/> Y·M·C·A<lb/>
+					H.M.FORCES ON ACTIVE SERVICE</note>
+				<opener>
+					<dateline><date when="1918-07-08">July 8 1918</date></dateline>
+					<salute>Dear Reed.-</salute>
+				</opener>
+
+				<p> So far as I can recall our extensive correspondence has not been reopened since I notified you that a
+					change was about to take place in my address. Well since then we have become
+					somewhat widely separated. We had the usual "inconveniences" of a troop ship
+					coming over, however we have been quite thoroughly inoculated against
+					fretfulness and fatigue so we enjoyed the trip a lot. </p>
+				<p> Right after getting clear of harbor gun crews were appointed to work with the gunmen of the boat.
+					Since I looked more like a gunman than a gunner they chose me for Sergeant of the
+					crew and gun trainer. </p>
+
+				<pb n="13"/>
+				<note type="letterhead">For God, For King &amp; For Country.<lb/> Y·M·C·A<lb/>
+					H.M.FORCES ON ACTIVE SERVICE</note>
+
+				<p> We had only one affair with Subs. This occurred on a calm Sunday night just after mess time. Several
+					boats attacked our fleet but none of us was hit. One or two of the enemy were
+					sunk by depth charges. When one is below decks and hears the reverberations of
+					these charges against the side plates of the ship and he has not experienced the
+					sensation before: it immediately makes him think of a cold salt bath. </p>
+				<p> We are in a pretty section of <seg xml:id="fn4">France</seg><note target="#fn4" type="annotation"><p>Since Groendyke's infantry regiment was attached to the 78th division, he was likely somewhere in the vicinity of Oudezeele, France, at this time.</p><ref target="https://archive.org/details/historyofseventy00meehrich/page/42/mode/2up?q=Oudezeele">Meehan, T.F. History of the Seventy-Eighth Division in the World War, 1917-18-19</ref></note> so far
+					as natural charm is concerned. It has its drawbacks in a great scarcity of
+					wood and water. You are probably well fed up on scenery as that is about all the poor soldier can tell <pb n="14"/>
+					<note type="letterhead">For God, For King &amp; For Country.<lb/> Y·M·C·A<lb/>
+						H.M.FORCES ON ACTIVE SERVICE</note> 
+					in his letters, so I'll not burden you with descriptions of wild rose and honeysuckle hedges, and wheat fields mottled with great large <hi rend="underline">scarlet</hi> poppies. </p>
+				<p> Here every building is battered flat, its
+					occupants have fled, leaving a great part
+					of their household goods and farm implements. <sic>Its</sic> quite pathetic to
+					see the old house dog and the store cat come back and beg food from the soldier as he sits in front of the great, wide, open fire place in which the ancient iron kettle swings. How many
+					peaceful Christmas logs must have burned in that great chimney place as a merry
+					crowd assembled around in the stone floored kitchen! </p>
+
+				<pb n="15"/>
+				<note type="letterhead">For God, For King &amp; For Country.<lb/> Y·M·C·A<lb/>
+					H.M.FORCES ON ACTIVE SERVICE</note>
+
+				<p> Crops of splendid wheat, oats, rye and hops stand in the field and as I write
+					this our <seg xml:id="fn5">5.9 and 18 pounders</seg><note type="annotation" target="#fn5"><p>Groendyke refers here to artillery
+							operators, as 5.9- and 18-pounders are WWI-era field guns.</p><ref target="http://www.historyofwar.org/articles/weapons_ordnance_QF_18pdr_MkI.html">History of War.org: Ordnance QF 18-pounder field gun Mk I.</ref></note>
+					are arguing with <seg xml:id="fn6">Jerrys 77's</seg><note target="#fn6" type="gloss"><p>The 7.7 cm Feldkanone 16 (7.7 cm FK 16) was a field gun used by Germany in World War I.</p><ref target="https://en.wikipedia.org/wiki/7.7_cm_FK_16">Wikipedia</ref></note> as to who shall harvest these
+					crops. The fine courage and hopeful spirit of our splendid allies here, however,
+					leave me but one conclusion. </p>
+				<p> I'm extremely well, army rations and billets of various descriptions (This abode is a <seg xml:id="fn7">hop kiln</seg><note type="annotation" target="#fn7"><p>Hop kilns, also known as oasts, were
+					traditional facilities for drying hops.</p><ref target="https://en.wikipedia.org/wiki/Oast_house">Wikipedia</ref></note>) seem to be no
+						wise injurious so far. I've been sent
+					to some more British schools here for instriction in my work, Intelligence. This I enjoy greatly. It keeps
+					one's mind alive when conditions are sometimes very dull. </p>
+				<p> My address Reed, is <choice>
+						<abbr>Co</abbr>
+						<expan>Company</expan>
+					</choice> "E" of the same <lb/> 
+					<add place="margin">(over)</add>
+					<pb n="16"/> 
+					Regiment as in Camp Dix. Simply put A.E.F via N.Y., and it will get me. </p>
+				<p> Out in no man's land Friday I "ratted" a few dead ones and found a couple of
+					characteristic <seg xml:id="fn8">souvenirs</seg><note type="gloss" target="#fn8"><p>Looting the bodies of enemy soldiers was a common practice among American soldiers
+							during both World Wars.</p><ref target="https://www.nytimes.com/2010/12/10/us/10bcjames.html">James,
+							Scott. Souvenirs of War and Hazards in the Attic. The New York Times
+							(Dec. 9, 2010).</ref></note> which I believe I can mail, if so you will get one soon for your
+					collection. How's the College Reed? and how is the War Bureau director and his family? </p>
+
+				<closer>
+					<salute>With all best wishes—</salute><lb/>
+					<signed>Jacob W Groendyke '12</signed>
+				</closer>
+			</div>
+
+			<div type="letter" decls="#groendykejw_09">
+				<pb n="17"/>
+				
+				<opener>
+					<add place="above"><seg xml:id="fn9">From J. Groendyke,</seg><note type="annotation" target="#fn9"><p>Typewritten transcription of an original letter that was probably supplied by Groendyke's father and which was copied and not kept.</p></note></add>
+					<dateline><date when="1918-07-05">July 5, 1918.</date></dateline>
+				</opener>
+				
+
+				<p> As I sit here in the scanty straw of this evacuated barn, it calls to mind the
+					song <name ref="https://www.loc.gov/item/ihas.100005769/">"Fiddle and I"</name>
+					waking up the cats and owls, well there are no owls here, the nights are not
+					quiet enough for their kind of work. But as the saying is over here,
+						"<sic>its</sic> not too bad." In all the area here abouts the villages and
+					farm houses are shelled to brick dust as at this point a very determined enemy
+					drive was followed up by a vigorous counter attack, so what ever <seg xml:id="fn10">Jerry</seg><note type="gloss" target="#fn10"><p>British army slang for a German.</p><ref target="https://www.bl.uk/world-war-one/articles/slang-terms-at-the-front">Walker, Julian. Slang terms at the Front. The British Library (2014).</ref></note> left standing the Allied shells reduced to dust.
+					Around the ruins of the old houses we sometimes greet the old house dog who has
+					wandered back to his old home, and a few pigs or chickens which could not be
+					carried away are left at some places. Farm implements and household goods lie in
+					disorder around the premises just as the <unclear>stanch</unclear> people left as they fled from
+					before the invader. Splendid crops of shoulder high, wheat oats and hops are
+					standing in the fields. I wonder who will gather them. </p>
+				<p> Flowers grow by the roadside in spite of the tread of the <seg xml:id="fn11">dough boys'</seg><note type="gloss" target="#fn11"><p>Doughboy was popular
+							nickname for American soldiers during World War I.</p><ref target="https://www.theworldwar.org/learn/wwi/doughboys">The National
+							WWI Museum and Memorial.</ref></note> hob-nailed shoes and in the
+					gardens, currants hang in scarlet clusters waiting in the hand of a sex that is
+					no where seen. A woman's voice or a child's laughter are sounds that are never
+					heard in the advance zones. </p>
+				<p> As far as the eye can reach there is nought but ruins. But there is no lack for
+					entertainment here for while I write this sentence probably 10 or 15 big shells
+					go whizzing over some goin'
+					and some comin'. They say that every time an American artilleryman fires a round
+					he repeats "Now Kaiser count your men." </p>
+				<p> Yesterday the 4th was duly celebrated here. All was decently quiet till nine
+					o'clock in the morning when Jerry let go a perfect hail storm of shells of all
+					calibers. In every barrage of this order it is interesting to see how a certain
+					sector is isolated and boxed off, every road of approach is laid off to a nicety
+					with 
+						<seg xml:id="fn12">H.E.</seg>
+					<note target="#fn12" type="gloss"><p>High explosive</p></note>
+					 shells. Well everybody back as far as
+					<seg xml:id="fn13">BattinHq</seg><note target="#fn13" type="annotation"><p>It is hard to tell what was intended here. Perhaps battalion headquarters?</p></note>. stood to with full
+					enjoyment yesterday, in the midst of it <seg xml:id="fn14">he</seg><note type="annotation" target="#fn14"><p>Personification of Germany.</p></note> mixed in a lot of gas too–He's thoughtful. After about 40 minutes of his spree he resumed the position of "as you were."
+				</p>
+
+				<pb n="18"/>
+				
+				<p> <add place="margin">- 2 -</add> 
+					Every night from about six to nine we have an airplane exhibition on planes go
+					over observing and then after we quit he usually sends over one of two while all
+					the anti aircraft within range pop away – doing little damage aside from putting
+					a lot of big black ink spots on a nice clean blue sky. A few days ago in a
+						fight though we saw a Jerry come down in
+					flames. I'm surely getting a lot of my old intelligence work up here and it's
+					not seemed handed either. <sic>Its</sic> nice and cool here and I'm feeling
+					fine. </p>
+			</div>
+
+			<div type="letter" decls="#groendykejw_10">
+				<pb n="19"/>
+				<opener>
+					<dateline><date when="1918-07-31">July 31, 1918.</date></dateline>
+					<address style="text-align: left;">
+						<addrLine>Corp. Jacob W. Groendyke,</addrLine>
+						<addrLine>Co E, 312th Infantry,</addrLine>
+						<addrLine>A.E.F. via N.Y.</addrLine>
+					</address>
+					<salute>Dear Jake;–</salute>
+				</opener>
+				<p> It was surely good to hear from you again. We haven't had much to do with each
+					other since that football game last fall, and your letter was very welcome. I
+					hope that you are receiving the War Bureau circulars and an occasional Quarterly. If not, drop me a line and I'll ship some to you. </p>
+				<p> The college is going along slowly these days. We have only a fair outlook for
+					next year, but that is to be expected. The War Service Bureau continues to be
+					busy, and the Silvers family is O.K. </p>
+				<p> Good luck to you, Jake. I am looking forward to the time when I can see you here
+					on the campus again. May it come speedily. </p>
+
+				<closer>
+					<salute>Cordially yours,</salute><lb/>
+					<signed/>
+				</closer>
+			</div>
+
+			<div type="letter" decls="#groendykejw_11">
+				<pb n="20"/>
+				<ab><add place="margin">J.W. Groendyke <lb/> US. Army</add> &#x9;&#x9;&#x9;<add place="margin">soldiers mail.</add></ab><lb/>
+				<ab type="pre-printed">POST CARD</ab>
+				<ab type="postmark">U.S ARMY POST OFFICE <placeName key="Langres, France" ref="https://geohack.toolforge.org/geohack.php?params=47_51_12_N_5_20_02_E"> MPES 714 </placeName>
+					<date when="1918-10-01">10 1<lb/>18</date>
+				</ab><lb/>
+				<ab type="postmark">
+					A.E.F. PASSED AS CENSORED A. 2923
+				</ab><lb/>
+				<ab><add place="margin">OK. J.W. Groendyke <lb/> 2nd Lt.</add></ab><lb/>
+				<ab>
+					<address style="text-align: center;">
+						<addrLine>Earl Reed Silvers</addrLine>
+						<addrLine>Rutgers College</addrLine>
+						<addrLine>New Brunswick, N.J.</addrLine>
+					</address>
+				</ab>
+				<pb n="21"/>
+				
+				<ab><date when="1918-09-29">Sept. 29, 1918</date><lb/>
+					Dear Reed.</ab>
+				<p>Am resting this card on the July Quarterly which has been greatly enjoyed. Presume football is receiving its share of attention now. We had a game arranged here with teams having a lot of All A's but a schedule difficulty interfered. Have been to school "as usual" and am now commissioned. Saw <persName key="Farley, Worthington (Duck) Shumway" from="1895" to="1963" role="First Lieutenant, Infantry">Worth Farley</persName> two months ago, and <persName key="Firth, Stuart Mortimer" cert="medium" from="1890" to="1983" role="First Lieutenant, Infantry">Firth</persName> yesterday. Every thing is going fine. Will you give my best regards to Registrar <persName key="Martin, Luther Harned" from="1889" to="1970" role="Registrar, Rutgers College">Martin</persName>? </p>
+				<closer>
+					<salute>Sincerely yours,</salute>
+					<signed>Jacob W. Groendyke.</signed>
+					<add place="margin">O.K. <lb/> J.W. Groendyke. <lb/> 2nd Lt. U.S. Army.</add>
+				</closer>
+				
+			</div>
+			<div type="letter" decls="#groendykejw_12">
+				<pb n="22"/>
+				<note type="letterhead">
+					WAR DEPARTMENT <lb/> EIGHTH DISTRICT SELECTIVE SERVICE BOARD <lb/>
+					LEGAL TITLE "LOCAL BOARD FOR <lb/> DIVISION No. 8, CITY OF NEWARK <lb/>
+					STATE OF NEW JERSEY" <lb/> ELIOT SCHOOL <lb/> 721 SUMMER AVENUE <lb/> NEWARK, N.J.
+				</note>
+				<opener>
+					<dateline><date when="1918-10-17">October 17, 1918.</date></dateline>
+					<salute>Mr. E. R. Silvers. <lb/> Dear Sir:-</salute>
+				</opener>
+				<p>By request of my brother Jacob W. Groendyke, I am forwarding to you under separate cover a belt buckle taken by him off a dead hun in no mans land on July 5, 1918. He was there to gain experience in scouting. On July 25 he wrote that due to his performance on the field he had been picked with 34 others to attend Officers Training School, which would probably last through Aug., Sept. and Oct. It is the 3rd series for the First Army Corps. I had word from him two weeks ago and he was still there. I hope he may be spared to return and tell us the details of his experience and of the buckle. </p>
+				<closer>
+					<salute>Respectfully,</salute>
+					<signed><persName key="Groendyke, Howard Hutchinson" from="1881" to="1957" role="Brother to Jacob W. Groendyke">Howard H. Groendyke</persName> <lb/>
+					139 Wakeman Ave. <lb/> Newark, N.J.</signed>
+				</closer>
+				<postscript><p>His address <lb/>
+					Jacob Walter Groendyke <lb/> Co. #4 <seg xml:id="fn15">A.C.S.</seg><note target="#fn15" type="gloss"><p>Army Candidates School</p></note> <lb/> A.P.O. #714 <lb/>
+				American Expeditionary Force <lb/>Via New York</p></postscript>
+			</div>
+			<div type="letter" decls="#groendykejw_13">
+				<pb n="23"/>
+				<opener>
+					<dateline><date when="1918-10-30">October 30 1918</date></dateline>
+					<address style="text-align: left;">
+						<addrLine>Mr. Howard H. Groendyke,</addrLine>
+						<addrLine>139 Wakeman Ave</addrLine>
+						<addrLine>Newark, N.J.</addrLine>
+					</address>
+					<salute>Dear Mr. Groendyke:</salute>
+				</opener>
+				<p>I acknowledge with appreciation your letter of October 17. The buckle from your brother has been received and is a splendid addition to our collection in the college library. I have heard very frequently from Jake, and in his letters he seems to be both well and happy. It is good to know that he has won his commission.</p>
+				<closer>
+					<salute>Very sincerely yours,</salute>
+					<signed>ERS/HWG</signed>
+				</closer>
+			</div>
+			<div type="letter" decls="#groendykejw_14">
+				<pb n="24"/>
+				<opener>
+					<dateline><date when="1919-03-28">March 28th, 1919.</date></dateline>
+					<address style="text-align: left;">
+						<addrLine>Mr. Jacob W. Groendyke,</addrLine>
+						<addrLine>139 Wakeman Ave.,</addrLine>
+						<addrLine>Newark, N.J.</addrLine>
+					</address>
+					<salute>Dear Jake:-</salute>
+				</opener>
+				<p>I am glad to know that you are out of the service, and once more back in the good old U.S.A.</p>
+				<p>Be sure to drop into see me at the earlieset possible moment, as I am anxious to have a chat with you.</p>
+				<closer>
+					<salute>With kindest regards. <lb/> Cordially yours,</salute>
+					<signed>ERS/b</signed>
+				</closer>
+			</div>
+			<div type="letter" decls="#groendykejw_15">
+				<pb n="25"/>
+				<opener>
+					<dateline><date when="1919-05-23">May 23, 1919.</date></dateline>
+					<address style="text-align: left;">
+						<addrLine>Mr. Jacob J. Groendyke,</addrLine>
+						<addrLine>Monmouth Junction, N.J.</addrLine>
+					</address>
+					<salute>My dear Mr. <persName key="Groendyke, Jacob J." from="1857" to="1932" role="Father to Jacob W. Groendyke">Groendyke</persName>:-</salute>
+				</opener>
+				<p>Rutgers College is planning to publish a book which will contain letters from our alumni and undergraduates  who saw service in the Army or Navy of the United States. If you have any letters from Mr. Jacob W. Groendyke which you think may be of interest in such a publicatino, we shall be grateful for them. Anything you send us will be carefully preserved and returned to you within two weeks of their receipt.</p>
+				<p>We are very anxious to make our War Book as complete a record as possible, and will appreciate your cooperation.</p>
+				<closer>
+					<salute>Sincerely yours,</salute>
+					<signed>ERS/b <lb/> Assistant to the President.</signed>
+				</closer>
+			</div>
+			<div type="letter" decls="#groendykejw_16">
+				<pb n="26"/>
+				<opener>
+					<dateline><date when="1919-06-13">June 13th, 1919.</date></dateline>
+					<address style="text-align: left;">
+						<addrLine>Mr. Jacob J. Groendyke,</addrLine>
+						<addrLine>Monmouth Junction, </addrLine>
+						<addrLine>New Jersey.</addrLine>
+					</address>
+					<salute>My dear Mr. Groendyke:-</salute>
+				</opener>
+				<p>Thank you very much for the enclosed letter from your son, which is very interesting.</p>
+				<p>I am returning it to you herewith.</p>
+				<closer>
+					<salute>Very sincerely yours,</salute>
+					<signed>ERS/b <lb/> Assistant to the President.</signed>
+				</closer>
+			</div>
+		</body>
+		<back>
+			<listPlace>
+				<place xml:id="groendyke_home">
+					<placeName>139 Wakeman Avenue, Newark, NJ</placeName>
+					<location>
+						<geo>40.766389 -74.166389</geo>
+					</location>
+				</place>
+				<place xml:id="rutgers">
+					<placeName>Rutgers College, New Brunswick, NJ</placeName>
+					<location>
+						<geo>40.500819 -74.447399</geo>
+					</location>
+				</place>
+				<place xml:id="camp-dix">
+					<placeName>Fort Dix, NJ</placeName>
+					<location>
+						<geo>40.006 -74.611</geo>
+					</location>
+				</place>
+				<place xml:id="washington-dc">
+					<placeName>Washington, D.C.</placeName>
+					<location>
+						<geo>38.907192 -77.036873</geo>
+					</location>
+				</place>
+				<place xml:id="oudezeele">
+					<placeName>Oudezeele, France</placeName>
+					<location>
+						<geo>50.838889 2.51</geo>
+					</location>
+					<note>Groendyke's infantry regiment was attached to the 78th division, which at the time of his writing was somewhere in the vicinity of Oudezeele, digging trenches, or perhaps on the way to the Saint Pol staging area near Arras, per the <title>History of the Seventy-eighth division in the World War, 1917-18-19</title> <ref target="https://archive.org/details/historyofseventy00meehrich"/> (p. 43)</note>
+				</place>
+				<place xml:id="langres">
+					<placeName>Langres, France</placeName>
+					<location>
+						<geo>47.853333 5.333889</geo>
+					</location>
+				</place>
+				<place xml:id="groendyke_home_2">
+					<placeName>Monmouth Junction, NJ</placeName>
+					<location>
+						<geo>40.380345 -74.543237</geo>
+					</location>
+				</place>
+			</listPlace>
+		</back>
+	</text>
+</TEI>
