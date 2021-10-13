@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="jacksonmb">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Jackson, Morris Bacon</title>
+				<respStmt>
+					<resp>Transcription and encoding by</resp>
+					<name xml:id="bm"> Barbara McIntosh </name>
+				</respStmt>
+				<principal xml:id="fg"> Francesca Giannetti </principal>
+			</titleStmt>
+			<extent>23 p.</extent>
+			<publicationStmt>
+				<publisher>Rutgers University Libraries</publisher>
+				<distributor> Rutgers Community Repository (RUcore) URL:
+					https://rucore.libraries.rutgers.edu </distributor>
+					<availability>
+						<p>No Known Copyright</p>
+					</availability>
+				<authority>Transcribed from digital files available in RUcore</authority>
+				<idno type="URI">https://doi.org/doi:10.7282/T3KW5JS5</idno>
+				</publicationStmt>
+				<sourceDesc>
+					<msDesc>
+						<msIdentifier>
+							<repository>Special Collections and University Archives, Rutgers
+								University Libraries</repository>
+								<collection>Rutgers College. War Service Bureau. Records, 1917-1919</collection>
+								<idno>RG 33/C0/01</idno>
+							</msIdentifier>
+						</msDesc>
+					</sourceDesc>
+				</fileDesc>
+				<profileDesc>
+					<correspDesc xml:id="jacksonmb_01">
+						<correspAction type="sent">
+							<persName>W. W. Jackson</persName>
+							<placeName ref="#jackson-work">New York, New York</placeName>
+							<date when="1917-10-23">October 23, 1917</date>
+						</correspAction>
+						<correspAction type="received">
+							<persName>Earl Reed Silvers</persName>
+							<placeName ref="#van-nest-hall">New Brunswick, New Jersey</placeName>
+						</correspAction>
+					</correspDesc>
+					<correspDesc xml:id="jacksonmb_02">
+						<correspAction type="sent">
+							<persName>Morris B. Jackson</persName>
+							<placeName ref="#us-base-hospital-8">Savenay, France</placeName>
+							<date when="1917-11-24">November 24, 1917</date>
+						</correspAction>
+						<correspAction type="received">
+							<persName>Earl Reed Silvers</persName>
+							<placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+						</correspAction>
+					</correspDesc>
+					<correspDesc xml:id="jacksonmb_03">
+						<correspAction type="sent">
+							<persName>Earl Reed Silvers</persName>
+							<placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+							<date when="1917-12-17">December 17, 1917</date>
+						</correspAction>
+						<correspAction type="received">
+							<persName>Morris B. Jackson</persName>
+							<placeName ref="#us-base-hospital-8">Savenay, France</placeName>
+						</correspAction>
+					</correspDesc>
+					<correspDesc xml:id="jacksonmb_04">
+						<correspAction type="sent">
+							<persName>Morris B. Jackson</persName>
+							<placeName ref="#us-base-hospital-8">Savenay, France</placeName>
+							<date when="1918-07-02">July 2, 1918</date>
+						</correspAction>
+						<correspAction type="received">
+							<persName>Mr. and Mrs. Jackson</persName>
+							<placeName ref="#jackson-home">Brooklyn, New York</placeName>
+						</correspAction>
+					</correspDesc>
+					<correspDesc xml:id="jacksonmb_05">
+						<correspAction type="sent">
+							<persName>W. W. Jackson</persName>
+							<placeName ref="#jackson-work">New York, New York</placeName>
+							<date when="1918-07-11">July 11, 1918</date>
+						</correspAction>
+						<correspAction type="received">
+							<persName>Earl Reed Silvers</persName>
+							<placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+						</correspAction>
+					</correspDesc>
+					<correspDesc xml:id="jacksonmb_06">
+						<correspAction type="sent">
+							<persName>Earl Reed Silvers</persName>
+							<placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+							<date when="1918-07-12">July 12, 1918</date>
+						</correspAction>
+						<correspAction type="received">
+							<persName>W. W. Jackson</persName>
+							<placeName ref="#jackson-work">New York, New York</placeName>
+						</correspAction>
+					</correspDesc>
+					<correspDesc xml:id="jacksonmb_07">
+						<correspAction type="sent">
+							<persName>W. W. Jackson</persName>
+							<placeName ref="#jackson-work">New York, New York</placeName>
+							<date when="1918-07-15">July 15, 1918</date>
+						</correspAction>
+						<correspAction type="received">
+							<persName>Earl Reed Silvers</persName>
+							<placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+						</correspAction>
+					</correspDesc>
+					<correspDesc xml:id="jacksonmb_08">
+						<correspAction type="sent">
+							<persName>J. K. Paulding</persName>
+							<placeName ref="#us-base-hospital-8">Savenay, France</placeName>
+							<date when="1918-11-12">November 12, 1918</date>
+						</correspAction>
+						<correspAction type="received">
+							<persName>Mrs. Jackson</persName>
+							<placeName ref="#jackson-home">Brooklyn, New York</placeName>
+						</correspAction>
+					</correspDesc>
+					<correspDesc xml:id="jacksonmb_09">
+						<correspAction type="sent">
+							<persName>W. W. Jackson</persName>
+							<placeName ref="#jackson-work">New York, New York</placeName>
+							<date when="1918-11-26">November 26, 1918</date>
+						</correspAction>
+						<correspAction type="received">
+							<persName>Earl Reed Silvers</persName>
+							<placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+						</correspAction>
+					</correspDesc>
+					<correspDesc xml:id="jacksonmb_10">
+						<correspAction type="sent">
+							<persName>Earl Reed Silvers</persName>
+							<placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+							<date when="1918-12-03">December 3, 1918</date>
+						</correspAction>
+						<correspAction type="received">
+							<persName>W. W. Jackson</persName>
+							<placeName ref="#jackson-work">New York, New York</placeName>
+						</correspAction>
+					</correspDesc>
+					<correspDesc xml:id="jacksonmb_11">
+						<correspAction type="sent">
+							<persName>W. W. Jackson</persName>
+							<placeName ref="#jackson-home">Brooklyn, New York</placeName>
+							<date when="1918-12-09">December 9, 1918</date>
+						</correspAction>
+						<correspAction type="received">
+							<persName>Earl Reed Silvers</persName>
+							<placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+						</correspAction>
+					</correspDesc>
+					<correspDesc xml:id="jacksonmb_12">
+						<correspAction type="sent">
+							<persName>Earl Reed Silvers</persName>
+							<placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+							<date when="1918-12-10">December 10, 1918</date>
+						</correspAction>
+						<correspAction type="received">
+							<persName>W. W. Jackson</persName>
+							<placeName ref="#jackson-home">Brooklyn, New York</placeName>
+						</correspAction>
+					</correspDesc>
+					<correspDesc xml:id="jacksonmb_13">
+						<correspAction type="sent">
+							<persName>W. W. Jackson</persName>
+							<placeName ref="#jackson-home" cert="medium">Brooklyn, New York</placeName>
+							<date notBefore="1918-12-10">December 1918 [?]</date>
+						</correspAction>
+						<correspAction type="received">
+							<persName>Earl Reed Silvers</persName>
+							<placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+						</correspAction>
+					</correspDesc>
+					<correspDesc xml:id="jacksonmb_14">
+						<correspAction type="sent">
+							<persName>W. W. Jackson</persName>
+							<placeName ref="#jackson-work">New York, New York</placeName>
+							<date when="1919-02-13">February 13, 1919</date>
+						</correspAction>
+						<correspAction type="received">
+							<persName>Dr. Demarest</persName>
+							<placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+						</correspAction>
+					</correspDesc>
+				</profileDesc>
+		<revisionDesc>
+			<change who="#bm" when="2021-06-22">Finished encoding letter anthology.</change>
+			<change who="#fg" when="2021-10-07">Edited letters, added listPlace.</change>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="letter" decls="#jacksonmb_01">
+				<pb n="1"/>
+				<div type="recto">
+					<ab type="postmark"> NEW YORK <lb/>
+						<date when="1917-10-23">OCT 23 <lb/> 4 34PM
+							<lb/>1917</date> N.Y. </ab>
+					<ab type="postmark">BUY NOW<lb/>U. S.<lb/> GOVERNMENT BONDS<lb/>2<hi rend="superscript">ND</hi> LIBERTY LOAN</ab>
+					<ab type="pre-printed">THIS SIDE OF CARD IS FOR ADDRESS</ab>
+					<ab><address style="text-align: center;">
+							<addrLine><persName key="Silvers, Earl Reed" from="1891" to="1948" role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378">EARL REED
+								SILVERS</persName></addrLine>
+							<addrLine>ALUMNI HOUSE</addrLine>
+							<addrLine><placeName key="Rutgers Alumni House, New Brunswick, NJ" ref="https://geohack.toolforge.org/geohack.php?params=40_29_55_N_74_26_49_W">NEW BRUNSWICK, N. J.</placeName></addrLine>
+						</address>
+					</ab>
+				</div>
+				<pb n="2"/>
+				<div type="verso">
+					<p><persName key="Jackson, Morris Bacon" role="Private, Medical Department"
+							from="1898" to="1918"
+							ref="https://www.findagrave.com/memorial/27896281/morris-bacon-jackson"
+							>Morris B. Jackson</persName> '19 is private U. S. A. with <seg
+							xml:id="fn1">base hospital # 8</seg><note target="#fn1"
+							type="annotation"><p>American Expeditionary Forces Base Hospital No. 8
+								occupied the Normal School of Savenay in the Loire-Atlantique
+								department of France.</p><ref
+								target="https://www.nashobavalleyvoice.com/2018/08/10/fort-devens-museum-presents-film-about-wwi-base-hospital/"
+								>&apos;Fort Devens Museum presents film about WWI base
+								hospital&apos;</ref></note> (originally called #8- then changed to #
+						6 and number how restored to # 8) Amer Exped Force via N.Y.C.</p>
+
+					<closer>
+						<salute>Yours,</salute>
+						<signed><persName key="Jackson, William Walter" from="1872" to="1953"
+								role="Father to Morris B. Jackson">W.W. Jackson</persName></signed>
+						<placeName key="50 Beekman St., New York, NY"
+							ref="https://geohack.toolforge.org/geohack.php?params=40.711130238240344___N_-74.00622796693946___E"
+							>50 Beekman St. NYC</placeName>
+					</closer>
+				</div>
+			</div>
+
+			<div type="letter" decls="#jacksonmb_02">
+				<pb n="3"/>
+				<div type="recto">
+					<ab type="postmark">ON U.S. ARMY POSTAL SERVICE <lb/>
+						<date when="1917-11-29">NOV 29<lb/>8 PM<lb/>1917</date>
+					</ab>
+					<ab type="pre-printed">THIS SIDE OF CARD IS FOR ADDRESS</ab>
+					<ab type="postmark"> E.D.B. LOUGHRAN<lb/>1<hi rend="superscript">st</hi> LIEUT
+						M.O.R.C.U.S.A. </ab>
+					<ab>
+						<address style="text-align: center;">
+							<addrLine>RUTGERS COLLEGE</addrLine>
+							<addrLine>NEW BRUNSWICK, NEW JERSEY.</addrLine>
+							<addrLine><placeName key="Rutgers College, New Brunswick, NJ" ref="https://geohack.toolforge.org/geohack.php?params=40_30_2_N_74_26_50_W">OFFICE OF THE REGISTRAR</placeName></addrLine>
+						</address>
+					</ab>
+				</div>
+				<pb n="4"/>
+				<div type="verso">
+					<opener>
+						<dateline><date when="1917-11-24">Nov. 24, 1917</date></dateline>
+						<salute>Dear Silvers,</salute>
+					</opener>
+					<p><persName key="Storck, Donald G." role="Sergeant, Medical Corps" from="1897" to="1987">Stork</persName>, <persName key="Runyon, Mefford Ross" from="1897" to="1983" role="Sergeant, Medical Department">Runyon</persName>, <persName key="Maar, Carl H." from="1897" to="1971" role="Sergeant, Medical Department">Maar</persName>, <persName key="Voorhees, Ralph Spencer Jr." role="Sergeant, Medical Department" from="1897" to="1987">Voohrees</persName>, and myself are
+						all at the following address. Base Hosp. #8 A.E.F. Stork is 1st class
+						private <sic>ther</sic> rest of us are <seg xml:id="fn2">"Bucks"</seg><note target="#fn2" type="gloss"><p>Used to stress that a private has the
+								lowest rank in the military</p><ref target="https://www.merriam-webster.com/dictionary/buck%20private">Merriam-Webster</ref></note> any news from college is always good
+						news. We have not recieved any issues of the <seg xml:id="fn3">Targum</seg><note target="#fn3" type="annotation"><p>The Daily Targum,
+								Rutgers University's student newspaper</p><ref target="https://dailytargum.com/page/about">The Daily Targum, &apos;About&apos;</ref></note> but are pining
+						away for a look at it.</p>
+
+					<p><unclear reason="damage" extent="2 lines"/> Merry Christmas + Happy New Year.
+						and hopes for successful year.</p>
+
+					<closer>
+						<signed>Pvt. M.B. Jackson.</signed>
+					</closer>
+				</div>
+			</div>
+			<div type="letter" decls="#jacksonmb_03">
+				<pb n="5"/>
+				<opener>
+					<dateline>
+						<date when="1917-12-17">December 17th. 1917.</date>
+					</dateline>
+					<address style="text-align: left;">
+						<addrLine>Private M. B. Jackson,</addrLine>
+						<addrLine>Base Hospital No 8.</addrLine>
+						<addrLine>American Expeditionary Forces.</addrLine>
+					</address>
+					<salute>Dear Jackson:-</salute>
+				</opener>
+
+				<p>Thank you for your postal of November 24th, and for the information regarding the
+					Rutgers men. We appreciate word from our Rutgers men in France and we hope that
+					you all will write us occasionally whenever you can find the time.</p>
+
+				<closer>
+					<salute>Good luck to you and best wishes,</salute>
+					<salute>Very sincerly yours,</salute>
+					<signed/>
+				</closer>
+			</div>
+			<div type="letter" decls="#jacksonmb_04">
+				<pb n="6"/>
+				<opener>
+					<add place="margin"><seg xml:id="fn13"><hi rend="underline">Jackson</hi> MB</seg><note type="annotation" target="#fn13"><p>This is a typewritten transcript of a letter that was sent by Jackson to his parents. W. W. Jackson would have enclosed it with one of his letters. Silvers alludes to it in his correspondence of July 12, 1918.</p></note></add>
+					<dateline><date when="1918-07-02">July 2nd., 1918.</date></dateline>
+					<salute>Dear Folks,</salute>
+				</opener>
+
+				<p>It is now permissable to address your mail Pvt. M. B . Jackson, Base Hospital #8,
+					P.O. <del rend="overstrike">39</del> 701, <placeName key="Savenay, France" ref="https://geohack.toolforge.org/geohack.php?params=47_21_43_N_1_56_26_W">Savenay, Loire Inferiore, France</placeName>. In that way it will receive a
+					speedier delivery.</p>
+
+				<p>The bathing suit, cake , gum, <unclear>blades</unclear>, and chocolate came in
+					good shape but next time put the cake in a tin box and seal it with <seg xml:id="fn4"><sic>parefine</sic></seg><note target="#fn4" type="gloss"><p>Paraffin or
+							petroleum wax, which was sometimes used as a sealant for jars, cans, and
+							bottles</p><ref target="https://en.wikipedia.org/wiki/Paraffin_wax">Wikipedia</ref></note>. In that way the cake can stand a month on
+						<unclear>briny deep water</unclear>.</p>
+
+				<p>You will also find another order which I hope the censor will be good enough to
+					sign - socks, <unclear>Pack</unclear> Cross razorblades, chocolate and
+					blankets.</p>
+
+				<p>I dont know how we'll ever get used to real American weather again. Over here you
+					get up shivering after sleeping rolled up in three blankets. By seven o'clock
+					you've begun to shed sweat and clothing. By two o'clock you have stopped
+					thinking of <seg xml:id="fn5">Lofts</seg><note target="#fn5" type="gloss"><p>Lofts here may refer to the thickness of a fabric or insulating
+							material for items like sleeping bags or coats.</p><ref target="https://www.merriam-webster.com/dictionary/loft">Merriam-Webster</ref></note> and wonder how <seg xml:id="fn6">Perry
+						could ever have left the north pole.</seg><note target="#fn6" type="annotation"><p>Jackson is likely referring to Robert Peary, an
+							American explorer who is best known for claiming to have reached the
+							geographic North Pole in a 1909 expedition.</p><ref target="https://en.wikipedia.org/wiki/Robert_Peary">Wikipedia</ref></note> By three o'clock you are well acclimated and then
+					when five o'clock blows, you will walk back to the house carrying your shirt and
+					thanking the Frenchman who forgot to top the shade trees on the road. When the
+					sun sets, which is at nine thirty, you are glad to wrap those three
+						<sic>blanks</sic> around you and shiver when the wind blows. (But, mother,
+					the sleeping sure is good)</p>
+
+				<p>Tell <persName key="Jackson, George Bement" role="Brother to Morris (Jill) Jackson" from="1900" to="1995">George</persName> that he's working the same hours I am; and with a slight
+					difference in pay. We are having our own fresh peas for dinner today and the
+					pods are full and good size. <persName key="Costa, Joseph Louis" role="Private, French Army" from="1897" to="1969">Pope</persName> wrote of
+					bundling rye. If he were here now, he'd think I'd been playing with the oat. Not
+					so; its rye. And we bundle it naked to the waist not because the government
+					doesn't supply gloves and <seg xml:id="fn7">fatigue suits</seg><note target="#fn7" type="gloss"><p>Uniforms or work clothing worn by military
+							personnel when performing labor.</p><ref target="https://www.merriam-webster.com/dictionary/fatigue">Merriam-Webster</ref></note> but because it is so hot. </p>
+
+				<p>From the top of our hill which is the highest around, you can see <placeName key="Saint-Nazaire, France" ref="https://geohack.toolforge.org/geohack.php?params=47_16_50_N_2_12_31_W">St. Nazaire</placeName>. On all sides, oats, wheat, and rye make checker
+					boards out of the flat rolling country The houses, red roofed, with white
+					colored, clean in the distance and dirty in reality make good substitutes for
+					chess men. Every now and then about five people got together and built a million
+					dollar church and started a town. Every town has a church that they'D think twice about the cost of building back home,
+					along with it at least nine <seg xml:id="fn8">buvettes</seg><note target="#fn8" type="gloss"><p>Bar, taproom, or tavern.</p><ref target="https://www.merriam-webster.com/dictionary/buvette">Merriam-Webster</ref></note> and maybe a few people living in the
+					town.</p>
+
+				<p>On One side of the farm is a dam which has made the A. E. F. engineers famous
+					truly a masterpiece of concrete, on another the railroad runs just under the
+					hill and all day along big trains of freight drawn by Baldwin locomotives, every
+					car carrying a U.S.A on the side<add>,</add> tear by carrying supplies to
+					somewhere. On still another side is the main highway where train after train of
+					trucks pass by with men, supplies and accessories for other somewheres that the
+					railroad dont reach. <sic>Andstill</sic> on the other side of the hill is an
+					American Quarry where American engineers are making big ones into little ones
+					while the U.S. mules he-haw at the dump wagons. So you see we are rather well
+					Americanized.</p>
+				<p>Jimmy Williams has left for the front. It's too bad I didn't get a chance to see
+					him before his company left. He was quite near too. He's a corporal.</p>
+
+				<p>Poor <persName key="Storck, Donald G." role="Sergeant, Medical Corps" from="1897" to="1987">Don Storck</persName> and Meff Runyon feel pretty bad. They were
+					picked with four other men to take charge of a number of psycopathic cases which
+					are going back to the States. The boys of course, expected to get a bit of time
+					at home but when the major saw the list he said Storck and Runyon are too
+					valuable around here so they don't get to go.</p>
+
+				<p>We expect to entertain the patients who have worked here on the farm on the
+					Fourth of July. The nurses will provide sandwiches and cocoa for them "and a
+					delightful time" etc. Do you remember arabella "and they
+					danced as they danced and they said as they danced <seg xml:id="fn9">'Hurrah for the Fourth
+						of July.'</seg><note target="#fn9" type="annotation"><p>Johnson is quoting
+							Gertrude Smith's &apos;A Celebration Story&apos; from The Arabella and
+							Araminta Stories, published 1895.</p></note>"</p>
+
+				<p>I dont feel like writing much so wont.</p>
+				<closer>
+					<salute>Love, </salute>
+					<signed>Jill.</signed>
+					<pb n="7"/>
+					<add place="below">For Alumni Quarterly</add>
+				</closer>
+			</div>
+
+			<div type="letter" decls="#jacksonmb_05">
+				<pb n="8"/>
+
+				<note type="letterhead">TELEPHONES {2039 1841} BEEKMAN<lb/> Cable Address<lb/>
+					"FIREPLACE" New York <lb/> EDWIN A. JACKSON &amp; BRO. <lb/> INCORPORATED <lb/>
+					FIREPLACES AND BUILDING SPECIALTIES <lb/> 50 BEEKMAN STREET, NEW YORK</note>
+
+				<opener>
+					<dateline>
+						<date when="1918-07-11">7/11/18</date>
+					</dateline>
+					<address style="text-align: left;">
+						<addrLine>Mr. Earl Reed Silvers</addrLine>
+						<addrLine>Assoc. of the Alumni of Rutgers College</addrLine>
+						<addrLine>Office of Editor, New Brunswick, N.J.</addrLine>
+					</address>
+					<salute>Dear Sir:</salute>
+				</opener>
+
+				<p>Your letter of May 18th. came while I was out of town and was neglected by me on
+					my return so I have sent you none of the letters received from my son Morris B.
+					Jackson.</p>
+
+				<p>I judge that it is now to<add>o</add> late to send you any of these. If still
+					wanted, I will forward at once and regret that I did not do so sooner.</p>
+
+				<closer>
+					<salute>Yours Truly,</salute>
+					<signed>Will Walter Jackson</signed>
+				</closer>
+			</div>
+
+			<div type="letter" decls="#jacksonmb_06">
+				<pb n="9"/>
+				<opener>
+					<dateline>
+						<date when="1918-07-12">July 12,<lb/>1 9 1 8.</date>
+					</dateline>
+					<address style="text-align: left;">
+						<addrLine>Mr. W . Walter Jackson,</addrLine>
+						<addrLine>50 Beekman St.,</addrLine>
+						<addrLine>New York, N.Y.</addrLine>
+					</address>
+					<salute>Dear Mr. Jackson:</salute>
+				</opener>
+
+				<p>I thank you for your letter of July 11 and for the enclosed letter from your son.
+					It is just what we wanted and will be used in our October number. If you have
+					any other letters which you think would be of especial interest to Rutgers men,
+					I would appreciate your sending me them. I am sending you under separate cover a
+					copy of the April issue of the Quarterly containing one of the letters from
+					Morris .</p>
+
+				<closer>
+					<salute>Very sincerly yours,</salute>
+					<signed>ERS/W</signed>
+				</closer>
+			</div>
+
+			<div type="letter" decls="#jacksonmb_07">
+				<pb n="10"/>
+
+				<note type="letterhead">TELEPHONES {2039 1841} BEEKMAN<lb/> Cable Address<lb/>
+					"FIREPLACE" New York <lb/> EDWIN A. JACKSON &amp; BRO. <lb/> INCORPORATED <lb/>
+					FIREPLACES AND BUILDING SPECIALTIES <lb/> 50 BEEKMAN STREET, NEW YORK</note>
+
+				<opener>
+					<dateline>
+						<date when="1918-07-15">July 15. 1918</date>
+					</dateline>
+					<salute>My Dear Mr. Silvers</salute>
+				</opener>
+
+				<p><unclear>Agreeable</unclear> of yours of the 12th I will send you from time to
+					time anything of interest in letters of Morris B Jackson</p>
+
+				<p>(no acknowledgement needed)</p>
+
+				<closer>
+					<salute>Yours</salute>
+					<signed>W W Jackson</signed>
+				</closer>
+			</div>
+
+			<div type="letter" decls="#jacksonmb_08">
+				<pb n="11"/>
+				<opener>
+					<dateline>
+						<placeName key="Savenay, France" ref="https://geohack.toolforge.org/geohack.php?params=47_21_42_N_1_56_26_W">Savenay, </placeName><date when="1918-11-12">Nov. 12th.,1918.</date>
+					</dateline>
+					<salute>My dear <persName key="Bacon, Fanny Hastings" from="1872" to-iso="19--" role="Mother to Morris (Jill) B. Jackson">Mrs. Jackson</persName> :</salute>
+				</opener>
+
+				<p><seg xml:id="fn14">I have just heard of Morris' death</seg><note target="#fn14" type="annotation"><p>Typewritten transcript of a letter that W. W. Jackson sent to Silvers to be copied.</p></note>, and cannot forbear writing you a line, even
+					at the risk of intruding upon your great grief. I don't know when I have met a
+					finer boy, and I had learned how to love him almost as a son. I shall never
+					visit the farm again, where he was stationed latterly, without a feeling of mute
+					pain. I used to go there occaisonally to take supper with the boys, and the
+					chief pleasure to me was sitting afterwards in the doorway or on the flagging
+					and talking with him. It seems to me now as if I could never bear taking supper
+					there again.</p>
+
+				<p>I had a postal card from him written on his arrival at <placeName key="Newport News, VA" ref="https://geohack.toolforge.org/geohack.php?params=36_58_6_N_76_25_45_W">Newport News</placeName> in which he said he wished he had not left here,
+					he had seen too much of the world since leaving. I know he referred to the
+					nursing and horror of the demented, and I am afraid often degraded beings whom
+					he had to care for on his way over. I can imagine the shock it must have been to
+					his sensitive nature.</p>
+
+				<p>I remember the beautiful spirit in which he took an unjust criticism levelled at
+					the conduct of the Farm in which he took so useful a part. The other man there
+					was justly angry and <sic>di</sic> not conceal it. Morris never <add>ceased smiling</add>
+					and was moderate in all his comment, it seemed sufficient to him that he had
+					done his full duty and it did not too much concern him if there happened to be
+					somebody who could not recognize it.</p>
+
+				<p>I often had occasion to recognize in him a higher spirit and one more genuinely
+					interested in serious things than in most of the other men about. Perhaps that
+					was the result of a different and better home <sic>taining</sic>, but it was
+					surprising in a boy so fitted for every sort of outdoor delight to find him
+					discriminating in what he read and instinctively averse to the trash that the
+					average fellow fares for.</p>
+
+				<p>I have seldom seen a handsomer fellow- what a joy to find a beautiful spirit, a lovely nature, behind the outward beauty: Perhaps, my dear Mrs. Jackson, you can come to feel in time, if not just at
+					present, that he is now irrevocably and for all time, what you would wish him to
+					be, past danger of change or taint, secure in purity and serenity of his
+					youthful manhood. His memory will always remain an inspiration to me.
+					The world is the sweeter for his <sic>so journed</sic> among us.</p>
+
+				<p>If you have a photograph of his, that you can spare, I should deeply appeciate
+					having it.</p>
+
+				<p>After what I have written, I do not need to tell you how largely I share in the
+					grief of his father and yourself, you have my deepest sympathy.</p>
+
+				<closer>
+					<salute>Sincerly yours,</salute>
+					<address>
+						<addrLine><persName key="Paulding, J. K." from-iso="18--" to-iso="19--" role="Knights of Columbus Representative">J. K. Paulding</persName>,</addrLine>
+						<addrLine>A K.C. Representative, Base Hosp.#8,</addrLine>
+						<addrLine>Savenay, France.</addrLine>
+					</address>
+				</closer>
+			</div>
+
+			<div type="letter" decls="#jacksonmb_09">
+				<pb n="12"/>
+				<note type="letterhead">TELEPHONES {2039 1841} BEEKMAN<lb/> Cable Address<lb/>
+					"FIREPLACE" New York <lb/> EDWIN A. JACKSON &amp; BRO. <lb/> INCORPORATED <lb/>
+					FIREPLACES AND BUILDING SPECIALTIES <lb/> 50 BEEKMAN STREET, NEW YORK</note>
+				<opener>
+					<dateline>
+						<date when="1918-11-26">11/26/18</date>
+					</dateline>
+					<address style="text-align: left;">
+						<addrLine>Managing Editor</addrLine>
+						<addrLine>Rutgers Alumni Quarterly</addrLine>
+						<addrLine>New Brunswick, N.J.</addrLine>
+					</address>
+					<salute>Dear Sir:</salute>
+				</opener>
+
+				<p>I have to report to you the death of my son, Morris B. Jackson, and give you the
+					following items, some of which you may wish to use in your publication.</p>
+
+				<p>Morris Bacon Jackson, born Brooklyn, N.Y., May 27th., 1898. Graduated <placeName key="375 Pearl Street, Brooklyn, NY" ref="https://geohack.toolforge.org/geohack.php?params=40_41_34_N_73_59_19_W">Friends Seminary, Brooklyn,</placeName> 1915. Entered Rutgers College class
+					of 1919, course in Agriculture. Member Delta Upsilon Fraternity. Substitute
+					football team. Editor Targumdrop Column, Enlisted U. S. Army April
+						,1917, embarked transport Saratoga, July,1917 which steamer
+					was rammed by Steamer Panama, New York Harbor. Sailed transport Finland which was <sic>flag
+						ship</sic> of Convoy. Encountered submarines off coast of France which guns
+					of Finland sunk two.</p>
+
+				<p>Became part of U.S. Base Hospital #8, Savenay, Loire <sic>Infenior</sic>, France driving
+					motor truck and ambulance during winter of 1917-1918.</p>
+
+				<p>Placed in charge of 20 acre truck garden which was part of 120 acre farm used for
+					the benefit of hospital. Here each day convalescent patients, particularly those
+					who had been gassed, worked under the direction of Jackson, with the result that
+					the men were benefited, and vegetables were raised for the hospital.</p>
+
+				<p>Detailed as attendent of eight shell shocked officers who were returned to
+						<placeName key="Plattsburgh, NY" ref="https://geohack.toolforge.org/geohack.php?params=44_41_43_N_73_27_30_W"><sic>Plattsburg</sic>, N.Y.</placeName></p>
+
+				<p>While on fifteen day furlough, before return to France, <seg xml:id="fn10">contracted influenza</seg><note target="#fn10" type="annotation"><p>The influenza pandemic
+						of 1918 killed somewhere between 50 and 100 million people worldwide in an astonishingly short period of time.</p><ref target="https://www.theworldwar.org/learn/wwi/influenza">The National
+							WWI Museum and Memorial</ref></note>, and died at home of parents,
+					Brooklyn, Oct. 27th., 1918.</p>
+
+				<closer>
+					<salute>Yours truly,</salute>
+					<signed>Will Walter Jackson</signed>
+				</closer>
+
+				<postscript>
+					<ab type="pre-printed">The Hoover Campaign is to Avoid Waste and to Conserve Health</ab><lb/>
+					<ab type="pre-printed">Our fireplace grates save fuel, and also promote health by perfect
+						ventilation. Our fireless cookers save fuel and time, and also make the
+						good more wholesome. Our garbage containers reduce waste and forbid
+						disease-spreading flies and dogs.</ab>
+				</postscript>
+			</div>
+
+			<div type="letter" decls="#jacksonmb_10">
+				<pb n="13"/>
+				<opener>
+					<dateline>
+						<date when="1918-12-03">December 3, 1918.</date>
+					</dateline>
+					<address style="text-align: left;">
+						<addrLine>Mr. Wm. Walter Jackson,</addrLine>
+						<addrLine>Edwin A. Jackson &amp; Bro.,</addrLine>
+						<addrLine>50 Beekman Street,</addrLine>
+						<addrLine>New York, N.Y.</addrLine>
+					</address>
+					<salute>My dear Mr. Jackson;-</salute>
+				</opener>
+
+				<p>Thank you very much for your letter of <sic>Novemver</sic> 26th, containing
+					picture of your son Morris. The facts given, together with the photograph, are
+					just what we wish for publication in the January issue of the Rutgers Alumni
+					Quarterly. If you will advise me of the number of copies you may be able to use,
+					I shall be pleased to send them to you.</p>
+
+				<p>Morris' death was a big shock to us here at the college. He always seemed to me
+					so vitally alive, so full of a youthful zest in the pure joy of living, that it
+					is hard to realize that he has crossed the border. Words in a time like this are
+					always futile, but I hope that you will accept my sincere sympathy. It must give
+					you a good deal of satisfaction to know that you son's life was clean and
+					wholesome and that his death came while he was in the service of the nation</p>
+
+				<closer>
+					<salute>Very sincerely yours,</salute>
+					<signed/>
+				</closer>
+			</div>
+
+			<div type="letter" decls="#jacksonmb_11">
+				<pb n="14"/>
+				<opener>
+					<add place="margin"><hi rend="underline">Jackson, M.B.</hi></add><lb/>
+					<address style="text-align: right;">
+						<addrLine>55 Pineapple St</addrLine>
+						<addrLine>Brooklyn</addrLine>
+					</address>
+					<dateline><date when="1918-12-09">12/9/18</date></dateline>
+					<salute>My dear Mr. Silvers</salute>
+				</opener>
+
+				<p>Mrs Jackson &amp; I are grateful for your message of sympathy. Rutgers College
+					meant a great deal to our</p>
+
+				<pb n="15"/>
+				<p><add place="margin">(2)</add> son Morris - He not only was very happy there - but
+					was very proud of the College &amp; of his friends there. So the word from you
+					means more than from some others.</p>
+
+				<pb n="16"/>
+				<p><add place="margin">(3)</add> You speak of his always being happy in his work the
+					"joy of living" - so I venture to enclose a copy of letter
+					from a <seg xml:id="fn12">K of C</seg><note target="#fn12" type="gloss"><p>Knights of Columbus</p></note> representative that</p>
+
+				<pb n="17"/>
+				<p><add place="margin">(4)</add> speaks of this same trait. Do not bother to answer this - nor to return
+					Enclosure. I know you have many letters to write - and many that call for
+					sympathy.</p>
+
+				<closer>
+					<salute>Thank you - Mrs Jackson joins me in appreciation</salute>
+					<signed>W. W. Jackson</signed>
+				</closer>
+
+				<postscript>
+					<p>We would like 3 copies.</p>
+				</postscript>
+			</div>
+
+			<div type="letter" decls="#jacksonmb_12">
+				<pb n="18"/>
+				<opener>
+					<dateline>
+						<date when="1918-12-10">December 10, 1918.</date>
+					</dateline>
+					<address style="text-align: left;">
+						<addrLine>Mr. W. W. Jackson</addrLine>
+						<addrLine>55 Pineapple St</addrLine>
+						<addrLine>Brooklyn, N.Y.</addrLine>
+					</address>
+					<salute>My dear Mr. Jackson:-</salute>
+				</opener>
+
+				<p>Thank you very much for your letter of December 9th with its interesting
+					enclosure. I shall most certainly send you three copies of the January number of
+					the Alumni Quarterly as soon as it is issued.</p>
+
+				<closer>
+					<salute>Very sincerely yours,</salute>
+				</closer>
+			</div>
+
+			<div type="letter" decls="#jacksonmb_13">
+				<pb n="19"/>
+				<div type="paper-reuse">
+					<ab type="hand-written">(This is my </ab>
+					<ab type="pre-printed"><hi rend="underline">Second</hi><del rend="strikethrough">notice</del><add type="hand-written">reply.)</add>. Please answer at
+						once.</ab>
+				</div>
+				<div type="rest-of-letter">
+					<opener>
+						<salute>My dear Mr. Silvers <add>'19</add></salute>
+					</opener>
+
+					<p>Will you please cross the name of Morris B Jackson from these lists. You will
+						find I wrote you calling attention to the death of my son Morris B. Jackson
+						Oct 27. 1918</p>
+
+					<pb n="20"/>
+					<p>and that <unclear>you</unclear> had his current war record in the Alumni Quarterly &amp; in the printed program of the memorial service.</p>
+
+					<closer>
+						<salute>Yours,</salute>
+						<signed>Will Walter Jackson</signed>
+					</closer>
+					<lb/>
+
+					<postscript>
+						<ab rend="upside-down" type="pre-printed">WAR RECORD OF <lb/> Name and
+							class. <lb/> Rank and branch of service.</ab>
+					</postscript>
+				</div>
+			</div>
+
+			<div type="letter" decls="#jacksonmb_14">
+				<pb n="21"/>
+				<note type="letterhead">EDWIN A. JACKSON &amp; BRO, INC.<lb/>MANTELS &amp; FIREPLACES<lb/>FIFTY
+					BEEKMAN STREET<lb/>NEW YORK</note>
+				<opener>
+					<dateline>
+						<date when="1919-02-13">Feb. 13th.,1919.</date>
+					</dateline>
+					<salute>My dear <persName key="Demarest, William Henry Steele" role="President, Rutgers College" from="1863" to="1956" ref="https://ucmweb.rutgers.edu/pastpresidents/about/history/past-presidents/william-henry-steele-demarest.htm">Dr. Demarest</persName>:</salute>
+				</opener>
+
+				<p>Thank you for your letter of the 11th. advising me of the Memorial Service which
+					is to be held Sunday afternoon.</p>
+
+				<p>Mrs. Jackson and I will be there and we appreciate your kindness in sending us
+					this special notice.</p>
+
+				<closer>
+					<salute>Sincerely yours,</salute>
+					<signed>Will Walter Jackson</signed>
+					<address>
+						<addrLine>Dr. W.D.S.Demarest</addrLine>
+						<addrLine>Rutgers College</addrLine>
+						<addrLine>New Brunswick,N.J.</addrLine>
+					</address>
+				</closer>
+
+				<postscript>
+					<p>May I add what I have had in my heart for two years or more - my son Morris B
+						Jackson loved Rutgers College - and was proud to represent her <add place="margin">(over)</add></p>
+
+					<pb n="22"/>
+					<p><add place="margin">(2)</add> in this Country - before he joined the army -
+						and in France when in the U.S. service.</p>
+
+					<p>With Morris I originally chose Rutgers as a College which was backed by a
+							<seg xml:id="fn11">live Church</seg><note target="#fn11" type="annotation"><p>It may be worth noting here that Demarest was a
+								pastor.</p><ref target="https://ucmweb.rutgers.edu/pastpresidents/about/history/past-presidents/william-henry-steele-demarest.htm">Frusciano, T., &apos;William Henry Steele Demarest&apos;</ref></note> - a College whose students came
+						from good families - a College where a boy of moderate circumstances</p>
+
+					<pb n="23"/>
+					<p><add place="margin">(3)</add> could get the best kind of an Education. May I
+						say that my son and his parents have always believed our choice was the best
+						that could be made</p>
+				</postscript>
+
+				<closer>
+					<salute>Cordially</salute>
+					<signed>Will Walter Jackson</signed>
+				</closer>
+			</div>
+		</body>
+		<back>
+			<listPlace>
+				<place xml:id="van-nest-hall">
+					<placeName>Rutgers Alumni House, New Brunswick, NJ</placeName>
+					<location>
+						<geo>40.498611 -74.446944</geo>
+					</location>
+				</place>
+				<place xml:id="jackson-work">
+					<placeName>50 Beekman St., New York, NY</placeName>
+					<location>
+						<geo>40.71113 -74.006228</geo>
+					</location>
+				</place>
+				<place xml:id="jackson-home">
+					<placeName>55 Pineapple Street, Brooklyn, NY</placeName>
+					<location>
+						<geo>40.698542 -73.9959025</geo>
+					</location>
+				</place>
+				<place xml:id="rutgers">
+					<placeName>Rutgers College, New Brunswick, NJ</placeName>
+					<location>
+						<geo>40.500819 -74.447399</geo>
+					</location>
+				</place>
+				<place xml:id="us-base-hospital-8">
+					<placeName>Savenay, France</placeName>
+					<location>
+						<geo>47.3619 -1.9406</geo>
+					</location>
+				</place>
+				<place xml:id="saint-nazaire">
+					<placeName>Saint-Nazaire, France</placeName>
+					<location>
+						<geo>47.274023 -2.213257</geo>
+					</location>
+				</place>
+				<place xml:id="hampton-roads-port">
+					<placeName>Newport News, VA</placeName>
+					<location>
+						<geo>36.968562 -76.429221</geo>
+					</location>
+				</place>
+				<place xml:id="friends-seminary">
+					<placeName>375 Pearl Street, Brooklyn, NY</placeName>
+					<location>
+						<geo>40.6929031 -73.9886898</geo>
+					</location>
+				</place>
+				<place xml:id="us-army-general-hospital-30">
+					<placeName>Plattsburgh, NY</placeName>
+					<location>
+						<geo>44.695278 -73.458333</geo>
+					</location>
+					<note>See <ref target="https://nursingclio.org/2018/11/07/neuro-psychiatry-and-patient-protest-in-first-world-war-american-hospitals/">Neuro-Psychiatry and Patient Protest in First World War American Hospitals</ref> for information on this hospital.</note>
+				</place>
+			</listPlace>
+		</back>
+	</text>
+</TEI>

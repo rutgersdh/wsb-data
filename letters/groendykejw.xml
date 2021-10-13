@@ -271,6 +271,7 @@
 
 			<div type="letter" decls="#groendykejw_03">
 				<pb n="3"/>
+				<div type="recto">
 				<ab type="postmark">
 					TRENTON, N.J. <lb/> <date when="1917-10-31">OCT 31<lb/>7 AM<lb/>1917</date> <lb/> DIX BRANCH
 				</ab>
@@ -281,16 +282,17 @@
 						<addrLine>NEW BRUNSWICK, N.J.</addrLine>
 					</address>
 				</ab>
-
+				</div>
 				<pb n="4"/>
-				<ab>
-					<address style="text-align: left;">
+				<div type="verso">
+				<opener>
+					<address style="text-align: center;">
 						<addrLine>Company "C" - 312 Infantry - 1st Battalion</addrLine>
 						<addrLine><placeName key="Fort Dix, NJ" ref="https://geohack.toolforge.org/geohack.php?params=40.006_N_74.611_W">Camp Dix, N.J.</placeName></addrLine>
 					</address>
-					<date when="1917-10-30">10-30-17</date><lb/>
-					Dear Reed:
-				</ab>
+					<dateline><date when="1917-10-30">10-30-17</date></dateline>
+					<salute>Dear Reed:</salute>
+				</opener>
 
 				<p> Your forwarded letter received today. I was drafted from 8 <unclear reason="illegible" extent="4" unit="char">dist</unclear> Newark
 					came here Sept. <unclear reason="illegible">29</unclear>, was made corporal
@@ -304,6 +306,7 @@
 					<salute>Best personal regards,</salute>
 					<signed>J.W. Groendyke.</signed>
 				</closer>
+				</div>
 			</div>
 
 			<div type="letter" decls="#groendykejw_04">
@@ -334,10 +337,13 @@
 
 			<div type="letter" decls="#groendykejw_05">
 				<pb n="6"/>
+				<div type="recto">
 				<ab type="postmark">
 					TRENTON, N.J. <lb/> <date when="1917-11-11">NOV 11<lb/>7 PM<lb/>1917</date> <lb/> DIX BRANCH
-				</ab> <lb/>
-				<ab type="pre-printed">THIS SIDE OF CARD IS FOR ADDRESS</ab><lb/>
+				</ab>
+				<lb />
+				<ab type="pre-printed">THIS SIDE OF CARD IS FOR ADDRESS</ab>
+				<lb />
 				<ab>
 					<address style="text-align: center;">
 						<addrLine>Earl Reed Silvers Esq.</addrLine>
@@ -346,11 +352,13 @@
 						<addrLine>Rutgers College</addrLine>
 					</address>
 				</ab>
+				</div>
 				<pb n="7"/>
-				<ab>
-					<date when="1917-11-11">11/11/17</date><lb/>
-					Dear Reed,
-				</ab>
+				<div type="verso">
+				<opener>
+					<dateline><date when="1917-11-11">11/11/17</date></dateline>
+					<salute>Dear Reed,</salute>
+				</opener>
 
 				<p> I was out of luck to some degree Sat. I arrived at the gate at 2:30 and inquired
 					at the window and of <unclear reason="illegible">General</unclear> about the
@@ -363,14 +371,18 @@
 				<closer>
 					<signed>Jake.<lb/>Groendyke</signed>
 				</closer>
+				</div>
 			</div>
 
 			<div type="letter" decls="#groendykejw_06">
 				<pb n="8"/>
+				<div type="recto">
 				<ab type="postmark">
 					TRENTON, N.J. <lb/> <date when="1918-05-18">MAY 18<lb/>8 PM<lb/>1918</date> DIX BRANCH
-				</ab><lb/>
-				<ab type="pre-printed">THIS SIDE OF CARD IS FOR ADDRESS</ab><lb/>
+				</ab>
+					<lb/>
+				<ab type="pre-printed">THIS SIDE OF CARD IS FOR ADDRESS</ab>
+					<lb/>
 				<ab>
 					<address style="text-align: center;">
 						<addrLine>Earl Reed Silvers Esq.</addrLine>
@@ -379,10 +391,12 @@
 						<addrLine>Rutgers College</addrLine>
 					</address>
 				</ab>
+				</div>
 				<pb n="9"/>
-				<ab>
-					<date when="1918-05-18">5/18/18</date><lb/>
-				</ab>
+				<div type="verso">
+				<opener>
+					<dateline><date when="1918-05-18">5/18/18</date></dateline>
+				</opener>
 
 				<p> Please discontinue all mail to me until further notice. Things have been so
 					dizzy that all good intentions in regard to keeping you informed of my
@@ -391,15 +405,20 @@
 				<closer>
 					<signed>J W Groendyke.</signed>
 				</closer>
+				</div>
 			</div>
 
 			<div type="letter" decls="#groendykejw_07">
 				<pb n="10"/>
+				<div type="recto">
 				<ab type="pre-printed">SOLDIER'S MAIL 			 NO POSTAGE <lb/> NECESSARY.</ab>
+					<lb/>
 				<ab type="pre-printed">Soldiers Mail.</ab>
+					<lb/>
 				<ab type="postmark">
 					WASHINGTON D.C. <lb/> <date when="1918-06-08">JUN 8 <lb/> 4 30 PM <lb/>1918</date>
 				</ab>
+					<lb/>
 				<ab type="pre-printed">THE AMERICAN RED CROSS</ab>
 				<ab type="pre-printed">THIS SIDE FOR ADDRESS ONLY.</ab>
 				<ab type="postmark">PASSED BY THE CHIEF MILITARY CENSOR 3 WASHINGTON</ab>
@@ -411,17 +430,20 @@
 						<addrLine>N.J.</addrLine>
 					</address>
 				</ab>
-				
+				</div>
 				<pb n="11"/>
-
+				<div type="verso">
 				<ab type="pre-printed">	THE SHIP ON WHICH I SAILED HAS ARRIVED SAFELY OVERSEAS. </ab>
 				<ab type="pre-printed"> Name </ab>
-				<ab type="handwritten"> J W Groendyke </ab><lb/>
+				<ab type="handwritten"> J W Groendyke </ab>
+					<lb/>
 				<ab type="pre-printed"> Organization </ab>
 				<ab type="handwritten"><seg xml:id="fn3"> Co E 312 Inf. </seg><note type="gloss" target="#fn3"><p>Company E, 312th Infantry</p><ref target="https://catalog.hathitrust.org/Record/008400293">Morgan, G.R.
 							Company E, 312th Infantry, 78th Division in France, May 19th, 1918 to
-							May 31st, 1919.</ref></note></ab><lb/>
+							May 31st, 1919.</ref></note></ab>
+					<lb/>
 				<ab type="pre-printed"> American Expeditionary Forces. </ab>
+				</div>
 			</div>
 
 			<div type="letter" decls="#groendykejw_08">
@@ -586,15 +608,20 @@
 
 			<div type="letter" decls="#groendykejw_11">
 				<pb n="20"/>
-				<ab><add place="margin">J.W. Groendyke <lb/> US. Army</add> &#x9;&#x9;&#x9;<add place="margin">soldiers mail.</add></ab><lb/>
+				<div type="recto">
+				<ab><add place="margin">J.W. Groendyke <lb/> US. Army</add> &#x9;&#x9;&#x9;<add place="margin">soldiers mail.</add></ab>
+					<lb/>
 				<ab type="pre-printed">POST CARD</ab>
 				<ab type="postmark">U.S ARMY POST OFFICE <placeName key="Langres, France" ref="https://geohack.toolforge.org/geohack.php?params=47_51_12_N_5_20_02_E"> MPES 714 </placeName>
 					<date when="1918-10-01">10 1<lb/>18</date>
-				</ab><lb/>
+				</ab>
+					<lb/>
 				<ab type="postmark">
 					A.E.F. PASSED AS CENSORED A. 2923
-				</ab><lb/>
-				<ab><add place="margin">OK. J.W. Groendyke <lb/> 2nd Lt.</add></ab><lb/>
+				</ab>
+					<lb/>
+				<ab><add place="margin">OK. J.W. Groendyke <lb/> 2nd Lt.</add></ab>
+					<lb/>
 				<ab>
 					<address style="text-align: center;">
 						<addrLine>Earl Reed Silvers</addrLine>
@@ -602,17 +629,20 @@
 						<addrLine>New Brunswick, N.J.</addrLine>
 					</address>
 				</ab>
+				</div>
 				<pb n="21"/>
-				
-				<ab><date when="1918-09-29">Sept. 29, 1918</date><lb/>
-					Dear Reed.</ab>
+				<div type="verso">
+				<opener>
+					<dateline><date when="1918-09-29">Sept. 29, 1918</date></dateline>
+					<salute>Dear Reed.</salute>
+					</opener>
 				<p>Am resting this card on the July Quarterly which has been greatly enjoyed. Presume football is receiving its share of attention now. We had a game arranged here with teams having a lot of All A's but a schedule difficulty interfered. Have been to school "as usual" and am now commissioned. Saw <persName key="Farley, Worthington (Duck) Shumway" from="1895" to="1963" role="First Lieutenant, Infantry">Worth Farley</persName> two months ago, and <persName key="Firth, Stuart Mortimer" cert="medium" from="1890" to="1983" role="First Lieutenant, Infantry">Firth</persName> yesterday. Every thing is going fine. Will you give my best regards to Registrar <persName key="Martin, Luther Harned" from="1889" to="1970" role="Registrar, Rutgers College">Martin</persName>? </p>
 				<closer>
 					<salute>Sincerely yours,</salute>
 					<signed>Jacob W. Groendyke.</signed>
 					<add place="margin">O.K. <lb/> J.W. Groendyke. <lb/> 2nd Lt. U.S. Army.</add>
 				</closer>
-				
+				</div>
 			</div>
 			<div type="letter" decls="#groendykejw_12">
 				<pb n="22"/>
@@ -680,7 +710,7 @@
 					</address>
 					<salute>My dear Mr. <persName key="Groendyke, Jacob J." from="1857" to="1932" role="Father to Jacob W. Groendyke">Groendyke</persName>:-</salute>
 				</opener>
-				<p>Rutgers College is planning to publish a book which will contain letters from our alumni and undergraduates  who saw service in the Army or Navy of the United States. If you have any letters from Mr. Jacob W. Groendyke which you think may be of interest in such a publicatino, we shall be grateful for them. Anything you send us will be carefully preserved and returned to you within two weeks of their receipt.</p>
+				<p>Rutgers College is planning to publish a book which will contain letters from our alumni and undergraduates  who saw service in the Army or Navy of the United States. If you have any letters from Mr. Jacob W. Groendyke which you think may be of interest in such a publication, we shall be grateful for them. Anything you send us will be carefully preserved and returned to you within two weeks of their receipt.</p>
 				<p>We are very anxious to make our War Book as complete a record as possible, and will appreciate your cooperation.</p>
 				<closer>
 					<salute>Sincerely yours,</salute>

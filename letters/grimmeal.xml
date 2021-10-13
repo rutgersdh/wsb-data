@@ -161,6 +161,7 @@
 		<revisionDesc>
 			<change when="2020-12-07" who="#fg">Started edited Eden's encodings.</change>
 			<change when="2021-08-16" who="#fg">Finished editing Eden's letters. Added correspDesc and listPlace elements.</change>
+			<change when="2021-09-17" who="#fg">Harmonized encoding of postcards with postmarks.</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -208,7 +209,7 @@
 					<date when="1917-10-29">OCT 29 <lb/> 10-AM <lb/> 1917</date>
 				</ab> <lb/>
 				<ab>
-					<address>
+					<address style="text-align: center;">
 						<addrLine>EARL REED SILVERS</addrLine>
 						<addrLine><placeName key="Rutgers Alumni House, New Brunswick, NJ" ref="https://geohack.toolforge.org/geohack.php?params=40_29_55_N_74_26_49_W">ALUMNI HOUSE</placeName></addrLine>
 						<addrLine>NEW BRUNSWICK, N.J.</addrLine>
@@ -218,7 +219,7 @@
 				<pb n="4"/>
 				<div type="verso">
 				<opener>
-					<date when="1917-10-28">Oct. 28, 1917.</date>
+					<dateline><date when="1917-10-28">Oct. 28, 1917.</date></dateline>
 					<salute>Dear Sir:-</salute>
 				</opener>
 				<p>Kindly pardon delay in answering your communication but it was unavoidable.</p>
@@ -411,6 +412,7 @@
 
 			<div type="letter" decls="#grimmeal_09">
 				<pb n="17"/>
+				<div type="recto">
 				<ab type="postmark">
 					NEWARK, N.J. <lb/> <date when="1918-07-25">JUL 25 <lb/> 1 PM <lb/> 1918</date>
 				</ab> <lb/>
@@ -421,12 +423,13 @@
 						<addrLine>New Brunswick, N.J.</addrLine>
 					</address>
 				</ab>
-
+				</div>
 				<pb n="18"/>
-				<ab>
-					<date when="1918-07-25">July 25, 1918</date>
-					Dear sir;-
-				</ab>
+				<div type="verso">
+				<opener>
+					<dateline><date when="1918-07-25">July 25, 1918</date></dateline>
+					<salute>Dear sir;-</salute>
+				</opener>
 
 				<p> The present address of August L Grimme is <placeName key="Bergues, France" ref="https://geohack.toolforge.org/geohack.php?params=50.9692_N_2.435_E">#217 Squadron, 61st. Wing. R A F., France</placeName>. The person to
 					communicate with concerning him is, his Father, <persName key="Grimme, George" role="Father of August (Gustav) Grimme" from="1855" to="1925" ref="https://www.familysearch.org/tree/person/details/KHXY-2MG">George Grimme</persName>, <placeName key="75 Belmont Avenue, Newark, NJ" ref="https://geohack.toolforge.org/geohack.php?params=40_43_56_N_74_11_20_W">75 Belmont Ave., Newark, N. J.</placeName> or <placeName key="1045 Sanford Avenue, Irvington, NJ" ref="https://geohack.toolforge.org/geohack.php?params=40_43_35_N_74_14_29_W">1045 Sanford Ave Irvington N.J.</placeName>
@@ -438,30 +441,33 @@
 				</closer>
 				<postscript><p> Sorry I could not answer your communication before today. Received a letter from
 					my son today with the above new address. </p></postscript>
+				</div>
 			</div>
 
 			<div type="letter" decls="#grimmeal_10">
 				<pb n="19"/>
-				<ab type="stamp">Geo. Grimme</ab> <lb/>
-				<ab type="postmark">NEWARK, N.J. <lb/> <date when="1918-08-13">AUG 13 <lb/> 12<hi rend="superscript">30</hi> PM <lb/>
+				<div type="recto">
+					<ab type="stamp">Geo. Grimme</ab> <lb/>
+					<ab type="postmark">NEWARK, N.J. <lb/> <date when="1918-08-13">AUG 13 <lb/> 12<hi rend="superscript">30</hi> PM <lb/>
 					1918</date></ab> <lb/>
-				<ab type="pre-printed">THIS SIDE OF CARD IS FOR ADDRESS</ab> <lb/>
-				<ab>
-					<address style="text-align: center;">
-						<addrLine>Mr Earl Reed Silvers</addrLine>
-						<addrLine>Rutgers College</addrLine>
-						<addrLine>New Brunswick NJ</addrLine>
-					</address>
-				</ab>
-
+					<ab type="pre-printed">THIS SIDE OF CARD IS FOR ADDRESS</ab> <lb/>
+					<ab>
+						<address style="text-align: center;">
+							<addrLine>Mr Earl Reed Silvers</addrLine>
+							<addrLine>Rutgers College</addrLine>
+							<addrLine>New Brunswick NJ</addrLine>
+						</address>
+					</ab>
+				</div>
 				<pb n="20"/>
-				<ab>
+				<div type="verso">
+				<opener>
 					<address style="text-align: right;">
 						<addrLine><placeName key="1045 Sanford Avenue, Irvington, NJ" ref="https://geohack.toolforge.org/geohack.php?params=40_43_35_N_74_14_29_W">1045 Sanford
 								ave Irvington NJ.</placeName></addrLine>
 					</address> <lb/>
-					Dear Sir
-				</ab> <lb/>
+					<salute>Dear Sir</salute>
+				</opener>
 
 				<p> Your communication to my son August I have sent to his new address "<lb/>
 					August L Grimme 1st Lieutenant Sig. R C.
@@ -471,6 +477,7 @@
 					<salute>Yours truly,</salute><lb/>
 					<signed>George Grimme</signed>
 				</closer>
+				</div>
 			</div>
 
 			<div type="letter" decls="#grimmeal_11">
