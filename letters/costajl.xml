@@ -12,101 +12,451 @@
 				</respStmt>
 				<principal xml:id="fg"> Francesca Giannetti </principal>
 			</titleStmt>
-			<extent>17 p.</extent>
+			<extent>17 p. + 2 p.</extent>
 			<publicationStmt>
 				<publisher>Rutgers University Libraries</publisher>
 				<distributor> Rutgers Community Repository (RUcore) URL:
 					https://rucore.libraries.rutgers.edu </distributor>
-					<availability>
-						<p>No Known Copyright</p>
-					</availability>
-					<authority>Transcribed from digital files available in RUcore</authority>
-					<idno type="URI">https://doi.org/doi:10.7282/T3668GXZ</idno>
-				</publicationStmt>
-				<sourceDesc>
-					<msDesc>
-						<msIdentifier>
-							<repository>Special Collections and University Archives, Rutgers
-								University Libraries</repository>
-								<collection>Rutgers College. War Service Bureau. Records, 1917-1919</collection>
-								<idno>RG 33/C0/01</idno>
-							</msIdentifier>
-						</msDesc>
-					</sourceDesc>
-				</fileDesc>
-				<profileDesc>
-					<correspDesc xml:id="costajl_01">
-						<correspAction type="sent">
-							<persName>Joseph L. Costa</persName>
-							<placeName ref="#paris"/>
-							<date notAfter-iso="1918-03-11">Late 1917 [?]</date>
-						</correspAction>
-						<correspAction type="received">
-							<persName>George A. Osborn</persName>
-							<placeName ref="#rutgers"/>
-						</correspAction>
-					</correspDesc>
-					<correspDesc xml:id="costajl_02">
-						<correspAction type="sent">
-							<persName>Joseph L. Costa</persName>
-							<placeName ref="#artillery-school"/>
-							<date notAfter-iso="1918-03-11">Early 1918 [?]</date>
-						</correspAction>
-						<correspAction type="received">
-							<persName>Luther H. Martin</persName>
-							<placeName ref="#rutgers"/>
-						</correspAction>
-					</correspDesc>
-					<correspDesc xml:id="costajl_03">
-						<correspAction type="sent">
-							<persName>Earl Reed Silvers</persName>
-							<placeName ref="#rutgers"/>
-							<date when="1918-03-11">March 11, 1918</date>
-						</correspAction>
-						<correspAction type="received">
-							<persName>Joseph L. Costa</persName>
-							<placeName ref="#artillery-school"/>
-						</correspAction>
-					</correspDesc>
-					<correspDesc xml:id="costajl_04">
-						<correspAction type="sent">
-							<persName>Earl Reed Silvers</persName>
-							<placeName ref="#rutgers"/>
-							<date when="1918-04-30">April 30, 1918</date>
-						</correspAction>
-						<correspAction type="received">
-							<persName>Joseph L. Costa</persName>
-							<placeName ref="#artillery-school"/>
-						</correspAction>
-					</correspDesc>
-					<correspDesc xml:id="costajl_05">
-						<correspAction type="sent">
-							<persName>Joseph L. Costa</persName>
-							<placeName ref="#artillery-school"/>
-							<date notAfter-iso="1918-02-15">February 1918 [?]</date>
-						</correspAction>
-						<correspAction type="received">
-							<persName>Earl Reed Silvers</persName>
-							<placeName ref="#rutgers"/>
-						</correspAction>
-					</correspDesc>
-				</profileDesc>
-				<revisionDesc>
-					<change who="#bm">First pass at encoding letter anthology.</change>
-					<change who="#fg" when="2021-04-19">Changed title element to reflect letter anthology. Added DOI to source file. Fiddled with a few perName and placeName tags.</change>
-					<change who="#fg" when="2021-07-12">Finished up editing. Positively identified several named people. Added listPlace.</change>
-				</revisionDesc>
-			</teiHeader>
-			<text>
+				<availability>
+					<p>No Known Copyright</p>
+				</availability>
+				<authority>Transcribed from digital files available in RUcore</authority>
+				<idno type="URI">https://doi.org/doi:10.7282/T3668GXZ</idno>
+				<idno type="URI">https://doi.org/doi:10.7282/T3RF5XW4</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>Special Collections and University Archives, Rutgers University
+							Libraries</repository>
+						<collection>Rutgers College. War Service Bureau. Records, 1917-1919</collection>
+						<idno>RG 33/C0/01</idno>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<correspDesc xml:id="costajl_01">
+				<correspAction type="sent">
+					<persName ref="#psn-jlcos">Joseph L. Costa</persName>
+					<placeName ref="#pla-12rud"/>
+					<date notAfter-iso="1918-03-11">Late 1917 [?]</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="#psn-gaosb">George A. Osborn</persName>
+					<placeName ref="#pla-rutgecon"/>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="costajl_02">
+				<correspAction type="sent">
+					<persName>Joseph L. Costa</persName>
+					<placeName ref="#pla-ecolemid"/>
+					<date notAfter-iso="1918-03-11">Early 1918 [?]</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="#psn-lhmar">Luther H. Martin</persName>
+					<placeName ref="#pla-rutgecon"/>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="costajl_03">
+				<correspAction type="sent">
+					<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+					<placeName ref="#pla-rutgecon"/>
+					<date when="1918-03-11">March 11, 1918</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="#psn-jlcos">Joseph L. Costa</persName>
+					<placeName ref="#pla-ecolemid"/>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="costajl_04">
+				<correspAction type="sent">
+					<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+					<placeName ref="#pla-rutgecon"/>
+					<date when="1918-04-30">April 30, 1918</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="#psn-jlcos">Joseph L. Costa</persName>
+					<placeName ref="#pla-ecolemid"/>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="costajl_05">
+				<correspAction type="sent">
+					<persName ref="#psn-jlcos">Joseph L. Costa</persName>
+					<placeName ref="#pla-ecolemid"/>
+					<date notAfter-iso="1918-02-15">February 1918 [?]</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+					<placeName ref="#pla-rutgecon"/>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="costajl_06">
+				<correspAction type="sent">
+					<persName ref="#psn-jlcos">Joseph L. Costa</persName>
+					<placeName ref="#pla-vernefr"/>
+					<date when="1918-07-02">July 2, 1918</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>Unknown</persName>
+					<placeName>Unknown</placeName>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="costajl_07">
+				<correspAction type="sent">
+					<persName ref="#psn-jlcos">Joseph L. Costa</persName>
+					<placeName ref="#pla-soissfr"/>
+					<date when="1918-07-20">July 20, 1918</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>Unknown</persName>
+					<placeName>Unknown</placeName>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="costajl_08">
+				<correspAction type="sent">
+					<persName ref="#psn-jlcos">Joseph L. Costa</persName>
+					<placeName ref="#pla-soissfr"/>
+					<date when="1918-08-11">August 11, 1918</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName>Unknown</persName>
+					<placeName>Unknown</placeName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change who="#fg" when="2021-11-20">Added <gi>standOff</gi> and removed <gi>back</gi>.
+				Added three more letters found in <title>Selected Transcripts of Letters from
+					Rutgers Servicemen, A-F</title>.</change>
+			<change who="#fg" when="2021-07-12">Finished up editing. Positively identified several
+				named people. Added <gi>listPlace</gi>.</change>
+			<change who="#fg" when="2021-04-19">Changed title element to reflect letter anthology.
+				Added DOI to source file. Fiddled with a few <gi>perName</gi> and <gi>placeName</gi>
+				tags.</change>
+			<change who="#bm">First pass at encoding letter anthology.</change>
+		</revisionDesc>
+	</teiHeader>
+	<standOff>
+		<listPerson>
+			<person xml:id="psn-hwboe">
+				<persName type="display">Herbert Waldemar Boes</persName>
+				<persName type="sort">Boes, Herbert Waldemar</persName>
+				<state>
+					<p>Sergeant, Medical Department</p>
+				</state>
+				<birth when-custom="1893">1893</birth>
+				<death when-custom="1948">1948</death>
+				<note/>
+			</person>
+			<person xml:id="psn-jlcos">
+				<persName type="display">Joseph Louis Costa</persName>
+				<persName type="sort">Costa, Joseph Louis</persName>
+				<state>
+					<p>Lieutenant, French Foreign Legion</p>
+				</state>
+				<birth when-custom="1897">1897</birth>
+				<death when="1969-03-22">1969</death>
+				<note><p>UK-born Joseph Costa, RC '22, was a naturalized US citizen. His father, August, was born in Paris, France, and might have been of Portuguese or Italian descent. Joseph joined the French Foreign Legion rather than the American Expeditionary Forces, perhaps out of loyalty to his father's place of birth. His obituary establishes that he was a Catholic, which might explain why his Rutgers friends called him "Pope" in many letters. Costa's letters indicate that he had a friendly relationship with both Luther Martin and George Osborn, the Rutgers College registrar and librarian respectively. In addition to being close colleagues, George, Luther, and Earl Reed Silvers were themselves quite close. Costa's letters, whether addressed to George or "Lu," ended up in Silvers's files. Costa's epistolary manner is warm and effusive, and he goes into great detail about the lives of the eight Rutgers men serving in the Medical Department at Base Hospital No. 8 in Savenay, France. He even repeats substantial portions in separate letters to Martin and Silvers. One imagines he was a bit envious of their camaraderie, all sleeping together in the same attic of the École Normale. The last three letters in Costa's file give a somewhat revealing look into his experiences in the French army; it is not known who they were addressed to or indeed if they were mailed on the dates given. Costa is one of the only Rutgers alumni to admit to feeling lonely in his letters. He closes his letter to "Lu" by saying: "Drop me a line now &amp; then as I am lonely as they make them."</p>
+					<list type="links">
+					<item><ref target="https://newscomwc.newspapers.com/image/107912516"
+							><title>The Tustin News (Tustin, California), 27 Mar 1969, p. 1</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-jefra">
+				<persName type="display">James Eldredge Greene Fravell</persName>
+				<persName type="sort">Fravell, James Eldredge Greene</persName>
+				<state>
+					<p>Lieutenant, French Army</p>
+				</state>
+				<birth when-custom="1896">1896</birth>
+				<death when-custom="1950">1950</death>
+				<note/>
+			</person>
+			<person xml:id="psn-sjher">
+				<persName type="display">Stephen Joseph Jr Herben</persName>
+				<persName type="sort">Herben, Stephen Joseph Jr.</persName>
+				<state>
+					<p>Sergeant, Marine Corps</p>
+				</state>
+				<birth when-custom="1897">1897</birth>
+				<death when-custom="1967">1967</death>
+				<note><list type="links">
+						<item><ref target="https://en.wikipedia.org/wiki/Stephen_J._Herben_Jr."
+								><title>Wikipedia</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-wthut">
+				<persName type="display">William Thomas Hutchinson</persName>
+				<persName type="sort">Hutchinson, William Thomas</persName>
+				<state>
+					<p>Lieutenant, Marine Corps</p>
+				</state>
+				<birth when-custom="1895">1895</birth>
+				<death when-custom="1976">1976</death>
+				<note><list type="links">
+						<item><ref target="https://id.loc.gov/authorities/names/n79018069.html"
+								><title>LCNAF</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-mbjac">
+				<persName type="display">Morris Bacon Jackson</persName>
+				<persName type="sort">Jackson, Morris Bacon</persName>
+				<state>
+					<p>Private, Medical Department</p>
+				</state>
+				<birth when-custom="1898">1898</birth>
+				<death when-custom="1918">1918</death>
+				<note/>
+			</person>
+			<person xml:id="psn-jwjoh">
+				<persName type="display">John William Johnson</persName>
+				<persName type="sort">Johnson, John William</persName>
+				<state>
+					<p>Sergeant, Medical Department</p>
+				</state>
+				<birth when-custom="1895">1895</birth>
+				<death when-custom="1960">1960</death>
+				<note/>
+			</person>
+			<person xml:id="psn-mlee">
+				<persName type="display">Marvin Leeds</persName>
+				<persName type="sort">Leeds, Marvin</persName>
+				<state>
+					<p>Private, Medical Department</p>
+				</state>
+				<birth when-custom="1893">1893</birth>
+				<death when-custom="1980">1980</death>
+				<note/>
+			</person>
+			<person xml:id="psn-chmaa">
+				<persName type="display">Carl H Maar</persName>
+				<persName type="sort">Maar, Carl H.</persName>
+				<state>
+					<p>Sergeant, Medical Department</p>
+				</state>
+				<birth when-custom="1897">1897</birth>
+				<death when-custom="1971">1971</death>
+				<note/>
+			</person>
+			<person xml:id="psn-lhmar">
+				<persName type="display">Luther Harned Martin</persName>
+				<persName type="sort">Martin, Luther Harned</persName>
+				<state>
+					<p>Registrar, Rutgers College</p>
+				</state>
+				<birth when-custom="1889">1889</birth>
+				<death when-custom="1970">1970</death>
+				<note/>
+			</person>
+			<person xml:id="psn-fpmer">
+				<persName type="display">Frank Pearson Merritt</persName>
+				<persName type="sort">Merritt, Frank Pearson</persName>
+				<state>
+					<p>Sergeant, Medical Department</p>
+				</state>
+				<birth when-custom="1894">1894</birth>
+				<death when-custom="1983">1983</death>
+				<note/>
+			</person>
+			<person xml:id="psn-rhmin">
+				<persName type="display">Ross Heylmunn Miner</persName>
+				<persName type="sort">Miner, Ross Heylmunn</persName>
+				<state>
+					<p>Sergeant, Medical Department</p>
+				</state>
+				<birth when-custom="1897">1897</birth>
+				<death when-custom="1958">1958</death>
+				<note/>
+			</person>
+			<person xml:id="psn-gaosb">
+				<persName type="display">George Augustus Osborn</persName>
+				<persName type="sort">Osborn, George Augustus</persName>
+				<state>
+					<p>Librarian, Rutgers College</p>
+				</state>
+				<birth when-custom="1874">1874</birth>
+				<death when-custom="1963">1963</death>
+				<note/>
+			</person>
+			<person xml:id="psn-mrrun">
+				<persName type="display">Mefford Ross Runyon</persName>
+				<persName type="sort">Runyon, Mefford Ross</persName>
+				<state>
+					<p>Sergeant, Medical Department</p>
+				</state>
+				<birth when-custom="1897">1897</birth>
+				<death when-custom="1983">1983</death>
+				<note/>
+			</person>
+			<person xml:id="psn-ersil">
+				<persName type="display">Earl Reed Silvers</persName>
+				<persName type="sort">Silvers, Earl Reed</persName>
+				<state>
+					<p>Director, War Service Bureau</p>
+				</state>
+				<birth when-custom="1891">1891</birth>
+				<death when-custom="1948">1948</death>
+				<note><list type="links">
+						<item><ref target="http://viaf.org/viaf/68516378"><title>VIAF</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-eiter">
+				<persName type="display">Edith Irona Terrill</persName>
+				<persName type="sort">Terrill, Edith Irona</persName>
+				<state>
+					<p>Spouse of E. R. Silvers</p>
+				</state>
+				<birth when-custom="1893">1893</birth>
+				<death when-custom="1966">1966</death>
+				<note/>
+			</person>
+			<person xml:id="psn-rsvoo">
+				<persName type="display">Ralph Spencer Voorhees Jr.</persName>
+				<persName type="sort">Voorhees, Ralph Spencer Jr.</persName>
+				<state>
+					<p>Sergeant, Medical Department</p>
+				</state>
+				<birth when-custom="1897">1897</birth>
+				<death when-custom="1987">1987</death>
+				<note><list type="links">
+						<item><ref
+								target="https://www.familysearch.org/ark:/61903/1:1:QVV6-8296?cid=fs_copy"
+								><title>Family Search</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-afwar">
+				<persName type="display">Anton Fernando Ward</persName>
+				<persName type="sort">Ward, Anton Fernando</persName>
+				<state>
+					<p>Sergeant, Military Intelligence</p>
+				</state>
+				<birth when-custom="1897">1897</birth>
+				<death when-custom="1984">1984</death>
+				<note><list type="links">
+						<item><ref
+								target="https://www.familysearch.org/tree/person/details/KL79-VKN"
+								><title>Family Search</title></ref></item>
+					</list></note>
+			</person>
+		</listPerson>
+		<listPlace>
+			<place xml:id="pla-12rud">
+				<placeName>12 rue d'Aguesseau, Paris, France</placeName>
+				<location>
+					<geo sameAs="https://tools.wmflabs.org/geohack/geohack.php?params=48_52_13_N_2_19_10_E">48.870338 2.319580</geo>
+				</location>
+				<note><p>The street address of the Paris Y.M.C.A., per John Brownlee Voorhees's letter dated May 2, 1918.</p></note>
+			</place>
+			<place xml:id="pla-13rul">
+				<placeName>13 rue Lafayette, Paris, France</placeName>
+				<location>
+					<geo
+						sameAs="https://geohack.toolforge.org/geohack.php?params=48.87403694589224___N_2.3360378957045587___E"
+						>48.874037 2.336038</geo>
+				</location>
+				<note><p>Costa includes this address among three that he gives to Osborn. Presumably the homes of relatives.</p></note>
+			</place>
+			<place xml:id="pla-31avm">
+				<placeName>31 Avenue Montaigne, Paris, France</placeName>
+				<location>
+					<geo
+						sameAs="https://geohack.toolforge.org/geohack.php?params=48.86691685758165___N_2.304915713522623___E"
+						>48.866917 2.304916</geo>
+				</location>
+				<note><p>Costa includes this address among three that he gives to Osborn. Presumably the homes of relatives.</p></note>
+			</place>
+			<place xml:id="pla-31blh">
+				<placeName>31 Blvd Haussmann, Paris, France</placeName>
+				<location>
+					<geo
+						sameAs="https://geohack.toolforge.org/geohack.php?params=48.87299773436825___N_2.3320044492461065___E"
+						>48.872998 2.332004</geo>
+				</location>
+				<note><p>The location of Morgan, Harjes &amp; Co., given as Fravell's mailing address.</p></note>
+			</place>
+			<place xml:id="pla-41rud">
+				<placeName>41 rue de Provence, Paris, France</placeName>
+				<location>
+					<geo
+						sameAs="https://geohack.toolforge.org/geohack.php?params=48.87417302171174___N_2.336006083421254___E"
+						>48.874173 2.336006</geo>
+				</location>
+				<note><p>Costa includes this address among three that he gives to Osborn. Presumably the homes of relatives.</p></note>
+			</place>
+			<place xml:id="pla-ecolemid">
+				<placeName>École Militaire d'Artillerie, Fontainebleau, France</placeName>
+				<location><geo>48.399889 2.712466</geo></location>
+			</place>
+			<place xml:id="pla-fordhar">
+				<placeName>Ford Hall, Rutgers University, NJ</placeName>
+				<location>
+					<geo
+						sameAs="https://geohack.toolforge.org/geohack.php?params=40_30_01.8_N_74_26_55.6_W"
+						>40.5005 -74.448778</geo>
+				</location>
+				<note><p>Presumed to be Costa's dormitory when he was on campus.</p></note>
+			</place>
+			<place xml:id="pla-rutgecon">
+				<placeName>Rutgers College, New Brunswick, NJ</placeName>
+				<location>
+					<geo>40.500819 -74.447399</geo>
+				</location>
+			</place>
+			<place xml:id="pla-saintnaf">
+				<placeName>Saint-Nazaire, France</placeName>
+				<location>
+					<geo
+						sameAs="https://geohack.toolforge.org/geohack.php?params=47.2740232072987___N_-2.2132571382309973___E"
+						>47.274023 -2.213257</geo>
+				</location>
+				<note/>
+			</place>
+			<place xml:id="pla-savenfr">
+				<placeName>Savenay, France</placeName>
+				<location>
+					<geo
+						sameAs="https://geohack.toolforge.org/geohack.php?params=47.358802925429714___N_-1.9433357483581535___E"
+						>47.3619 -1.9406</geo>
+				</location>
+				<note><p>The location of US Base Hospital No. 8, which occupied the Normal School of Savenay.</p></note>
+			</place>
+			<place xml:id="pla-soissfr">
+				<placeName>Soissons, France</placeName>
+				<location><geo>49.3765834 3.306037</geo></location>
+			</place>
+			<place xml:id="pla-toulfr">
+				<placeName>Toul, France</placeName>
+				<location>
+					<geo
+						sameAs="https://geohack.toolforge.org/geohack.php?params=48_40_30_N_5_53_30_E"
+						>48.675 5.891667</geo>
+				</location>
+				<note><p>Given as the location of William T. Hutchinson.</p></note>
+			</place>
+			<place xml:id="pla-vernefr">
+				<placeName>Verneuil, France</placeName>
+				<location><geo>49.1023077 3.6508978</geo></location>
+				<note>Guestimated location of Costa's 6th letter, assuming he was serving in the fifth French army somewhere along the Marne River.</note>
+			</place>
+		</listPlace>
+	</standOff>
+	<text>
 		<body>
 			<div type="letter" decls="#costajl_01">
 				<pb n="1"/>
 				<note type="letterhead">Rutgers College<lb/>New Brunswick, New Jersey<lb/>
-					<persName key="Costa, Joseph Louis" role="Private, French Army" from="1897" to="1969" ref="The Tustin News (Tustin, California), 27 Mar 1969, p. 1">Joseph L. Costa</persName><lb/>
-					<placeName key="Ford Hall, Rutgers University, NJ" ref="https://geohack.toolforge.org/geohack.php?params=40_30_01.8_N_74_26_55.6_W">Ford Dormitory</placeName>
+					<persName key="Costa, Joseph Louis" role="Private, French Army" from="1897"
+						to="1969" ref="The Tustin News (Tustin, California), 27 Mar 1969, p. 1"
+						>Joseph L. Costa</persName><lb/>
+					<placeName key="Ford Hall, Rutgers University, NJ"
+						ref="https://geohack.toolforge.org/geohack.php?params=40_30_01.8_N_74_26_55.6_W"
+						>Ford Dormitory</placeName>
 				</note>
 				<opener>
-					<salute>Dear <persName key="Osborn, George Augustus" from="1874" to="1963" role="Librarian, Rutgers College" cert="medium">George</persName> (&amp; Co.)</salute>
+					<salute>Dear <persName key="Osborn, George Augustus" from="1874" to="1963"
+							role="Librarian, Rutgers College" cert="medium">George</persName> (&amp;
+						Co.)</salute>
 				</opener>
 
 				<p>A lazy spell got a hold of me, and while I had all good intentions of dropping
@@ -114,7 +464,10 @@
 					the Red Cross girls, why, it just slipped along.</p>
 
 				<p>First about our trip. It was a regular summer school. We had a Red Cross gang on
-					board, and the trip was a <seg xml:id="fn1">series of pinochle, 500</seg><note target="#fn1" type="gloss"><p>Pinochle and 500 are card games.</p><ref target="https://en.wikipedia.org/wiki/500_(card_game)">Wikipedia</ref></note>, and dancing, with much eating and drinking (?).
+					board, and the trip was a <seg xml:id="fn1">series of pinochle, 500</seg><note
+						target="#fn1" type="gloss"><p>Pinochle and 500 are card games.</p><ref
+							target="https://en.wikipedia.org/wiki/500_(card_game)"
+						>Wikipedia</ref></note>, and dancing, with much eating and drinking (?).
 					There was lots of talk of submarines and torpedoes, but we did not encounter
 					anything, being convoyed by two torpedo boat destroyers in the danger zone. Our
 					boat was armed with a 2-6" and a 3". The last three days in the danger zone, the
@@ -124,11 +477,16 @@
 					was the drawing room or the dining room. The only trouble was that there were no
 					lights allowed on deck at night, not even a smoke or <seg xml:id="fn2">Radiolite
 						watch</seg><note type="gloss" target="#fn2"><p>Radiolite watches had dials
-							that were painted with a radium coating that glowed in the dark.</p><ref target="https://www.collectorsweekly.com/stories/155134-radium-girls-and-radiolite-dial-watches">RADIUM GIRLS &amp; Radiolite Dial Watches</ref></note>, so we had to
+							that were painted with a radium coating that glowed in the dark.</p><ref
+							target="https://www.collectorsweekly.com/stories/155134-radium-girls-and-radiolite-dial-watches"
+							>RADIUM GIRLS &amp; Radiolite Dial Watches</ref></note>, so we had to
 					promenade the deck in the dark. Very convenient.</p>
 
 				<p>Anyway, after 24 hours fooling with customs officials, and passports, etc. they
-					let me come on to <placeName key="Paris, France" ref="https://geohack.toolforge.org/geohack.php?params=48_51_24_N_2_21_08_E">Paris</placeName>, and take it from me, this is <hi rend="underline">Paris</hi>, even if it is wa<del rend="strikethrough">t</del>rtime.</p>
+					let me come on to <placeName key="Paris, France"
+						ref="https://geohack.toolforge.org/geohack.php?params=48_51_24_N_2_21_08_E"
+						>Paris</placeName>, and take it from me, this is <hi rend="underline"
+						>Paris</hi>, even if it is wa<del rend="strikethrough">t</del>rtime.</p>
 
 				<p>The only differences between war time Paris and peace time Paris are that prices
 					are on the whole higher, lights never show up at night on the streets, and the
@@ -156,12 +514,16 @@
 					is the case all over France, as our army is <sic>scatter</sic> all over the
 					country, from 100 to 3000 in a village.</p>
 
-				<p>Another trouble with this town is that the cars stop running at <del rend="overstrike">I</del>8 o'clock at night, the subway at 11 o'clock, and
+				<p>Another trouble with this town is that the cars stop running at <del
+						rend="overstrike">I</del>8 o'clock at night, the subway at 11 o'clock, and
 						t<del rend="overstrike">x</del>axis don't run at all, so that is necessary
 					to keep pre<del rend="overstrike">e</del>tty good hours or walk. I don't do
 					either. I hang up at some relative in any quarter I happen to be.</p>
 
-				<p>Can you possibly get <persName key="Hutchinson, William Thomas" from="1895" to="1976" role="Lieutenant, Marine Corps" ref="https://id.loc.gov/authorities/names/n79018069.html">Squirrel</persName>'s address, that is, the unit he is in?</p>
+				<p>Can you possibly get <persName key="Hutchinson, William Thomas" from="1895"
+						to="1976" role="Lieutenant, Marine Corps"
+						ref="https://id.loc.gov/authorities/names/n79018069.html"
+						>Squirrel</persName>'s address, that is, the unit he is in?</p>
 				<pb n="3"/>
 				<note type="letterhead">Rutgers College<lb/>New Brunswick, New Jersey<lb/>Joseph L.
 					Costa <lb/>Ford Dormitory</note>
@@ -171,17 +533,25 @@
 					Commercial firms are using stationery that we wouldn't even wrap a parcel
 					with.</p>
 
-				<p>At present, I am at the <placeName key="12 rue d'Aguesseau, Paris, France" ref="https://tools.wmflabs.org/geohack/geohack.php?params=48_52_13_N_2_19_10_E">Y.M.C.A. office in Paris</placeName>, and it will do for a month or so
+				<p>At present, I am at the <placeName key="12 rue d'Aguesseau, Paris, France"
+						ref="https://tools.wmflabs.org/geohack/geohack.php?params=48_52_13_N_2_19_10_E"
+						>Y.M.C.A. office in Paris</placeName>, and it will do for a month or so
 					until I see everybody I want to in town and get tired of the place, when I will
 					move, I don't know where yet.</p>
 
 				<p>My address is: <lb/>With a 2-cent stamp: <lb/>Y.M.C.A., <lb/>American
 					Expeditionary Forces, <lb/>France. <lb/>With a 5-cent stamp: <lb/>wither:<lb/>
-					<placeName key="31 Avenue Montaigne, Paris, France" ref="https://geohack.toolforge.org/geohack.php?params=48.86691685758165___N_2.304915713522623___E">31 Avenue Montaigne, <lb/>Paris,</placeName>
+					<placeName key="31 Avenue Montaigne, Paris, France"
+						ref="https://geohack.toolforge.org/geohack.php?params=48.86691685758165___N_2.304915713522623___E"
+						>31 Avenue Montaigne, <lb/>Paris,</placeName>
 					<lb/>or<lb/>
-					<placeName key="13 rue Lafayette, Paris, France" ref="https://geohack.toolforge.org/geohack.php?params=48.87403694589224___N_2.3360378957045587___E">13 rue Lafayette, <lb/>Paris,</placeName>
+					<placeName key="13 rue Lafayette, Paris, France"
+						ref="https://geohack.toolforge.org/geohack.php?params=48.87403694589224___N_2.3360378957045587___E"
+						>13 rue Lafayette, <lb/>Paris,</placeName>
 					<lb/>or<lb/>
-					<placeName key="41 rue de Provence, Paris, France" ref="https://geohack.toolforge.org/geohack.php?params=48.87417302171174___N_2.336006083421254___E">41 rue de Provence, <lb/>Paris</placeName>. </p>
+					<placeName key="41 rue de Provence, Paris, France"
+						ref="https://geohack.toolforge.org/geohack.php?params=48.87417302171174___N_2.336006083421254___E"
+						>41 rue de Provence, <lb/>Paris</placeName>. </p>
 
 				<p>I am having a great time in the old home town, keeping usual French hours: 9-12;
 						<hi rend="underline">2</hi>-5, and then usual evening hours.</p>
@@ -203,13 +573,16 @@
 					<salute>Till I get enough energy together to write you
 						again,<lb/>Yours,</salute><lb/>
 					<signed>
-						<persName key="Costa, Joseph Louis" role="Private, French Army" from="1897" to="1969" ref="The Tustin News (Tustin, California), 27 Mar 1969, p. 1">Joe</persName>
+						<persName key="Costa, Joseph Louis" role="Private, French Army" from="1897"
+							to="1969" ref="The Tustin News (Tustin, California), 27 Mar 1969, p. 1"
+							>Joe</persName>
 					</signed>
 				</closer>
 
 				<postscript>
 					<p>I also hope to receive a line from you, and the regulation line from
-							<persName key="Silvers, Earl Reed" from="1891" to="1948" role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378">
+							<persName key="Silvers, Earl Reed" from="1891" to="1948"
+							role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378">
 							Reed Silvers</persName> from time to time.</p>
 				</postscript>
 
@@ -217,36 +590,62 @@
 			<div type="letter" decls="#costajl_02">
 				<pb n="5"/>
 				<opener>
-					<salute>Dear <persName key="Martin, Luther Harned" from="1889" to="1970" role="Registrar, Rutgers College">Lu</persName>:-</salute>
+					<salute>Dear <persName key="Martin, Luther Harned" from="1889" to="1970"
+							role="Registrar, Rutgers College">Lu</persName>:-</salute>
 				</opener>
 
 				<p>Just a word in pencil to let you know that I have <seg xml:id="fn3">"chucked
 						up"</seg><note target="#fn3" type="gloss" resp="#bm"><p>Slang for given
 							up</p><ref target="https://www.oed.com/view/Entry/32663">Oxford English
 							Dictionary</ref></note> my easy time and enlisted in the French Army,
-					artillery to go to the <seg xml:id="fn4">artillery school at Fontainebleau.</seg><note target="#fn4" type="annotation"><p>The School of
+					artillery to go to the <seg xml:id="fn4">artillery school at
+						Fontainebleau.</seg><note target="#fn4" type="annotation"><p>The School of
 							Applied Artillery was located in Fontainebleau from 1871 to 1940.</p>
-						<ref target="https://en.wikipedia.org/wiki/School_of_Applied_Artillery">Wikipedia</ref></note> I am now a perfectly good private making 5 ¢ a
+						<ref target="https://en.wikipedia.org/wiki/School_of_Applied_Artillery"
+							>Wikipedia</ref></note> I am now a perfectly good private making 5 ¢ a
 					day. The course is 4 months and graduates with a temporary commission, which is
 					made permanent in 3 months.</p>
 
-				<p>I was down to see the fellows at the <seg xml:id="fn5">base hospital</seg><note target="#fn5" type="annotation"><p>American Expeditionary Forces Base
-							Hospital No. 8, which occupied the Normal School of Savenay</p><ref target="https://books.google.com/books?id=V32JaWUHYqUC">The Medical
+				<p>I was down to see the fellows at the <seg xml:id="fn5">base hospital</seg><note
+						target="#fn5" type="annotation"><p>American Expeditionary Forces Base
+							Hospital No. 8, which occupied the Normal School of Savenay</p><ref
+							target="https://books.google.com/books?id=V32JaWUHYqUC">The Medical
 							Department of the United States Army in the World War, v.
-						10</ref></note> Sunday, about 1 mile from <placeName key="Savenay, France" ref="https://geohack.toolforge.org/geohack.php?params=47.358802925429714___N_-1.9433357483581535___E">Savenay</placeName>, near <placeName key="Saint-Nazaire, France" ref="https://geohack.toolforge.org/geohack.php?params=47.2740232072987___N_-2.2132571382309973___E">St Nazaire</placeName>. It is a monotonous life they lead but easy. A fine
-					building with about 100 Americans. <persName key="Ward, Anton Fernando" from="1897" to="1984" role="Sergeant, Military Intelligence" ref="https://www.familysearch.org/tree/person/details/KL79-VKN">Anton
-						Ward</persName> has an officer's ward. <persName key="Herben, Stephen Joseph Jr." from="1897" to="1967" role="Sergeant, Marine Corps" ref="https://en.wikipedia.org/wiki/Stephen_J._Herben_Jr.">Joe
-						Herben</persName> had scarlet fever &amp; <persName key="Runyon, Mefford Ross" from="1897" to="1983" role="Sergeant, Medical Department">Meff Runyon</persName></p>
+						10</ref></note> Sunday, about 1 mile from <placeName key="Savenay, France"
+						ref="https://geohack.toolforge.org/geohack.php?params=47.358802925429714___N_-1.9433357483581535___E"
+						>Savenay</placeName>, near <placeName key="Saint-Nazaire, France"
+						ref="https://geohack.toolforge.org/geohack.php?params=47.2740232072987___N_-2.2132571382309973___E"
+						>St Nazaire</placeName>. It is a monotonous life they lead but easy. A fine
+					building with about 100 Americans. <persName key="Ward, Anton Fernando"
+						from="1897" to="1984" role="Sergeant, Military Intelligence"
+						ref="https://www.familysearch.org/tree/person/details/KL79-VKN">Anton
+						Ward</persName> has an officer's ward. <persName
+						key="Herben, Stephen Joseph Jr." from="1897" to="1967"
+						role="Sergeant, Marine Corps"
+						ref="https://en.wikipedia.org/wiki/Stephen_J._Herben_Jr.">Joe
+						Herben</persName> had scarlet fever &amp; <persName
+						key="Runyon, Mefford Ross" from="1897" to="1983"
+						role="Sergeant, Medical Department">Meff Runyon</persName></p>
 
 				<pb n="6"/>
-				<p>had the mumps while I was there, <persName key="Miner, Ross Heylmunn" from="1897" to="1958" role="Sergeant, Medical Department">Ross Miner</persName> was
-					playing bridge, <persName key="Maar, Carl H." from="1897" to="1971" role="Sergeant, Medical Department">"Slates" Maar</persName> smoking a
-					cigarette in bed. <persName key="Merritt, Frank Pearson" from="1894" to="1983" role="Sergeant, Medical Department">Merritt</persName> '19 slings the hash.
-						<persName key="Voorhees, Ralph Spencer Jr." role="Sergeant, Medical Department" from="1897" to="1987" ref="https://www.familysearch.org/ark:/61903/1:1:QVV6-8296?cid=fs_copy">Voorhees</persName> has a ward. They have the easy life, with good stuff to
+				<p>had the mumps while I was there, <persName key="Miner, Ross Heylmunn" from="1897"
+						to="1958" role="Sergeant, Medical Department">Ross Miner</persName> was
+					playing bridge, <persName key="Maar, Carl H." from="1897" to="1971"
+						role="Sergeant, Medical Department">"Slates" Maar</persName> smoking a
+					cigarette in bed. <persName key="Merritt, Frank Pearson" from="1894" to="1983"
+						role="Sergeant, Medical Department">Merritt</persName> '19 slings the hash.
+						<persName key="Voorhees, Ralph Spencer Jr."
+						role="Sergeant, Medical Department" from="1897" to="1987"
+						ref="https://www.familysearch.org/ark:/61903/1:1:QVV6-8296?cid=fs_copy"
+						>Voorhees</persName> has a ward. They have the easy life, with good stuff to
 					eat, in a section of France that is green practically all year round. They are,
 					however, extremely restricted in what they can write which is a nuisance. Their
-					incoming mail, however, is not censored. I forgot to mention <persName key="Jackson, Morris Bacon" from="1898" to="1918" role="Private, Medical Department">Jill Jackson</persName>, who spends his
-					time practically memorizing the <seg xml:id="fn6">Targum</seg><note target="#fn6" type="gloss"><p>The Daily Targum, Rutgers University's student newspaper</p></note>.</p>
+					incoming mail, however, is not censored. I forgot to mention <persName
+						key="Jackson, Morris Bacon" from="1898" to="1918"
+						role="Private, Medical Department">Jill Jackson</persName>, who spends his
+					time practically memorizing the <seg xml:id="fn6">Targum</seg><note
+						target="#fn6" type="gloss"><p>The Daily Targum, Rutgers University's student
+							newspaper</p></note>.</p>
 
 				<p>In this respect, I should feel, as long as there are so many Rutgers men there
 					that <del>it</del> a copy might be sent care of one of them each</p>
@@ -308,7 +707,6 @@
 					<dateline>
 						<date when="1918-04-30">April 30, 1918.</date>
 					</dateline>
-					
 					<address style="text-align: left;">
 						<addrLine>Joseph Costa,</addrLine>
 						<addrLine>Brigade 5 bis</addrLine>
@@ -316,16 +714,32 @@
 						<addrLine>Fontainebleau,</addrLine>
 						<addrLine>Seine-et-Marne, France.</addrLine>
 					</address>
-					<salute>Dear <seg xml:id="fn14">Pope</seg><note target="#fn14" type="annotation"><p>UK born Costa was a naturalized US citizen. His father, August Costa, was probably a Portuguese or Italian immigrant although he was born in France. Joe would have been Catholic, hence Silvers's nickname for him.</p></note>:</salute>
+					<salute>Dear <seg xml:id="fn14">Pope</seg><note target="#fn14" type="annotation"
+								><p>UK born Costa was a naturalized US citizen. His father, August
+								Costa, was probably a Portuguese or Italian immigrant although he
+								was born in France. Joe would have been Catholic, hence Silvers's
+								nickname for him.</p></note>:</salute>
 				</opener>
 
-				<p><persName key="Fravell, James Eldredge Greene" from="1896" to="1950" role="Lieutenant, French Army">James E. G. Fravell</persName> of the class 1918 is also in the French Army so you are not
-					the only pebble on the beach. Fravell's address is <seg xml:id="fn7">Morgan, Harges and Co.</seg><note target="#fn7" type="annotation"><p>Morgan, Harjes &amp; Co. was a Paris-based investment bank</p><ref target="https://en.wikipedia.org/wiki/Morgan,_Harjes_%26_Co.">Wikipedia</ref></note>, <placeName key="31 Blvd, Haussmann, Paris, France" ref="https://geohack.toolforge.org/geohack.php?params=48.87299773436825___N_2.3320044492461065___E">31 Blvd, Haussmann, Paris</placeName>. At the
-					present time he is at the Ecole d'artillerie Quartier, <seg xml:id="fn15">Sariboisiere</seg><note target="#fn15" type="annotation"><p>Quartier Lariboisière (military barracks) was probably intended.</p></note>,
-					Fontainebleau.</p>
+				<p><persName key="Fravell, James Eldredge Greene" from="1896" to="1950"
+						role="Lieutenant, French Army">James E. G. Fravell</persName> of the class
+					1918 is also in the French Army so you are not the only pebble on the beach.
+					Fravell's address is <seg xml:id="fn7">Morgan, Harges and Co.</seg><note
+						target="#fn7" type="annotation"><p>Morgan, Harjes &amp; Co. was a
+							Paris-based investment bank</p><ref
+							target="https://en.wikipedia.org/wiki/Morgan,_Harjes_%26_Co."
+							>Wikipedia</ref></note>, <placeName
+						key="31 Blvd Haussmann, Paris, France"
+						ref="https://geohack.toolforge.org/geohack.php?params=48.87299773436825___N_2.3320044492461065___E"
+						>31 Blvd, Haussmann, Paris</placeName>. At the present time he is at the
+					Ecole d'artillerie Quartier, <seg xml:id="fn15">Sariboisiere</seg><note
+						target="#fn15" type="annotation"><p>Quartier Lariboisière (military
+							barracks) was probably intended.</p></note>, Fontainebleau.</p>
 
-				<p>How about our <seg xml:id="fn8">mimeographing</seg><note target="#fn8" type="gloss"><p>Stencil-based copying machine process used prior to
-							photocopying</p><ref target="https://en.wikipedia.org/wiki/Mimeograph">Wikipedia</ref></note> these days?</p>
+				<p>How about our <seg xml:id="fn8">mimeographing</seg><note target="#fn8"
+						type="gloss"><p>Stencil-based copying machine process used prior to
+							photocopying</p><ref target="https://en.wikipedia.org/wiki/Mimeograph"
+							>Wikipedia</ref></note> these days?</p>
 
 				<closer>
 					<salute>Hastily yours,</salute>
@@ -340,9 +754,14 @@
 				</opener>
 
 				<p><add place="margin"> 1 </add>It was a pleasure to get a copy of your Quarterly
-					for January, <sic>altho</sic> I receive it at a different place, far from gay "Paree" now a
-					full fledged <seg xml:id="fn10">Poilu</seg><note target="#fn10" type="gloss"><p>World War I nickname for a soldier in the trenches, indicating courageousness or virility. Intended to counter the supposed feminine weakness of a shirker.</p><ref target="https://fr.wikipedia.org/wiki/Poilu">Wikipedia</ref></note>, a
-					perfectly good private in the 32<hi rend="superscript">e</hi> French artillery. Let me know, am I the first Rutgers man to be a regular in the French army?</p>
+					for January, <sic>altho</sic> I receive it at a different place, far from gay
+					"Paree" now a full fledged <seg xml:id="fn10">Poilu</seg><note target="#fn10"
+						type="gloss"><p>World War I nickname for a soldier in the trenches,
+							indicating courageousness or virility. Intended to counter the supposed
+							feminine weakness of a shirker.</p><ref
+							target="https://fr.wikipedia.org/wiki/Poilu">Wikipedia</ref></note>, a
+					perfectly good private in the 32<hi rend="superscript">e</hi> French artillery.
+					Let me know, am I the first Rutgers man to be a regular in the French army?</p>
 
 				<p>Now at the artillery school at Fontainebleau, to take a 4 months' course before
 					leaving for the front with temporary commission (French: aspirant) in the French
@@ -355,21 +774,24 @@
 				<p><add place="margin"> 2 </add> the Rutgers bunch at the Base Hospital.</p>
 
 				<p>Being as I was pretty free, I decided to take a trip to see U.S. Base Hospital #8
-					near (Savenay, <seg xml:id="fn11">Loire-Inferieure</seg><note target="#fn11" type="gloss"><p>The department of the Loire-Inférieure existed until 1957, when it was changed to the Loire-Atlantique.</p><ref target="https://fr.wikipedia.org/wiki/Loire-Atlantique">Wikipedia</ref></note>) France.</p>
+					near (Savenay, <seg xml:id="fn11">Loire-Inferieure</seg><note target="#fn11"
+						type="gloss"><p>The department of the Loire-Inférieure existed until 1957,
+							when it was changed to the Loire-Atlantique.</p><ref
+							target="https://fr.wikipedia.org/wiki/Loire-Atlantique"
+						>Wikipedia</ref></note>) France.</p>
 
-				<p>At the mouth of the (Loire) this town is about 7 miles from St.
-					Nazaire, <del rend="strikethrough">the</del> an important port since America has
-					entered the war. Arriving at 4:00 a.m after having left Paris at 8 p.m. I roamed
-					up a road for about a mile and found the hospital a large, 3 story stone
-					building or rather group of buildings. After waiting till 6:30 A.M. I was showed
-					into the mess room where everything was humming. The first sight was "Tody"
-					Bracher</p>
+				<p>At the mouth of the (Loire) this town is about 7 miles from St. Nazaire, <del
+						rend="strikethrough">the</del> an important port since America has entered
+					the war. Arriving at 4:00 a.m after having left Paris at 8 p.m. I roamed up a
+					road for about a mile and found the hospital a large, 3 story stone building or
+					rather group of buildings. After waiting till 6:30 A.M. I was showed into the
+					mess room where everything was humming. The first sight was "Tody" Bracher</p>
 
 				<pb n="12"/>
-				<p><add place="margin"> 3 </add>coming down the isle in <sic>kakki</sic>. After a substantial
-					breakfast of meal (with sugar - a rarety for everybody but Americans in France),
-					eggs, as many as you wish, coffee, and fine bread. Then resolved to wake up some
-					of the rest of the fellows who were sleeping away.</p>
+				<p><add place="margin"> 3 </add>coming down the isle in <sic>kakki</sic>. After a
+					substantial breakfast of meal (with sugar - a rarety for everybody but Americans
+					in France), eggs, as many as you wish, coffee, and fine bread. Then resolved to
+					wake up some of the rest of the fellows who were sleeping away.</p>
 
 				<p>On the 3rd floor in a spacious roomy attic, well aired were the sleeping
 					quarters.</p>
@@ -388,15 +810,26 @@
 				<p><add place="margin"> 4 </add>his officers' ward.</p>
 
 				<p>In the meantime, I stalked across a fine green courtyard to the Registrar's
-					Office, and surrounded on all sides with heaps of vouchers was <persName key="Leeds, Marvin" from="1893" to="1980" role="Private, Medical Department">Marv Leeds</persName>.</p>
+					Office, and surrounded on all sides with heaps of vouchers was <persName
+						key="Leeds, Marvin" from="1893" to="1980" role="Private, Medical Department"
+						>Marv Leeds</persName>.</p>
 
-				<p><persName key="Johnson, John William" from="1895" to="1960" role="Sergeant, Medical Department">Johnny Johnson</persName> <del rend="crossout">was</del> showed up eventually, and appeared
-					to be <seg xml:id="fn12">in unusually good condition</seg><note target="#fn12" type="annotation"><p>Johnson's file gives no hint of what he might have been suffering.</p><ref target="https://rutgersdh.github.io/warservicebureau/texts/johnsonjw-annotated/">Johnson, John W., (RC 1917), 1918</ref></note>.</p>
+				<p><persName key="Johnson, John William" from="1895" to="1960"
+						role="Sergeant, Medical Department">Johnny Johnson</persName>
+					<del rend="crossout">was</del> showed up eventually, and appeared to be <seg
+						xml:id="fn12">in unusually good condition</seg><note target="#fn12"
+						type="annotation"><p>Johnson's file gives no hint of what he might have been
+							suffering.</p><ref
+							target="https://rutgersdh.github.io/warservicebureau/texts/johnsonjw-annotated/"
+							>Johnson, John W., (RC 1917), 1918</ref></note>.</p>
 
 				<p>Joe Herben could not be seen, being confined with scarlet fever, while Meff
 					Runyon was down with the mumps.</p>
 
-				<p>At noon mess, I had an opportunity to see Mike Merritt, who was busy <seg xml:id="fn13">"<hi rend="underline">slinging</hi> the hash."</seg><note target="#fn13" type="annotation"><p>It is unclear why Merritt would have exercised such a humble role.</p></note></p>
+				<p>At noon mess, I had an opportunity to see Mike Merritt, who was busy <seg
+						xml:id="fn13">"<hi rend="underline">slinging</hi> the hash."</seg><note
+						target="#fn13" type="annotation"><p>It is unclear why Merritt would have
+							exercised such a humble role.</p></note></p>
 
 				<p><del rend="crossout">All</del> The men are apparently coming along nicely on the
 					French, from the grade I heard from some of them, Anton Ward particularly who
@@ -413,13 +846,14 @@
 					of France, the climate even in winter is temperate, and in February the grass
 					was green, many trees in foliage, and violets out.</p>
 
-				<p><emph>It is certainly regrettable that the men are limited in their mail and cannot
-					write their experiences.</emph></p>
+				<p><emph>It is certainly regrettable that the men are limited in their mail and
+						cannot write their experiences.</emph></p>
 
 				<p>Note:- Reed: Use your judgment about telling or publishing the name of the
 					place</p>
 
-				<p>I can get <hi rend="underline">any</hi> information you want about <hi rend="underline">any</hi> of the men at #8. by going down to see them.</p>
+				<p>I can get <hi rend="underline">any</hi> information you want about <hi
+						rend="underline">any</hi> of the men at #8. by going down to see them.</p>
 
 				<pb n="15"/>
 				<p><add place="margin"> 6 </add>Will you note my new <hi rend="underline">grade</hi>
@@ -429,116 +863,97 @@
 					l'Artillerie,<lb/> Fontainebleau,<lb/> Seine-et-Marne<lb/> France<lb/>
 				</p>
 
-				<p>Best wishes to <persName key="Terrill, Edith Irona" from="1893" to="1966" role="Spouse of E. R. Silvers">Mrs. Silvers</persName>, and my regards to Miss Davidson</p>
+				<p>Best wishes to <persName key="Terrill, Edith Irona" from="1893" to="1966"
+						role="Spouse of E. R. Silvers">Mrs. Silvers</persName>, and my regards to
+					Miss Davidson</p>
 
 				<p>Keep shooting across your newsletters: what with <seg xml:id="fn9">75's,
 						220's</seg><note target="#fn9" type="gloss"><p>French artillery
-							cannons</p><ref target="https://en.wikipedia.org/wiki/220_mm_TR_mle_1915/1916">Wikipedia</ref></note>
-					and all the math we get, and poor nourishment, your stuff looks good</p>
+							cannons</p><ref
+							target="https://en.wikipedia.org/wiki/220_mm_TR_mle_1915/1916"
+							>Wikipedia</ref></note> and all the math we get, and poor nourishment,
+					your stuff looks good</p>
 
 				<pb n="16"/>
-				<p><hi rend="underline">Note</hi><lb/>
-					Forgot to say I received a letter from <persName key="Hutchinson, William Thomas" from="1895" to="1976" role="Lieutenant, Marine Corps">Will Hutchinson</persName> he is on the American
-					sector near <placeName key="Toul, France" ref="https://geohack.toolforge.org/geohack.php?params=48_40_30_N_5_53_30_E">Toul</placeName> I believe, but his letter is scant.</p>
+				<p><hi rend="underline">Note</hi><lb/> Forgot to say I received a letter from
+						<persName key="Hutchinson, William Thomas" from="1895" to="1976"
+						role="Lieutenant, Marine Corps">Will Hutchinson</persName> he is on the
+					American sector near <placeName key="Toul, France"
+						ref="https://geohack.toolforge.org/geohack.php?params=48_40_30_N_5_53_30_E"
+						>Toul</placeName> I believe, but his letter is scant.</p>
 
-				<p>Met <persName key="Boes, Herbert Waldemar" from="1893" to="1948" role="Sergeant, Medical Department">Herb Boes</persName> in Paris a month ago, he was corporal in the medical corps, we took
-					in a "movies" to-gether.</p>
+				<p>Met <persName key="Boes, Herbert Waldemar" from="1893" to="1948"
+						role="Sergeant, Medical Department">Herb Boes</persName> in Paris a month
+					ago, he was corporal in the medical corps, we took in a "movies" to-gether.</p>
 
 				<closer>
-					<signed>Joe</signed>	
+					<signed>Joe</signed>
 				</closer>
 
-	<pb n="17"/>
-	<note type="letterhead">Rutgers College<lb/>New Brunswick, New Jersey<lb/></note>
+				<pb n="17"/>
+				<note type="letterhead">Rutgers College<lb/>New Brunswick, New Jersey<lb/></note>
 				<postscript>
-				<p>Costa, Joseph Louis, Aspirant 12,194. Jeune Aspirant plein de l'espirit de
-					sacrifice et de devoir. S'est distingué maintes fois dans la preparation et
-					execution de tires sous un feu souvent violent.</p>
+					<p>Costa, Joseph Louis, Aspirant 12,194. Jeune Aspirant plein de l'espirit de
+						sacrifice et de devoir. S'est distingué maintes fois dans la preparation et
+						execution de tires sous un feu souvent violent.</p>
 
-				<p>Costa, Joseph Louis, Aspirant 12,194. Young Aspirant, full of the spirit of
-					sacrifice and duty.</p>
+					<p>Costa, Joseph Louis, Aspirant 12,194. Young Aspirant, full of the spirit of
+						sacrifice and duty.</p>
 
-				
-	<ab><add><unclear>Savage</unclear></add></ab>
+
+					<ab><add><unclear>Savage</unclear></add></ab>
 
 				</postscript>
 			</div>
+			<div type="letter" decls="#costajl_06">
+				<opener>
+					<add place="margin"><seg xml:id="fn16">From Lieut. Joseph L. Costa '19</seg><note type="annotation" target="#fn16"><p>Typewritten transcription of originals that were returned.</p></note></add>
+					<dateline>France, <date when="1918-07-02">July 2, 1918.</date></dateline>
+				</opener>
+				<p>Got your letter while en route to the front so I waited until I got here to answer.</p>
+				<p>I have got the job you would like:- beautiful country, good grub, no shortage of champagne, fine comrades in the battery, and a quiet sector. I arrived here
+					<seg xml:id="fn17">a few hours late for the big attack</seg><note type="annotation" target="#fn17"><p>It is difficult to be certain which battle Costa is referring to. It could be the Battle of Noyon-Montdidier, June 9-13, 1918, the Battle of Belleau Wood, June 1-26, 1918, or the Third Battle of the Aisne, May 27 to July 17, 1918. If we are to credit his given location, Costa would have been in Champagne country, along the Marne River, perhaps in the vicinity of Trélou-sur-Marne or Verneuil (with the fifth French army). Both of those towns would have been in ruins in June/July 1918.</p></note> and found the place demolished, but I have now for myself a hole in the ground about six feet under ground covered with logs
+					and corrugated iron. The Boche is quiet and only sends over a shell now and then. The first night I slept to the hole I got a dose of gas, but nothing much - two
+					or three sneezes and that's all. Just think of me when you see a communique with something going on "south of the Aisne," for that is where I am.</p>
+				<p>I am really having the time of my life. What do I have to do? Get up at 8 or 9, breakfast, write letters, eat at noon, take walks in the afternoon if the shelling is not heavy, eat supper, and go to bed. This is the life!</p>
+			</div>
+			<div type="letter" decls="#costajl_07">
+				<opener>
+					<dateline><date when="1918-07-20">July 20, 1918.</date></dateline>
+				</opener>
+				<p>This is the war here. Our battery position is now on the second German line,
+					and you undoubtedly know all about the famous attack here. I am now before Soissons
+					and we are always moving forward. I am living in one of those muddy trenches you
+					read about to the Saturday Evening Post. It is impossible to make decent dugouts,
+					as there are too many "stiffs" interred. The odor of the place, besides, is not
+					at all invigorating.</p>
+				<p>This whole drive is intensely interesting, the surprise having been complete.
+					On the positions hereabout there are dead Germans caught on the stairs of the
+					dugouts and in their holes. The Americans have done splendidly.</p>
+				<p>There is an awful amount of junk left here. Every day the battery brings
+					up a truck and we slip back German machine guns and munitions. All the men have
+					their mess ef booty, and there are quite a bunch of American affairs - rifles and
+					equipment - strewn all over the fields. German batteries have been taken all harnessed up,
+					and we are now using some to goad advantage. Thousands of machine
+					guns are hanging around, and the guy that goes out and doesn't come back loaded
+					can't find water in a river. We are still moving ahead. Let’s hope we keep
+					going!</p>
+			</div>
+			<div type="letter" decls="#costajl_08">
+				<opener>
+					<dateline><date when="1918-08-11">August 11, 1918.</date></dateline>
+				</opener>
+				<p>Just the usual short line, shorter than usual because I am not in complete shape
+					after the gas yet. I got it fairly mild, yet it knocked me out of shape quickly,
+					although I have kept in line. I can see pretty well now and the burns are all
+					healed up, but I cannot yet taste anything I eat and the cough doesn’t let me
+					sleep. Quite optimistic, nevertheless. The sector has become quiet, and although
+					Soissons is still the first line, one can safely roam around and give the empty
+					city the O. O. Empty is no word for it. The Huns completely cleaned it out,
+					furniture and all. The town is less than two miles away from where we are.</p>
+				<p>The General expressed the opinion at table recently that three more months and
+					the war will be over. I’m ready.</p>
+			</div>
 		</body>
-				<back>
-			<listPlace>
-				<place xml:id="rutgers">
-					<placeName>Rutgers College, New Brunswick, NJ</placeName>
-					<location>
-						<geo>40.500819 -74.447399</geo>
-					</location>
-				</place>
-				<place xml:id="costa-dormitory">
-					<placeName>Ford Hall, Rutgers University, NJ</placeName>
-					<location>
-						<geo>40.5005 -74.448778</geo>
-					</location>
-				</place>
-				<place xml:id="paris">
-					<placeName>Paris, France</placeName>
-					<location>
-						<geo>48.856667 2.352222</geo>
-					</location>
-				</place>
-				<place xml:id="paris-ymca">
-					<placeName>12 rue d'Aguesseau, Paris, France</placeName>
-					<location>
-						<geo>48.870338 2.319580</geo>
-					</location>
-				</place>
-				<place xml:id="costa-addr1">
-					<placeName>31 Avenue Montaigne, Paris, France</placeName>
-					<location>
-						<geo>48.866917 2.304916</geo>
-					</location>
-				</place>
-				<place xml:id="costa-addr2">
-					<placeName>13 rue Lafayette, Paris, France</placeName>
-					<location>
-						<geo>48.874037 2.336038</geo>
-					</location>
-				</place>
-				<place xml:id="costa-addr3">
-					<placeName>41 rue de Provence, Paris, France</placeName>
-					<location>
-						<geo>48.874173 2.336006</geo>
-					</location>
-				</place>
-				<place xml:id="artillery-school">
-					<placeName>School of Applied Artillery</placeName>
-					<location>
-						<geo>48.399889 2.712466</geo>
-					</location>
-				</place>
-				<place xml:id="us-base-hospital-8">
-					<placeName>Savenay, France</placeName>
-					<location>
-						<geo>47.3619 -1.9406</geo>
-					</location>
-				</place>
-				<place xml:id="saint-nazaire">
-					<placeName>Saint-Nazaire, France</placeName>
-					<location>
-						<geo>47.274023 -2.213257</geo>
-					</location>
-				</place>
-				<place xml:id="morgan-harjes-co">
-					<placeName>31 Blvd, Haussmann, Paris, France</placeName>
-					<location>
-						<geo>48.872998 2.332004</geo>
-					</location>
-				</place>
-				<place xml:id="toul">
-					<placeName>Toul, France</placeName>
-					<location>
-						<geo>48.675 5.891667</geo>
-					</location>
-				</place>
-			</listPlace>
-				</back>
-			</text>
+	</text>
 </TEI>

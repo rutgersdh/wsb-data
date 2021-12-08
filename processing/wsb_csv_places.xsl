@@ -9,22 +9,23 @@
     
     <xd:doc scope="stylesheet">
         <xd:desc>
-            <xd:p><xd:b>Created on:</xd:b> July 17, 2018</xd:p>
+            <xd:p><xd:b>Created on:</xd:b> July 17, 2018. <xd:b>Updated on:</xd:b> November 17, 2021 for <gi>standOff</gi>element.</xd:p>
             <xd:p><xd:b>Author:</xd:b> Francesca Giannetti</xd:p>
-            <xd:p>To turn a letter anthology with listPlace nodes into a CSV file with locations and coordinates. Formatted for use in Palladio.</xd:p>
+            <xd:p>To turn a letter anthology with listPlace nodes into a CSV file with locations and coordinates. Formatted for use in Palladio. The output of this stylesheet accompanies the CSV output of the wsb_csv_letter-network.xsl file.</xd:p>
         </xd:desc>
     </xd:doc>
     
     <xsl:output method="text" encoding="UTF-8" />
     
     <xsl:template match="/">
-        <xsl:text>location-id,lat-lon</xsl:text>
+        <xsl:text>location-id, label, lat-lon</xsl:text>
         <xsl:apply-templates select="//place"/>
     </xsl:template>
     
     <xsl:template match="place">
         <xsl:text>&#x0a;</xsl:text>
         <xsl:value-of select="@xml:id"/><xsl:text>,</xsl:text>
+        <xsl:text>"</xsl:text><xsl:value-of select="placeName"/><xsl:text>"</xsl:text><xsl:text>,</xsl:text>
         <xsl:variable name="coords" select="tokenize(normalize-space(location/geo), '\s+')" />
         <xsl:text>"</xsl:text><xsl:value-of select="$coords[1]"/><xsl:text>, </xsl:text><xsl:value-of select="$coords[2]"/><xsl:text>"</xsl:text>
     </xsl:template>

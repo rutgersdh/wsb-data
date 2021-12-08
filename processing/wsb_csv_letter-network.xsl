@@ -9,16 +9,16 @@
     
     <xd:doc scope="stylesheet">
         <xd:desc>
-            <xd:p><xd:b>Created on:</xd:b> July 17, 2018</xd:p>
+            <xd:p><xd:b>Created on:</xd:b> July 17, 2018. <xd:b>Updated on:</xd:b> November 17, 2021 for <gi>standOff</gi> element.</xd:p>
             <xd:p><xd:b>Author:</xd:b> Francesca Giannetti</xd:p>
-            <xd:p>To turn a letter anthology with correspDesc nodes into a CSV file for network applications.</xd:p>
+            <xd:p>To turn a letter anthology with correspDesc nodes into a CSV file for network applications. This data structure is ideally used for upload in Palladio, together with a separate places CSV.</xd:p>
         </xd:desc>
     </xd:doc>
     
     <xsl:output method="text" encoding="UTF-8" />
     
     <xsl:template match="/">
-        <xsl:text>letter-id,source-location-id,destination-location-id,date-sent,sender-name,addressee-name</xsl:text>
+        <xsl:text>letter-id,source-location-id,destination-location-id,date-sent,sender-id,recipient-id</xsl:text>
         <xsl:apply-templates select="//correspDesc"/>
     </xsl:template>
     
@@ -28,7 +28,7 @@
         <xsl:value-of select="correspAction[@type='sent']/placeName/@ref/substring-after(., '#')"/><xsl:text>,</xsl:text>
         <xsl:value-of select="correspAction[@type='received']/placeName/@ref/substring-after(., '#')"/><xsl:text>,</xsl:text>
         <xsl:value-of select="correspAction[@type='sent']/date/@when"/><xsl:text>,</xsl:text>
-        <xsl:value-of select="correspAction[@type='sent']/persName"/><xsl:text>,</xsl:text>
-        <xsl:value-of select="correspAction[@type='received']/persName"/>
+        <xsl:value-of select="correspAction[@type='sent']/persName/@ref/substring-after(., '#')"/><xsl:text>,</xsl:text>
+        <xsl:value-of select="correspAction[@type='received']/persName/@ref/substring-after(., '#')"/>
     </xsl:template>
 </xsl:stylesheet>

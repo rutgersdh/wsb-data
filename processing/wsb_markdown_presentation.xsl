@@ -53,13 +53,15 @@
             <xsl:text>&#x0A;</xsl:text>
             <xsl:text>---&#x0A;&#x0A;</xsl:text>
             <xsl:text>Mss: </xsl:text>
-            <xsl:text>&lt;a href="</xsl:text>
-            <xsl:value-of select="/TEI/teiHeader/fileDesc/publicationStmt/idno[@type='URI']"/>
-            <xsl:text>" target="_blank"&gt;</xsl:text>
-            <xsl:text>&lt;img src="../../assets/photo-icon.png" alt="Manuscript pages" style="display:inline-block; margin-bottom:-3px;"&gt;</xsl:text>
-            <xsl:value-of select="/TEI/teiHeader/fileDesc/publicationStmt/idno[@type='URI']"/>
-            <xsl:text>&lt;/a&gt;</xsl:text>
-            <!--            <xsl:text>&#x0A;&#x0A;&lt;div style="text-align:center;"&gt;§&lt;/div&gt;&#x0A;&#x0A;</xsl:text>-->
+            <xsl:for-each select="/TEI/teiHeader/fileDesc/publicationStmt/idno[@type='URI']">
+                <xsl:text>&lt;a href="</xsl:text>
+                <xsl:value-of select="."/>
+                <xsl:text>" target="_blank"&gt;</xsl:text>
+                <xsl:text>&lt;img src="../../assets/photo-icon.png" alt="Manuscript pages" style="display:inline-block; margin-bottom:-3px;"&gt;</xsl:text>
+                <xsl:value-of select="."/>
+                <xsl:text>&lt;/a&gt;</xsl:text>
+                <xsl:text>&lt;br&gt;</xsl:text>
+            </xsl:for-each>
             <xsl:text>&#x0A;* * *</xsl:text>
 
             <xsl:apply-templates/> <!-- close the div -->
@@ -251,12 +253,12 @@
         </xsl:choose>
     </xsl:template>
 
-    <!-- add page numbers -->
-    <xsl:template match="pb">
+    <!-- add page numbers, fg suspending for now, 2021-11-24  -->
+<!--    <xsl:template match="pb">
         <xsl:text>&#x0A;&lt;p class="small centered"&gt; [Page: </xsl:text>
         <xsl:value-of select="@n"/>
         <xsl:text>] &lt;/p&gt;&#x0A;&#x0A;</xsl:text>
-    </xsl:template>
+    </xsl:template>-->
 
     <!-- data balloons for names of people and places -->
     <xsl:template match="persName">
@@ -322,6 +324,6 @@
     </xsl:template>
     
     <xsl:template match="//note[not(@type='letterhead')]"/> <!-- ignore text of editorial notes -->
-    <xsl:template match="//back"/> <!-- ignore anything in the back element -->
+    <xsl:template match="//standOff"/> <!-- ignore standOff element -->
 
 </xsl:stylesheet>
