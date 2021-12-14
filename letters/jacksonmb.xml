@@ -37,164 +37,392 @@
 				<profileDesc>
 					<correspDesc xml:id="jacksonmb_01">
 						<correspAction type="sent">
-							<persName>W. W. Jackson</persName>
-							<placeName ref="#jackson-work">New York, New York</placeName>
+							<persName ref="#psn-wwjac">W. W. Jackson</persName>
+							<placeName ref="#pla-50bes">New York, New York</placeName>
 							<date when="1917-10-23">October 23, 1917</date>
 						</correspAction>
 						<correspAction type="received">
-							<persName>Earl Reed Silvers</persName>
-							<placeName ref="#van-nest-hall">New Brunswick, New Jersey</placeName>
+							<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+							<placeName ref="#pla-rutgealh">New Brunswick, New Jersey</placeName>
 						</correspAction>
 					</correspDesc>
 					<correspDesc xml:id="jacksonmb_02">
 						<correspAction type="sent">
-							<persName>Morris B. Jackson</persName>
-							<placeName ref="#us-base-hospital-8">Savenay, France</placeName>
+							<persName ref="#psn-mbjac">Morris B. Jackson</persName>
+							<placeName ref="#pla-savenfr">Savenay, France</placeName>
 							<date when="1917-11-24">November 24, 1917</date>
 						</correspAction>
 						<correspAction type="received">
-							<persName>Earl Reed Silvers</persName>
-							<placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+							<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+							<placeName ref="#pla-rutgecon">New Brunswick, New Jersey</placeName>
 						</correspAction>
 					</correspDesc>
 					<correspDesc xml:id="jacksonmb_03">
 						<correspAction type="sent">
-							<persName>Earl Reed Silvers</persName>
-							<placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+							<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+							<placeName ref="#pla-rutgecon">New Brunswick, New Jersey</placeName>
 							<date when="1917-12-17">December 17, 1917</date>
 						</correspAction>
 						<correspAction type="received">
-							<persName>Morris B. Jackson</persName>
-							<placeName ref="#us-base-hospital-8">Savenay, France</placeName>
+							<persName ref="#psn-mbjac">Morris B. Jackson</persName>
+							<placeName ref="#pla-savenfr">Savenay, France</placeName>
 						</correspAction>
 					</correspDesc>
 					<correspDesc xml:id="jacksonmb_04">
 						<correspAction type="sent">
-							<persName>Morris B. Jackson</persName>
-							<placeName ref="#us-base-hospital-8">Savenay, France</placeName>
+							<persName ref="#psn-mbjac">Morris B. Jackson</persName>
+							<placeName ref="#pla-savenfr">Savenay, France</placeName>
 							<date when="1918-07-02">July 2, 1918</date>
 						</correspAction>
 						<correspAction type="received">
-							<persName>Mr. and Mrs. Jackson</persName>
-							<placeName ref="#jackson-home">Brooklyn, New York</placeName>
+							<persName ref="#psn-wwjac #psn-fhbac">Mr. and Mrs. Jackson</persName>
+							<placeName ref="#pla-55pis">Brooklyn, New York</placeName>
 						</correspAction>
 					</correspDesc>
 					<correspDesc xml:id="jacksonmb_05">
 						<correspAction type="sent">
-							<persName>W. W. Jackson</persName>
-							<placeName ref="#jackson-work">New York, New York</placeName>
+							<persName ref="#psn-wwjac">W. W. Jackson</persName>
+							<placeName ref="#pla-50bes">New York, New York</placeName>
 							<date when="1918-07-11">July 11, 1918</date>
 						</correspAction>
 						<correspAction type="received">
-							<persName>Earl Reed Silvers</persName>
-							<placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+							<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+							<placeName ref="#pla-rutgecon">New Brunswick, New Jersey</placeName>
 						</correspAction>
 					</correspDesc>
 					<correspDesc xml:id="jacksonmb_06">
 						<correspAction type="sent">
-							<persName>Earl Reed Silvers</persName>
-							<placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+							<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+							<placeName ref="#pla-rutgecon">New Brunswick, New Jersey</placeName>
 							<date when="1918-07-12">July 12, 1918</date>
 						</correspAction>
 						<correspAction type="received">
-							<persName>W. W. Jackson</persName>
-							<placeName ref="#jackson-work">New York, New York</placeName>
+							<persName ref="#psn-wwjac">W. W. Jackson</persName>
+							<placeName ref="#pla-50bes">New York, New York</placeName>
 						</correspAction>
 					</correspDesc>
 					<correspDesc xml:id="jacksonmb_07">
 						<correspAction type="sent">
-							<persName>W. W. Jackson</persName>
-							<placeName ref="#jackson-work">New York, New York</placeName>
+							<persName ref="#psn-wwjac">W. W. Jackson</persName>
+							<placeName ref="#pla-50bes">New York, New York</placeName>
 							<date when="1918-07-15">July 15, 1918</date>
 						</correspAction>
 						<correspAction type="received">
-							<persName>Earl Reed Silvers</persName>
-							<placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+							<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+							<placeName ref="#pla-rutgecon">New Brunswick, New Jersey</placeName>
 						</correspAction>
 					</correspDesc>
 					<correspDesc xml:id="jacksonmb_08">
 						<correspAction type="sent">
-							<persName>J. K. Paulding</persName>
-							<placeName ref="#us-base-hospital-8">Savenay, France</placeName>
+							<persName ref="#psn-jkpau">J. K. Paulding</persName>
+							<placeName ref="#pla-savenfr">Savenay, France</placeName>
 							<date when="1918-11-12">November 12, 1918</date>
 						</correspAction>
 						<correspAction type="received">
-							<persName>Mrs. Jackson</persName>
-							<placeName ref="#jackson-home">Brooklyn, New York</placeName>
+							<persName ref="#psn-fhbac">Mrs. Jackson</persName>
+							<placeName ref="#pla-55pis">Brooklyn, New York</placeName>
 						</correspAction>
 					</correspDesc>
 					<correspDesc xml:id="jacksonmb_09">
 						<correspAction type="sent">
-							<persName>W. W. Jackson</persName>
-							<placeName ref="#jackson-work">New York, New York</placeName>
+							<persName ref="#psn-wwjac">W. W. Jackson</persName>
+							<placeName ref="#pla-50bes">New York, New York</placeName>
 							<date when="1918-11-26">November 26, 1918</date>
 						</correspAction>
 						<correspAction type="received">
-							<persName>Earl Reed Silvers</persName>
-							<placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+							<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+							<placeName ref="#pla-rutgecon">New Brunswick, New Jersey</placeName>
 						</correspAction>
 					</correspDesc>
 					<correspDesc xml:id="jacksonmb_10">
 						<correspAction type="sent">
-							<persName>Earl Reed Silvers</persName>
-							<placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+							<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+							<placeName ref="#pla-rutgecon">New Brunswick, New Jersey</placeName>
 							<date when="1918-12-03">December 3, 1918</date>
 						</correspAction>
 						<correspAction type="received">
-							<persName>W. W. Jackson</persName>
-							<placeName ref="#jackson-work">New York, New York</placeName>
+							<persName ref="#psn-wwjac">W. W. Jackson</persName>
+							<placeName ref="#pla-50bes">New York, New York</placeName>
 						</correspAction>
 					</correspDesc>
 					<correspDesc xml:id="jacksonmb_11">
 						<correspAction type="sent">
-							<persName>W. W. Jackson</persName>
-							<placeName ref="#jackson-home">Brooklyn, New York</placeName>
+							<persName ref="#psn-wwjac">W. W. Jackson</persName>
+							<placeName ref="#pla-55pis">Brooklyn, New York</placeName>
 							<date when="1918-12-09">December 9, 1918</date>
 						</correspAction>
 						<correspAction type="received">
-							<persName>Earl Reed Silvers</persName>
-							<placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+							<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+							<placeName ref="#pla-rutgecon">New Brunswick, New Jersey</placeName>
 						</correspAction>
 					</correspDesc>
 					<correspDesc xml:id="jacksonmb_12">
 						<correspAction type="sent">
-							<persName>Earl Reed Silvers</persName>
-							<placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+							<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+							<placeName ref="#pla-rutgecon">New Brunswick, New Jersey</placeName>
 							<date when="1918-12-10">December 10, 1918</date>
 						</correspAction>
 						<correspAction type="received">
-							<persName>W. W. Jackson</persName>
-							<placeName ref="#jackson-home">Brooklyn, New York</placeName>
+							<persName ref="#psn-wwjac">W. W. Jackson</persName>
+							<placeName ref="#pla-55pis">Brooklyn, New York</placeName>
 						</correspAction>
 					</correspDesc>
 					<correspDesc xml:id="jacksonmb_13">
 						<correspAction type="sent">
-							<persName>W. W. Jackson</persName>
-							<placeName ref="#jackson-home" cert="medium">Brooklyn, New York</placeName>
+							<persName ref="#psn-wwjac">W. W. Jackson</persName>
+							<placeName ref="#pla-55pis" cert="medium">Brooklyn, New York</placeName>
 							<date notBefore="1918-12-10">December 1918 [?]</date>
 						</correspAction>
 						<correspAction type="received">
-							<persName>Earl Reed Silvers</persName>
-							<placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+							<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+							<placeName ref="#pla-rutgecon">New Brunswick, New Jersey</placeName>
 						</correspAction>
 					</correspDesc>
 					<correspDesc xml:id="jacksonmb_14">
 						<correspAction type="sent">
-							<persName>W. W. Jackson</persName>
-							<placeName ref="#jackson-work">New York, New York</placeName>
+							<persName ref="#psn-wwjac">W. W. Jackson</persName>
+							<placeName ref="#pla-50bes">New York, New York</placeName>
 							<date when="1919-02-13">February 13, 1919</date>
 						</correspAction>
 						<correspAction type="received">
-							<persName>Dr. Demarest</persName>
-							<placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+							<persName ref="#psn-whdem">Dr. Demarest</persName>
+							<placeName ref="#pla-rutgecon">New Brunswick, New Jersey</placeName>
 						</correspAction>
 					</correspDesc>
 				</profileDesc>
 		<revisionDesc>
+			<change who="#fg" when="2021-12-09">Added <gi>standOff</gi>. Removed <gi>back</gi>.</change>
 			<change who="#bm" when="2021-06-22">Finished encoding letter anthology.</change>
 			<change who="#fg" when="2021-10-07">Edited letters, added listPlace.</change>
 		</revisionDesc>
 	</teiHeader>
+	<standOff>
+		<listPerson>
+			<person xml:id="psn-fhbac">
+				<persName type="display">Fanny Hastings Bacon</persName>
+				<persName type="sort">Bacon, Fanny Hastings</persName>
+				<state>
+					<p>Mother to Morris (Jill) B. Jackson</p>
+				</state>
+				<birth when="1872-01-24">1872</birth>
+				<death when-custom="19--">19--</death>
+				<note/>
+			</person>
+			<person xml:id="psn-jlcos">
+				<persName type="display">Joseph Louis Costa</persName>
+				<persName type="sort">Costa, Joseph Louis</persName>
+				<state>
+					<p>Lieutenant, French Army</p>
+				</state>
+				<birth when-custom="1897">1897</birth>
+				<death when-custom="1969">1969</death>
+				<note/>
+			</person>
+			<person xml:id="psn-whdem">
+				<persName type="display">William Henry Steele Demarest</persName>
+				<persName type="sort">Demarest, William Henry Steele</persName>
+				<state>
+					<p>President, Rutgers College</p>
+				</state>
+				<birth when-custom="1863">1863</birth>
+				<death when-custom="1956">1956</death>
+				<note><list type="links">
+						<item><ref
+								target="https://ucmweb.rutgers.edu/pastpresidents/about/history/past-presidents/william-henry-steele-demarest.htm"
+							><title>Thomas J. Frusciano, "William Henry Steele Demarest: Rutgers President, 1906 to 1924"</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-gbjac">
+				<persName type="display">George Bement [Berneut?] Jackson</persName>
+				<persName type="sort">Jackson, George Bement</persName>
+				<state>
+					<p>Brother to Morris (Jill) Jackson</p>
+				</state>
+				<birth when="1900-04-04">1900</birth>
+				<death when-custom="1995">1995</death>
+				<note/>
+			</person>
+			<person xml:id="psn-mbjac">
+				<persName type="display">Morris Bacon Jackson</persName>
+				<persName type="sort">Jackson, Morris Bacon</persName>
+				<state>
+					<p>Private, Medical Department</p>
+				</state>
+				<birth when="1898-05-27">1898</birth>
+				<death when="1918-10-27">1918</death>
+				<note><p>Morris "Jill" Jackson put his Rutgers coursework in agriculture to work directing a convalescents' farm at U.S. Base Hospital No. 8 in Savenay France. There, he was joined by seven other Rutgers men working in the Medical Department. In fall 1918, Jackson was sent back to the U.S. to escort a group of officers suffering from shell shock (post-traumatic stress disorder) to the neuro-psychiatry ward of General Hospital No. 30 in Plattsburgh, New York. One senses that this was not a choice assignment; Jackson himself notes in a letter that Don Storck and Mefford Runyon were considered "too valuable" for the trip. In compensation for his effort, Jackson was awarded a 15-day leave to visit his family. He was ill with influenza by the time he reached his parents' home in Brooklyn. His condition worsened until he died on October 27, 1918, aged twenty years old.</p>
+					<p>The influenza pandemic of 1918 inflicted five to ten times more casualties than the war (somewhere between 50 and 100 million people died), and yet for a time, as scholars like Elizabeth Outka point out, it was seemingly forgotten. Outka writes: "The war was what seemed real, and war deaths were what seemed important. Flu deaths were difficult to spin into stories of victory or needful sacrifices. The disease suggested bodily vulnerability and weakness, not a masculine power struggle or a larger political goal."</p>
+					<p>In the letters that follow, and in the above clippings of his obituaries, we see this forgetting happening in real time as Jackson's flu death is reclaimed as a war death. Both the obituary printed in the <title>Brooklyn Daily Eagle</title> and his father's letter to Earl Reed Silvers devote several paragraphs to Jackson's war service and only a cursory mention of  his death from influenza. There were simply no words for this tragedy that was unfolding in the war's shadow.</p>
+					<p>If Jackson's death could be made comprehensible and grievable as a war death, no such treatment is reserved for the victims of shell shock. It is hard to miss the contempt that Knights of Columbus representative J. K. Paulding has for the officers Jackson accompanies back to the United States. His letter to Mrs. Jackson eulogizes Jackson in part by contrasting his "beautiful spirit" with the "degraded beings" in his care. In historian Elaine Showalter's view, a much discussed "crisis of masculinity" during the First World War reached its paroxysm with shell shock, a masculine mirror of what psychiatrists had previously understood to be the uniquely feminine condition of hysteria.</p>
+					<listBibl>
+						<bibl>"Obituary for Morris Bacon Jackson (Aged 20)," _The Brooklyn Daily Eagle_, October 28, 1918, p. 16.</bibl>
+						<bibl>Elizabeth Outka, “‘Wood for the Coffins Ran Out’: Modernism and the Shadowed Afterlife of the Influenza Pandemic,” _Modernism/Modernity_ 21, no. 4 (2014): 937–60, https://doi.org/10.1353/mod.2014.0099.</bibl>
+						<bibl>Elizabeth Outka, “Grievability, COVID-19, and the Modernists’ Pandemic,” _Modernism/Modernity Print Plus_ 5, no. 1 (May 21, 2020), https://modernismmodernity.org/forums/posts/outka-grievability-covid.</bibl>
+						<bibl>Elaine Showalter, The Female Malady: Women, Madness, and English Culture, 1830-1980 (New York, NY: Pantheon Books, 1985).</bibl>
+						<bibl>Leonard V. Smith, “Masculinity, Memory, and the French World War I Novel: Henri Barbusse and Roland Dorgeles,” in Authority, Identity and the Social History of the Great War, ed. Frans Coetzee and Marilyn Shevin-Coetzee (Providence, RI: Berghahn Books, 1995), 325–55.</bibl>
+					</listBibl>
+					<list type="links">
+						<item><ref
+								target="https://www.findagrave.com/memorial/27896281/morris-bacon-jackson"
+								><title>Find a Grave</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-wwjac">
+				<persName type="display">William Walter Jackson</persName>
+				<persName type="sort">Jackson, William Walter</persName>
+				<state>
+					<p>Father to Morris B. Jackson</p>
+				</state>
+				<birth when-custom="1872">1872</birth>
+				<death when="1953-01-28">1953</death>
+				<note><p>William W. Jackson was born in 1872 in Richmond, IN. He was educated at Columbia University and then worked at Edwin Jackson, Inc., in 1895. He assumed the rank of president of the family company in 1942. Jackson was a Quaker and active on the boards of the Friends School in Brooklyn and the Friend's Seminary in Manhattan.</p>
+					<bibl>"Obituary for William Walter JACKSON (Aged 80)," The Brooklyn Daily Eagle, January 30, 1953, p. 9.</bibl></note>
+			</person>
+			<person xml:id="psn-chmaa">
+				<persName type="display">Carl H Maar</persName>
+				<persName type="sort">Maar, Carl H.</persName>
+				<state>
+					<p>Sergeant, Medical Department</p>
+				</state>
+				<birth when-custom="1897">1897</birth>
+				<death when-custom="1971">1971</death>
+				<note/>
+			</person>
+			<person xml:id="psn-jkpau">
+				<persName type="display">J K Paulding</persName>
+				<persName type="sort">Paulding, J. K.</persName>
+				<state>
+					<p>Knights of Columbus Representative</p>
+				</state>
+				<birth when-custom="18--">18--</birth>
+				<death when-custom="19--">19--</death>
+				<note/>
+			</person>
+			<person xml:id="psn-mrrun">
+				<persName type="display">Mefford Ross Runyon</persName>
+				<persName type="sort">Runyon, Mefford Ross</persName>
+				<state>
+					<p>Sergeant, Medical Department</p>
+				</state>
+				<birth when-custom="1897">1897</birth>
+				<death when-custom="1983">1983</death>
+				<note/>
+			</person>
+			<person xml:id="psn-ersil">
+				<persName type="display">Earl Reed Silvers</persName>
+				<persName type="sort">Silvers, Earl Reed</persName>
+				<state>
+					<p>Director, War Service Bureau</p>
+				</state>
+				<birth when-custom="1891">1891</birth>
+				<death when-custom="1948">1948</death>
+				<note><list type="links">
+						<item><ref target="http://viaf.org/viaf/68516378"><title/></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-dgsto">
+				<persName type="display">Donald G Storck</persName>
+				<persName type="sort">Storck, Donald G.</persName>
+				<state>
+					<p>Sergeant, Medical Corps</p>
+				</state>
+				<birth when-custom="1897">1897</birth>
+				<death when-custom="1987">1987</death>
+				<note/>
+			</person>
+			<person xml:id="psn-rsvoo">
+				<persName type="display">Ralph Spencer Jr Voorhees</persName>
+				<persName type="sort">Voorhees, Ralph Spencer Jr.</persName>
+				<state>
+					<p>Sergeant, Medical Department</p>
+				</state>
+				<birth when-custom="1897">1897</birth>
+				<death when-custom="1987">1987</death>
+				<note/>
+			</person>
+		</listPerson>
+		<listPlace>
+			<place xml:id="pla-375pes">
+				<placeName>375 Pearl Street, Brooklyn, NY</placeName>
+				<location>
+					<geo
+						sameAs="https://geohack.toolforge.org/geohack.php?params=40_41_34_N_73_59_19_W"
+						>40.6929031 -73.9886898</geo>
+				</location>
+				<note><p>Address of the Friends Seminary in Brooklyn, a Quaker institution of secondary education attended by <rs ref="#psn-mbjac"/>.</p></note>
+			</place>
+			<place xml:id="pla-50bes">
+				<placeName>50 Beekman St., New York, NY</placeName>
+				<location>
+					<geo
+						sameAs="https://geohack.toolforge.org/geohack.php?params=40.711130238240344___N_-74.00622796693946___E"
+						>40.71113 -74.006228</geo>
+				</location>
+				<note><p>The location of Edwin Jackson, Inc., manufacturers and importers of fireplaces and mantels, and place of employment of <rs ref="#psn-wwjac"/>. Edwin Jackson was William W. Jackson's uncle.</p></note>
+			</place>
+			<place xml:id="pla-55pis">
+				<placeName>55 Pineapple Street, Brooklyn, NY</placeName>
+				<location>
+					<geo>40.698542 -73.9959025</geo>
+				</location>
+				<note><p>The home address of William Walter and Fanny Bacon Jackson.</p></note>
+			</place>
+			<place xml:id="pla-newponev">
+				<placeName>Newport News, VA</placeName>
+				<location>
+					<geo
+						sameAs="https://geohack.toolforge.org/geohack.php?params=36_58_6_N_76_25_45_W"
+						>36.968562 -76.429221</geo>
+				</location>
+				<note><p>Hampton Roads Port is the assumed location.</p></note>
+			</place>
+			<place xml:id="pla-plattny">
+				<placeName>Plattsburgh, NY</placeName>
+				<location>
+					<geo
+						sameAs="https://geohack.toolforge.org/geohack.php?params=44_41_43_N_73_27_30_W"
+						>44.695278 -73.458333</geo>
+				</location>
+				<note><p>See <ref target="https://nursingclio.org/2018/11/07/neuro-psychiatry-and-patient-protest-in-first-world-war-american-hospitals/">Neuro-Psychiatry and Patient Protest in First World War American Hospitals</ref> for information on this hospital.</p></note>
+			</place>
+			<place xml:id="pla-rutgealh">
+				<placeName>Rutgers Alumni House, New Brunswick, NJ</placeName>
+				<location>
+					<geo
+						sameAs="https://geohack.toolforge.org/geohack.php?params=40_29_55_N_74_26_49_W"
+						>40.498611 -74.446944</geo>
+				</location>
+				<note>ERS's office, in Van Nest Hall.</note>
+			</place>
+			<place xml:id="pla-rutgecon">
+				<placeName>Rutgers College, New Brunswick, NJ</placeName>
+				<location>
+					<geo
+						sameAs="https://geohack.toolforge.org/geohack.php?params=40_30_2_N_74_26_50_W"
+						>40.500819 -74.447399</geo>
+				</location>
+				<note/>
+			</place>
+			<place xml:id="pla-saintnaf">
+				<placeName>Saint-Nazaire, France</placeName>
+				<location>
+					<geo
+						sameAs="https://geohack.toolforge.org/geohack.php?params=47_16_50_N_2_12_31_W"
+						>47.274023 -2.213257</geo>
+				</location>
+				<note/>
+			</place>
+			<place xml:id="pla-savenfr">
+				<placeName>Savenay, France</placeName>
+				<location>
+					<geo
+						sameAs="https://geohack.toolforge.org/geohack.php?params=47_21_43_N_1_56_26_W"
+						>47.3619 -1.9406</geo>
+				</location>
+				<note><p>The location of U.S. Base Hospital no. 8.</p></note>
+			</place>
+		</listPlace>
+	</standOff>
 	<text>
 		<body>
 			<div type="letter" decls="#jacksonmb_01">
@@ -215,26 +443,16 @@
 				</div>
 				<pb n="2"/>
 				<div type="verso">
-					<p><persName key="Jackson, Morris Bacon" role="Private, Medical Department"
-							from="1898" to="1918"
-							ref="https://www.findagrave.com/memorial/27896281/morris-bacon-jackson"
-							>Morris B. Jackson</persName> '19 is private U. S. A. with <seg
-							xml:id="fn1">base hospital # 8</seg><note target="#fn1"
-							type="annotation"><p>American Expeditionary Forces Base Hospital No. 8
+					<p><persName key="Jackson, Morris Bacon" role="Private, Medical Department" from="1898" to="1918" ref="https://www.findagrave.com/memorial/27896281/morris-bacon-jackson">Morris B. Jackson</persName> '19 is private U. S. A. with <seg xml:id="fn1">base hospital # 8</seg><note target="#fn1" type="annotation"><p>American Expeditionary Forces Base Hospital No. 8
 								occupied the Normal School of Savenay in the Loire-Atlantique
-								department of France.</p><ref
-								target="https://www.nashobavalleyvoice.com/2018/08/10/fort-devens-museum-presents-film-about-wwi-base-hospital/"
-								>&apos;Fort Devens Museum presents film about WWI base
-								hospital&apos;</ref></note> (originally called #8- then changed to #
-						6 and number how restored to # 8) Amer Exped Force via N.Y.C.</p>
+								department of France.</p><ref target="https://www.nashobavalleyvoice.com/2018/08/10/fort-devens-museum-presents-film-about-wwi-base-hospital/">'Fort Devens Museum presents film about WWI base
+								hospital'</ref></note> (originally called #8- then changed to #
+						6 and number now restored to # 8) Amer Exped Force via N.Y.C.</p>
 
 					<closer>
 						<salute>Yours,</salute>
-						<signed><persName key="Jackson, William Walter" from="1872" to="1953"
-								role="Father to Morris B. Jackson">W.W. Jackson</persName></signed>
-						<placeName key="50 Beekman St., New York, NY"
-							ref="https://geohack.toolforge.org/geohack.php?params=40.711130238240344___N_-74.00622796693946___E"
-							>50 Beekman St. NYC</placeName>
+						<signed><persName key="Jackson, William Walter" from="1872" to="1953" role="Father to Morris B. Jackson">W.W. Jackson</persName></signed>
+						<placeName key="50 Beekman St., New York, NY" ref="https://geohack.toolforge.org/geohack.php?params=40.711130238240344___N_-74.00622796693946___E">50 Beekman St. NYC</placeName>
 					</closer>
 				</div>
 			</div>
@@ -266,8 +484,8 @@
 						all at the following address. Base Hosp. #8 A.E.F. Stork is 1st class
 						private <sic>ther</sic> rest of us are <seg xml:id="fn2">"Bucks"</seg><note target="#fn2" type="gloss"><p>Used to stress that a private has the
 								lowest rank in the military</p><ref target="https://www.merriam-webster.com/dictionary/buck%20private">Merriam-Webster</ref></note> any news from college is always good
-						news. We have not recieved any issues of the <seg xml:id="fn3">Targum</seg><note target="#fn3" type="annotation"><p>The Daily Targum,
-								Rutgers University's student newspaper</p><ref target="https://dailytargum.com/page/about">The Daily Targum, &apos;About&apos;</ref></note> but are pining
+						news. We have not <sic>recieved</sic> any issues of the <seg xml:id="fn3">Targum</seg><note target="#fn3" type="annotation"><p>The Daily Targum,
+								Rutgers University's student newspaper</p><ref target="https://dailytargum.com/page/about">The Daily Targum, 'About'</ref></note> but are pining
 						away for a look at it.</p>
 
 					<p><unclear reason="damage" extent="2 lines"/> Merry Christmas + Happy New Year.
@@ -298,7 +516,7 @@
 
 				<closer>
 					<salute>Good luck to you and best wishes,</salute>
-					<salute>Very sincerly yours,</salute>
+					<salute>Very sincerely yours,</salute>
 					<signed/>
 				</closer>
 			</div>
@@ -310,8 +528,8 @@
 					<salute>Dear Folks,</salute>
 				</opener>
 
-				<p>It is now permissable to address your mail Pvt. M. B . Jackson, Base Hospital #8,
-					P.O. <del rend="overstrike">39</del> 701, <placeName key="Savenay, France" ref="https://geohack.toolforge.org/geohack.php?params=47_21_43_N_1_56_26_W">Savenay, Loire Inferiore, France</placeName>. In that way it will receive a
+				<p>It is now <sic>permissable</sic> to address your mail Pvt. M. B . Jackson, Base Hospital #8,
+					P.O. <del rend="overstrike">39</del> 701, <placeName key="Savenay, France" ref="https://geohack.toolforge.org/geohack.php?params=47_21_43_N_1_56_26_W">Savenay, Loire <sic>Inferiore</sic>, France</placeName>. In that way it will receive a
 					speedier delivery.</p>
 
 				<p>The bathing suit, cake , gum, <unclear>blades</unclear>, and chocolate came in
@@ -378,7 +596,7 @@
 					delightful time" etc. Do you remember arabella "and they
 					danced as they danced and they said as they danced <seg xml:id="fn9">'Hurrah for the Fourth
 						of July.'</seg><note target="#fn9" type="annotation"><p>Johnson is quoting
-							Gertrude Smith's &apos;A Celebration Story&apos; from The Arabella and
+							Gertrude Smith's 'A Celebration Story' from The Arabella and
 							Araminta Stories, published 1895.</p></note>"</p>
 
 				<p>I dont feel like writing much so wont.</p>
@@ -487,7 +705,7 @@
 					at the risk of intruding upon your great grief. I don't know when I have met a
 					finer boy, and I had learned how to love him almost as a son. I shall never
 					visit the farm again, where he was stationed latterly, without a feeling of mute
-					pain. I used to go there occaisonally to take supper with the boys, and the
+					pain. I used to go there occasionally to take supper with the boys, and the
 					chief pleasure to me was sitting afterwards in the doorway or on the flagging
 					and talking with him. It seems to me now as if I could never bear taking supper
 					there again.</p>
@@ -758,7 +976,7 @@
 
 					<p>With Morris I originally chose Rutgers as a College which was backed by a
 							<seg xml:id="fn11">live Church</seg><note target="#fn11" type="annotation"><p>It may be worth noting here that Demarest was a
-								pastor.</p><ref target="https://ucmweb.rutgers.edu/pastpresidents/about/history/past-presidents/william-henry-steele-demarest.htm">Frusciano, T., &apos;William Henry Steele Demarest&apos;</ref></note> - a College whose students came
+								pastor.</p><ref target="https://ucmweb.rutgers.edu/pastpresidents/about/history/past-presidents/william-henry-steele-demarest.htm">Frusciano, T., 'William Henry Steele Demarest'</ref></note> - a College whose students came
 						from good families - a College where a boy of moderate circumstances</p>
 
 					<pb n="23"/>
@@ -773,64 +991,5 @@
 				</closer>
 			</div>
 		</body>
-		<back>
-			<listPlace>
-				<place xml:id="van-nest-hall">
-					<placeName>Rutgers Alumni House, New Brunswick, NJ</placeName>
-					<location>
-						<geo>40.498611 -74.446944</geo>
-					</location>
-				</place>
-				<place xml:id="jackson-work">
-					<placeName>50 Beekman St., New York, NY</placeName>
-					<location>
-						<geo>40.71113 -74.006228</geo>
-					</location>
-				</place>
-				<place xml:id="jackson-home">
-					<placeName>55 Pineapple Street, Brooklyn, NY</placeName>
-					<location>
-						<geo>40.698542 -73.9959025</geo>
-					</location>
-				</place>
-				<place xml:id="rutgers">
-					<placeName>Rutgers College, New Brunswick, NJ</placeName>
-					<location>
-						<geo>40.500819 -74.447399</geo>
-					</location>
-				</place>
-				<place xml:id="us-base-hospital-8">
-					<placeName>Savenay, France</placeName>
-					<location>
-						<geo>47.3619 -1.9406</geo>
-					</location>
-				</place>
-				<place xml:id="saint-nazaire">
-					<placeName>Saint-Nazaire, France</placeName>
-					<location>
-						<geo>47.274023 -2.213257</geo>
-					</location>
-				</place>
-				<place xml:id="hampton-roads-port">
-					<placeName>Newport News, VA</placeName>
-					<location>
-						<geo>36.968562 -76.429221</geo>
-					</location>
-				</place>
-				<place xml:id="friends-seminary">
-					<placeName>375 Pearl Street, Brooklyn, NY</placeName>
-					<location>
-						<geo>40.6929031 -73.9886898</geo>
-					</location>
-				</place>
-				<place xml:id="us-army-general-hospital-30">
-					<placeName>Plattsburgh, NY</placeName>
-					<location>
-						<geo>44.695278 -73.458333</geo>
-					</location>
-					<note>See <ref target="https://nursingclio.org/2018/11/07/neuro-psychiatry-and-patient-protest-in-first-world-war-american-hospitals/">Neuro-Psychiatry and Patient Protest in First World War American Hospitals</ref> for information on this hospital.</note>
-				</place>
-			</listPlace>
-		</back>
 	</text>
 </TEI>
