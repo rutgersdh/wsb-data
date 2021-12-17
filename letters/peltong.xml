@@ -38,87 +38,173 @@
 		<profileDesc>
 			<correspDesc xml:id="peltong_01">
 				<correspAction type="sent">
-					<persName>Graham Pelton</persName>
-					<placeName ref="#washington_barracks"/>
+					<persName ref="#psn-gpel">Graham Pelton</persName>
+					<placeName ref="#pla-fortlej"/>
 					<date when="1918-06-04">June 4, 1918</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName>Earl Reed Silvers</persName>
-					<placeName ref="#rutgers"/>
+					<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+					<placeName ref="#pla-rutgecon"/>
 				</correspAction>
 			</correspDesc>
 			<correspDesc xml:id="peltong_02">
 				<correspAction type="sent">
-					<persName>Graham Pelton</persName>
-					<placeName ref="#washington_barracks"/>
+					<persName ref="#psn-gpel">Graham Pelton</persName>
+					<placeName ref="#pla-fortlej"/>
 					<date when="1918-08-17">August 17, 1918</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName>Earl Reed Silvers</persName>
-					<placeName ref="#rutgers"/>
+					<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+					<placeName ref="#pla-rutgecon"/>
 				</correspAction>
 			</correspDesc>
 			<correspDesc xml:id="peltong_03">
 				<correspAction type="sent">
-					<persName>Graham Pelton</persName>
-					<placeName ref="#washington_barracks"/>
+					<persName ref="#psn-gpel">Graham Pelton</persName>
+					<placeName ref="#pla-fortlej"/>
 					<date when="1918-08-26">August 26, 1918</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName>Earl Reed Silvers</persName>
-					<placeName ref="#rutgers"/>
+					<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+					<placeName ref="#pla-rutgecon"/>
 				</correspAction>
 			</correspDesc>
 			<correspDesc xml:id="peltong_04">
 				<correspAction type="sent">
-					<persName>Earl Reed Silvers</persName>
-					<placeName ref="#rutgers"/>
+					<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+					<placeName ref="#pla-rutgecon"/>
 					<date when="1918-08-27">August 27, 1918</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName>Graham Pelton</persName>
-					<placeName ref="#washington_barracks"/>
+					<persName ref="#psn-gpel">Graham Pelton</persName>
+					<placeName ref="#pla-fortlej"/>
 				</correspAction>
 			</correspDesc>
 			<correspDesc xml:id="peltong_05">
 				<correspAction type="sent">
-					<persName>Graham Pelton</persName>
-					<placeName ref="#washington_barracks"/>
+					<persName ref="#psn-gpel">Graham Pelton</persName>
+					<placeName ref="#pla-fortlej"/>
 					<date when="1918-11-02">November 2, 1918</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName>Earl Reed Silvers</persName>
-					<placeName ref="#rutgers"/>
+					<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+					<placeName ref="#pla-rutgecon"/>
 				</correspAction>
 			</correspDesc>
 		</profileDesc>
 		<revisionDesc>
+			<change when="2021-12-16" who="#fg">Added <gi>standOff</gi>. Removed <gi>back</gi>.</change>
+			<change when="2021-02-21" who="#fg">Fixed a broken seg/note pair.</change>
 			<change when="2020-12-03" who="#fg">Edited Eden's encodings, added correspDesc and
 				listPlace elements</change>
-			<change when="2021-02-21" who="#fg">Fixed a broken seg/note pair.</change>
 		</revisionDesc>
 	</teiHeader>
+	<standOff>
+		<listPerson>
+			<person xml:id="psn-hrkle">
+				<persName type="display">Harry Rampey Klein</persName>
+				<persName type="sort">Klein, Harry Rampey</persName>
+				<state>
+					<p>Private, Sanitary Detachment, 102 Engineers</p>
+				</state>
+				<birth when-custom="1896">1896</birth>
+				<death when-custom="1982">1982</death>
+				<note><list type="links">
+						<item><ref target="https://doi.org/doi:10.7282/T3W66PJZ"
+							><title>Klein, Harry R.</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-gpel">
+				<persName type="display">Graham Pelton</persName>
+				<persName type="sort">Pelton, Graham</persName>
+				<state>
+					<p>Private, Engineers</p>
+				</state>
+				<birth when="1895-01-30">1895</birth>
+				<death when="1981-02-22">1981</death>
+				<note><p>We learn next to nothing about Graham Pelton, RC '18, based on the few letters in his file. We know that he worked first in the personnel office of the First Replacement Regiment of Engineers, and next in the Engineer School, both at Washington Barracks, D.C. In a way, Pelton's position was enviable. He had a coveted desk job and never saw action during the war. Pelton remained a private in the Engineer Corps for the duration of his service. According to his military service record, he had two years previous training in the Officers' Reserve Corps, and was recommended four times for sergeancy, "but orders were never issued." Given the somewhat haphazard and rushed way in which the Army built its officer corps, equating leadership first with a college education, and next with subjective qualities like charisma, it is possible that Pelton lost a popularity contest of sorts. Furthermore, the purpose of the First Replacement Regiment of Engineers was to churn out trained combat engineers for active duty in France. They weren't meant to linger, hence Pelton would have had few opportunities to establish rapport in his role, further isolating him. Pelton asks Silvers twice for a list of enlisted Rutgers men in the vicinity of Washington, first in June and next in August 1918, presumably because he was hoping to see a friendly face. Silvers replies on August 27, 1918 to say "[w]e are short of clerical help just now and it is not possible for us to give the time to such work." Pelton's only subsequent communication is to notify Silvers of an address change, stating that he "[s]hould like very much to receive your War Letters as heretofore." His communication style is fairly typical of soldiers' correspondence of the era, which is to say laconic out of a desire to project good morale. One infers his state of mind only through his frequent correspondence with Silvers, whom he evidently did not know well, and who responded only once to Pelton's four letters. After being discharged in February 1919, Pelton returned to life as a civil engineer in Essex, Connecticut.</p>
+				<bibl></bibl></note>
+			</person>
+			<person xml:id="psn-ersil">
+				<persName type="display">Earl Reed Silvers</persName>
+				<persName type="sort">Silvers, Earl Reed</persName>
+				<state>
+					<p>Director, War Service Bureau</p>
+				</state>
+				<birth when-custom="1891">1891</birth>
+				<death when-custom="1948">1948</death>
+				<note><list type="links">
+						<item><ref target="http://viaf.org/viaf/68516378"><title>VIAF</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-whsta">
+				<persName type="display">William Henry Stang</persName>
+				<persName type="sort">Stang, William Henry</persName>
+				<state>
+					<p>Lieutenant, Engineers</p>
+				</state>
+				<birth when-custom="1894">1894</birth>
+				<death when-custom="1973">1973</death>
+				<note><list type="links">
+						<item><ref target="https://doi.org/doi:10.7282/T3BK1G6X"
+							><title/></ref></item>
+					</list></note>
+			</person>
+		</listPerson>
+		<listPlace>
+			<place xml:id="pla-campbev">
+				<placeName>Camp Belvoir, VA</placeName>
+				<location>
+					<geo
+						sameAs="https://geohack.toolforge.org/geohack.php?params=38.719737_N_77.154582_W"
+						>38.719737 -77.154582</geo>
+				</location>
+				<note/>
+			</place>
+			<place xml:id="pla-campfof">
+				<placeName>Camp Forrest, Fort Oglethorpe, GA</placeName>
+				<location>
+					<geo
+						sameAs="https://geohack.toolforge.org/geohack.php?params=34_56_58.75_N_85_15_10.66_W"
+						>34.949653 -85.252961</geo>
+				</location>
+				<note/>
+			</place>
+			<place xml:id="pla-fortlej">
+				<placeName>Fort Lesley J. McNair, Washington, DC</placeName>
+				<location>
+					<geo
+						sameAs="https://geohack.toolforge.org/geohack.php?params=38_52_1_N_77_0_57_W"
+						>38.867 -77.016</geo>
+				</location>
+				<note><p>AKA Washington Barracks.</p></note>
+			</place>
+			<place xml:id="pla-rutgecon">
+				<placeName>Rutgers College, New Brunswick, NJ</placeName>
+				<location>
+					<geo
+						sameAs="https://tools.wmflabs.org/geohack/geohack.php?params=40_30_2_N_74_26_50_W"
+						>40.500819 -74.447399</geo>
+				</location>
+				<note/>
+			</place>
+		</listPlace>
+	</standOff>
 	<text>
 		<body>
 			<div type="letter" decls="#peltong_01">
 				<pb n="1"/>
 				<opener>
 					<dateline>
-						<placeName key="Fort Lesley J. McNair, Washington, DC"
-							ref="https://geohack.toolforge.org/geohack.php?params=38_52_1_N_77_0_57_W"
-							> Washington D.C. </placeName>
+						<placeName key="Fort Lesley J. McNair, Washington, DC" ref="https://geohack.toolforge.org/geohack.php?params=38_52_1_N_77_0_57_W"> Washington D.C. </placeName>
 						<date when="1918-06-04"> June 4th, 1918. </date>
 					</dateline>
 					<address>
 						<addrLine>Mr. Earl R. Silvers</addrLine>
-						<addrLine><placeName key="Rutgers College, New Brunswick, NJ"
-								ref="https://tools.wmflabs.org/geohack/geohack.php?params=40_30_2_N_74_26_50_W"
-								>Rutgers College</placeName></addrLine>
+						<addrLine><placeName key="Rutgers College, New Brunswick, NJ" ref="https://tools.wmflabs.org/geohack/geohack.php?params=40_30_2_N_74_26_50_W">Rutgers College</placeName></addrLine>
 						<addrLine>New Brunswick, N.J.</addrLine>
 					</address>
-					<salute>My dear Mr. <persName key="Silvers, Earl Reed" from="1891" to="1948"
-							role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"
-							>Silvers</persName>:—</salute>
+					<salute>My dear Mr. <persName key="Silvers, Earl Reed" from="1891" to="1948" role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378">Silvers</persName>:—</salute>
 				</opener>
 
 				<p> I should appreciate it very much if you would forward me the names and addresses
@@ -131,19 +217,15 @@
 
 				<closer>
 					<salute>Very sincerely yours,</salute><lb/>
-					<signed><persName key="Pelton, Graham" from="1895" to="1981"
-							role="Private, Engineers">Graham Pelton</persName> '18</signed><lb/>
-					<address>
+					<signed><persName key="Pelton, Graham" from="1895" to="1981" role="Private, Engineers">Graham Pelton</persName> '18</signed><lb/>
+					<address style="text-align: right;">
 						<addrLine>Room # 209 <choice>
 								<abbr>Hdqtes.</abbr>
 								<expan>Headquarters</expan>
 							</choice> Bldg.</addrLine>
-						<addrLine><seg xml:id="fn1">Washington Barracks</seg><note type="gloss"
-								target="#fn1"><p>The Washington Barracks were located at present-day
+						<addrLine><seg xml:id="fn1">Washington Barracks</seg><note type="gloss" target="#fn1"><p>The Washington Barracks were located at present-day
 									Fort Lesley J. McNair. This was also the site of the Army
-									Engineer School at the time.</p><ref
-					target="https://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Fort%20Leslie%20J%20%20McNair%20nomination.pdf"
-								>National Park Service, National Register of Historic Places
+									Engineer School at the time.</p><ref target="https://planning.dc.gov/sites/default/files/dc/sites/op/publication/attachments/Fort%20Leslie%20J%20%20McNair%20nomination.pdf">National Park Service, National Register of Historic Places
 										Inventory -- Nomination Form, p. 8.</ref></note>,</addrLine>
 						<addrLine>Washington D.C.</addrLine>
 					</address>
@@ -152,14 +234,12 @@
 			<div type="letter" decls="#peltong_02">
 				<pb n="2"/>
 				<opener>
-					<address>
+					<address style="text-align: right;">
 						<addrLine>Room 209 <choice>
 								<abbr>Hdqtes</abbr>
 								<expan>Headquarters</expan>
 							</choice> Bldg.</addrLine>
-						<addrLine><placeName key="Fort Lesley J. McNair, Washington, DC"
-								ref="https://geohack.toolforge.org/geohack.php?params=38_52_1_N_77_0_57_W"
-								>Washington Bks. D.C.</placeName></addrLine>
+						<addrLine><placeName key="Fort Lesley J. McNair, Washington, DC" ref="https://geohack.toolforge.org/geohack.php?params=38_52_1_N_77_0_57_W">Washington Bks. D.C.</placeName></addrLine>
 					</address>
 					<dateline>
 						<date when="1918-08-17">August 17th 1918</date>. </dateline>
@@ -168,32 +248,21 @@
 						<addrLine>Rutgers College,</addrLine>
 						<addrLine>New Brunswick, N.J.</addrLine>
 					</address>
-					<salute>My dear Mr. <persName key="Silvers, Earl Reed" from="1891" to="1948"
-							role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"
-							>Silvers</persName> —</salute>
+					<salute>My dear Mr. <persName key="Silvers, Earl Reed" from="1891" to="1948" role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378">Silvers</persName> —</salute>
 				</opener>
 
 				<p> The monthly War Service letters have been arriving regularly, and they certainly
 					are a great institution. When one reads of the important part Rutgers men are
-					taking in world events, the ivy covered walls of <placeName
-						key="Old Queens, New Brunswick, NJ"
-						ref="https://geohack.toolforge.org/geohack.php?params=40_29_55.5_N_74_26_46.5_W"
-						>old Queens</placeName> form a mental image dear to his heart. </p>
+					taking in world events, the ivy covered walls of <placeName key="Old Queens, New Brunswick, NJ" ref="https://geohack.toolforge.org/geohack.php?params=40_29_55.5_N_74_26_46.5_W">old Queens</placeName> form a mental image dear to his heart. </p>
 				<p> While uptown recently, I ran across <choice>
 						<abbr>Lieut.</abbr>
 						<expan>Lieutenant</expan>
 					</choice>
-					<persName key="Stang, William Henry" from="1894" to="1973"
-						role="Lieutenant, Engineers" ref="https://doi.org/doi:10.7282/T3BK1G6X"
-						>"Bill" Stang</persName> '16. He was on his way to <placeName
-						key="Camp Forrest, Fort Oglethorpe, GA"
-						ref="https://geohack.toolforge.org/geohack.php?params=34_56_58.75_N_85_15_10.66_W"
-						>Camp Forrest, Ga.</placeName>, a new Engineers camp.</p>
+					<persName key="Stang, William Henry" from="1894" to="1973" role="Lieutenant, Engineers" ref="https://doi.org/doi:10.7282/T3BK1G6X"> "Bill" Stang</persName> '16. He was on his way to <placeName key="Camp Forrest, Fort Oglethorpe, GA" ref="https://geohack.toolforge.org/geohack.php?params=34_56_58.75_N_85_15_10.66_W">Camp Forrest, Ga.</placeName>, a new Engineers camp.</p>
 
 				<closer>
 					<salute>Yours for success</salute><lb/>
-					<signed><persName key="Pelton, Graham" from="1895" to="1981"
-						role="Private, Engineers">Graham Pelton</persName> <unclear>Ex</unclear> '18.</signed>
+					<signed><persName key="Pelton, Graham" from="1895" to="1981" role="Private, Engineers">Graham Pelton</persName> <unclear>Cy</unclear> '18.</signed>
 				</closer>
 			</div>
 
@@ -203,9 +272,7 @@
 					<address>
 						<addrLine>PERSONNEL OFFICE</addrLine>
 						<addrLine>HEADQUARTERS FIRST REPLACEMENT REGIMENT OF ENGINEERS</addrLine>
-						<addrLine><placeName key="Fort Lesley J. McNair, Washington, DC"
-								ref="https://geohack.toolforge.org/geohack.php?params=38_52_1_N_77_0_57_W"
-								>WASHINGTON BARRACKS, D.C.</placeName></addrLine>
+						<addrLine><placeName key="Fort Lesley J. McNair, Washington, DC" ref="https://geohack.toolforge.org/geohack.php?params=38_52_1_N_77_0_57_W">WASHINGTON BARRACKS, D.C.</placeName></addrLine>
 					</address>
 				</note>
 				<opener>
@@ -217,39 +284,28 @@
 						<addrLine>Rutgers College,</addrLine>
 						<addrLine>New Brunswick, New Jersey.</addrLine>
 					</address>
-					<salute>My dear Mr. <persName key="Silvers, Earl Reed" from="1891" to="1948"
-							role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"
-							>Silvers</persName>:-</salute>
+					<salute>My dear Mr. <persName key="Silvers, Earl Reed" from="1891" to="1948" role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378">Silvers</persName>:-</salute>
 				</opener>
 
 				<p> I dislike to cause you unnecessary trouble, but I should appreciate it very much
 					if you were to mail me a list of Rutgers men who are commissioned in any branch
-					of the Engineers, <seg xml:id="fn2">Ordnance</seg><note type="gloss"
-						target="#fn2"><quote>A branch of the armed forces dealing with the supply
+					of the Engineers, <seg xml:id="fn2">Ordnance</seg><note type="gloss" target="#fn2"><quote>A branch of the armed forces dealing with the supply
 							and storage of weapons, ammunition, and related
 							equipment</quote><ref>New Oxford American Dictionary</ref></note>,
 					Aircraft Production or Quartermaster Corps, with their addresses so far as
 					known. </p>
 				<p>
 					<sic>Some one</sic> came up to my desk the other afternoon and said he would
-					like to see me for a few minutes. It proved to be Mr. <persName
-						key="Klein, Harry R." from="1893" to-iso="19--" role="Unknown"
-						ref="https://doi.org/doi:10.7282/T3W66PJZ">Kline</persName> who graduated in
+					like to see me for a few minutes. It proved to be Mr. <persName key="Klein, Harry Rampey" from="1896" to="1982" role="Private, Sanitary Detachment, 102 Engineers" ref="https://doi.org/doi:10.7282/T3W66PJZ">Kline</persName> who graduated in
 					the class of 1917. He was on his way to the Engineer Officers Training Camp at
-						<placeName key="Camp Belvoir, VA"
-						ref="https://geohack.toolforge.org/geohack.php?params=38.719737_N_77.154582_W"
-						>Camp <sic>Humphries</sic>, Va.</placeName>
+						<placeName key="Camp Belvoir, VA" ref="https://geohack.toolforge.org/geohack.php?params=38.719737_N_77.154582_W">Camp <sic>Humphries</sic>, Va.</placeName>
 				</p>
-				<p> Received the new <seg xml:id="fn3">War Letter</seg><note type="annotation"
-						target="#fn3"><p>Silvers sent a biweekly letter to Rutgers men in service
-							with news of Rutgers sports and other doings on campus.</p><ref
-							target="https://sinclairnj.blogs.rutgers.edu/2018/03/rutgers-in-the-first-world-war-march-1918-everybody-is-in-the-war/"
-							>Radick, C. Rutgers in the First World War, March 1918---'Everybody is
+				<p> Received the new <seg xml:id="fn3">War Letter</seg><note type="annotation" target="#fn3"><p>Silvers sent a biweekly letter to Rutgers men in service
+							with news of Rutgers sports and other doings on campus.</p><ref target="https://sinclairnj.blogs.rutgers.edu/2018/03/rutgers-in-the-first-world-war-march-1918-everybody-is-in-the-war/">Radick, C. Rutgers in the First World War, March 1918---'Everybody is
 							in the War.'</ref></note> last week, and it was extremely interesting. </p>
 				<closer>
 					<salute>Yours,</salute><lb/>
-					<signed><persName key="Pelton, Graham" from="1895" to="1981"
-							role="Private, Engineers">Graham Pelton</persName>, Class 1918.</signed><lb/>
+					<signed><persName key="Pelton, Graham" from="1895" to="1981" role="Private, Engineers">Graham Pelton</persName>, Class 1918.</signed><lb/>
 					<address>
 						<addrLine>Room 209. Headquarters Bldg.</addrLine>
 					</address>
@@ -264,12 +320,9 @@
 					<address>
 						<addrLine>Mr. Graham Pelton,</addrLine>
 						<addrLine>Room 209, Headquarters Bldg.</addrLine>
-						<addrLine><placeName key="Fort Lesley J. McNair, Washington, DC"
-								ref="https://geohack.toolforge.org/geohack.php?params=38_52_1_N_77_0_57_W"
-								>Washington Barracks, D.C.</placeName></addrLine>
+						<addrLine><placeName key="Fort Lesley J. McNair, Washington, DC" ref="https://geohack.toolforge.org/geohack.php?params=38_52_1_N_77_0_57_W">Washington Barracks, D.C.</placeName></addrLine>
 					</address>
-					<salute>Dear Mr. <persName key="Pelton, Graham" from="1895" to="1981"
-							role="Private, Engineers">Pelton</persName>:</salute>
+					<salute>Dear Mr. <persName key="Pelton, Graham" from="1895" to="1981" role="Private, Engineers">Pelton</persName>:</salute>
 				</opener>
 
 				<p> I am sorry that I am not able to send you the list of commissioned officers as
@@ -281,8 +334,7 @@
 
 				<closer>
 					<salute>Very truly yours,</salute><lb/>
-					<signed><persName key="Silvers, Earl Reed" from="1891" to="1948"
-							role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"/><lb/>
+					<signed><persName key="Silvers, Earl Reed" from="1891" to="1948" role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"/><lb/>
 						<subst>
 							<del rend="overstrike">R</del>
 							<add>D</add>
@@ -306,9 +358,7 @@
 					</dateline>
 					<address>
 						<addrLine>Mr. Earl R. Silvers,</addrLine>
-						<addrLine><placeName key="Rutgers College, New Brunswick, NJ"
-								ref="https://tools.wmflabs.org/geohack/geohack.php?params=40_30_2_N_74_26_50_W"
-								>Rutgers College</placeName>,</addrLine>
+						<addrLine><placeName key="Rutgers College, New Brunswick, NJ" ref="https://tools.wmflabs.org/geohack/geohack.php?params=40_30_2_N_74_26_50_W">Rutgers College</placeName>,</addrLine>
 						<addrLine>New Brunswick, New Jersey.</addrLine>
 					</address>
 					<salute>Dear Mr. Silvers:-</salute>
@@ -326,33 +376,5 @@
 				</closer>
 			</div>
 		</body>
-		<back>
-			<listPlace>
-				<place xml:id="rutgers">
-					<placeName>Rutgers College, New Brunswick, NJ</placeName>
-					<location>
-						<geo>40.500819 -74.447399</geo>
-					</location>
-				</place>
-				<place xml:id="washington_barracks">
-					<placeName>Fort Lesley J. McNair, Washington, DC</placeName>
-					<location>
-						<geo>38.867 -77.016</geo>
-					</location>
-				</place>
-				<place xml:id="camp_forrest">
-					<placeName>Camp Forrest, Fort Oglethorpe, GA</placeName>
-					<location>
-						<geo>34.949653 -85.252961</geo>
-					</location>
-				</place>
-				<place xml:id="camp_humphreys">
-					<placeName>Camp Belvoir, VA</placeName>
-					<location>
-						<geo>38.719737 -77.154582</geo>
-					</location>
-				</place>
-			</listPlace>
-		</back>
 	</text>
 </TEI>
