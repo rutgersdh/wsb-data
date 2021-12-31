@@ -37,231 +37,617 @@
       <profileDesc>
          <correspDesc xml:id="ainsworthwpe_01">
             <correspAction type="sent">
-               <persName>William P. E. Ainsworth</persName>
-               <placeName ref="#fort-monroe" cert="high"/>
+               <persName ref="#psn-wpain">William P. E. Ainsworth</persName>
+               <placeName ref="#pla-fortmyv"/>
                <date when="1917-05-20">May 20, 1917</date>
             </correspAction>
             <correspAction type="received">
-               <persName>Earl Reed Silvers</persName>
-               <placeName ref="#rutgers"/>
+               <persName>Unknown</persName>
+               <placeName>Unknown</placeName>
             </correspAction>
          </correspDesc>
          <correspDesc xml:id="ainsworthwpe_02">
             <correspAction type="sent">
-               <persName>William P. E. Ainsworth</persName>
-               <placeName ref="#fort-monroe"/>
+               <persName ref="#psn-wpain">William P. E. Ainsworth</persName>
+               <placeName ref="#pla-fortmov"/>
                <date when="1917-06-30">June 30, 1917</date>
             </correspAction>
             <correspAction type="received">
-               <persName>Earl Reed Silvers</persName>
-               <placeName ref="#rutgers"/>
+               <persName ref="#psn-ersil">Earl Reed Silvers</persName>
+               <placeName ref="#pla-rutgecon"/>
             </correspAction>
          </correspDesc>
          <correspDesc xml:id="ainsworthwpe_03">
             <correspAction type="sent">
-               <persName>William P. E. Ainsworth</persName>
-               <placeName ref="#fort-monroe"/>
+               <persName ref="#psn-wpain">William P. E. Ainsworth</persName>
+               <placeName ref="#pla-fortmov"/>
                <date when="1917-07-06">July 6, 1917</date>
             </correspAction>
             <correspAction type="received">
-               <persName>Earl Reed Silvers</persName>
-               <placeName ref="#rutgers"/>
+               <persName ref="#psn-ersil">Earl Reed Silvers</persName>
+               <placeName ref="#pla-rutgecon"/>
             </correspAction>
          </correspDesc>
          <correspDesc xml:id="ainsworthwpe_04">
             <correspAction type="sent">
-               <persName>William P. E. Ainsworth</persName>
-               <placeName ref="#fort-hancock"/>
+               <persName ref="#psn-wpain">William P. E. Ainsworth</persName>
+               <placeName ref="#pla-forthan"/>
                <date notAfter-iso="1918-02-21">n.d.</date>
             </correspAction>
             <correspAction type="received">
-               <persName>Earl Reed Silvers</persName>
-               <placeName ref="#rutgers"/>
+               <persName ref="#psn-ersil">Earl Reed Silvers</persName>
+               <placeName ref="#pla-rutgecon"/>
             </correspAction>
          </correspDesc>
          <correspDesc xml:id="ainsworthwpe_05">
             <correspAction type="sent">
-               <persName>Earl Reed Silvers</persName>
-               <placeName ref="#rutgers"/>
+               <persName ref="#psn-ersil">Earl Reed Silvers</persName>
+               <placeName ref="#pla-rutgecon"/>
                <date when="1918-02-21">February 21, 1918</date>
             </correspAction>
             <correspAction type="received">
-               <persName>William P. E. Ainsworth</persName>
-               <placeName ref="#fort-hancock"/>
+               <persName ref="#psn-wpain">William P. E. Ainsworth</persName>
+               <placeName ref="#pla-forthan"/>
             </correspAction>
          </correspDesc>
          <correspDesc xml:id="ainsworthwpe_06">
             <correspAction type="sent">
-               <persName>George C. Ainsworth</persName>
-               <placeName ref="#ainsworth-home"/>
+               <persName ref="#psn-gcain">George C. Ainsworth</persName>
+               <placeName ref="#pla-45an4"/>
                <date when="1918-05-27">May 27, 1918</date>
             </correspAction>
             <correspAction type="received">
-               <persName>Earl Reed Silvers</persName>
-               <placeName ref="#rutgers"/>
+               <persName ref="#psn-ersil">Earl Reed Silvers</persName>
+               <placeName ref="#pla-rutgecon"/>
             </correspAction>
          </correspDesc>
          <correspDesc xml:id="ainsworthwpe_07">
             <correspAction type="sent">
-               <persName>Earl Reed Silvers</persName>
-               <placeName ref="#rutgers"/>
+               <persName ref="#psn-ersil">Earl Reed Silvers</persName>
+               <placeName ref="#pla-rutgecon"/>
                <date when="1918-05-29">May 29, 1918</date>
             </correspAction>
             <correspAction type="received">
-               <persName>George C. Ainsworth</persName>
-               <placeName ref="#ainsworth-home"/>
+               <persName ref="#psn-gcain">George C. Ainsworth</persName>
+               <placeName ref="#pla-45an4"/>
             </correspAction>
          </correspDesc>
          <correspDesc xml:id="ainsworthwpe_08">
             <correspAction type="sent">
-               <persName>William P. E. Ainsworth</persName>
-               <placeName ref="#brest-france"/>
-               <date notAfter-iso="1918-05-23" cert="medium">May 23, 2018</date>
+               <persName ref="#psn-wpain">William P. E. Ainsworth</persName>
+               <placeName ref="#pla-brestfr"/>
+               <date notAfter-iso="1918-05-23" cert="medium">May 23, 1918</date>
             </correspAction>
             <correspAction type="received">
-               <persName>Earl Reed Silvers</persName>
-               <placeName ref="#silvers-home"/>
+               <persName ref="#psn-ersil">Earl Reed Silvers</persName>
+               <placeName ref="#pla-commestr"/>
             </correspAction>
          </correspDesc>
          <correspDesc xml:id="ainsworthwpe_09">
             <correspAction type="sent">
-               <persName>William P. E. Ainsworth</persName>
-               <placeName ref="#libourne-france"/>
+               <persName ref="#psn-wpain">William P. E. Ainsworth</persName>
+               <placeName ref="#pla-liboufr"/>
                <date when="1918-06-07">June 7, 1918</date>
             </correspAction>
             <correspAction type="received">
-               <persName>Earl Reed Silvers</persName>
-               <placeName ref="#rutgers" cert="unknown"/>
+               <persName ref="#psn-ersil">Earl Reed Silvers</persName>
+               <placeName ref="#pla-rutgecon" cert="unknown"/>
             </correspAction>
          </correspDesc>
          <correspDesc xml:id="ainsworthwpe_10">
             <correspAction type="sent">
-               <persName>William P. E. Ainsworth</persName>
-               <placeName ref="#camp-de-souge" cert="medium"/>
+               <persName ref="#psn-wpain">William P. E. Ainsworth</persName>
+               <placeName ref="#pla-campdes" cert="medium"/>
                <date when="1918-08-03">August 3, 1918</date>
             </correspAction>
             <correspAction type="received">
-            <persName>Earl Reed Silvers</persName>
-            <placeName ref="#rutgers"/>
-         </correspAction>
+               <persName ref="#psn-ersil">Earl Reed Silvers</persName>
+               <placeName ref="#pla-rutgecon"/>
+            </correspAction>
          </correspDesc>
          <correspDesc xml:id="ainsworthwpe_11">
             <correspAction type="sent">
-               <persName>Earl Reed Silvers</persName>
-               <placeName ref="#rutgers"/>
+               <persName ref="#psn-ersil">Earl Reed Silvers</persName>
+               <placeName ref="#pla-rutgecon"/>
                <date when="1918-10-04">October 4, 1918</date>
             </correspAction>
             <correspAction type="received">
-               <persName>William P. E. Ainsworth</persName>
-               <placeName ref="#saint-mihiel" cert="medium"/>
+               <persName ref="#psn-wpain">William P. E. Ainsworth</persName>
+               <placeName ref="#pla-saintmif" cert="medium"/>
             </correspAction>
          </correspDesc>
          <correspDesc xml:id="ainsworthwpe_12">
             <correspAction type="sent">
-               <persName>William P. E. Ainsworth</persName>
-               <placeName ref="#meuse-argonne-operations"/>
+               <persName ref="#psn-wpain">William P. E. Ainsworth</persName>
+               <placeName ref="#pla-meusearo"/>
                <date when="1918-10-15">October 15, 1918</date>
             </correspAction>
             <correspAction type="received">
-               <persName>Earl Reed Silvers</persName>
-               <placeName ref="#rutgers"/>
+               <persName ref="#psn-ersil">Earl Reed Silvers</persName>
+               <placeName ref="#pla-rutgecon"/>
             </correspAction>
          </correspDesc>
          <correspDesc xml:id="ainsworthwpe_13">
             <correspAction type="sent">
-               <persName>William P. E. Ainsworth</persName>
-               <placeName ref="#beaufort-en-argonne" cert="medium"/>
+               <persName ref="#psn-wpain">William P. E. Ainsworth</persName>
+               <placeName ref="#pla-beaufena" cert="medium"/>
                <date when="1918-11-14">November 14, 1918</date>
             </correspAction>
             <correspAction type="received">
-               <persName>Earl Reed Silvers</persName>
-               <placeName ref="#rutgers"/>
+               <persName ref="#psn-ersil">Earl Reed Silvers</persName>
+               <placeName ref="#pla-rutgecon"/>
             </correspAction>
          </correspDesc>
          <correspDesc xml:id="ainsworthwpe_14">
             <correspAction type="sent">
-               <persName>William P. E. Ainsworth</persName>
-               <placeName ref="#beaufort-en-argonne"/>
+               <persName ref="#psn-wpain">William P. E. Ainsworth</persName>
+               <placeName ref="#pla-beaufena"/>
                <date when="1918-11-22">November 22, 1918</date>
             </correspAction>
             <correspAction type="received">
-               <persName>George C. Ainsworth</persName>
-               <placeName ref="#ainsworth-home" cert="medium"/>
+               <persName ref="#psn-gcain">George C. Ainsworth</persName>
+               <placeName ref="#pla-73esa" cert="medium"/>
             </correspAction>
          </correspDesc>
          <correspDesc xml:id="ainsworthwpe_15">
             <correspAction type="sent">
-               <persName>William P. E. Ainsworth</persName>
-               <placeName ref="#gondrecourt-france"/>
+               <persName ref="#psn-wpain">William P. E. Ainsworth</persName>
+               <placeName ref="#pla-gondrlec"/>
                <date when="1919-01-04">January 4, 1919</date>
             </correspAction>
             <correspAction type="received">
-               <persName>Earl Reed Silvers</persName>
-               <placeName ref="#rutgers"/>
+               <persName ref="#psn-ersil">Earl Reed Silvers</persName>
+               <placeName ref="#pla-rutgecon"/>
             </correspAction>
          </correspDesc>
          <correspDesc xml:id="ainsworthwpe_16">
             <correspAction type="sent">
-               <persName>William P. E. Ainsworth</persName>
-               <placeName ref="#liffol-le-grand"/>
+               <persName ref="#psn-wpain">William P. E. Ainsworth</persName>
+               <placeName ref="#pla-liffoleg"/>
                <date when="1919-03-05">March 5, 1919</date>
             </correspAction>
             <correspAction type="received">
-               <persName>Earl Reed Silvers</persName>
-               <placeName ref="#rutgers"/>
+               <persName ref="#psn-ersil">Earl Reed Silvers</persName>
+               <placeName ref="#pla-rutgecon"/>
             </correspAction>
          </correspDesc>
          <correspDesc xml:id="ainsworthwpe_17">
             <correspAction type="sent">
-               <persName>William P. E. Ainsworth</persName>
-               <placeName ref="#liffol-le-grand"/>
+               <persName ref="#psn-wpain">William P. E. Ainsworth</persName>
+               <placeName ref="#pla-liffoleg"/>
                <date when="1919-01-21">January 21, 1919</date>
             </correspAction>
             <correspAction type="received">
-               <persName>Earl Reed Silvers</persName>
-               <placeName ref="#rutgers"/>
+               <persName ref="#psn-ersil">Earl Reed Silvers</persName>
+               <placeName ref="#pla-rutgecon"/>
             </correspAction>
          </correspDesc>
       </profileDesc>
       <revisionDesc>
-         <change who="#fg" when="2021-01-27">Compiled and edited individual letters into letter
-            anthology.</change>
-         <change when="2021-02-21" who="#fg">Minor tweaks to trigger stylesheet behavior. Added missing pb.</change>
-         <change when="2021-07-26" who="#fg">Finished encoding the rest of Alissa's letters. Updated listPlace and correspDesc elements.</change>
+         <change when="2021-11-18" who="#fg">Added <gi>standOff</gi> and removed <gi>back</gi>.</change>
+         <change when="2021-10-27" who="#fg">Corrected a date and a correspondent.</change>
+         <change when="2021-07-26" who="#fg">Finished encoding the rest of Alissa's letters. Updated <gi>listPlace</gi> and <gi>correspDesc</gi> elements.</change>
+         <change when="2021-02-21" who="#fg">Minor tweaks to trigger stylesheet behavior. Added missing <gi>pb</gi>.</change>
+         <change when="2021-01-27" who="#fg">Compiled and edited individual letters into letter anthology.</change>
       </revisionDesc>
    </teiHeader>
+   <standOff>
+      <listPerson>
+         <person xml:id="psn-dgack">
+            <persName type="display">David Greenlie Ackerman</persName>
+            <persName type="sort">Ackerman, David Greenlie</persName>
+            <state>
+               <p>Second Lieutenant, Field Artillery</p>
+            </state>
+            <birth when-custom="1895">1895</birth>
+            <death when-custom="1968">1968</death>
+            <note/>
+         </person>
+         <person xml:id="psn-gcain">
+            <persName type="display">George Cornell Ainsworth</persName>
+            <persName type="sort">Ainsworth, George C.</persName>
+            <state>
+               <p>Father to William P. E. (Pete) Ainsworth.</p>
+            </state>
+            <birth when="1867-03-11">1867</birth>
+            <death when="1954-02-05">1954</death>
+            <note><list type="links">
+                  <item><ref target="https://www.familysearch.org/tree/person/details/L5L1-RNW"
+                        ><title>Family Search</title></ref></item>
+               </list></note>
+         </person>
+         <person xml:id="psn-wpain">
+            <persName type="display">William Penn Esterbrook (Pete) Ainsworth</persName>
+            <persName type="sort">Ainsworth, William Penn Esterbrook</persName>
+            <state>
+               <p>Second Lieutenant, Coast Artillery Corps</p>
+            </state>
+            <birth when="1893-10-30">1893</birth>
+            <death when="1968-06-22">1968</death>
+            <note><list type="links">
+                  <item><ref target="https://www.familysearch.org/tree/person/details/L5L1-516"
+                        ><title>Family Search</title></ref></item>
+               </list></note>
+         </person>
+         <person xml:id="psn-hnblu">
+            <persName type="display">Harry Newton Blue</persName>
+            <persName type="sort">Blue, Harry Newton</persName>
+            <state>
+               <p>First Lieutenant, Field Artillery</p>
+            </state>
+            <birth when-custom="1893">1893</birth>
+            <death when-custom="1925">1925</death>
+            <note/>
+         </person>
+         <person xml:id="psn-egbra">
+            <persName type="display">Elmer G. Bracher</persName>
+            <persName type="sort">Bracher, Elmer G.</persName>
+            <state>
+               <p>Sergeant, Medical Corps</p>
+            </state>
+            <birth when-custom="1894">1894</birth>
+            <death when-custom="1923">1923</death>
+            <note><list type="links">
+                  <item><ref
+                        target="https://www.findagrave.com/memorial/210183871/elmer-gladstone-bracher"
+                        ><title>Find a Grave</title></ref></item>
+               </list></note>
+         </person>
+         <person xml:id="psn-whdem">
+            <persName type="display">William Henry Steele Demarest</persName>
+            <persName type="sort">Demarest, William Henry Steele</persName>
+            <state>
+               <p>President, Rutgers College</p>
+            </state>
+            <birth when-custom="1863">1863</birth>
+            <death when-custom="1956">1956</death>
+            <note><list type="links">
+                  <item><ref target="http://viaf.org/viaf/28550683"><title>VIAF</title></ref></item>
+               </list></note>
+         </person>
+         <person xml:id="psn-cthil">
+            <persName type="display">Clifford Thurston Hillman</persName>
+            <persName type="sort">Hillman, Clifford Thurston</persName>
+            <state>
+               <p>Brother-in-law to Earl Reed Silvers</p>
+            </state>
+            <birth when-custom="1889">1889</birth>
+            <death when-custom="1942">1942</death>
+            <note/>
+         </person>
+         <person xml:id="psn-clud">
+            <persName type="display">Charles Ludlow</persName>
+            <persName type="sort">Ludlow, Charles</persName>
+            <state>
+               <p>Seaman, Navy</p>
+            </state>
+            <birth when-custom="1895">1895</birth>
+            <death when-custom="19--">19--</death>
+            <note/>
+         </person>
+         <person xml:id="psn-lbree">
+            <persName type="display">Llyle Burrows Reeb</persName>
+            <persName type="sort">Reeb, Llyle Burrows</persName>
+            <state>
+               <p>Fiancé of Mildred Terrill, Earl Reed Silvers's sister-in-law.</p>
+            </state>
+            <birth when-custom="1897">1897</birth>
+            <death when-custom="1990">1990</death>
+            <note/>
+         </person>
+         <person xml:id="psn-eree">
+            <persName type="display">Evelyn Reed</persName>
+            <persName type="sort">Reed, Evelyn</persName>
+            <state>
+               <p>Mother to Earl Reed Silvers.</p>
+            </state>
+            <birth when-custom="1896">1896</birth>
+            <death when-custom="1938">1938</death>
+            <note><list type="links">
+                  <item><ref target="https://www.familysearch.org/tree/person/details/9HQZ-YZW"
+                        ><title>Family Search</title></ref></item>
+               </list></note>
+         </person>
+         <person xml:id="psn-hmsil">
+            <persName type="display">Hillman Mae Brittin Hillman née Silvers</persName>
+            <persName type="sort">Hillman, Mae Brittin née Silvers</persName>
+            <state>
+               <p>Sister of Earl Reed Silvers.</p>
+            </state>
+            <birth when-custom="1891">1891</birth>
+            <death when-custom="1944">1944</death>
+            <note/>
+         </person>
+         <person xml:id="psn-ersil">
+            <persName type="display">Earl Reed Silvers</persName>
+            <persName type="sort">Silvers, Earl Reed</persName>
+            <state>
+               <p>Director, War Service Bureau</p>
+            </state>
+            <birth when-custom="1891">1891</birth>
+            <death when-custom="1948">1948</death>
+            <note><list type="links">
+                  <item><ref target="http://viaf.org/viaf/68516378"><title>VIAF</title></ref></item>
+               </list></note>
+         </person>
+         <person xml:id="psn-ersjr">
+            <persName type="display">Earl Reed (Mike) Silvers Jr. </persName>
+            <persName type="sort">Silvers, Earl Reed Jr.</persName>
+            <state>
+               <p>Son of Earl Reed Silvers.</p>
+            </state>
+            <birth when-custom="1917">1917</birth>
+            <death when-custom="2001">2001</death>
+            <note/>
+         </person>
+         <person xml:id="psn-eiter">
+            <persName type="display">Edith Irona Terrill</persName>
+            <persName type="sort">Terrill, Edith Irona</persName>
+            <state>
+               <p>Spouse of Earl Reed Silvers.</p>
+            </state>
+            <birth when-custom="1893">1893</birth>
+            <death when-custom="1966">1966</death>
+            <note/>
+         </person>
+         <person xml:id="psn-mter">
+            <persName type="display">Mildred Terrill</persName>
+            <persName type="sort">Terrill, Mildred</persName>
+            <state>
+               <p>Sister-in-law of Earl Reed Silvers.</p>
+            </state>
+            <birth when-custom="1895">1895</birth>
+            <death when-custom="1976">1976</death>
+            <note/>
+         </person>
+      </listPerson>
+      <listPlace>
+         <place xml:id="pla-45an4">
+            <placeName>45 and 47 Wall Street, New York, NY</placeName>
+            <location>
+               <geo sameAs="https://geohack.toolforge.org/geohack.php?params=40_42_23_N_74_0_37_W">40.706389 -74.010278</geo>
+            </location>
+            <note><p>A work address for George Ainsworth, father of William P. E. Ainsworth.</p></note>
+         </place>
+         <place xml:id="pla-73esa">
+            <placeName>73 Esterbrook Ave., Rahway, NJ</placeName>
+            <location><geo>40.6092261 -74.2795625</geo></location>
+            <note><p>Home address for George and Grace Ainsworth, according to the 1915 New Jersey state census. Esterbrook has since been renumbered, and the house occupied by the Ainsworths was razed and built over.</p></note>
+         </place>
+         <place xml:id="pla-beaufena">
+            <placeName>Beaufort-en-Argonne, France</placeName>
+            <location>
+               <geo sameAs="https://geohack.toolforge.org/geohack.php?params=49_28_22_N_5_6_51_E">49.472778 5.114167</geo>
+            </location>
+            <note/>
+         </place>
+         <place xml:id="pla-brestfr">
+            <placeName>Brest, France</placeName>
+            <location>
+               <geo sameAs="https://geohack.toolforge.org/geohack.php?params=48_23__N_4_29__W">48.3756074 -4.5153352</geo>
+            </location>
+            <note/>
+         </place>
+         <place xml:id="pla-campdes">
+            <placeName>Camp de Souge, France</placeName>
+            <location>
+               <geo sameAs="https://geohack.toolforge.org/geohack.php?params=44_51_50_N_0_51_40_W">44.863900 -0.861100</geo>
+            </location>
+            <note/>
+         </place>
+         <place xml:id="pla-chesabav">
+            <placeName>Chesapeake Bay, VA</placeName>
+            <location>
+               <geo sameAs="https://tools.wmflabs.org/geohack/geohack.php?params=37.8_N_76.1_W_">37.8 -76.1</geo>
+            </location>
+            <note/>
+         </place>
+         <place xml:id="pla-commestr">
+            <placeName>Commerce St., Rahway, NJ</placeName>
+            <location>
+               <geo sameAs="https://geohack.toolforge.org/geohack.php?params=40_36_20_N_74_16_55_W"
+                  >40.605556 -74.281944</geo>
+            </location>
+            <note><p>Earl Reed Silvers's home address. Commerce Street in Rahway was later renamed West Emerson Avenue.</p></note>
+         </place>
+         <place xml:id="pla-doulelec">
+            <placeName>Doulevant-le-Chateau, France</placeName>
+            <location>
+               <geo sameAs="https://geohack.toolforge.org/geohack.php?params=48_22_41_N_4_55_23_E">48.378056 4.923056</geo>
+            </location>
+            <note/>
+         </place>
+         <place xml:id="pla-forthan">
+            <placeName>Fort Hancock, NJ</placeName>
+            <location>
+               <geo
+                  sameAs="https://tools.wmflabs.org/geohack/geohack.php?params=40_27_50_N_74_00_10_W"
+                  >40.463889 -74.002778</geo>
+            </location>
+            <note/>
+         </place>
+         <place xml:id="pla-fortmov">
+            <placeName>Fort Monroe, VA</placeName>
+            <location>
+               <geo
+                  sameAs="https://tools.wmflabs.org/geohack/geohack.php?params=37_00_13_N_76_18_27_W"
+                  >37.003611 -76.3075</geo>
+            </location>
+            <note/>
+         </place>
+         <place xml:id="pla-fortmyv">
+            <placeName>Fort Myer, VA</placeName>
+            <location>
+               <geo sameAs="https://geohack.toolforge.org/geohack.php?params=38_52_54_N_77_4_58_W">38.881667 -77.082778</geo>
+            </location>
+            <note/>
+         </place>
+         <place xml:id="pla-frencal">
+            <placeName>French Alps</placeName>
+            <location>
+               <geo sameAs="https://geohack.toolforge.org/geohack.php?params=45_49_58_N_6_51_54_E">45.832778 6.865</geo>
+            </location>
+            <note/>
+         </place>
+         <place xml:id="pla-germa">
+            <placeName>Germany</placeName>
+            <location>
+               <geo sameAs="https://geohack.toolforge.org/geohack.php?params=51___N_9___E">51 9</geo>
+            </location>
+            <note/>
+         </place>
+         <place xml:id="pla-gondrlec">
+            <placeName>Gondrecourt-le-Chateau</placeName>
+            <location>
+               <geo sameAs="https://geohack.toolforge.org/geohack.php?params=48_30_51_N_5_30_28_E">48.5166495 5.4868113</geo>
+            </location>
+            <note/>
+         </place>
+         <place xml:id="pla-italy">
+            <placeName>Italy</placeName>
+            <location>
+               <geo sameAs="https://geohack.toolforge.org/geohack.php?params=43___N_12___E">43 12</geo>
+            </location>
+            <note/>
+         </place>
+         <place xml:id="pla-liboufr">
+            <placeName>Libourne, France</placeName>
+            <location>
+               <geo sameAs="https://geohack.toolforge.org/geohack.php?params=44_55__N_0_14__W">44.9124896 -0.2677799</geo>
+            </location>
+            <note/>
+         </place>
+         <place xml:id="pla-liffoleg">
+            <placeName>Liffol-le-Grand, France</placeName>
+            <location>
+               <geo sameAs="https://geohack.toolforge.org/geohack.php?params=48_19_11_N_5_34_55_E">48.319722 5.581944</geo>
+            </location>
+            <note><p>At Liffol-le-Grand was one of several regulating stations, which were railway sidings through which supplies and personnel were forwarded to the front and evacuated to the rear.</p></note>
+         </place>
+         <place xml:id="pla-lyonfr">
+            <placeName>Lyon, France</placeName>
+            <location>
+               <geo sameAs="https://geohack.toolforge.org/geohack.php?params=45_46__N_4_50__E">45.766667 4.833333</geo>
+            </location>
+            <note/>
+         </place>
+         <place xml:id="pla-marsefr">
+            <placeName>Marseille, France</placeName>
+            <location>
+               <geo sameAs="https://geohack.toolforge.org/geohack.php?params=43_17_47_N_5_22_12_E">43.296389 5.37</geo>
+            </location>
+            <note/>
+         </place>
+         <place xml:id="pla-meusearo">
+            <placeName>Meuse–Argonne offensive, France</placeName>
+            <location>
+               <geo>49.2725 5.141944</geo>
+            </location>
+         </place>
+         <place xml:id="pla-monac">
+            <placeName>Monaco</placeName>
+            <location>
+               <geo sameAs="https://geohack.toolforge.org/geohack.php?params=43_43_59_N_7_25_0_E">43.733333 7.416667</geo>
+            </location>
+            <note/>
+         </place>
+         <place xml:id="pla-montecam">
+            <placeName>Monte Carlo, Monaco</placeName>
+            <location>
+               <geo sameAs="https://geohack.toolforge.org/geohack.php?params=43_44_23_N_7_25_38_E">43.739722 7.427222</geo>
+            </location>
+            <note/>
+         </place>
+         <place xml:id="pla-nicefr">
+            <placeName>Nice, France</placeName>
+            <location>
+               <geo sameAs="https://geohack.toolforge.org/geohack.php?params=43_42_12_N_7_15_59_E">43.703333 7.266389</geo>
+            </location>
+            <note/>
+         </place>
+         <place xml:id="pla-parisfr">
+            <placeName>Paris, France</placeName>
+            <location>
+               <geo sameAs="https://geohack.toolforge.org/geohack.php?params=48_51_24_N_2_21_08_E">48.856667 2.352222</geo>
+            </location>
+            <note/>
+         </place>
+         <place xml:id="pla-pyrenmo">
+            <placeName>Pyrenees Mountains</placeName>
+            <location>
+               <geo sameAs="https://geohack.toolforge.org/geohack.php?params=42_40__N_1_00__E">42.666667 1</geo>
+            </location>
+            <note/>
+         </place>
+         <place xml:id="pla-russi">
+            <placeName>Russia</placeName>
+            <location>
+               <geo sameAs="https://geohack.toolforge.org/geohack.php?params=60___N_90___E">60 90</geo>
+            </location>
+            <note/>
+         </place>
+         <place xml:id="pla-rutgecon">
+            <placeName>Rutgers College, New Brunswick, NJ</placeName>
+            <location>
+               <geo
+                  sameAs="https://tools.wmflabs.org/geohack/geohack.php?params=40_30_2_N_74_26_50_W"
+                  >40.500819 -74.447399</geo>
+            </location>
+            <note/>
+         </place>
+         <place xml:id="pla-saintmif">
+            <placeName>Saint-Mihiel, France</placeName>
+            <location>
+               <geo sameAs="https://geohack.toolforge.org/geohack.php?params=48_53_21_N_05_32_37_E"
+                  >48.889167 5.543611</geo>
+            </location>
+            <note/>
+         </place>
+         <place xml:id="pla-stenafr">
+            <placeName>Stenay, France</placeName>
+            <location>
+               <geo sameAs="https://geohack.toolforge.org/geohack.php?params=49_29_27_N_5_11_11_E">49.490833 5.186389</geo>
+            </location>
+            <note/>
+         </place>
+         <place xml:id="pla-verdufr">
+            <placeName>Verdun, France</placeName>
+            <location>
+               <geo sameAs="https://geohack.toolforge.org/geohack.php?params=49_09_43_N_05_23_15_E"
+                  >49.161944 5.3875</geo>
+            </location>
+            <note/>
+         </place>
+      </listPlace>
+   </standOff>
    <text>
       <body>
          <div type="letter" decls="#ainsworthwpe_01">
-            <pb n="1" />
+            <pb n="1"/>
             <opener>
-               <add><seg xml:id="fn29">From Capt. Wm. P. E. Ainsworth '16</seg><note target="#fn29" type="annotation"><p>This is a typewritten transcript of an original letter that does not survive.</p></note></add>
+               <add place="margin"><seg xml:id="fn29">From Capt. Wm. P. E. Ainsworth '16</seg><note target="#fn29" type="annotation"><p>This is a typewritten transcript of an original letter that was not kept.</p></note></add>
                <dateline>
                   <date when="1917-05-20">May 20, 1917.</date>
                </dateline>         
             </opener>
-            <p>The first week of duty is finishing, and in looking back I cannot find a single thing which was not more agreeable than was expected. First, we all had to go to the doctor's and receive two vaccinations, and <sic>in</sic> injection of antitoxin in the left <sic>brest</sic>; consequently my arm has a horrible sore on it (it took), and for two days my chest and left arm were very sore.</p>
+            <p>The first week of duty is finishing, and in looking back I cannot find a single thing which was not more agreeable than was expected. First, we all had to go to the doctor's and receive two vaccinations, and an injection of antitoxin in the left breast; consequently my arm has a horrible sore on it (it took), and for two days my chest and left arm were very sore.</p>
             <p>Tuesday our regular day started. We arise at 5.15, line up for reveille at 5.30, breakfast at 5.50, and drill from 6.50 until 12, or when we 'mess'. Then we drill from 1.50 until 4.00, ending with an hour's hike until 5.00. We take a shower in ice water (no hot water), have supper at 5.05, and study from 6.30 until 9.30. Lights are out at 9.45. In off moments we make our beds, bathe, take care of our uniform, and learn signalling and orders - all very interesting. Yesterday and to-day (Sunday) I have been walking guard duty (two hours walking, two hours relief, and two hours walking). I am writing this during relief.</p>
-            <p>There is a wonderful crowd of men here, mostly college men and Southerners. <persName key="Ackerman, David Greenlie" from="1895" to="1968" role="2nd Lieutenant, Field Artillery">Dave Ackerman</persName> and <persName key="Blue, Harry Newton" from="1893" to="1925" role="1st Lieutenant, Field Artillery">Harry Blue</persName> are in my company (Company 1). We sleep <sic>indouble-deckers</sic>. The fellow I share mine with is a Harvard man named Cox, assistant secretary of the Guarantee Trust Company, and a fine chap. Alongside of me is a Princeton man named Biddle, also a dandy fellow. All considered, they could not have picked a finer bunch of men.</p>
+            <p>There is a wonderful crowd of men here, mostly college men and Southerners. <persName key="Ackerman, David Greenlie" from="1895" to="1968" role="2nd Lieutenant, Field Artillery">Dave Ackerman</persName> and <persName key="Blue, Harry Newton" from="1893" to="1925" role="1st Lieutenant, Field Artillery">Harry Blue</persName> are in my company (Company 1). We sleep in double-deckers. The fellow I share mine with is a Harvard man named Cox, assistant secretary of the Guarantee Trust Company, and a fine chap. Alongside of me is a Princeton man named Biddle, also a dandy fellow. All considered, they could not have picked a finer bunch of men.</p>
             <p>Now about the food! A sample day runs like this. Breakfast: Oatmeal, scrambled eggs, fried potatoes, coffee, bread, milk, etc. Dinner: Roast Beef, mashed potatoes, and gravy, spinach, side vegetables, bread pudding, coffee or tea. Supper: French toast, stewed tomatoes, jam, salad, fruit or pudding, coffee.</p>
-            <pb n="2" />
+            <pb n="2"/>
             <p>On Sunday we get a good roast of veal and ice cream. So, you see, the 'eats' are fine, and we get absolutely all we want of them. The cook is a regular army man, and we have half a dozen uniformed 'serving men' in each company. The days are as hot as blazes, but the nights are cool. In fact, last week I sometimes slept with two army blankets and a bathrobe over me.</p>
          </div>
          <div type="letter" decls="#ainsworthwpe_02">
             <pb n="3"/>
             <opener>
-               <address>
+               <address style="text-align: right;">
                   <addrLine>2<hi rend="superscript">nd</hi> Training Camp C.A.C.</addrLine>
-                  <addrLine><placeName key="Fort Monroe, VA"
-                        ref="https://tools.wmflabs.org/geohack/geohack.php?params=37_00_13_N_76_18_27_W"
-                        >Fortress Monroe Va.</placeName></addrLine>
+                  <addrLine><placeName key="Fort Monroe, VA" ref="https://tools.wmflabs.org/geohack/geohack.php?params=37_00_13_N_76_18_27_W">Fortress Monroe Va.</placeName></addrLine>
                </address>
                <dateline>
                   <date when="1917-06-30">June 30, 1917.</date>
                </dateline>
-               <salute>Dear <persName key="Silvers, Earl Reed" from="1891" to="1948"
-                     role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"
-                     >Reed</persName>:</salute>
+               <salute>Dear <persName key="Silvers, Earl Reed" from="1891" to="1948" role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378">Reed</persName>:</salute>
             </opener>
             <p>I received your letter and am glad to hear that you and "friend" are at the shore. It
                will do you both lots of good. Thank "friend" for the postal. It is very nice that
@@ -276,8 +662,7 @@
                war games, drill on the guns, attend lectures, <unclear>snatch</unclear> half an
                hours swim and wait for Sunday and rest to come.</p>
             <p>The hard thing is not being able to see home or any of you there. There is not the
-               excitement of <placeName key="Fort Myer, VA"
-                  ref="https://geohack.toolforge.org/geohack.php?params=38_52_54_N_77_4_58_W">Fort
+               excitement of <placeName key="Fort Myer, VA" ref="https://geohack.toolforge.org/geohack.php?params=38_52_54_N_77_4_58_W">Fort
                   Myer</placeName> here and that is what makes things go harder. The kind of work we
                have to me however more than compensates for the grind.</p>
             <p> If we go to France it will </p>
@@ -288,42 +673,32 @@
             <p>Give my best to the "gang" Tell <unclear>Dave</unclear> that I will write him soon
                but not to wait for me to do that little thing.</p>
             <closer>
-               <salute>Wishing you best of luck in that which you decide to do. <add>In the
-                     bonds,</add></salute><lb/>
-               <signed><persName key="Ainsworth, William Penn Esterbrook" from="1893" to="1968"
-                     role="Captain, Coast Artillery Corps"
-                     ref="https://www.familysearch.org/tree/person/details/L5L1-516"
-                  >Pete</persName></signed>
+               <salute>Wishing you best of luck in that which you decide to do. <lb/>In the
+                     bonds,</salute><lb/>
+               <signed><persName key="Ainsworth, William Penn Esterbrook" from="1893" to="1968" role="Captain, Coast Artillery Corps" ref="https://www.familysearch.org/tree/person/details/L5L1-516">Pete</persName></signed>
             </closer>
          </div>
          <div type="letter" decls="#ainsworthwpe_03">
             <pb n="6"/>
             <opener>
-               <address>
+               <address style="text-align: right;">
                   <addrLine>2<hi rend="superscript">nd</hi> Training Co. C.A.C.</addrLine>
-                  <addrLine><placeName key="Fort Monroe, VA"
-                        ref="https://tools.wmflabs.org/geohack/geohack.php?params=37_00_13_N_76_18_27_W"
-                        >Fortress Monroe Va</placeName></addrLine>
+                  <addrLine><placeName key="Fort Monroe, VA" ref="https://tools.wmflabs.org/geohack/geohack.php?params=37_00_13_N_76_18_27_W">Fortress Monroe Va</placeName></addrLine>
                </address>
                <dateline>
                   <date when="1917-07-06">July 6, 1917</date>
                </dateline>
-               <salute>Dear <persName key="Silvers, Earl Reed" from="1891" to="1948"
-                     role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"
-                     >Sil</persName>:</salute>
+               <salute>Dear <persName key="Silvers, Earl Reed" from="1891" to="1948" role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378">Sil</persName>:</salute>
             </opener>
             <p> I am enclosing a sample of paper of which I wish you could get me 100 sheets at the
-                  <placeName key="Rutgers College, New Brunswick, NJ"
-                  ref="https://tools.wmflabs.org/geohack/geohack.php?params=40_30_2_N_74_26_50_W"
-                  >College</placeName> supply store or at Reids. I am using it in notebook work and
+                  <placeName key="Rutgers College, New Brunswick, NJ" ref="https://tools.wmflabs.org/geohack/geohack.php?params=40_30_2_N_74_26_50_W">College</placeName> supply store or at Reids. I am using it in notebook work and
                cannot get any down here. If you can get some please let me know how much it is and I
                will send you a check.</p>
             <p>Everything is going very <pb n="7"/> smoothly.</p>
             <p>Last evening a <seg xml:id="fn1">german submarine</seg>
                <note type="annotation" target="#fn1">
                   <p>German U-boats frequently visited the Eastern shores of the United States to
-                     attack wartime supply chains and demoralize the American public.</p><ref
-                     target="http://www.worldcat.org/oclc/858902048">Lurie, M. N., &amp; Mappen, M.
+                     attack wartime supply chains and demoralize the American public.</p><ref target="http://www.worldcat.org/oclc/858902048">Lurie, M. N., &amp; Mappen, M.
                      (2004). Encyclopedia of New Jersey.</ref></note> was reported in the bay. A
                battleship and several destroyers went out and all shipping was sent up the river.
                They also had the <seg xml:id="fn2">submarine net</seg>
@@ -336,20 +711,16 @@
                      (1947). Revolution in Nets: An Unglamorous But Essential Phase of Naval
                      Warfare.</ref></note> ready to close. </p>
             <p>Three of our small batteries were manned all night and the search-lights swept the
-                  <placeName key="Chesapeake Bay, VA"
-                  ref="https://tools.wmflabs.org/geohack/geohack.php?params=37.8_N_76.1_W_"
-                  >bay</placeName> for miles around but outside of some shooting we heard from the
+                  <placeName key="Chesapeake Bay, VA" ref="https://tools.wmflabs.org/geohack/geohack.php?params=37.8_N_76.1_W_">bay</placeName> for miles around but outside of some shooting we heard from the
                boats nothing happened. I have not heard yet whether they captured anything. The
                first taste of war.</p>
             <pb n="8"/>
             <p>We finished our work on the big guns and are starting on the smaller ones which is
                much less exciting but necessary nevertheless.</p>
-            <p>I have had a couple of good suppers at <seg xml:id="fn3">the Chamberlin</seg><note
-                  type="annotation" target="#fn3"><p>The Chamberlin Hotel, on the property of Fort
+            <p>I have had a couple of good suppers at <seg xml:id="fn3">the Chamberlin</seg><note type="annotation" target="#fn3"><p>The Chamberlin Hotel, on the property of Fort
                      Monroe, catered to both tourists and officers. Ainsworth would have visited the
                      first Chamberlin (1896-1920), which burned to the ground. A second Chamberlin
-                     opened on the site in 1928.</p><ref
-                     target="https://en.wikipedia.org/wiki/The_Chamberlin">Wikipedia</ref></note>
+                     opened on the site in 1928.</p><ref target="https://en.wikipedia.org/wiki/The_Chamberlin">Wikipedia</ref></note>
                and believe me it is <hi rend="underline">some</hi> food. All you said about it was
                true.</p>
             <p>Give my best to friend and tell her that I thought of her when they brought in the
@@ -357,25 +728,18 @@
             <closer>
                <salute>Thanking you in advance for the trouble, I am</salute><lb/>
                <salute>In the bonds</salute><lb/>
-               <signed><persName key="Ainsworth, William Penn Esterbrook" from="1893" to="1968"
-                     role="Captain, Coast Artillery Corps"
-                     ref="https://www.familysearch.org/tree/person/details/L5L1-516"
-                  >Pete</persName></signed>
+               <signed><persName key="Ainsworth, William Penn Esterbrook" from="1893" to="1968" role="Captain, Coast Artillery Corps" ref="https://www.familysearch.org/tree/person/details/L5L1-516">Pete</persName></signed>
             </closer>
          </div>
          <div type="letter" decls="#ainsworthwpe_04">
             <pb n="9"/>
             <opener>
-               <address>
+               <address style="text-align: right;">
                   <addrLine>#6 Quarter</addrLine>
-                  <addrLine><placeName key="Fort Hancock, NJ"
-                        ref="https://tools.wmflabs.org/geohack/geohack.php?params=40_27_50_N_74_00_10_W"
-                        > Fort Hancock</placeName>,</addrLine>
+                  <addrLine><placeName key="Fort Hancock, NJ" ref="https://tools.wmflabs.org/geohack/geohack.php?params=40_27_50_N_74_00_10_W"> Fort Hancock</placeName>,</addrLine>
                   <addrLine>Sandy Hook, N.J.</addrLine>
                </address>
-               <salute>Dear <persName key="Silvers, Earl Reed" from="1891" to="1948"
-                     role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"
-                     >Reed</persName>:</salute>
+               <salute>Dear <persName key="Silvers, Earl Reed" from="1891" to="1948" role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378">Reed</persName>:</salute>
             </opener>
 
             <p> I find in making arrangements for disposing of my estate in case anything happens to
@@ -384,17 +748,14 @@
                anywhere else.</p>
             <p> These are: One <unclear>microscope</unclear> with several rather fine English made
                   <pb n="10"/> lenses and French slides which I think are of biological subjects;
-               One astronomical instrument built like a sextant very old and probably an antique but
+               One astronomical instrument built like a sextant, very old and probably an antique but
                probably of some service; a book which was written in 1662 (or published at that
                time) about science in general and a reference in it about communication by magnetic
                attraction which is quite singular. </p>
             <p> If you think these things are or would be in order just drop me a quiet line. </p>
             <closer>
                <salute>Regards to all. <lb/> I.T.B.</salute>
-               <signed><persName key="Ainsworth, William Penn Esterbrook" from="1893" to="1968"
-                     role="Captain, Coast Artillery Corps"
-                     ref="https://www.familysearch.org/tree/person/details/L5L1-516"
-                  >Pete</persName></signed>
+               <signed><persName key="Ainsworth, William Penn Esterbrook" from="1893" to="1968" role="Captain, Coast Artillery Corps" ref="https://www.familysearch.org/tree/person/details/L5L1-516">Pete</persName></signed>
             </closer>
          </div>
          <div type="letter" decls="#ainsworthwpe_05">
@@ -405,38 +766,28 @@
                </dateline>
                <address>
                   <addrLine>
-                     <persName key="Ainsworth, William Penn Esterbrook" from="1893" to="1968"
-                        role="Captain, Coast Artillery Corps"
-                        ref="https://www.familysearch.org/tree/person/details/L5L1-516">Lieut. W. P.
+                     <persName key="Ainsworth, William Penn Esterbrook" from="1893" to="1968" role="Captain, Coast Artillery Corps" ref="https://www.familysearch.org/tree/person/details/L5L1-516">Lieut. W. P.
                         Ainsworth,</persName></addrLine>
                   <addrLine>#6 Quarters,</addrLine>
-                  <addrLine><placeName key="Fort Hancock, NJ"
-                        ref="https://tools.wmflabs.org/geohack/geohack.php?params=40_27_50_N_74_00_10_W"
-                        >Fort Hancock,</placeName> Sandy Hook, N.J.</addrLine>
+                  <addrLine><placeName key="Fort Hancock, NJ" ref="https://tools.wmflabs.org/geohack/geohack.php?params=40_27_50_N_74_00_10_W">Fort Hancock,</placeName> Sandy Hook, N.J.</addrLine>
                </address>
                <salute>Dear Pete:</salute>
             </opener>
 
             <p>I am sure that the College would greatly appreciate what you mention in your letter. I
-               have spoken to the <persName key="Demarest, William Henry Steele"
-                  role="President, Rutgers College" from="1863" to="1956"
-                  ref="http://viaf.org/viaf/28550683">President</persName> and he wishes to thank
+               have spoken to the <persName key="Demarest, William Henry Steele" role="President, Rutgers College" from="1863" to="1956" ref="http://viaf.org/viaf/28550683">President</persName> and he wishes to thank
                you for your thoughtfulness and sends his best wishes.</p>
             <p> Do not forget to come to see us. </p>
             <closer>
                <salute>Cordially yours,</salute><lb/>
-               <signed><persName key="Silvers, Earl Reed" from="1891" to="1948"
-                     role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"
-                     >Director</persName><lb/> ERS/MVH</signed>
+               <signed><persName key="Silvers, Earl Reed" from="1891" to="1948" role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378">Director</persName><lb/> ERS/MVH</signed>
             </closer>
          </div>
          <div type="letter" decls="#ainsworthwpe_06">
             <pb n="12"/>
             <note type="letterhead">
                <address>
-                  <addrLine><placeName key="45 and 47 Wall Street, New York, NY"
-                        ref="https://geohack.toolforge.org/geohack.php?params=40_42_23_N_74_0_37_W"
-                        >45 &amp; 47 WALL STREET</placeName>.</addrLine>
+                  <addrLine><placeName key="45 and 47 Wall Street, New York, NY" ref="https://geohack.toolforge.org/geohack.php?params=40_42_23_N_74_0_37_W">45 &amp; 47 WALL STREET</placeName>.</addrLine>
                   <addrLine>NEW YORK.</addrLine>
                </address>
             </note>
@@ -444,22 +795,16 @@
                <dateline>
                   <date when="1918-05-27">May 27/18</date>
                </dateline>
-               <salute>My dear <persName key="Silvers, Earl Reed" from="1891" to="1948"
-                     role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"
-                     >Reed</persName></salute>
+               <salute>My dear <persName key="Silvers, Earl Reed" from="1891" to="1948" role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378">Reed</persName></salute>
             </opener>
             <p>I received the usual form of Postal this morning advising me of the safe arrival of
                the ship W<hi rend="superscript">m</hi> sailed on and he requested me in his last
-               letter to send you his address when I had received the postal It is 57<hi
-                  rend="superscript">th</hi> Artillery C.A.C. American Expeditionary Forces c/o
-               Postmaster N.Y. Write as often as you can Earl as Peter will be pleased I know <pb
-                  n="13"/> to hear from one he thinks so much of </p>
+               letter to send you his address when I had received the postal It is 57<hi rend="superscript">th</hi> Artillery C.A.C. American Expeditionary Forces c/o
+               Postmaster N.Y. Write as often as you can Earl as Peter will be pleased I know <pb n="13"/> to hear from one he thinks so much of </p>
             <closer>
                <salute>With regards to the <unclear>college</unclear>
                   <lb/> I am sincerely yours </salute><lb/>
-               <signed><persName key="Ainsworth, George C." from="1867" to="1954" role="Father"
-                     ref="https://www.familysearch.org/tree/person/details/L5L1-RNW"
-                        ><unclear>Geo</unclear> C. Ainsworth</persName></signed>
+               <signed><persName key="Ainsworth, George C." from="1867" to="1954" role="Father to William P. E. (Pete) Ainsworth" ref="https://www.familysearch.org/tree/person/details/L5L1-RNW"><unclear>Geo</unclear> C. Ainsworth</persName></signed>
             </closer>
             <postscript>
                <p>In W<hi rend="superscript">m</hi><supplied>'s</supplied> letter he said "Tell Reed
@@ -474,8 +819,7 @@
                </dateline>
                <address>
                   <addrLine>
-                     <persName key="Ainsworth, George C." role="Father" from="1867" to="1954"
-                        ref="https://www.familysearch.org/tree/person/details/L5L1-RNW">Mr. G. C.
+                     <persName key="Ainsworth, George C." role="Father to William P. E. (Pete) Ainsworth" from="1867" to="1954" ref="https://www.familysearch.org/tree/person/details/L5L1-RNW">Mr. G. C.
                         Ainsworth</persName>, </addrLine>
                   <addrLine> 45 to 47 Wall Street,</addrLine>
                   <addrLine> New York City. </addrLine>
@@ -483,10 +827,7 @@
                <salute>My dear Mr. Ainsworth:</salute>
             </opener>
 
-            <p> Thank you very much for <sic>yourletter</sic> of May 27th concerning <persName
-               key="Ainsworth, William Penn Esterbrook" from="1893" to="1968"
-                  role="Captain, Coast Artillery Corps"
-                  ref="https://www.familysearch.org/tree/person/details/L5L1-516">Pete</persName>. I
+            <p> Thank you very much for <sic>yourletter</sic> of May 27th concerning <persName key="Ainsworth, William Penn Esterbrook" from="1893" to="1968" role="Captain, Coast Artillery Corps" ref="https://www.familysearch.org/tree/person/details/L5L1-516">Pete</persName>. I
                shall most certainly write to him at least once a week and shall also send him our
                regular college circular which contains the college news. I was mighty sorry that he
                did not drop up to see me the last time he was in Rahway. This is the only time since
@@ -504,19 +845,16 @@
             <ab type="pre-printed">SOLDIERS' MAIL NO POSTAGE NECESSARY</ab>
             <lb/>
             <ab type="stamped">SOLDIERS MAIL <lb/> CAPT. E. W. HAMLEN, <seg xml:id="fn4">Q. M. R.
-                  C.</seg><note type="gloss" target="#fn4"><p>Quartermaster Reserve Corps</p><ref
-                     target="https://books.google.com/books?id=ErpLAAAAYAAJ">U.S. Government
+                  C.</seg><note type="gloss" target="#fn4"><p>Quartermaster Reserve Corps</p><ref target="https://books.google.com/books?id=ErpLAAAAYAAJ">U.S. Government
                      Printing Office. (1917). Annual Report of the Quartermaster-General to the
                      Secretary of War.</ref></note></ab>
             <lb/>
             <ab type="pre-printed">THIS SIDE FOR ADDRESS ONLY.</ab>
             <lb/>
             <ab><lb/>
-               <address>
+               <address style="text-align: center;">
                   <addrLine>Mr. E. R. Silvers</addrLine>
-                  <addrLine><placeName key="Commerce St., Rahway, NJ"
-                        ref="https://geohack.toolforge.org/geohack.php?params=40_36_20_N_74_16_55_W"
-                        >Commerce St.</placeName></addrLine>
+                  <addrLine><placeName key="Commerce St., Rahway, NJ" ref="https://geohack.toolforge.org/geohack.php?params=40_36_20_N_74_16_55_W">Commerce St.</placeName></addrLine>
                   <addrLine>Rahway N.J.</addrLine>
                </address>
                <pb n="16"/>
@@ -532,12 +870,11 @@
             <pb n="17"/>
             <opener>
                <dateline>
-                  <seg xml:id="fn27">Somewhere in France.</seg><note target="#fn27" type="annotation"><p>Ainsworth was likely in Libourne here.</p><ref target="http://www.50cac.com/coast-artillery-corps.html">Coast Artillery Corps World War I</ref></note><date when="1918-06-07">June 7,
-                     1918</date>
+                  Somewhere in France. <lb/><date when="1918-06-07">June 7, 1918.</date>
                </dateline>
                <salute>Dear Reed:</salute>
             </opener>
-            <p>At last I am "over here" and everything is so peaceful in the locality where I am
+            <p>At last I am <seg xml:id="fn27">"over here"</seg><note target="#fn27" type="annotation"><p>Ainsworth was likely in Libourne here.</p><ref target="http://www.50cac.com/coast-artillery-corps.html">Coast Artillery Corps World War I</ref></note> and everything is so peaceful in the locality where I am
                situated that it hardly seems I am in a country which has been at war for four years.
                Of course I am in a place very many miles from the firing line which accounts for the
                tranquility. You must understand, while I censor my own mail, that I cannot reveal
@@ -556,17 +893,17 @@
                effect me in the least, in fact I thoroughly enjoyed it.</p>
             <p>I have often heard what <pb n="19"/>
                <add place="margin">[3]</add> a wonderful sight land is after days at sea but never
-               realized is until I saw it at the end of our voyage.</p>
+               realized it until I saw it at the end of our voyage.</p>
             <p> Of our debarking and train trip I may say little except that the scenery was
                wonderful but in a different way from America. Our beautiful sections as a rule are
-               the wild ones but the beautiful sections of France are after the cultivated ones.</p>
+               the wild ones but the beautiful sections of France are often the cultivated ones.</p>
             <p>At present our company is billetted in an old French estate surrounded by vineyards.
                The officers live in the chateau which is a great white stone house with a tile roof
                (one of the originals from which the millionnaires take their plans for their seaside
                homes)</p>
             <p>I have a nice big room with an adjoining second floor parlour. In back there is a
                terrace with a <pb n="20"/> palm and rose garden containing a wonderful pagoda. A
-               brook with a deep curving hole runs <sic>thru</sic> a nearby meadow and affords the
+               brook with a deep swimming hole runs <sic>thru</sic> a nearby meadow and affords the
                men an opportunity for bathing. The days are very warm and the nights cool.</p>
             <p>What more could one ask for?</p>
             <p>I am very well and very happy and, I believe, very fortunate.</p>
@@ -574,9 +911,7 @@
             <p>Don't forget the letters from College and the Quarterly.</p>
             <closer>
                <salute>In the bonds.</salute><lb/>
-               <signed><persName key="Ainsworth, William Penn Esterbrook" from="1893" to="1968"
-                     role="Captain, Coast Artillery Corps"
-                     ref="https://www.familysearch.org/tree/person/details/L5L1-516">" Pete
+               <signed><persName key="Ainsworth, William Penn Esterbrook" from="1893" to="1968" role="Captain, Coast Artillery Corps" ref="https://www.familysearch.org/tree/person/details/L5L1-516">" Pete
                      "</persName></signed>
             </closer>
          </div>
@@ -596,8 +931,7 @@
                finally arrived however they came in a bunch and we had to knock-off for about two
                days to read them all. </p>
             <p> Some time ago I was in a large city near here and who should I meet in the Y.M.C.A.
-               but <persName key="Ludlow, Charles" from="1895" to-iso="19--" role="Seaman, Navy"
-                  cert="low">Chip Ludlow</persName> all decked out in his naval uniform and looking
+               but <persName key="Ludlow, Charles" from="1895" to-iso="19--" role="Seaman, Navy" cert="low">Chip Ludlow</persName> all decked out in his naval uniform and looking
                very snappy. I made an appointment and dined with him the next day. It was awfully
                good to see him and get all of the home news first hand. I have not had the chance to
                get to <seg xml:id="fn5">Base Hospital #8</seg>
@@ -605,10 +939,7 @@
                   <p>According to Joe Costa, there were at least 8 Rutgers men stationed at Base
                      Hospital #8, located in Savenay, France.</p>
                </note> yet but will <unclear>chap</unclear>
-               <persName key="Bracher, Elmer G." from="1894" to="1923"
-                  role="Sergeant, Medical Corps"
-                  ref="https://www.findagrave.com/memorial/210183871/elmer-gladstone-bracher"
-                  >Toady</persName> a line to let <pb n="22"/> him know that I am here </p>
+               <persName key="Bracher, Elmer G." from="1894" to="1923" role="Sergeant, Medical Corps" ref="https://www.findagrave.com/memorial/210183871/elmer-gladstone-bracher">Toady</persName> a line to let <pb n="22"/> him know that I am here </p>
             <p> We are still located in the same place, living comfortably and working like the
                devil. Of my work I can say little as I have little time to spend in gadding around
                my letters are bound to be very uninteresting. The war news of the past few weeks has
@@ -617,21 +948,11 @@
                I may have a few of my own some day. I have seen many german prisoners. Nearly all of
                them strapping men and well set-up but with the face of a machine unlike the
                Americans or French. Some have long beards a foot long. </p>
-            <p> How is <persName key="Terrill, Edith Irona" from="1893" to="1966" role="Spouse"
-                  >Edith</persName> and Mike. Please give my best to them and also to your <persName
-                  key="Reed, Evelyn" from="1896" to="1938" role="Mother"
-                  ref="https://www.familysearch.org/tree/person/details/9HQZ-YZW">mother</persName>,
-                  <persName key="Silvers Hillman, Mae Brittin" from="1891" to="1944" role="Sister"
-                  >May</persName>, <persName key="Hillman, Clifford Thurston" from="1889" to="1942"
-                  role="Brother-in-law">Cliff</persName>, Bobbie, and <persName
-                  key="Terrill, Mildred" from="1895" to="1976" role="Sister-in-law"
-                  >Mildred</persName>. </p>
+            <p> How is <persName key="Terrill, Edith Irona" from="1893" to="1966" role="Spouse of Earl Reed Silvers">Edith</persName> and Mike. Please give my best to them and also to your <persName key="Reed, Evelyn" from="1896" to="1938" role="Mother to Earl Reed Silvers" ref="https://www.familysearch.org/tree/person/details/9HQZ-YZW">mother</persName>,
+               <persName key="Silvers Hillman, Mae Brittin" from="1891" to="1944" role="Sister of Earl Reed Silvers">May</persName>, <persName key="Hillman, Clifford Thurston" from="1889" to="1942" role="Brother-in-law to Earl Reed Silvers">Cliff</persName>, Bobbie, and <persName key="Terrill, Mildred" from="1895" to="1976" role="Sister-in-law of Earl Reed Silvers">Mildred</persName>. </p>
             <closer>
                <salute>Hoping to hear from you soon. <lb/> In the bonds</salute><lb/>
-               <signed><persName key="Ainsworth, William Penn Esterbrook" from="1893" to="1968"
-                     role="Captain, Coast Artillery Corps"
-                     ref="https://www.familysearch.org/tree/person/details/L5L1-516"
-                  >Pete</persName>.</signed>
+               <signed><persName key="Ainsworth, William Penn Esterbrook" from="1893" to="1968" role="Captain, Coast Artillery Corps" ref="https://www.familysearch.org/tree/person/details/L5L1-516">Pete</persName>.</signed>
             </closer>
             <postscript>
                <p> W Ainsworth <lb/> 1st Lt 57th Art. C.A.C. </p>
@@ -640,15 +961,14 @@
          <div type="letter" decls="#ainsworthwpe_11">
             <pb n="23"/>
             <opener>
-               <add>This letter also to Elmer G. Bracher '18</add>
+               <add place="margin">This letter also to Elmer G. Bracher '18</add>
                <dateline>
                   <date when="1918-10-04">October 4 <lb/>1 9 1 8</date>
                </dateline>
                <address style="text-align: left;">
-                  <addrLine>Lieut. William P.E.Aisworth,</addrLine>
+                  <addrLine>Lieut. William P.E.Ainsworth,</addrLine>
                   <addrLine>57th Art. C.A.C.</addrLine>
-                  <addrLine><seg xml:id="fn6">Am. E.F.</seg><note target="#fn6" type="gloss"
-                           ><p>American Expeditionary Forces</p></note></addrLine>
+                  <addrLine><seg xml:id="fn6">Am. E.F.</seg><note target="#fn6" type="gloss"><p>American Expeditionary Forces</p></note></addrLine>
                </address>
                <salute>Dear Pete,</salute>
             </opener>
@@ -657,8 +977,7 @@
                anything else, except the immediate work which we are trying to do. Even now there is
                only the chance for this brief note.</p>
             <p>Things have changed so much here that you would hardly recognize the place. The
-               college is now on a <seg xml:id="fn7">distinct war footing</seg><note
-                  type="annotation" target="#fn7">
+               college is now on a <seg xml:id="fn7">distinct war footing</seg><note type="annotation" target="#fn7">
                   <p>The October 3, 1918 edition of The Targum discusses the cessation of fraternity
                      activities and the ceding of campus spaces to the War Department and the
                      Student Army Training Corps (SATC).</p>
@@ -674,8 +993,7 @@
                </note>; only three of them Delts. Fraternity initiations have been forbidden and no
                fraternity meetings may be held, so it looks very much as if the chapters will have
                rather hard sledding. There are now 10 Delts in College, Jimmy Losee, LeCraw, L. Sherwin, Bob Farley, Newall Chase, Carleton Jones, and four freshmen you do not know. We are hoping that enough men will be left when things are adjusted, to start the chapter organization again. </p>
-            <p>Rahway is going along just about as usual. <persName
-                  key="Silvers, Earl Reed Jr." from="1917" to="2001" role="Son">Mike</persName> was
+            <p>Rahway is going along just about as usual. <persName key="Silvers, Earl Reed Jr." from="1917" to="2001" role="Son of Earl Reed Silvers">Mike</persName> was
                a year old yesterday and entertained the family at a dinner party, but this is the
                only piece of news from home that I can give you. Sometime soon I will try to write
                more fully. </p>
@@ -694,9 +1012,7 @@
                <salute>Dear Reed:</salute>
             </opener>
             <p> What was my surprise to receive a couple of letters from you the last few days. I
-               was glad to see that you had a few good days at the seashore with the <persName
-                  key="Terrill, Edith Irona" from="1893" to="1966" role="Spouse"
-                  ref="https://www.familysearch.org/tree/person/details/LCRM-W14">wife</persName>
+               was glad to see that you had a few good days at the seashore with the <persName key="Terrill, Edith Irona" from="1893" to="1966" role="Spouse of Earl Reed Silvers" ref="https://www.familysearch.org/tree/person/details/LCRM-W14">wife</persName>
                and son. Has "friend" taught the kid to swim yet? I have been less fortunate in not
                having had a swim this year. I expect however in the future sometime to more than
                make up for the lost time. </p>
@@ -722,10 +1038,7 @@
             <pb n="27"/>
             <p> I have not seen the sun for days but we are quite used to that at present. </p>
             <p> I suppose you have heard of my promotion to captain. Strange things do happen. </p>
-            <p> Please give my best to the Chases, congratulate <persName key="Reeb, Llyle Burrows"
-                  from="1897" to="1990" role="Brother-in-law">Llyle</persName>, tell Mill <seg xml:id="fn10"
-                  >I am sore as hell at being thrown over</seg><note target="#fn10" type="annotation"
-                     ><p>Mildred Terrill, Silvers's sister-in-law, and Llyle Burrows Reeb presumably
+            <p> Please give my best to the Chases, congratulate <persName key="Reeb, Llyle Burrows" from="1897" to="1990" role="Fiancé of Mildred Terrill, Earl Reed Silvers's sister-in-law">Llyle</persName>, tell Mill <seg xml:id="fn10">I am sore as hell at being thrown over</seg><note target="#fn10" type="annotation"><p>Mildred Terrill, Silvers's sister-in-law, and Llyle Burrows Reeb presumably
                      announced their engagement. The couple would marry on October 14,
                   1919.</p></note>, advise "friend" to <unclear>shop</unclear> for the biggest steak
                when I get back and give Mike a kiss. </p>
@@ -750,14 +1063,11 @@
                as usual. How was the news of peace, the abdication of the Kaiser Etc received in the
                States. I'll bet there was some <unclear>demonstration</unclear> particularly by
                those about to be drafted. Please <pb n="29"/>
-               <add place="margin">(2)</add> save the headlines of the N.Y. Evening Journal. <seg
-                  xml:id="fn11">They must have been 14 inches high.</seg>
+               <add place="margin">(2)</add> save the headlines of the N.Y. Evening Journal. <seg xml:id="fn11">They must have been 14 inches high.</seg>
                <note type="annotation" target="#fn11">
                   <p>Many U.S. newspapers ran headlines in all capital letters on their front pages
                      on November 11, 1918. </p>
-                  <ref
-                     target="https://blogs.loc.gov/loc/2016/07/world-war-i-a-wartime-clipping-service/"
-                     >Allen, Erin. World War I: A Wartime Clipping Service.</ref>
+                  <ref target="https://blogs.loc.gov/loc/2016/07/world-war-i-a-wartime-clipping-service/">Allen, Erin. World War I: A Wartime Clipping Service.</ref>
                </note>
             </p>
             <p> We are just sitting tight at present awaiting orders. We may be sent to Germany on
@@ -798,14 +1108,10 @@
                <note type="annotation" target="#fn12">
                   <p>Prior to the armistice, it would have been important to omit location and troop
                      information.</p>
-                  <ref
-                     target="https://www.pbs.org/wgbh/americanexperience/features/warletters-censorship/"
-                     >Myron Fox interview</ref></note> have been so altered that this is not only
+                  <ref target="https://www.pbs.org/wgbh/americanexperience/features/warletters-censorship/">Myron Fox interview</ref></note> have been so altered that this is not only
                possible but invited. </p>
             <p> First, let me start with out trip across. We went over with one of the biggest
-               convoys leaving the States. Fourteen transports in all. Our ship was the <seg
-                  xml:id="fn13">converted Dutch ship "Ryndam"</seg><note type="annotation"
-                  target="#fn13">
+               convoys leaving the States. Fourteen transports in all. Our ship was the <seg xml:id="fn13">converted Dutch ship "Ryndam"</seg><note type="annotation" target="#fn13">
                   <p> The Rijndam, previously a passenger liner, was placed in commission by the
                      U.S. Navy in March 1918. </p>
                   <ref target="http://shipscribe.com/usnaux/ww1/ships/id2505.htm">WWI Ship Name
@@ -813,21 +1119,15 @@
                </note> and we made the first run she made as a transport. I may also state that it
                was the first ship taken by our Government to make a trip over without a single
                break-down. As you may well imagine, I spent some time in the engine-room. </p>
-            <p>We arrived in <placeName key="Brest, France"
-                  ref="https://geohack.toolforge.org/geohack.php?params=48_23__N_4_29__W">
-                  "Brest"</placeName> on May 23 and marched to the famous barracks <seg
-                  xml:id="fn14">(Pentamasian Barracks)</seg>
+            <p>We arrived in <placeName key="Brest, France" ref="https://geohack.toolforge.org/geohack.php?params=48_23__N_4_29__W">
+                  "Brest"</placeName> on May 23 and marched to the famous barracks <seg xml:id="fn14">(Pentamasian Barracks)</seg>
                <note type="annotation" target="#fn14">
                   <p>Napoleon Bonaparte held Black political prisoners originating from the
                      Caribbean, including Saint-Domingue and Guadaloupe, at the Pontanézen Barracks.
                      Many were then shunted to labor camps on Elba and Corsica.</p>
-                  <ref
-                     target="https://gallica.bnf.fr/ark:/12148/bpt6k5433962x/f296.item.r=Pontan%C3%A9zen.langFR"
-                     >Destrem, Jean. Les déportations du Consulat et de l'Empire.</ref>
-               </note> used by Napoleon where we stayed for one day leaving the next for "<del
-                     rend="overstrike">D</del>Libourne" which is close to Bordeaux and
-               in the heart of wine country. We stayed at <placeName
-                  key="Libourne, France" ref="https://geohack.toolforge.org/geohack.php?params=44_55__N_0_14__W">Libourne</placeName> for two months where we received
+                  <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k5433962x/f296.item.r=Pontan%C3%A9zen.langFR">Destrem, Jean. Les déportations du Consulat et de l'Empire.</ref>
+               </note> used by Napoleon where we stayed for one day leaving the next for "<del rend="overstrike">D</del>Libourne" which is close to Bordeaux and
+               in the heart of wine country. We stayed at <placeName key="Libourne, France" ref="https://geohack.toolforge.org/geohack.php?params=44_55__N_0_14__W">Libourne</placeName> for two months where we received
                our training and equipment. The guns we received were the <seg xml:id="fn15">French
                   155 G.P.F.</seg>
                <note type="annotation" target="#fn15">
@@ -843,32 +1143,25 @@
                   <ref target="https://en.wikipedia.org/wiki/Holt_tractor">Wikipedia</ref>
                </note>, trucks, touring cars and motorcycles constituted our equipment. It was quite
                a sight to see our outfit on the road- miles of trucks and guns. </p>
-            <p> After receiving our equipment we went to <placeName key="Camp de Souge, France"
-                  ref="https://geohack.toolforge.org/geohack.php?params=44_51_50_N_0_51_40_W">Camp
+            <p> After receiving our equipment we went to <placeName key="Camp de Souge, France" ref="https://geohack.toolforge.org/geohack.php?params=44_51_50_N_0_51_40_W">Camp
                   de Souge</placeName> which is South of Bordeaux where we held target practice for
                two weeks. It was here that I made a balloon ascension and here also <pb n="33"/>
-               that the car I was riding in was hit by shrapnel out on the range. Some <hi
-                  rend="underline">boob</hi> made a mistake of 90 degrees in deflection and nearly
-               landed the shell in our <seg xml:id="fn17">tonneau</seg><note type="annotation"
-                  target="#fn17">
+               <add place="margin">-2-</add>
+               that the car I was riding in was hit by shrapnel out on the range. Some <hi rend="underline">boob</hi> made a mistake of 90 degrees in deflection and nearly
+               landed the shell in our <seg xml:id="fn17">tonneau</seg><note type="annotation" target="#fn17">
                   <p>The rear body of the car.</p>
-                  <ref
-                     target="https://www-oed-com.proxy.libraries.rutgers.edu/view/Entry/203218?redirectedFrom=tonneau#eid"
-                     >OED </ref>
+                  <ref target="https://www-oed-com.proxy.libraries.rutgers.edu/view/Entry/203218?redirectedFrom=tonneau#eid">OED </ref>
                </note>.</p>
             <p>One day we received hurry up orders to leave for the front. It took five teams to get
                our regiment up. We got off, after a three day ride and received orders to get into
-                  <seg xml:id="fn18">action immediately at the tip of St. Mehile salient</seg><note
-                  type="annotation" target="#fn18">
+                  <seg xml:id="fn18">action immediately at the tip of St. Mehile salient</seg><note type="annotation" target="#fn18">
                      <p>As an officer with the 57th Coast Artillery Corps, Ainsworth would have participated in the St. Mihiel, and Meuse-Argonne Operations in support of 1st U.S. Army in France until the Armistice</p>
-                  <ref target="https://www.britannica.com/event/Battle-of-Saint-Mihiel-1918"
-                     >Gilbert, Adrian. Battle of Saint-Mihiel.</ref></note>. You never saw such a
+                  <ref target="https://www.britannica.com/event/Battle-of-Saint-Mihiel-1918">Gilbert, Adrian. Battle of Saint-Mihiel.</ref></note>. You never saw such a
                hurry in your life. It so happened that one of our battalions (the first to arrive)
                after working like dogs got into position only to learn that the infantry had gone
                clear beyond their range. They never fired a shot in that battle. Before leaving
                Libourne we had lost one battalion to railway artillery and had given another that
-               was already at the front. The latter was in the <placeName key="Saint-Mihiel, France"
-                  ref="https://geohack.toolforge.org/geohack.php?params=48_53_21_N_05_32_37_E"> St.
+               was already at the front. The latter was in the <placeName key="Saint-Mihiel, France" ref="https://geohack.toolforge.org/geohack.php?params=48_53_21_N_05_32_37_E"> St.
                   Mehile</placeName> battle and did very good work. </p>
             <p>After that job was done we proceeded to the historic field before Verdun. Here we
                started our party. We had, in the Argonne Offensive, as you have probably read, the
@@ -882,6 +1175,7 @@
                <seg xml:id="fn28">Romogne</seg><note type="annotation" target="#fn28"><p>Romagne-sous-Montfaucon, Meuse</p></note>. One afternoon I started with my company in ten big trucks for our new
                location. Our road led us across a field in full view of the "bosche" who were about
                a mile distant. Right in the middle of the field the first truck dropped <pb n="34"/>
+               <add place="margin">-3-</add>
                into a shell hole. It took three quarters of an hour to get it out and have never
                been able to figure out why fire was not opened up on us. As it was they did not
                start until we were off of the road. </p>
@@ -907,7 +1201,7 @@
                Stenay on the Meuse. When we got here the armistice was signed and we are just
                sitting tight awaiting developments.</p>
             <pb n="35"/>
-            <p> We may be sent to Germany or go home. We are ready and willing for either. </p>
+            <p><add place="margin">-4-</add> We may be sent to Germany or go home. We are ready and willing for either. </p>
             <p> I have not attempted to give you any detail of experiences. Doubtless you get some
                from my previous letters. This is just a general outline to let you have some idea of
                where I have been and what I have been doing. The rest will be told when I see you. </p>
@@ -924,7 +1218,7 @@
             <note type="letterhead"> AMERICAN Y.M.C.A. <lb/> ON ACTIVE SERVICE <lb/> WITH THE <lb/>
                AMERICAN EXPEDITIONARY FORCE </note>
             <opener>
-               <add><hi rend="underline">COPY</hi></add>
+               <add place="margin"><seg xml:id="fn30"><hi rend="underline">COPY</hi></seg><note type="annotation" target="#fn30"><p>Since this is an original letter on AEF stationary, the word &quot;copy&quot; appears to be an instruction from Silvers to transcribe the letter for eventual publication.</p></note></add>
                <dateline>
                   <date when="1919-01-04">Jan 4 1919</date>
                </dateline>
@@ -936,29 +1230,21 @@
                most of the time <del rend="strikethrough">since</del>. To make up for lost time, let
                me begin a month back. </p>
             <p>Our regiment made a long run about 125 miles from the front to the little town of
-                  <placeName key="Doulevant-le-Chateau, France"
-                  ref="https://geohack.toolforge.org/geohack.php?params=48_22_41_N_4_55_23_E"
-                  >Doulevant</placeName> about a week after the signing of the armistice. It does
-               not sound far but for a train of trucks, many <pb n="43"/> in poor shape after months
+                  <placeName key="Doulevant-le-Chateau, France" ref="https://geohack.toolforge.org/geohack.php?params=48_22_41_N_4_55_23_E">Doulevant</placeName> about a week after the signing of the armistice. It does
+               not sound far but for a train of trucks, many <pb n="43"/> <add place="margin">2</add>in poor shape after months
                of service at the front, and tractors which were equally used up and dragging our
                155's it was a long grind. I lived in the chateau of the Duke at Doulevant for about
                two weeks while we refitted the men and made preparations to return to the U.S. Dec.
-               15th we entrained near Doulevant and left for <placeName key="Brest, France"
-                  ref="https://geohack.toolforge.org/geohack.php?params=48_23__N_4_29__W"
-                  >Brest</placeName>, arriving there <date when="1918-12-18">Dec. 18th</date> at
+               15th we entrained near Doulevant and left for <placeName key="Brest, France" ref="https://geohack.toolforge.org/geohack.php?params=48_23__N_4_29__W">Brest</placeName>, arriving there <date when="1918-12-18">Dec. 18th</date> at
                night in a cold rainstorm such as one only finds in Brittany. On the 21st all regular
                officers, except the Colonel, were notified that they would remain in France and to
-               proceed to a town south of Bordeaux, <seg xml:id="fn19">Le Courneau</seg><note
-                  type="annotation" target="#fn19">
+               proceed to a town south of Bordeaux, <seg xml:id="fn19">Le Courneau</seg><note type="annotation" target="#fn19">
                   <p>The French turned over Le Courneau (Camp Hunt) to the Americans as an artillery
                      camp.</p>
-                  <ref target="https://history.army.mil/html/books/023/23-21/CMH_Pub_23-21.pdf"
-                     >United States Army in the World War 1917-1919: Reports of the
+                  <ref target="https://history.army.mil/html/books/023/23-21/CMH_Pub_23-21.pdf">United States Army in the World War 1917-1919: Reports of the
                      Commander-in-Chief, Staff Sections and Services, vol. 15, p. 178</ref>
                </note> by name. This put about 12 of us out of the regiment. Four of us went
-               immediately to <placeName key="Paris, France"
-                  ref="https://geohack.toolforge.org/geohack.php?params=48_51_24_N_2_21_08_E"
-                  >Paris</placeName> where <pb n="44"/> we spent Christmas, staying for four days
+               immediately to <placeName key="Paris, France" ref="https://geohack.toolforge.org/geohack.php?params=48_51_24_N_2_21_08_E">Paris</placeName> where <pb n="44"/> <add place="margin">3</add>we spent Christmas, staying for four days
                afterwards as well. I enjoyed Paris more then any other city I was ever in. I visited
                Notre Dame, Napoleon's Tomb and the more popular shows and cafes. It was certainly
                necessary to watch your step in this town. The women all talk English and do
@@ -967,40 +1253,22 @@
                subject. It is nothing to be approached half a dozen times on a block. From Paris we
                went to Bordeaux and, the next day, to Le Courneau. </p>
             <p> Le Courneau is an enormous camp of casual officers and men and there was nothing to
-               do at all. Fortunately <pb n="45"/> we were only there a day when we were ordered to
-                  <placeName key="Gondrecourt-le-Chateau"
-                  ref="https://geohack.toolforge.org/geohack.php?params=48_30_51_N_5_30_28_E"
-                  >Gondrecourt</placeName>, near Neufchateau and within 25 kilometers from where we
+               do at all. Fortunately <pb n="45"/> <add place="margin">(4)</add>we were only there a day when we were ordered to
+                  <placeName key="Gondrecourt-le-Chateau" ref="https://geohack.toolforge.org/geohack.php?params=48_30_51_N_5_30_28_E">Gondrecourt</placeName>, near Neufchateau and within 25 kilometers from where we
                 detrained when we first arrived on the front. Here we proceeded, via Paris, and
-               here we are at present. It is a fine camp with good accomodations a <seg
-                  xml:id="fn20">good Y.M.C.A.</seg><note type="annotation" target="#fn20">
+               here we are at present. It is a fine camp with good accomodations a <seg xml:id="fn20">good Y.M.C.A.</seg><note type="annotation" target="#fn20">
                   <p> The YMCA provided human services in WWI that would ultimately become institutionalized within
                      each military service.</p>
                   <ref target="http://www.worldwar1.com/dbc/ymca.htm">The History of the YMCA in World War I</ref>
                </note>, barbers, etc. </p>
-            <p> Tuesday I leave for <placeName key="Nice, France"
-                  ref="https://geohack.toolforge.org/geohack.php?params=43_42_12_N_7_15_59_E"
-                  >Nice</placeName> on a leave of about 14 days. I am going by way of <placeName
-                  key="Lyon, France"
-                  ref="https://geohack.toolforge.org/geohack.php?params=45_46__N_4_50__E"
-                  >Lyon</placeName>, <placeName key="Marseille, France"
-                  ref="https://geohack.toolforge.org/geohack.php?params=43_17_47_N_5_22_12_E"
-                  >Marseille</placeName> and up along the Mediterranean. If possible I am going to
-               go to <placeName key="Italy"
-                  ref="https://geohack.toolforge.org/geohack.php?params=43___N_12___E"
-                  >Italy</placeName> and will possibly cover the <placeName key="Pyrenees Mountains"
-                  ref="https://geohack.toolforge.org/geohack.php?params=42_40__N_1_00__E">
-                  Pyrenees</placeName>. When I get back I may be sent to <placeName key="Germany"
-                  ref="https://geohack.toolforge.org/geohack.php?params=51___N_9___E"
-                  >Germany</placeName> or <placeName key="Russia"
-                  ref="https://geohack.toolforge.org/geohack.php?params=60___N_90___E"
-                  >Russia</placeName>. I don't know which at present. </p>
+            <p> Tuesday I leave for <placeName key="Nice, France" ref="https://geohack.toolforge.org/geohack.php?params=43_42_12_N_7_15_59_E">Nice</placeName> on a leave of about 14 days. I am going by way of <placeName key="Lyon, France" ref="https://geohack.toolforge.org/geohack.php?params=45_46__N_4_50__E">Lyon</placeName>, <placeName key="Marseille, France" ref="https://geohack.toolforge.org/geohack.php?params=43_17_47_N_5_22_12_E">Marseille</placeName> and up along the Mediterranean. If possible I am going to
+               go to <placeName key="Italy" ref="https://geohack.toolforge.org/geohack.php?params=43___N_12___E">Italy</placeName> and will possibly cover the <placeName key="Pyrenees Mountains" ref="https://geohack.toolforge.org/geohack.php?params=42_40__N_1_00__E">
+                  Pyrenees</placeName>. When I get back I may be sent to <placeName key="Germany" ref="https://geohack.toolforge.org/geohack.php?params=51___N_9___E">Germany</placeName> or <placeName key="Russia" ref="https://geohack.toolforge.org/geohack.php?params=60___N_90___E">Russia</placeName>. I don't know which at present. </p>
             <p> Have you heard from <unclear>Pim</unclear>lately? I have not received any letters at
-               all lately and cannot <pb n="46"/> expect any very well with all of the changes in
+               all lately and cannot <pb n="46"/> <add place="margin">(5)</add> expect any very well with all of the changes in
                address. At present it is</p>
             <p> C.O.R.D.- A.P.O. #703 <lb/>
-               <seg xml:id="fn21">C.O.R.D. - Combat Officers Replacement Depot</seg><note
-                  type="annotation" target="#fn21">
+               <seg xml:id="fn21">C.O.R.D. - <del>Casual</del> Combat Officers Replacement Depot</seg><note type="annotation" target="#fn21">
                   <p>A replacement depot was a holding area for troops that were not yet assigned to a
                      particular unit. This practice was discontinued after WWII because men assigned to replacement depots developed low morale and were unfamiliar with the fighting formations of the units to which they were eventually assigned.</p>
                   <ref target="https://en.wikipedia.org/wiki/Replacement_depot">Wikipedia</ref>
@@ -1012,7 +1280,7 @@
             <p>I certainly wished that I could have been with you all, and expected to for a while,
                but am hoping now for next Christmas.</p>
             <pb n="47"/>
-            <p> I don't know whether I told you or not, but I was in the <seg xml:id="fn22">St.
+            <p> <add place="margin">(6)</add> I don't know whether I told you or not, but I was in the <seg xml:id="fn22">St.
                   Mihiel drive</seg>
                <note type="annotation" target="#fn22">
                   <p>The Battle of Saint-Mihiel (12–15 September 1918) involved the American Expeditionary Forces and 110,000 French troups under the command of General Pershing. It was the first large offensive launched by the U.S. Army in WWI.</p>
@@ -1023,15 +1291,10 @@
                      War I. It was one of the attacks that brought an end to the War and was fought
                      from September 26 – November 11, 1918, when the Armistice was signed.</quote>
                   <ref target="https://www.archives.gov/research/military/ww1/meuse-argonne">NARA</ref>
-               </note> from <placeName key="Verdun, France"
-                  ref="https://geohack.toolforge.org/geohack.php?params=49_09_43_N_05_23_15_E"
-                  >Verdun</placeName> until Nov. 11, the day of the armistice which found us before
-                  <placeName key="Stenay, France"
-                  ref="https://geohack.toolforge.org/geohack.php?params=49_29_27_N_5_11_11_E"
-                  >Stenay</placeName>. At one time I lived for nine days 1 1/2 kilometers or about 1 mile
+               </note> from <placeName key="Verdun, France" ref="https://geohack.toolforge.org/geohack.php?params=49_09_43_N_05_23_15_E">Verdun</placeName> until Nov. 11, the day of the armistice which found us before
+                  <placeName key="Stenay, France" ref="https://geohack.toolforge.org/geohack.php?params=49_29_27_N_5_11_11_E">Stenay</placeName>. At one time I lived for nine days 1 1/2 kilometers or about 1 mile
                from the <sic>bosch</sic> and believe me it was hot. I lost quite a few men from my company
-               and got some experience with <seg xml:id="fn24">gas</seg><note type="annotation"
-                  target="#fn24">
+               and got some experience with <seg xml:id="fn24">gas</seg><note type="annotation" target="#fn24">
                   <p>Both sides used poisonous gasses with little restraint, even though they were outlawed by the Hague Convention in 1899. Chemical warfare caused fewer than 1% of the deaths, but the ‘psy-war’ or fear factor was tremendous.</p>
                   <ref target="http://www.kumc.edu/wwi/medicine/gas-in-the-great-war.html">KU Medical Center</ref>
                </note> and aeroplanes. We were at that time in the third line trenches and
@@ -1044,7 +1307,7 @@
             </closer>
          </div>
          <div type="letter" decls="#ainsworthwpe_16">
-            <pb n="48" />
+            <pb n="48"/>
             <opener>
                <address style="text-align: right;">
                   <addrLine><seg xml:id="fn25">Regulating Station "H"</seg><note target="#fn25" type="annotation"><quote>On the regulating station falls the responsibility that the regularity of supply is maintained. that troop movements and evacuation proceed smoothly, that congestion is prevented at railheads, and that cars of supplies, men, horses, etc., reach their proper unit without delay, even though the unit in question be moving.</quote><ref target="https://history.army.mil/html/books/023/23-20/CMH_Pub_23-20.pdf">United States Army in the World War 1917-1919: Reports of the Commander-in-Chief, Staff Sections and Services, Vol. 14.</ref></note></addrLine>
@@ -1057,21 +1320,21 @@
             </opener>
             <p>
                Yesterday I returned from my first leave at <placeName key="Nice, France" ref="https://geohack.toolforge.org/geohack.php?params=43_42_12_N_7_15_59_E">Nice</placeName> and found awaiting me a huge bundle of mail, including some from you, which had been sent all over France to my various addresses and finally caught up. I cannot realize how big "Mike" must be to walk &amp; talk. The last time I saw him he was such a little fellow. I am afraid he wont recognize me at all.
-               <pb n="49" /><!-- I think this letter is out of order -->
+               <pb n="49"/><!-- I think this letter is out of order -->
                Congratulations on the new home. I certainly hope you will enjoy it.
             </p>
             <p>
                I have just finished the most wonderful two weeks I have ever put in. I just went to <placeName key="Marseille, France" ref="https://geohack.toolforge.org/geohack.php?params=43_17_47_N_5_22_12_E">Marseille</placeName> where I spent one day and then on to <placeName key="Nice, France" ref="https://geohack.toolforge.org/geohack.php?params=43_42_12_N_7_15_59_E">Nice</placeName> where I spent eight days on the shore of the Mediterranean in climate such as we have at Florida in the winter. All I did was sleep, eat, automobile, dance and play tennis. The county is simply wonderful. Huge palm trees, the almond trees in bloom, the orange trees covered covered with fruit, the olive trees green like the grass. All of this
-               <pb n="50" />
+               <pb n="50"/>
                foliage with the sea a dark blue green and the snow clad Alps in the distance made a picture I will never forget. I certainly will come back to it some day. I went to <placeName key="Monaco" ref="https://geohack.toolforge.org/geohack.php?params=43_43_59_N_7_25_0_E">Monaco</placeName>, <placeName key="Monte Carlo, Monaco" ref="https://geohack.toolforge.org/geohack.php?params=43_44_23_N_7_25_38_E">Monte Carlo</placeName> and over the Italian border as far as they would let me. I met some wonderful French and Italian girls who danced and played tennis wonderfully so you can well imagine I managed to have a good time. On the way back I went up through the <placeName key="French Alps" ref="https://geohack.toolforge.org/geohack.php?params=45_49_58_N_6_51_54_E">French Alps</placeName> and never expect to see such scenery again as long as I live. We went up to
-               <pb n="51" />
+               <pb n="51"/>
                snow but it was so clear and dry that it did not feel cold in the least.
             </p>
             <p>
                I am back now, however, to the land of rain and mud with a coat of tan entirely out of place and in wonderful condition to go back on the job.
             </p>
             <p>
-               Give my best best to Friend, Mike and <persName key="Ainsworth, George C." role="Father" from="1867" to="1954" ref="https://www.familysearch.org/tree/person/details/L5L1-RNW">Dad</persName>, if you see him.</p>
+               Give my best best to Friend, Mike and <persName key="Ainsworth, George C." role="Father to William P. E. (Pete) Ainsworth" from="1867" to="1954" ref="https://www.familysearch.org/tree/person/details/L5L1-RNW">Dad</persName>, if you see him.</p>
             <closer>
                <salute>In the bonds</salute><lb/>
                <signed>Pete</signed>
@@ -1116,177 +1379,5 @@
             </closer>
          </div>
       </body>
-      <back>
-         <listPlace>
-            <place xml:id="fort-monroe">
-               <placeName>Fort Monroe, VA</placeName>
-               <location>
-                  <geo>37.003611 -76.3075</geo>
-               </location>
-            </place>
-            <place xml:id="fort-myer">
-               <placeName>Fort Myer, VA</placeName>
-               <location>
-                  <geo>38.881667 -77.082778</geo>
-               </location>
-            </place>
-            <place xml:id="rutgers">
-               <placeName>Rutgers College, New Brunswick, NJ</placeName>
-               <location>
-                  <geo>40.500819 -74.447399</geo>
-               </location>
-            </place>
-            <place xml:id="chesapeake-bay">
-               <placeName>Chesapeake Bay, VA</placeName>
-               <location>
-                  <geo>37.8 -76.1</geo>
-               </location>
-            </place>
-            <place xml:id="fort-hancock">
-               <placeName>Fort Hancock, NJ</placeName>
-               <location>
-                  <geo>40.463889 -74.002778</geo>
-               </location>
-            </place>
-            <place xml:id="ainsworth-home">
-               <placeName>45 and 47 Wall Street, New York, NY</placeName>
-               <location>
-                  <geo>40.706389 -74.010278</geo>
-               </location>
-            </place>
-            <place xml:id="brest-france">
-               <placeName>Brest, France</placeName>
-               <location>
-                  <geo>48.3756074 -4.5153352</geo>
-               </location>
-            </place>
-            <place xml:id="libourne-france">
-               <placeName>Libourne, France</placeName>
-               <location>
-                  <geo>44.9124896 -0.2677799</geo>
-               </location>
-            </place>
-            <place xml:id="camp-de-souge">
-               <placeName>Camp de Souge, France</placeName>
-               <location>
-                  <geo>44.863900 -0.861100</geo>
-               </location>
-            </place>
-            <place xml:id="silvers-home">
-               <placeName>Commerce St., Rahway, NJ</placeName>
-               <location>
-                  <geo>40.605556 -74.281944</geo>
-               </location>
-            </place>
-            <place xml:id="saint-mihiel">
-               <placeName>Saint-Mihiel, France</placeName>
-               <location>
-                  <geo>48.889167 5.543611</geo>
-               </location>
-            </place>
-            <place xml:id="meuse-argonne-operations">
-               <placeName>Meuse–Argonne offensive, France</placeName>
-               <location>
-                  <geo>49.2725 5.141944</geo>
-               </location>
-            </place>
-            <place xml:id="beaufort-en-argonne">
-               <placeName>Beaufort-en-Argonne, France</placeName>
-               <location><geo>49.472778 5.114167</geo></location>
-            </place>
-            <place xml:id="gondrecourt-france">
-               <placeName>Gondrecourt-le-Chateau, France</placeName>
-               <location><geo>48.5166495 5.4868113</geo></location>
-            </place>
-            <place xml:id="doulevant">
-               <placeName>Doulevant-le-Chateau, France</placeName>
-               <location>
-                  <geo>48.378056 4.923056</geo>
-               </location>
-            </place>
-            <place xml:id="paris">
-               <placeName>Paris, France</placeName>
-               <location>
-                  <geo>48.856667 2.352222</geo>
-               </location>
-            </place>
-            <place xml:id="nice">
-               <placeName>Nice, France</placeName>
-               <location>
-                  <geo>43.703333 7.266389</geo>
-               </location>
-            </place>
-            <place xml:id="lyon">
-               <placeName>Lyon, France</placeName>
-               <location>
-                  <geo>45.766667 4.833333</geo>
-               </location>
-            </place>
-            <place xml:id="marseille">
-               <placeName>Marseille, France</placeName>
-               <location>
-                  <geo>43.296389 5.37</geo>
-               </location>
-            </place>
-            <place xml:id="italy">
-               <placeName>Italy</placeName>
-               <location>
-                  <geo>43 12</geo>
-               </location>
-            </place>
-            <place xml:id="pyrenees">
-               <placeName>Pyrenees Mountains</placeName>
-               <location>
-                  <geo>42.666667 1</geo>
-               </location>
-            </place>
-            <place xml:id="germany">
-               <placeName>Germany</placeName>
-               <location>
-                  <geo>51 9</geo>
-               </location>
-            </place>
-            <place xml:id="russia">
-               <placeName>Russia</placeName>
-               <location>
-                  <geo>60 90</geo>
-               </location>
-            </place>
-            <place xml:id="verdun">
-               <placeName>Verdun, France</placeName>
-               <location>
-                  <geo>49.161944 5.3875</geo>
-               </location>
-            </place>
-            <place xml:id="stenay-france">
-               <placeName>Stenay, France</placeName>
-               <location>
-                  <geo>49.490833 5.186389</geo>
-               </location>
-            </place>
-            <place xml:id="monaco">
-               <placeName>Monaco</placeName>
-               <location>
-                  <geo>43.733333 7.416667</geo>
-               </location>
-            </place>
-            <place xml:id="monte-carlo">
-               <placeName>Monte Carlo, Monaco</placeName>
-               <location>
-                  <geo>43.739722 7.427222</geo>
-               </location>
-            </place>
-            <place xml:id="french-alps">
-               <placeName>French Alps</placeName>
-               <location>
-                  <geo>45.832778 6.865</geo>
-               </location>
-            </place>
-            <place xml:id="liffol-le-grand">
-               <placeName>Liffol-le-Grand, France</placeName>
-               <location><geo>48.319722 5.581944</geo></location>
-            </place>
-         </listPlace>
-      </back>
    </text>
 </TEI>

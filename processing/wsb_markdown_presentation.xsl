@@ -57,7 +57,7 @@
                 <xsl:text>&lt;a href="</xsl:text>
                 <xsl:value-of select="."/>
                 <xsl:text>" target="_blank"&gt;</xsl:text>
-                <xsl:text>&lt;img src="../../assets/photo-icon.png" alt="Manuscript pages" style="display:inline-block; margin-bottom:-3px;"&gt;</xsl:text>
+                <xsl:text>&lt;img src="../../assets/photo-icon.png" alt="Manuscript pages" style="display:inline-block; margin-bottom:-3px;"&gt; </xsl:text>
                 <xsl:value-of select="."/>
                 <xsl:text>&lt;/a&gt;</xsl:text>
                 <xsl:text>&lt;br&gt;</xsl:text>
@@ -202,7 +202,7 @@
         <xsl:text>**</xsl:text>
     </xsl:template>
     
-    <xsl:template match="hi[@rend = 'superscript']">
+    <xsl:template match="hi[@rend = 'superscript'] | add[@place = 'above']">
         <xsl:text>&lt;sup&gt;</xsl:text><xsl:apply-templates/><xsl:text>&lt;/sup&gt;</xsl:text>
     </xsl:template>
     
@@ -212,9 +212,9 @@
         <xsl:text>* [sic]</xsl:text>
     </xsl:template>
     
-    <!-- make marginal additions centered and smaller -->
+    <!-- make marginal additions centered, smaller; use add class to pick up green text color -->
     <xsl:template match="add[@place = 'margin']">
-        <xsl:text>&lt;p class="centered small"&gt;</xsl:text>
+        <xsl:text>&lt;p class="centered small add"&gt;</xsl:text>
         <xsl:apply-templates/>
         <xsl:text>&lt;/p&gt;</xsl:text>
     </xsl:template>
