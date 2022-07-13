@@ -126,6 +126,7 @@
 			</correspDesc>
 		</profileDesc>
 		<revisionDesc>
+			<change who="#fg" when="2022-06-09">Updated coordinates for <rs ref="#pla-savenfr"/> to be accurate for the Lycée Jacques Prévert (the old École Normale).</change>
 			<change who="#fg" when="2021-12-09">Moved <rs ref="#costajl_05"/> to be before <rs ref="#costajl_03"/> and <rs ref="#costajl_04"/> since it falls chronologically before.</change>
 			<change who="#fg" when="2021-11-20">Added <gi>standOff</gi> and removed <gi>back</gi>.
 				Added three more letters found in <title>Selected Transcripts of Letters from
@@ -156,7 +157,7 @@
 				<state>
 					<p>Lieutenant, French Foreign Legion</p>
 				</state>
-				<birth when-custom="1897">1897</birth>
+				<birth when="1897-12-01">1897</birth>
 				<death when="1969-03-22">1969</death>
 				<note><p>UK-born Joseph Costa, RC '22, was a naturalized US citizen. His father, August, was born in Paris, France, and might have been of Portuguese or Italian descent. Joseph joined the French Foreign Legion rather than the American Expeditionary Forces, perhaps out of loyalty to his father's place of birth. He was a Catholic, which might explain why his Rutgers friends called him "Pope" in many letters. Costa's letters indicate that he had a friendly relationship with both Luther Martin and George Osborn, the Rutgers College registrar and librarian respectively. In addition to being close colleagues, George, Luther, and Earl Reed Silvers were themselves quite close.</p> <p>Costa's letters, whether addressed to George or "Lu," ended up in Silvers's files. Costa's epistolary manner is warm and effusive, and he goes into great detail about the lives of the eight Rutgers men serving in the Medical Department at Base Hospital No. 8 in Savenay, France. He even repeats substantial portions in separate letters to Martin and Silvers. One imagines he was a bit envious of their camaraderie, all sleeping together in the same attic of the École Normale. The last three letters in Costa's file give a somewhat revealing look into his experiences in the French army; it is not known who they were addressed to or indeed if they were mailed on the dates given. Costa is one of the only Rutgers alumni to admit to feeling lonely in his letters. He closes his letter to "Lu" by saying: "Drop me a line now &amp; then as I am lonely as they make them."</p>
 					<list type="links">
@@ -417,8 +418,8 @@
 				<placeName>Savenay, France</placeName>
 				<location>
 					<geo
-						sameAs="https://geohack.toolforge.org/geohack.php?params=47.358802925429714___N_-1.9433357483581535___E"
-						>47.3619 -1.9406</geo>
+						sameAs="https://geohack.toolforge.org/geohack.php?params=47_21_52_N_1_56_25_W"
+						>47.3665557 -1.9724944</geo>
 				</location>
 				<note><p>The location of US Base Hospital No. 8, which occupied the Normal School of Savenay.</p></note>
 			</place>

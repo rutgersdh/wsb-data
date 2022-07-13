@@ -224,6 +224,8 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc>
+         <change when="2022-07-13" who="#fg">Clarified who Pian was.</change>
+         <change when="2022-01-04" who="#fg">Added Ainsworth bio.</change>
          <change when="2021-11-18" who="#fg">Added <gi>standOff</gi> and removed <gi>back</gi>.</change>
          <change when="2021-10-27" who="#fg">Corrected a date and a correspondent.</change>
          <change when="2021-07-26" who="#fg">Finished encoding the rest of Alissa's letters. Updated <gi>listPlace</gi> and <gi>correspDesc</gi> elements.</change>
@@ -264,10 +266,20 @@
             </state>
             <birth when="1893-10-30">1893</birth>
             <death when="1968-06-22">1968</death>
-            <note><list type="links">
+            <note>
+               <p>William Penn Esterbrook "Pete" Ainsworth was born in Rahway, New Jersey, in 1893. He was the eldest son of George Cornell Ainsworth and Grace Esterbrook. Ainsworth and Earl Reed Silvers lived a few blocks from one another in Rahway, which is presumably how they came to know each other and their families so well. Ainsworth has the affectation of referring to Silvers's wife, Edith Terrill, as "friend"---perhaps a holdover from when they were dating and trying to keep a low profile.</p>
+               <p>Ainsworth pursued a technical Bachelor of Science course at Rutgers, where he graduated with honors in mechanical engineering in 1916. He would marry Janet Middleton Ackerman, the little sister of David Greenlie Ackerman, also of Rahway, in 1927. Ainsworth returned to civilian life as a manager at the Combustion Engineering Corporation of New York. He published <title>The development of an automatic combustion control for coal burning</title> <ref target="https://bit.ly/3zq2UV8"/> in 1935.</p>
+               <p>During the war, Ainsworth served as a captain in the 57th regiment of the Coast Artillery Corps (CAC). The role of the Coast Artillery was to provide personnel for all US-manned heavy artillery. Somewhat confusingly, this corps was also responsible for railway and anti-aircraft artillery, in addition to coastal defense. As he mentions in a letter to his father, Ainsworth's unit was equipped with French-made weapons, specifically the 155 Grande Puissance Filloux, transported by American Holt tractors (very few American-made weapons arrived to the front before the Armistice). After training at various locations in the U.S. and France, including the Coast Artillery School at Fort Monroe and what sounds like a very pleasant chateau in Libourne (Bordeaux country), Ainsworth saw combat in two decisive battles that hastened the war's end: the Battle of Saint-Mihiel and the Meuse-Argonne Offensive.</p>
+               <p>The tone of Ainsworth's letters comes fairly close to the soldierly ideal of the time, which is to say it shows an "insouciant courage," a "studied gaiety under fire," and no hint of doubt as to the outcome or the judgement of the leaders who put him there (Horne 1995, p. 226). At first, during his training, Ainsworth reaches for pedestrian topics like his schedule and the food, as if to communicate that everything is normal, more than fine. The contrast with his later descriptions of scrounging for food and supplies, and reclaiming a shed from the rats and the mud, behind what is presumed to be the recently broken Hindenburg Line, is striking. Ainsworth uses jocular language like "party" to describe Allied bombardments and claims to find the nighttime shelling "entertaining." Consistent with contemporaneous views, he sees barbarism written in the physiognomy of German prisoners, who have "the face of a machine." Horror occasionally seeps through his language, as when he describes trying to get his truck out of a shell hole while within range of German field guns. Ainsworth spends several months in France after the Armistice in order to help with the liquidation of U.S. Army supplies. Like many officers, he was granted a leave to tour parts of Western Europe before returning home to the US. He includes an interesting description of the women in post-war Paris in his letter of January 4, 1919. It is hard to tell if he accidentally wandered into a red light district or if this was just another case of "khaki fever." Ainsworth was finally discharged from duty in June 1919.</p>
+               <list type="links">
                   <item><ref target="https://www.familysearch.org/tree/person/details/L5L1-516"
                         ><title>Family Search</title></ref></item>
-               </list></note>
+               </list>
+               <listBibl>
+                  <bibl>John Horne, “Soldiers, Civilians and the Warfare of Attrition: Representations of Combat in France, 1914-1918,” in Authority, Identity and the Social History of the Great War, ed. Frans Coetzee and Marilyn Shevin-Coetzee (Providence, RI: Berghahn Books, 1995), 325–55.</bibl>
+                  <bibl>Susan Kingsley Kent, "Love and Death: War and Gender in Britain, 1914-1918," in Authority, Identity and the Social History of the Great War, ed. Frans Coetzee and Marilyn Shevin-Coetzee (Providence, RI: Berghahn Books, 1995), 153-74.</bibl>
+               </listBibl>
+            </note>
          </person>
          <person xml:id="psn-hnblu">
             <persName type="display">Harry Newton Blue</persName>
@@ -329,7 +341,7 @@
             <persName type="display">Llyle Burrows Reeb</persName>
             <persName type="sort">Reeb, Llyle Burrows</persName>
             <state>
-               <p>Fiancé of Mildred Terrill, Earl Reed Silvers's sister-in-law.</p>
+               <p>Fiancé of Mildred Terrill, Earl Reed Silvers's sister-in-law, and Rutgers College class of 1919</p>
             </state>
             <birth when-custom="1897">1897</birth>
             <death when-custom="1990">1990</death>
@@ -1264,7 +1276,7 @@
             <p> Tuesday I leave for <placeName key="Nice, France" ref="https://geohack.toolforge.org/geohack.php?params=43_42_12_N_7_15_59_E">Nice</placeName> on a leave of about 14 days. I am going by way of <placeName key="Lyon, France" ref="https://geohack.toolforge.org/geohack.php?params=45_46__N_4_50__E">Lyon</placeName>, <placeName key="Marseille, France" ref="https://geohack.toolforge.org/geohack.php?params=43_17_47_N_5_22_12_E">Marseille</placeName> and up along the Mediterranean. If possible I am going to
                go to <placeName key="Italy" ref="https://geohack.toolforge.org/geohack.php?params=43___N_12___E">Italy</placeName> and will possibly cover the <placeName key="Pyrenees Mountains" ref="https://geohack.toolforge.org/geohack.php?params=42_40__N_1_00__E">
                   Pyrenees</placeName>. When I get back I may be sent to <placeName key="Germany" ref="https://geohack.toolforge.org/geohack.php?params=51___N_9___E">Germany</placeName> or <placeName key="Russia" ref="https://geohack.toolforge.org/geohack.php?params=60___N_90___E">Russia</placeName>. I don't know which at present. </p>
-            <p> Have you heard from <unclear>Pim</unclear>lately? I have not received any letters at
+            <p> Have you heard from <persName key="Bracher, Elmer Gladstone" from="1894" to="1923" role="Sergeant, Medical Corps" ref="https://www.findagrave.com/memorial/210183871/elmer-gladstone-bracher">Pian</persName>lately? I have not received any letters at
                all lately and cannot <pb n="46"/> <add place="margin">(5)</add> expect any very well with all of the changes in
                address. At present it is</p>
             <p> C.O.R.D.- A.P.O. #703 <lb/>

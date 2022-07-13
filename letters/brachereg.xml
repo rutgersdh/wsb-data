@@ -1,0 +1,2046 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="brachereg">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Bracher, Elmer Gladstone</title>
+				<respStmt>
+					<resp>Transcription and encoding by</resp>
+					<name xml:id="GH"> Gabriella Hudyka </name>
+				</respStmt>
+				<principal xml:id="fg"> Francesca Giannetti </principal>
+			</titleStmt>
+			<extent>53 p.</extent>
+			<publicationStmt>
+				<publisher>Rutgers University Libraries</publisher>
+				<distributor> Rutgers Community Repository (RUcore) URL:
+					https://rucore.libraries.rutgers.edu </distributor>
+				<availability>
+					<p>No Known Copyright</p>
+				</availability>
+				<authority>Transcribed from digital files available in RUcore</authority>
+				<idno type="URI">https://doi.org/doi:10.7282/T3JQ13QB</idno>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<repository>Special Collections and University Archives, Rutgers University
+							Libraries</repository>
+						<collection>Rutgers College. War Service Bureau. Records,
+							1917-1919</collection>
+						<idno>RG 33/C0/01</idno>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<correspDesc xml:id="brachereg_01">
+				<correspAction type="sent">
+					<persName ref="#psn-egbra">Elmer G. Bracher</persName>
+					<placeName ref="#pla-campme">Camp Merritt, New Jersey</placeName>
+					<date when="1917-07-29">July 29, 1917</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+					<placeName ref="#pla-rutgecon">New Brunswick, New Jersey</placeName>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="brachereg_02">
+				<correspAction type="sent">
+					<persName ref="#psn-egbra">Elmer G. Bracher</persName>
+					<placeName ref="#pla-savenfr">Savenay, France</placeName>
+					<date notBefore="1917-08-07">[August] 1917</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+					<placeName ref="#pla-rutgecon">New Brunswick, New Jersey</placeName>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="brachereg_03">
+					<correspAction type="sent">
+						<persName ref="#psn-egbra #psn-jlcos">Elmer G. Bracher and Joseph L. Costa (?)</persName>
+						<placeName ref="#pla-newyo">New York, NY</placeName>
+					<date when="1917-08-07">August 7, 1917</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+					<placeName ref="#pla-commestr">Rahway, New Jersey</placeName>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="brachereg_04">
+				<correspAction type="sent">
+					<persName ref="#psn-egbra">Elmer G. Bracher</persName>
+					<placeName ref="#pla-savenfr">Savenay, France</placeName>
+				<date when="1917-09-04">September 4, 1917</date>
+			</correspAction>
+			<correspAction type="received">
+				<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+				<placeName ref="#pla-rutgecon">New Brunswick, New Jersey</placeName>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="brachereg_05">
+				<correspAction type="sent">
+					<persName ref="#psn-egbra">Elmer G. Bracher</persName>
+					<placeName ref="#pla-savenfr">Savenay, France</placeName>
+					<date when="1917-09-14">September 14, 1917</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+					<placeName ref="#pla-rutgecon">New Brunswick, New Jersey</placeName>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="brachereg_06">
+				<correspAction type="sent">
+					<persName ref="#psn-egbra">Elmer G. Bracher</persName>
+					<placeName ref="#pla-savenfr">Savenay, France</placeName>
+					<date when="1917-09-27">September 27, 1917</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+					<placeName ref="#pla-rutgecon">New Brunswick, New Jersey</placeName>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="brachereg_07">
+				<correspAction type="sent">
+					<persName ref="#psn-egbra">Elmer G. Bracher</persName>
+					<placeName ref="#pla-savenfr">Savenay, France</placeName>
+					<date when="1917-12-06">December 6, 1917</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+					<placeName ref="#pla-rutgecon">New Brunswick, New Jersey</placeName>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="brachereg_08">
+				<correspAction type="sent">
+					<persName ref="#psn-egbra">Elmer G. Bracher</persName>
+					<placeName ref="#pla-savenfr">Savenay, France</placeName>
+					<date when="1918-02-02">February 2, 1918</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="#psn-eiter">Edith I. Terrill</persName>
+					<placeName ref="#pla-commestr">Rahway, New Jersey</placeName>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="brachereg_09">
+				<correspAction type="sent">
+					<persName ref="#psn-egbra">Elmer G. Bracher</persName>
+					<placeName ref="#pla-savenfr">Savenay, France</placeName>
+					<date when="1918-02-21">February 21, 1918</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+					<placeName ref="#pla-rutgecon">New Brunswick, New Jersey</placeName>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="brachereg_10">
+				<correspAction type="sent">
+					<persName ref="#psn-egbra">Elmer G. Bracher</persName>
+					<placeName ref="#pla-savenfr">Savenay, France</placeName>
+					<date when="1918-04-15">April 15, 1918</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+					<placeName ref="#pla-rutgecon">New Brunswick, New Jersey</placeName>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="brachereg_11">
+				<correspAction type="sent">
+					<persName ref="#psn-egbra">Elmer G. Bracher</persName>
+					<placeName ref="#pla-savenfr">Savenay, France</placeName>
+					<date when="1918-09-16">September 16, 1918</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+					<placeName ref="#pla-rutgecon">New Brunswick, New Jersey</placeName>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="brachereg_12">
+				<correspAction type="sent">
+					<persName ref="#psn-egbra">Elmer G. Bracher</persName>
+					<placeName ref="#pla-savenfr">Savenay, France</placeName>
+					<date when="1918-09-29">September 29, 1918</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+					<placeName ref="#pla-rutgecon">New Brunswick, New Jersey</placeName>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="brachereg_13">
+				<correspAction type="sent">
+					<persName ref="#psn-egbra">Elmer G. Bracher</persName>
+					<placeName ref="#pla-savenfr">Savenay, France</placeName>
+					<date when="1918-10-17">October 17, 1918</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+					<placeName ref="#pla-rutgecon">New Brunswick, New Jersey</placeName>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="brachereg_14">
+				<correspAction type="sent">
+					<persName ref="#psn-egbra">Elmer G. Bracher</persName>
+					<placeName ref="#pla-savenfr">Savenay, France</placeName>
+					<date when="1918-11-03">November 3, 1918</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+					<placeName ref="#pla-rutgecon">New Brunswick, New Jersey</placeName>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="brachereg_15">
+				<correspAction type="sent">
+					<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+					<placeName ref="#pla-rutgecon">New Brunswick, New Jersey</placeName>
+				<date when="1918-11-15">November 15, 1918</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="#psn-egbra">Elmer G. Bracher</persName>
+					<placeName ref="#pla-savenfr">Savenay, France</placeName>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="brachereg_16">
+				<correspAction type="sent">
+					<persName ref="#psn-egbra">Elmer G. Bracher</persName>
+					<placeName ref="#pla-savenfr">Savenay, France</placeName>
+					<date when="1918-11-29">November 29, 1918</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+					<placeName ref="#pla-rutgecon">New Brunswick, New Jersey</placeName>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="brachereg_17">
+				<correspAction type="sent">
+					<persName ref="#psn-egbra">Elmer G. Bracher</persName>
+					<placeName ref="#pla-savenfr">Savenay, France</placeName>
+						<date when="1918-12-03">December 3, 1918</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+					<placeName ref="#pla-rutgecon">New Brunswick, New Jersey</placeName>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="brachereg_18">
+				<correspAction type="sent">
+					<persName ref="#psn-egbra">Elmer G. Bracher</persName>
+					<placeName ref="#pla-savenfr">Savenay, France</placeName>
+				<date when="1918-12-14">December 14, 1918</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+					<placeName ref="#pla-rutgecon">New Brunswick, New Jersey</placeName>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="brachereg_19">
+				<correspAction type="sent">
+					<persName ref="#psn-egbra">Elmer G. Bracher</persName>
+					<placeName ref="#pla-savenfr">Savenay, France</placeName>
+					<date when="1919-01-03">January 3, 1919</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+					<placeName ref="#pla-rutgecon">New Brunswick, New Jersey</placeName>
+				</correspAction>
+			</correspDesc>
+			<correspDesc xml:id="brachereg_20">
+				<correspAction type="sent">
+					<persName ref="#psn-egbra">Elmer G. Bracher</persName>
+					<placeName ref="#pla-savenfr">Savenay, France</placeName>
+					<date when="1919-01-14">January 14, 1919</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+					<placeName ref="#pla-rutgecon">New Brunswick, New Jersey</placeName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2021-04-04" who="#GH">Encoded additions, deletions, and corrections pages #1-10.</change>
+			<change when="2021-04-05" who="#GH">Encoded additions, deletions, and corrections pages #11-20.</change>
+			<change when="2021-04-07" who="#GH">Encoded additions, deletions, and made corrections pages #21-40.</change>
+			<change when="2021-04-09" who="#GH">Encoded additions, deletions, and made corrections pages #41-53.</change>
+			<change when="2021-04-11" who="#GH">Encoded page breaks, paragraphs, placenames, openers, closers pages #1-17</change>
+			<change when="2021-04-12" who="#GH">Encoded page breaks, paragraphs,  openers, closers for pages #18-53. Added unclear and gap tags pages #1-7.</change>
+			<change when="2021-04-13" who="#GH">Added div and correspdesc. Encoded people's names pages #1-15.</change>
+			<change when="2021-04-14" who="#GH">Encoded people's names pages #15-32</change>
+			<change when="2021-04-15" who="#GH">Fixed page numbers. Encoded people's names pages #33-53. Added unclear and gap tags as well as annotations.</change>
+			<change when="2021-04-19" who="#GH"> Added annotations. Made several corrections to tags.</change>
+			<change when="2021-04-25" who="#GH">Corrected letterheads (AMERICAN YMCA...) to be more consistent with other letters.</change>
+			<change when="2021-04-26" who="#GH">Corrected placeName refs</change>
+			<change when="2021-04-29" who="#GH">Corrected data under Correspdesc for brachereg_06, brachereg_15, and brachereg_16. Changed U.S. Base Hospital #6 location from Talence, France to Savenay France. Added annotation to explain the relationship between U.S. B.H. #6 and U.S. B.H. #8.</change>
+			<change when="2022-07-06" who="#fg">Edited Gabriel's letters. Cleaned up some structure. Tagged more RC alumni. Added <gi>standOff</gi>.</change>
+		</revisionDesc>
+	</teiHeader>
+	<standOff>
+		<listPerson>
+			<person xml:id="psn-dmabt">
+				<persName type="display">David Milton P. Abt</persName>
+				<persName type="sort">Abt, David Milton P.</persName>
+				<state>
+					<p>Second Lieutenant, Infantry</p>
+				</state>
+				<birth when="1895-11-26">1895</birth>
+				<death when="1923-05-13">1923</death>
+				<note><list type="links">
+						<item><ref target="https://www.familysearch.org/ark:/61903/1:1:QPCF-S1TX"
+					><title>Family Search</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-rgack">
+				<persName type="display">Ronald Gorden Acken</persName>
+				<persName type="sort">Acken, Ronald Gorden</persName>
+				<state>
+					<p>Corporal, Infantry</p>
+				</state>
+				<birth when-custom="1893">1893</birth>
+				<death when-custom="1958">1958</death>
+				<note><list type="links">
+						<item><ref target="https://www.familysearch.org/ark:/61903/1:1:QPCD-B1LG"
+					><title>Family Search</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-wpain">
+				<persName type="display">William Penn Esterbrook (Pete) Ainsworth</persName>
+				<persName type="sort">Ainsworth, William Penn Esterbrook (Pete)</persName>
+				<state>
+					<p>Captain, Coast Artillery Corps</p>
+				</state>
+				<birth when-custom="1893">1893</birth>
+				<death when-custom="1968">1968</death>
+				<note><list type="links">
+						<item><ref target="https://www.familysearch.org/ark:/61903/1:1:QPZX-648V"
+					><title>Family Search</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-oparm">
+				<persName type="display">Obadiah Pellet Armstrong</persName>
+				<persName type="sort">Armstrong, Obadiah Pellet</persName>
+				<state>
+					<p>Sergeant, Ambulance Corps</p>
+				</state>
+				<birth when-custom="1893">1893</birth>
+				<death when-custom="1966">1966</death>
+				<note><list type="links">
+						<item><ref target="https://doi.org/doi:10.7282/T3HH6P82"
+							><title>Silvers, Earl Reed, 'War records, A.'</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-rmaus">
+				<persName type="display">Raymond Munkittrick Austin</persName>
+				<persName type="sort">Austin, Raymond Munkittrick</persName>
+				<state>
+					<p>Ensign, Naval Reserve Force, Naval Aviation</p>
+				</state>
+				<birth when-custom="1893">1893</birth>
+				<death when-custom="1949">1949</death>
+				<note><list type="links">
+						<item><ref target="https://www.familysearch.org/ark:/61903/1:1:QP86-W8ZN"
+						><title>Family Search</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-ccbar">
+				<persName type="display">Chapin Crawford (Dick) Barr</persName>
+				<persName type="sort">Barr, Chapin Crawford (Dick)</persName>
+				<state>
+					<p>Second Lieutenant, Marine Corps</p>
+				</state>
+				<birth when-custom="1895">1895</birth>
+				<death when-custom="1918">1918</death>
+				<note><list type="links">
+					<item><ref
+						target="https://www.findagrave.com/memorial/56097806/chapin-crawford-barr"
+						><title>Find A Grave</title></ref></item>
+				</list></note>
+			</person>
+			<person xml:id="psn-hcber">
+				<persName type="display">Henry Casper Hank Berg</persName>
+				<persName type="sort">Berg, Henry Casper (Hank)</persName>
+				<state>
+					<p>Sergeant, 25th Co., Central Officers' Training School</p>
+				</state>
+				<birth when-custom="1894">1894</birth>
+				<death when-custom="1967">1967</death>
+				<note><list type="links">
+					<item><ref
+						target="https://www.findagrave.com/memorial/73198594/henry-casper-berg"
+						><title>Find A Grave</title></ref></item>
+				</list></note>
+			</person>
+			<person xml:id="psn-cbboo">
+				<persName type="display">Cornelius Brett Boocock</persName>
+				<persName type="sort">Boocock, Cornelius Brett</persName>
+				<state>
+					<p>Seaman, Navy</p>
+				</state>
+				<birth when-custom="1898">1898</birth>
+				<death when-custom="1973">1973</death>
+				<note/>
+			</person>
+			<person xml:id="psn-egbra">
+				<persName type="display">Elmer Gladstone Bracher</persName>
+				<persName type="sort">Bracher, Elmer Gladstone</persName>
+				<state>
+					<p>Sergeant, Medical Corps</p>
+				</state>
+				<birth when="1894-09-03">1894</birth>
+				<death when="1923-09-30">1923</death>
+				<note>
+					<list type="links">
+						<item>
+							<ref target="https://www.findagrave.com/memorial/210183871/elmer-gladstone-bracher">
+								<title>Find A Grave</title></ref>
+						</item>
+					</list>
+				</note>
+			</person>
+			<person xml:id="psn-fhbro">
+				<persName type="display">Frank Haviland Broome</persName>
+				<persName type="sort">Broome, Frank Haviland</persName>
+				<state>
+					<p>Second Lieutenant, Sanitary Corps</p>
+				</state>
+				<birth when-custom="1895">1895</birth>
+				<death when-custom="1940">1940</death>
+				<note><list type="links">
+						<item><ref target="https://www.familysearch.org/ark:/61903/1:1:KZVS-LTJ"
+						><title>Family Search</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-ofbro">
+				<persName type="display">Oren Fogle Browning</persName>
+				<persName type="sort">Browning, Oren Fogle</persName>
+				<state>
+					<p>Corporal, Infantry</p>
+				</state>
+				<birth when-custom="1893">1893</birth>
+				<death when-custom="1963">1963</death>
+				<note><list type="links">
+					<item><ref target="https://doi.org/doi:10.7282/T3B56NM4"
+						><title/></ref></item>
+				</list></note>
+			</person>
+			<person xml:id="psn-nacha">
+				<persName type="display">Newell Adams Chase</persName>
+				<persName type="sort">Chase, Newell Adams</persName>
+				<state>
+					<p>Rutgers College, class of 1922</p>
+				</state>
+				<birth when="1900-11-19">1900</birth>
+				<death when="1981-08-27">1981</death>
+				<note><p>Newell Adams Chase was born in 1900 to parents Edweard S. Chase and Annie Adams in Rahway, New Jersey.</p>
+					<list type="links">
+						<item><ref target="https://www.familysearch.org/ark:/61903/1:1:QV9W-Z8CM"
+						><title>Family Search</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-jlcos">
+				<persName type="display">Joseph Louis Costa</persName>
+				<persName type="sort">Costa, Joseph Louis</persName>
+				<state>
+					<p>Lieutenant, French Foreign Legion</p>
+				</state>
+				<birth when="1897-12-01">1897</birth>
+				<death when="1969-03-22">1969</death>
+				<note>
+					<list type="links">
+						<item><ref target="https://newscomwc.newspapers.com/image/107912516"
+							><title>The Tustin News (Tustin, California), 27 Mar 1969, p. 1</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-niday">
+				<persName type="display">Nellie Irona Day</persName>
+				<persName type="sort">Day, Nellie Irona</persName>
+				<state>
+					<p>Earl Reed Silvers's mother-in-law</p>
+				</state>
+				<birth when-custom="1873">1873</birth>
+				<death when-custom="1949">1949</death>
+				<note><list type="links">
+						<item><ref
+								target="https://www.familysearch.org/tree/person/sources/LCRM-WY5"
+				><title>Family Search</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-jsdel">
+				<persName type="display">John Sherman Delamater</persName>
+				<persName type="sort">Delamater, John Sherman</persName>
+				<state>
+					<p>Ensign, U.S. Navy</p>
+				</state>
+				<birth when="1895-04-21">1895</birth>
+				<death when="1941-08-03">1941</death>
+				<note><p>Delamater wrote for the Targum and the Home News (New Brunswick, NJ), according to the 1918 Scarlet Letter.</p><list type="links">
+						<item><ref target="https://www.familysearch.org/ark:/61903/1:1:Q5R8-R6ZM"
+				><title>Family Search</title></ref></item>
+					<item><ref target="https://www.ancestry.com/sharing/29008769?h=34be59"><title>Ancestry.com. U.S., School Yearbooks, 1900-1999 [database on-line]. Lehi, UT, USA: Ancestry.com Operations, Inc., 2010.</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-whdem">
+				<persName type="display">William Henry Demarest</persName>
+				<persName type="sort">Demarest, William Henry</persName>
+				<state>
+					<p>President, Rutgers College</p>
+				</state>
+				<birth when-custom="1865">1865</birth>
+				<death when-custom="1956">1956</death>
+				<note><list type="links">
+						<item><ref
+								target="https://ucmweb.rutgers.edu/pastpresidents/about/history/past-presidents/william-henry-steele-demarest.htm"
+						><title>Rutgers University, Past Presidents</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-emdur">
+				<persName type="display">Edwin Martin Durand</persName>
+				<persName type="sort">Durand, Edwin Martin</persName>
+				<state>
+					<p>Corporal, Signal Corps</p>
+				</state>
+				<birth when-custom="1898">1898</birth>
+				<death when-custom="1993">1993</death>
+				<note><list type="links">
+					<item><ref
+						target="https://www.findagrave.com/memorial/17720783/edwin-martin-durand"
+						><title>Find A Grave</title></ref></item>
+				</list></note>
+			</person>
+			<person xml:id="psn-fjdur">
+				<persName type="display">Frank Durand Jr.</persName>
+				<persName type="sort">Durand, Frank Jr.</persName>
+				<state>
+					<p>Ensign, U.S. Naval Reserve Force</p>
+				</state>
+				<birth when-custom="1895">1895</birth>
+				<death when-custom="1978">1978</death>
+				<note><list type="links">
+						<item><ref target="https://www.familysearch.org/ark:/61903/1:1:JBTR-V2X"
+						><title>Family Search</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-rdelm">
+				<persName type="display">Rudolph (Dutch) Elmer</persName>
+				<persName type="sort">Elmer, Rudolph (Dutch)</persName>
+				<state>
+					<p>Second Lieutenant, Infantry</p>
+				</state>
+				<birth when-custom="1896">1896</birth>
+				<death when-custom="1918">1918</death>
+				<note><list type="links">
+					<item><ref
+						target="https://www.findagrave.com/memorial/11360705/rudolph-elmer"
+						><title>Find A Grave</title></ref></item>
+				</list></note>
+			</person>
+			<person xml:id="psn-wvfar">
+				<persName type="display">Walter Van Horne Farley</persName>
+				<persName type="sort">Farley, Walter Van Horne</persName>
+				<state>
+					<p>Second Lieutenant, Infantry</p>
+				</state>
+				<birth when-custom="1894">1894</birth>
+				<death when-custom="1975">1975</death>
+				<note><list type="links">
+					<item><ref
+						target="https://www.findagrave.com/memorial/196583310/walter-van_horn-farley"
+						><title>Find A Grave</title></ref></item>
+				</list></note>
+			</person>
+			<person xml:id="psn-wsfar">
+				<persName type="display">Worthington Shumway (Duck) Farley</persName>
+				<persName type="sort">Farley, Worthington Shumway (Duck)</persName>
+				<state>
+					<p>First Lieutenant, Infantry</p>
+				</state>
+				<birth when-custom="1895">1895</birth>
+				<death when-custom="1963">1963</death>
+				<note/>
+			</person>
+			<person xml:id="psn-hhgeh">
+				<persName type="display">Herbert Henry Gehring</persName>
+				<persName type="sort">Gehring, Herbert Henry</persName>
+				<state>
+					<p>Corporal, Infantry</p>
+				</state>
+				<birth when-custom="1889">1889</birth>
+				<death when-custom="1939">1939</death>
+				<note><list type="links">
+						<item><ref target="https://www.familysearch.org/ark:/61903/1:1:QP5L-1MDW"
+						><title>Family Search</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-sjher">
+				<persName type="display">Stephen Joseph Herben Jr.</persName>
+				<persName type="sort">Herben, Stephen Joseph Jr.</persName>
+				<state>
+					<p>Sergeant, Medical Corps</p>
+				</state>
+				<birth when-custom="1897">1897</birth>
+				<death when-custom="1967">1967</death>
+				<note><list type="links">
+						<item><ref target="https://www.familysearch.org/ark:/61903/1:1:Q5YZ-ZFMM"
+						><title>Family Search</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-mbjac">
+				<persName type="display">Morris Bacon Jackson</persName>
+				<persName type="sort">Jackson, Morris Bacon</persName>
+				<state>
+					<p>Private, Medical Department</p>
+				</state>
+				<birth when-custom="1898">1898</birth>
+				<death when-custom="1918">1918</death>
+				<note><list type="links">
+					<item><ref
+						target="https://www.findagrave.com/memorial/27896281/morris-bacon-jackson"
+						><title>Find a Grave</title></ref></item>
+				</list></note>
+			</person>
+			<person xml:id="psn-hljan">
+				<persName type="display">Henry Latimer Janeway</persName>
+				<persName type="sort">Janeway, Henry Latimer</persName>
+				<state>
+					<p>Clerk, Quartermaster Corps</p>
+				</state>
+				<birth when-custom="1894">1894</birth>
+				<death when-custom="1957">1957</death>
+				<note><list type="links">
+						<item><ref target="https://www.ancestry.com/sharing/28921386?h=612c02"
+						><title>Ancestry</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-jwjoh">
+				<persName type="display">John William Johnson</persName>
+				<persName type="sort">Johnson, John William</persName>
+				<state>
+					<p>Sergeant, Medical Department</p>
+				</state>
+				<birth when="1895-11-09">1895</birth>
+				<death when="1960-12-11">1960</death>
+				<note><list type="links">
+						<item><ref
+								target="https://www.familysearch.org/tree/person/details/G754-5C5"
+									><title>Family Search</title></ref></item>
+						<item><ref target="https://www.ancestry.com/sharing/29010119?h=3608ee"
+									><title>Ancestry.com. U.S., World War I Draft Registration
+									Cards, 1917-1918 [database on-line]. Provo, UT, USA:
+									Ancestry.com Operations Inc, 2005.</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-jcjon">
+				<persName type="display">James Carlton Jones</persName>
+				<persName type="sort">Jones, James Carlton</persName>
+				<state>
+					<p>Rutgers College, class of 1922</p>
+				</state>
+				<birth when-custom="1900">1900</birth>
+				<death when-custom="1969">1969</death>
+				<note><list type="links">
+					<item><ref
+						target="https://www.findagrave.com/memorial/163428958/james-carlton-jones"
+						><title>Find A Grave</title></ref></item>
+				</list></note>
+			</person>
+			<person xml:id="psn-wblet">
+				<persName type="display">Walter (Bud) Colburne Letson</persName>
+				<persName type="sort">Letson, Walter (Bud) Colburne</persName>
+				<state>
+					<p>Rutgers College, class of 1920</p>
+				</state>
+				<birth when-custom="1897">1897</birth>
+				<death when-custom="1981">1981</death>
+				<note><list type="links">
+					<item><ref
+						target="https://www.familysearch.org/tree/person/details/G9W2-5QV"
+						><title>Family Search</title></ref></item>
+				</list></note>
+			</person>
+			<person xml:id="psn-jklos">
+				<persName type="display">James Knickerbocker Losee</persName>
+				<persName type="sort">Losee, James Knickerbocker</persName>
+				<state>
+					<p>Rutgers College, class of 1920</p>
+				</state>
+				<birth when-custom="1898">1898</birth>
+				<death when-custom="1980">1980</death>
+				<note><list type="links">
+					<item><ref
+						target="https://www.familysearch.org/tree/person/details/MD1G-C6V"
+						><title>Family Search</title></ref></item>
+				</list></note>
+			</person>
+			<person xml:id="psn-cvlud">
+				<persName type="display">Clarence Van Tuyl Ludlow</persName>
+				<persName type="sort">Ludlow, Clarence Van Tuyl</persName>
+				<state>
+					<p>Aviation Signal Corps</p>
+				</state>
+				<birth when="1894-09-22">1894</birth>
+				<death when="1976-04-30">1976</death>
+				<note><p>Clifford and Clarence Ludlow of Rahway, NJ, were brothers.</p>
+					<list type="links">
+						<item><ref target="https://www.familysearch.org/ark:/61903/1:1:7BDG-YL6Z"
+						><title>Family Search</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-cwlud">
+				<persName type="display">Clifford Woodruff Ludlow</persName>
+				<persName type="sort">Ludlow, Clifford Woodruff</persName>
+				<state>
+					<p>Ensign, U.S. Naval Reserve Force</p>
+				</state>
+				<birth when="1892-07-24">1892</birth>
+				<death when-custom="1952">1952</death>
+				<note><p>Clifford and Clarence Ludlow of Rahway, NJ, were brothers.</p> 
+					<list type="links">
+						<item><ref target="https://www.familysearch.org/ark:/61903/1:1:7BDG-YLPZ"
+						><title>Family Search</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-lhmar">
+				<persName type="display">Luther Harned Martin</persName>
+				<persName type="sort">Martin, Luther Harned</persName>
+				<state>
+					<p>Registrar, Rutgers College</p>
+				</state>
+				<birth when-custom="1889">1889</birth>
+				<death when-custom="1970">1970</death>
+				<note><list type="links">
+						<item><ref
+								target="https://www.findagrave.com/memorial/16644270/luther-harned-martin"
+						><title>Find A Grave</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-rhmin">
+				<persName type="display">Ross H Miner</persName>
+				<persName type="sort">Miner, Ross H.</persName>
+				<state>
+					<p>Sergeant, Medical Department</p>
+				</state>
+				<birth when-custom="1897">1897</birth>
+				<death when-custom="1958">1958</death>
+				<note><list type="links">
+						<item><ref target="https://www.familysearch.org/ark:/61903/1:1:W99W-HBT2"
+						><title>Family Search</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-wlmol">
+				<persName type="display">Walter Lang Molineux</persName>
+				<persName type="sort">Molineux, Walter Lang</persName>
+				<state>
+					<p>Seaman, 4th Division, U.S. Navy</p>
+				</state>
+				<birth when="1897-07-26">1897</birth>
+				<death when-custom="1985-03">1985</death>
+				<note><list type="links">
+						<item><ref target="https://www.familysearch.org/ark:/61903/1:1:JKT5-TNY"
+						><title>Family Search</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-jdmor">
+				<persName type="display">John Dittgen Morrison</persName>
+				<persName type="sort">Morrison, John Dittgen</persName>
+				<state>
+					<p>First Lieutenant, Dental Corps</p>
+				</state>
+				<birth when="1890-11-12">1890</birth>
+				<death when="1943-12-18">1943</death>
+				<note>
+					<p>Morrison was already a practicing dentist in Ridgefield Park, NJ, when he registered for the draft on June 5, 1917.</p>
+					<list type="links">
+						<item><ref
+								target="https://www.findagrave.com/memorial/208742046/john-d-morrison"
+						><title>Find a Grave</title></ref></item>
+						<item><ref target="https://www.ancestry.com/sharing/28937280?h=d5b048"/><title>Ancestry.com. U.S., Veterans Administration Master Index, 1917-1940 [database on-line]. Lehi, UT. USA: Ancestry.com Operations, Inc., 2019.</title></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-hrper">
+				<persName type="display">Henry Read Perkins</persName>
+				<persName type="sort">Perkins, Henry Read</persName>
+				<state>
+					<p>Second Lieutenant, Infantry</p>
+				</state>
+				<birth when-custom="1898">1898</birth>
+				<death when-custom="1968">1968</death>
+				<note/>
+			</person>
+			<person xml:id="psn-ersan">
+				<persName type="display">Edward Raymond Sandiford</persName>
+				<persName type="sort">Sandiford, Edward Raymond</persName>
+				<state>
+					<p>Rutgers College, class of 1913</p>
+				</state>
+				<birth when-custom="1888">1888</birth>
+				<death when-custom="1971">1971</death>
+				<note/>
+			</person>
+			<person xml:id="psn-afshe">
+				<persName type="display">Anson F. Sherman</persName>
+				<persName type="sort">Sherman, Anson F.</persName>
+				<state>
+					<p>Sergeant, Cavalry</p>
+				</state>
+				<birth when-custom="1894">1894</birth>
+				<death when-custom="1959">1959</death>
+				<note><list type="links">
+						<item><ref target="https://www.familysearch.org/ark:/61903/1:1:WQB7-1FN2"
+						><title>Family Search</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-ersil">
+				<persName type="display">Earl Reed Silvers</persName>
+				<persName type="sort">Silvers, Earl Reed</persName>
+				<state>
+					<p>Director, War Service Bureau</p>
+				</state>
+				<birth when-custom="1891">1891</birth>
+				<death when-custom="1948">1948</death>
+				<note><list type="links">
+						<item><ref target="http://viaf.org/viaf/68516378"><title>VIAF</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-sbsni">
+				<persName type="display">Stewart Bralsted Sniffen</persName>
+				<persName type="sort">Sniffen, Stewart Bralsted</persName>
+				<state>
+					<p>Rutgers College, class of 1920</p>
+				</state>
+				<birth when-custom="1898">1898</birth>
+				<death when-custom="1932">1932</death>
+				<note><list type="links">
+					<item><ref
+						target="http://www2.scc.rutgers.edu/ead/uarchives/studentbiofiles1f.html"
+						><title>Rutgers University Biographical Files: Alumni (Classes of 1774-1922)</title></ref></item>
+				</list></note>
+			</person>
+			<person xml:id="psn-dgsto">
+				<persName type="display">Donald G. Storck</persName>
+				<persName type="sort">Storck, Donald G.</persName>
+				<state>
+					<p>Sergeant, Medical Corps</p>
+				</state>
+				<birth when-custom="1897">1897</birth>
+				<death when-custom="1987">1987</death>
+				<note><list type="links">
+						<item><ref
+								target="https://www.familysearch.org/tree/person/details/L2VB-2B8"
+						><title>Family Search</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-eiter">
+				<persName type="display">Edith Irona Terrill</persName>
+				<persName type="sort">Terrill, Edith Irona</persName>
+				<state>
+					<p>Spouse of E. R. Silvers</p>
+				</state>
+				<birth when-custom="1893">1893</birth>
+				<death when-custom="1966">1966</death>
+				<note><list type="links">
+						<item><ref
+								target="https://www.findagrave.com/memorial/159029247/edith-irona-silvers"
+						><title>Find A Grave</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-mater">
+				<persName type="display">Mildred Allen Terrill</persName>
+				<persName type="sort">Terrill, Mildred Allen</persName>
+				<state>
+					<p>Sister-in-law of Earl Reed Silvers.</p>
+				</state>
+				<birth when="1895-12-18">1895</birth>
+				<death when="1976-07-30">1976</death>
+				<note><list type="links">
+					<item><ref target="https://www.ancestry.com/sharing/29332058?h=b5bc3c"><title>Ancestry.com. Florida, U.S., Death Index, 1877-1998 [database on-line]. Provo, UT, USA: Ancestry.com Operations Inc, 2004.</title></ref></item>
+				</list></note>
+			</person>
+			<person xml:id="psn-scter">
+				<persName type="display">Schuyler Colfax Terrill</persName>
+				<persName type="sort">Terrill, Schuyler Colfax</persName>
+				<state>
+					<p/>
+				</state>
+				<birth when-custom="1869">1869</birth>
+				<death when-custom="1946">1946</death>
+				<note><list type="links">
+						<item><ref
+								target="https://www.findagrave.com/memorial/105908058/schuyler-colfax-terrill"
+						><title>Find A Grave</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-adwat">
+				<persName type="display">Asher Dudley Watson</persName>
+				<persName type="sort">Watson, Asher Dudley</persName>
+				<state>
+					<p>Sergeant, Infantry</p>
+				</state>
+				<birth when-custom="1893">1893</birth>
+				<death when-custom="1990">1990</death>
+				<note><list type="links">
+						<item><ref
+								target="https://www.findagrave.com/memorial/107350389/asher-dudley-watson"
+						><title>Find A Grave</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-rpwhi">
+				<persName type="display">Ralph Pollock White</persName>
+				<persName type="sort">White, Ralph Pollock</persName>
+				<state>
+					<p>Captain, Infantry</p>
+				</state>
+				<birth when-custom="1894">1894</birth>
+				<death when-custom="1981">1981</death>
+				<note><list type="links">
+						<item><ref target="https://www.familysearch.org/ark:/61903/1:1:W7V9-D4PZ"
+						><title>Family Search</title></ref></item>
+					</list></note>
+			</person>
+		</listPerson>
+		<listPlace>
+			<place xml:id="pla-campme">
+				<placeName>Camp Merritt</placeName>
+				<location>
+					<geo sameAs="https://en.wikipedia.org/wiki/Camp_Merritt,_New_Jersey">40.9413 -73.9768</geo>
+				</location>
+			</place>
+			<place xml:id="pla-commestr">
+				<placeName>Commerce St., Rahway, NJ</placeName>
+				<location>
+					<geo sameAs="https://geohack.toolforge.org/geohack.php?params=40_36_20_N_74_16_55_W"
+						>40.605556 -74.281944</geo>
+				</location>
+				<note><p>Earl Reed Silvers's home address. Commerce Street in Rahway was later renamed West Emerson Avenue.</p></note>
+			</place>
+			<place xml:id="pla-newyo">
+				<placeName>New York, NY</placeName>
+				<location>
+					<geo>40.697392 -74.2671024</geo>
+				</location>
+			</place>
+			<place xml:id="pla-rutgecon">
+				<placeName>Rutgers College, New Brunswick, NJ</placeName>
+				<location>
+					<geo>40.500819 -74.447399</geo>
+				</location>
+			</place>
+			<place xml:id="pla-savenfr">
+				<placeName>Savenay, France</placeName>
+				<location>
+					<geo sameAs="https://geohack.toolforge.org/geohack.php?params=47_21_52_N_1_56_25_W">47.3665557 -1.9724944</geo>
+				</location>
+				<note><p>The location of US Base Hospital No. 8, which occupied the Normal School of Savenay.</p></note>
+			</place>
+		</listPlace>
+	</standOff>
+	<text>
+		<body>
+			<div type="letter" decls="#brachereg_01">
+				<pb n="1"/>
+				<note type="letterhead" anchored="true">WAR WORK COUNCIL <lb/>ARMY AND NAVY
+					<lb/>YOUNG MEN'S CHRISTIAN ASSOCIATION <lb/>"WITH THE COLORS" </note>
+				<opener>
+					<dateline><date when="1917-07-29">July 29 1917</date></dateline>
+					<salute> Dear <persName key="Silvers, Earl Reed" from="1891" to="1948"
+							role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"
+							>Sil</persName>, </salute>
+				</opener>
+				<p>Well, Sil, <choice>
+						<orig>were</orig>
+						<corr>we're</corr>
+					</choice> off at last. <seg xml:id="fn21">We leave camp</seg><note
+						type="annotation" resp="#fg" target="#fn21"><p>Bracher was probably at Camp
+							Merritt, a U.S. Army embarkation camp first established in 1917 near
+							Cresskill, NJ</p><ref target="http://www.fortwiki.com/Camp_Merritt_(2)"
+							>FortWiki</ref></note> at one o'clock today <seg xml:id="fn20">to board
+						the ship</seg><note type="annotation" resp="#fg" target="#fn20"><p>Bracher
+							boarded the Finland from Hoboken on August 7, 1917. His rank is given as
+							private (Enlisted Reserve Corps, Medical Department).</p><ref
+							target="https://www.ancestry.com/sharing/28939175?h=a9ad32">U.S., Army
+							Transport Service Arriving and Departing Passenger Lists,
+							1910-1939.</ref></note> and I guess we will drop out tonight. I don't
+					imagine that this mail will go out for four or five days so by that time we will
+					be almost there. I am enclosing my permanent address to you and you want to be
+					sure and write as often as you can for you know it will be mighty fine to have
+					word from folks in God's country. You want to address it as I give it to you. It
+					is a rather <pb n="2"/>
+					<note type="letterhead">WAR WORK COUNCIL <lb/>ARMY AND NAVY <lb/>YOUNG MEN'S
+						CHRISTIAN ASSOCIATION <lb/>"WITH THE COLORS" </note> long one but, it is the
+					official one so I guess you had best send it exactly as it is. How is <persName
+						key="Terrill, Edith Irona" from="1893" to="1966"
+						role="Spouse of E. R. Silvers"
+						ref="https://www.findagrave.com/memorial/159029247/edith-irona-silvers"
+						>Eda</persName> and everybody? Give my best regards to all. Well good-bye
+					old Sil, take care of yourself and Eda and when I have time I'll drop you a line
+					from "Somewhere in France" when I have time </p>
+				<closer>
+					<salute>Yours in the Bonds</salute>
+					<signed><persName key="Bracher, Elmer G." from="1894" to="1923"
+							role="Sergeant, Medical Corps"
+							ref="https://www.findagrave.com/memorial/210183871/elmer-gladstone-bracher"
+							>Pi-an</persName></signed>
+					<address>
+						<addrLine>Name</addrLine>
+						<addrLine>American Expeditionary Forces</addrLine>
+						<addrLine>American Embassy <lb/> Paris <lb/> France</addrLine>
+						<addrLine>France <lb/><placeName key="U.S. Base Hospital #8, Savenay, France"
+								ref="https://geohack.toolforge.org/geohack.php?params=47_21_52_N_1_56_25_W"
+								> U.S. Army Base Hospital <lb/>No. 8</placeName>
+						</addrLine>
+					</address>
+				</closer>
+			</div>
+			
+			<div type="letter" decls="#brachereg_02">
+				<pb n="3"/>
+				<ab><add place="margin"><seg xml:id="fn19">From Sergeant Elmer G. Bracher, July 1917.</seg><note target="#fn19" type="annotation"><p>This is a typewritten transcript of an original letter that was not kept. Silvers likely misdated the letter, since a U.S. Army transport list shows that the S.S. Finland did not leave the port of Hoboken until August 7, 1917.</p></note></add></ab>                      
+				<p>We have finally arrived in France. The voyage over was calm and uneventful until
+					the last day out, which was Monday. Then we had just sighted land when we heard
+					six short blasts from the whistle. That meant a sub attack. It was a quarter to
+					nine, and the next hour was the most exciting I have ever had. We were on the
+					<add>(censored)</add> which was the largest and most important in the fleet, and they all
+					tried to get her. There was quite a gang of subs, for it was officially reported
+					that we sank five. Believe me, it certainly was great to hear the guns going off
+					and to see the shells hit the water. We didn't see any of the submarines, but we
+					were able to see the white water where the periscopes were. I also saw the wake
+					of a torpedo which passed about fifty yards from our stern.</p>
+
+				<p>We lay in the harbor for two days, and on Wednesday started out with full
+					equipment for <add>(censored)</add> where we now are. We left at half-past nine and arrived
+					at half past three. We had five stops and were walking the rest of the time. The
+					distance was eighteen miles, and I never walked so far in all my life. There was
+					quite a bunch that had to fall out. We are situated about four hundred miles
+					from the front, and I think that it will be permanent.</p>
+			</div>
+			<div type="letter" decls="#brachereg_03">
+				<pb n="4"/>
+
+				<figure>
+					<figDesc>An illustration of Belgian soldiers fighting in the war during the winter, by Alfred Bastien. Two of them are aiming down their sights over a barricade while a third one patrols. Another three soldiers are tending to a wounded soldier lying on the ground.</figDesc>
+					<label type="footer" place="bottom">AUMONIERS—ARMEE BELGE Par A. Bastien</label>
+				</figure>
+
+				<pb n="5"/>
+				
+				<ab type="pre-printed">CARTE POSTALE.</ab>
+				<ab type="postmark"><lb/>NEW YORK, N.Y. 2<lb/><date when="1917-08-07" cert="medium">AUG 7<lb/>10
+						AM<lb/>1917</date></ab>
+				<ab type="pre-printed">Côté reservé à l'adresse.</ab>
+				<ab> Au revoir. <lb/><persName key="Costa, Joseph Louis" from="1897" to="1969" role="Lieutenant, French Foreign Legion" ref="https://www.ancestry.com/sharing/29332834?h=aca923" cert="medium">Joe</persName>
+					<lb/>Pian<lb/>
+				</ab>
+				<ab>
+					<address style="text-align: center;">
+						<addrLine>Mr. E.R. Silvers</addrLine>
+						<addrLine>Rahway</addrLine>
+						<addrLine>N.J.</addrLine>
+					</address>
+				</ab>
+				<ab type="pre-printed">Publié au bénéfice des Asiles des Soldats Invalides Belges <lb/> Siège social provisoire : 79 Mark Lane (Londres) <lb/> Imprimé par GEO. W. JONES, à l'Enseigne du Dauphin. 12-14 Gough Sq., Londres.</ab>
+			</div>
+			<div type="letter" decls="#brachereg_04">
+				<pb n="6"/>
+				<note type="letterhead" anchored="true"> AMERICAN Y.M.C.A. <lb/> ON ACTIVE SERVICE <lb/> WITH THE <lb/>
+					AMERICAN EXPEDITIONARY FORCES </note>
+				<opener>
+					<dateline><date when="1917-09-04">Sept. 4, 1917</date></dateline>
+					<salute>Dear Sil:</salute>
+				</opener>
+
+				<p>It will probably take me quite a time to compose this letter, with you being a
+					critic and it having to pass the censor. So you know it's
+					pretty hard to write without putting something in that shouldn't be in, so make
+					some allowances. How are you and Eda and everyone else? Are you still running
+					the college? What's <persName key="Ainsworth, William Penn Esterbrook (Pete)" from="1893" to="1968" role="Captain, Coast Artillery Corps" ref="https://www.familysearch.org/ark:/61903/1:1:QPZX-648V">Pete</persName> doing now? For the Lord's sake write to a person once
+					in a while and tell me some news. You ought to be with me if you want to save
+					money. I'm working on the night shift and have spent about twelve francs in the last
+					week. four of that going for laundry and two for some towels. My gosh! if that
+					had been all the money I spent a week while at college, I'd have been a rich
+					man. We work in twelve hour shifts and one certainly is glad when the twelve hours
+					are up. I go on at six P.M. and am off at six A.M. We eat breakfast at seven and
+					then generally sleep from eight until four. Who did you think is in town? Old
+						<persName key="Janeway, Henry Latimer" from="1894" to="1957" role="Clerk, Quartermaster Corps" ref="https://www.ancestry.com/sharing/28921386?h=612c02">Lunker
+						Janeway</persName>. It certainly was a mighty pleasant surprise to see him.
+					Had dinner with him the first night and that meal certainly did taste good after
+					the food we had been having aboard ship. We certainly had a peach of a voyage
+					over. Only had one rough night and that wasn't enough to make one seasick.
+					Believe me, I certainly was glad that I wasn't seasick. I'm stationed in a new
+					addition to the hospital and there are no electric lights in it. Have to see by
+					candlelight, that accounts for my spilling some on this paper. It certainly is a
+					mighty fine night here tonight. There's a most wonderful moon out and it almost
+					makes one wish he were home again. Well, Pro, don't forget to write as often as
+					you can and if you publish any books, send me one. Give my best regards to Eda
+					and everyone else. Hoping I'll see you soon.</p>
+
+				<closer>
+					<salute>I am<lb/>Yours in the Bonds,</salute>
+					<signed>Pian</signed>
+					<add place="margin">Censored by <unclear reason="ilegible">J rais Noyes</unclear><lb/> 1st Lt. <unclear>M.R.C.</unclear><!-- fg: Medical Corps --></add>
+				</closer>
+			</div>
+			<div type="letter" decls="#brachereg_05">
+			<pb n="7"/>
+			<note type="letterhead" anchored="true"> AMERICAN YMCA <lb/> ON ACTIVE SERVICE <lb/> WITH THE <lb/>
+				AMERICAN EXPEDITIONARY FORCES </note>
+				<opener>
+					<dateline><date when="1917-09-14">Sept. 14, 1917</date></dateline>
+					<salute>Dear Sil:</salute>
+				</opener>
+				<p>Received your letter on the 12<hi rend="superscript">th</hi> and certainly was
+					most glad to hear from you. I had a gala day on the 12<hi rend="superscript">th</hi> Received six letters and a postcard. You can imagine <add place="above">that</add> it made me feel pretty good. It certainly is too
+					bad about <persName key="Watson, Asher Dudley" from="1893" to="1990" role="Sergeant, Infantry" ref="https://www.findagrave.com/memorial/107350389/asher-dudley-watson">Dud</persName>, isn't it? I certainly do hope that he will be exempted for
+					it certainly seems that he is needed at home. I'm mighty glad that Pete received
+					his commissions. One of the fellows had a list of the Fort Meyer appointments
+					and I saw that practically all the fellows from college received their
+					commissions. I sure do hope that the football teams turns out to be a good. I
+					certainly am going to miss playing this year. Send me accounts of the games
+					anyway, will you, Sil for that will help a little. I think it was Joe that told
+					me that <persName key="Martin, Luther Harned" from="1889" to="1970" role="Registrar, Rutgers College" ref="https://www.findagrave.com/memorial/16644270/luther-harned-martin">Luther Martin</persName> was married, is that true? This night work is
+					going fine now. I am about used to it now and like it quite well. There's
+					nothing new that has happened that I can tell you about. A great many of the
+					patients here are from a southern regiment and quite a few of them are college
+					men and I had some mighty interesting talks with them. The great majority of the
+					men are fine fellows and it is a pleasure to help them and they do all they can
+					to help out. I just wrote a letter to <persName key="Terrill, Mildred Allen" from="1895" to="1976" role="Sister-in-law of Earl Reed Silvers">Mil</persName> and if she gets it, get her to tell
+					you some of the interesting parts. Give my best regards to Eda</p>
+				<closer>
+					<salute>Yours in the Bonds,</salute>
+					<signed>Pi-an.</signed>
+					<add place="margin">Censored <unclear>JE Dunley</unclear><lb/> 1st Lieut. <unclear>M.O.R.C.</unclear><!-- fg: Medical Officer Reserve Corps --></add>
+				</closer>
+			</div>
+			<div type="letter" decls="#brachereg_06">
+				<pb n="8"/>
+				<opener>
+					<dateline><date when="1917-09-27">Sept. 27, 1917.</date></dateline>
+					<salute>Dear Sil:</salute></opener>
+				<p> Received your letter of Sept. 8 yesterday and it sure was fine to hear from you.
+					We hadn't received any mail since Sept. 11 until yesterday when a big batch came
+					in for us. You can imagine how it made us feel. Whom do you
+					think I run into the other day? Old <persName key="Morrison, John Dittgen" from="1890" to="1943" role="First Lieutenant, Dental Corps" ref="https://www.findagrave.com/memorial/208742046/john-d-morrison">Johnny
+						Morrison</persName>. He is a first lieutenant in the Dental Corps. He is a
+					casual here at the hospital awaiting orders. Gee it sure was fine to see him.
+					Did you know he was engaged? He said he was mighty sorry he wasn't at your
+					wedding, but, he got the dates mixed. He sends his best regards. I also saw
+					Young <persName key="Molineux, Walter Lang" from="1897" to="1985" role="Seaman, 4th Division, U.S. Navy" ref="https://www.familysearch.org/ark:/61903/1:1:JKT5-TNY">Molineux</persName> the Queens Club man. He is on one of
+						<pb n="9"/> the gun crews on a transport. Believe <subst>
+						<del>your</del>
+						<add>me</add>
+					</subst> you don't know how good it is to meet someone from God's country whom
+					you know. That is good news about Eda, Sil. You know I wish her the best and
+					best of luck in her hour of trial. If wishing will do any good she won't have a
+					bit of pain or hurt. I sure hope it is a boy so we'll have another
+						Delt in the Silvers family. Say Pro, tell the "Voice" to
+					write more often. I've only heard from her once since I've been here. Also tell
+					her not to forget to send me an announcement. All the fellows wanted to be
+					remembered to you. They are all well and making out very nicely. Work seems to
+					agree with us all. I can hardly imagine that college has opened and that I would
+					be able to go back. It certainly could be great if all the old gang could get
+					together again. When we <pb n="10"/> all get back we'll have to have a grand old
+					reunion. That's fine news about Pete. Tell him to let me know his address. Dud
+					surely did a mighty fine thing. I know that I would never have done it if I had
+					been in his position. If everybody has his spirit we sure would have a mighty
+					fine army. I guess I'll stop rambling now Pro. Give my best regards to everyone. So long </p>
+
+				<closer>
+					<salute>Yours in the Bonds</salute>
+					<signed>Pi-an</signed>
+				</closer>
+				<postscript>
+					<label>P.S.</label>
+					<p><seg xml:id="fn1">Change my address</seg>
+						<note type="annotation" resp="#GH" target="#fn1">
+							<p>U.S. Base Hospital #8 was renamed to U.S. Base Hospital #6 temporarily before reverting to its original name.</p>
+							<ref target="https://doi.org/doi:10.7282/T3KW5JS5">'Jackson, Morris B.,' p. 2.</ref>
+						</note> to U.S. Army Hospital #6.</p>
+					<signed>EGB.</signed>
+				</postscript>
+				<postscript>
+					<ab><add place="margin">Censored. <unclear>JE Dunlap</unclear>
+						<lb/>1st Lieut <lb/><unclear>MOMC</unclear></add></ab><!-- fg: Medical Officer Medical Corps? -->
+				</postscript>
+			</div>
+			<div type="letter" decls="#brachereg_07">
+				<pb n="11"/>
+				<opener>
+					<dateline><date when="1917-12-06">Dec. 6, 1917</date></dateline>
+					<salute>Dear Sil,</salute>
+				</opener>
+				<p>Congratulations! I'm mighty glad that the baby is a future Delt, I sure do hope
+					that Eda is up and well. By the time you get this I guess the baby will be
+					almost two months old. The length of time reminds me that I must apologize for
+					not writing sooner. I sure am sorry but, to tell the <supplied resp="#GH">truth</supplied>
+					I have neglected my correspondence entirely for the last three weeks or a month
+					and haven't written a single letter. I have reformed however and I am working
+					hard now to get caught up with it. You say you wanted the names of all the men
+					to send them the weekly letter. All the men in our unit seem to be getting them
+					so I won't bother to give you their names. You might send one to Lunker Janeway
+					and to Johnny Morrison <sic>tho</sic>.
+					Lunker's address is Base <unclear>Section</unclear> 101, (A.P.O 101) A.E.F.
+					while Johnny's is 1st Lt. J.D. Morrison <unclear>D.O.R.E.</unclear> <!-- fg: Dental Reserve Corps? -->
+					<seg xml:id="fn2">Ambulance Co #1</seg><note type="annotation" resp="#GH" target="#fn2" anchored="true"><p>An Ambulance Company's main objective was to transport
+							wounded soldiers from a batallion aid station to a field hospital. In
+							cases where medical emergencies were dire, Ambulance Companies set up
+							dressing stations en route to field hospitals in order to provide
+							continuous care to soldiers.</p><ref target="http://www.kumc.edu/wwi/index-of-essays/ambulance-section.html">University of Kansas Medical Center</ref></note>, 26th Division A.E.F
+					(A.P.O. 709), I know that they surely would like to hear the news from college.
+					We <pb n="12"/> had a pretty successful football team didn't we? I certainly was
+					mighty glad to hear when we won. It was too bad that we lost to Syracuse. Offer
+					my congratulations to <persName key="Sandiford, Edward Raymond" from="1888" to="1971" role="Rutgers College, class of 1913" cert="medium">Sandy</persName> and to <unclear>Thug</unclear> for the fine team
+					they turned out, when you see them. It must have been great to watch them play
+					and practice and I sure do wish that I could have seen them. I hope I have
+					better luck next year, <choice>
+						<orig>tho</orig>
+						<corr>though</corr>
+					</choice>, of course there's no telling. How is the House getting along. I
+					suppose it has the same old trouble collecting dues and paying bills. How is
+					Duke making as head? I understand that after the fellows had obtained four men
+					that they stopped rushing and let the Chi Phis get some good men that we should
+					have had. I guess it's the same ol story of self-satisfaction isn't it. The
+					chapter sure will die of <unclear>dry rot</unclear> if someone doesn't put some
+					pep unto it. Why don't you try and stir them up? Say, Pro, what is the matter
+					with "the Voice" has she become engaged and not allowed to <pb n="13"/> write or
+					did she cut her hand off. I have written four or five letters to her and only
+					received one from her. That one was received shortly after I landed. I'm going
+					to write one more and then give it up as a hopeless job. This great living on
+					twenty eight dollars a month Sil. Live very nicely for the first two weeks but,
+					after that oh my! Its worse than college used to be. Everybody is about broke at the
+					same time so it is even hard to borrow money so you can see how eagerly we look
+					forward to pay day. When the second <seg xml:id="fn3">Liberty Loan</seg><note type="annotation" resp="#GH" target="#fn3" anchored="true"><p>Congress passed the Liberty
+							Loan Act in 1917 which allowed the U.S government to issue bonds to the
+							American people in order to raise war funds. These bonds subsequently
+							made up two-thirds of the war funds.</p><ref target="https://www.visitthecapitol.gov/exhibitions/artifact/hr-2762-act-authorize-issue-bonds-meet-expenditures-national-security-and">U.S. Capitol, 'Liberty Bonds'</ref></note> came out, I decided to be
+					extravagant, so I subscribed for a bond, so that takes five dollars a month
+					away, otherwise I would be getting thirty three a month and probably wouldn't be
+					broke so soon. What are you doing now Pro? Are you still assistant to <persName key="Demarest, William Henry" from="1865" to="1956" role="President, Rutgers College" ref="https://ucmweb.rutgers.edu/pastpresidents/about/history/past-presidents/william-henry-steele-demarest.htm">Demmy</persName> or have <del rend="strikethrough">to</del> you gone up a
+					pay higher? Have you written any books or stories lately? If you <sic>have send</sic> them
+					to me, can <pb n="14"/> you? I sure would like to read them. It sure is hard to
+					write Pro, and not put in something that might be objectionable to the censor. I sure wish I
+					could write more interestingly, but, guess I can't. Don't mind this paper. It's
+					all I have at present. Give my best regards to every one and I sure do wish you
+					a most Merry Christmas and Happy New Year.</p>
+
+				<closer>
+					<salute>Yours in the Bonds,</salute>
+					<signed>Pi-an</signed>
+				</closer>
+				<postscript>
+					<label>P.S.</label>
+					<p>I sent home a ring which they will send to you, I hope. It is supposedly
+						made from a German shell with a German button in it. I think it is true.</p>
+					<signed>EGB.</signed>
+				</postscript>
+				<postscript>
+					<ab><add place="margin">OK.<lb/>
+						<unclear>Lt. L.S. Vacey</unclear>
+					</add></ab>
+				</postscript>
+			</div>
+
+			<div type="letter" decls="#brachereg_08">
+				<pb n="15"/>
+
+				<note type="letterhead"> AMERICAN YMCA <lb/> ON ACTIVE SERVICE <lb/> WITH THE <lb/>
+					AMERICAN EXPEDITIONARY FORCE </note>
+				<opener>
+					<dateline><date when="1918-02-02">Feb 2 1918</date></dateline>
+					<salute>Dear Eda:</salute>
+				</opener>
+				<p>Received your letter and surely was mighty glad to hear from you. It certainly
+					did contain startling news, but, I sort of expected something along that line. <seg xml:id="fn22">I
+						sure did pull a bone in sending that ring</seg><note type="annotation" target="#fn22"><p>Bracher evidently sent a ring similar to the one referenced in his letter of December 6, 1917 to amuse Mildred Terrill, Edith's little sister. Mildred would marry Lyle B. Reeb in 1919.</p></note>, didn't I? Well, such is life. I don't
+					dare write now to congratulate them, but, you express my heartiest
+					congratulations and best wishes for me, won't you? Say, it must be awful to have
+					a jealous husband. You know I won't say anything about the engagement, but,
+					you'll let me know ahead of time when the wedding is coming off. It takes quite
+					a time for anything to reach here and then get back again. If I received <pb n="16"/> an announcement of the wedding I don't think I would have time to
+					send anything in time for it. So don't forget to let me know ahead. How does
+					<persName key="Terrill, Mildred Allen" from="1895" to="1976" role="Younger sister of Edith I. Terrill" ref="https://www.ancestry.com/sharing/29005822?h=aa04b3">Mil</persName> like teaching? It's just like her to have spent her salary
+					in advance. Remember how you used to do it? I sure am glad the baby is getting
+					on so well. I certainly would like to see him. I think <choice>
+						<orig>your</orig>
+						<corr>you're</corr>
+					</choice> right in keeping Sil at home. Don't let him go off. He is doing his
+					bit in providing for you and the baby. Speaking of finances <choice>
+						<orig>tho</orig>
+						<corr>though</corr>
+					</choice>, I think we get paid in a day or so. Have signed the pay-roll and will
+					appreciate being paid. I'm pretty well fixed now <choice>
+						<orig>tho</orig>
+						<corr>though</corr>
+					</choice>? Have a Liberty Bond and a rather flourishing (that is for me) bank account. Thanks very much, Eda for
+					writing. Best to Sil &amp; the Baby.</p>
+
+				<closer>
+					<salute>As ever</salute>
+					<signed>Pi-an</signed>
+					<add place="margin">OK <lb/><unclear>HR Crabbe</unclear>
+						<lb/>1<hi rend="superscript">st</hi> Lt FA </add><!-- fg: field artillery? judge advocate? -->
+				</closer>
+			</div>
+			<div type="letter" decls="#brachereg_09">
+				<pb n="17"/>
+				<note type="letterhead"> AMERICAN YMCA <lb/> ON ACTIVE SERVICE <lb/> WITH THE <lb/>
+					AMERICAN EXPEDITIONARY FORCE </note>
+				<opener>
+					<dateline><date when="1918-02-21">Feb 21 1918</date></dateline>
+					<salute>Dear Sil:</salute>
+				</opener>
+				<p>Received your letter the other day and I sure was glad to hear from you. I
+					certainly had looked for it for a long time but, I suppose you are pretty busy
+					and don't have much time to write. I have been receiving the letters from
+					college but, they aren't near as good as personal ones. Received #10 yesterday
+					and saw the notice about the ring. I sure wish you would<add place="above">n't</add> make public the things I write you or send you. I just sent it to
+					you as a memento. The thing is not of much value and I guess <pb n="18"/> that
+					there is millions of them in France, so you see it isn't any thing to make a
+					fuss about. That sure is funny about Mil isn't it? I sent her one of those
+					rings, too. Don't know what she thought or rather it started a scrap or not.
+					Gee, it must be hell to be in love. I sure would like to see the Voice to see
+					how she acts. I'll bet two bits she won't live the <seg xml:id="fn4">life of
+						Reilly</seg><note type="gloss" target="#fn4" resp="#GH"><p>a carefree
+							comfortable way of living.</p><ref target="https://www.merriam-webster.com/dictionary/life%20of%20Riley">'Life of Riley' — noun phrase</ref></note>. Far be it from me to knock, but, I wouldn't be a bit surprised if my opinion of the
+					affair, <del rend="strikethrough">didn't</del> coincides with
+						<orig>your's</orig>. That's great news about the basketball team. Hope they
+					keep it up. Had a letter from Mike and he told me about it too. I won't believe
+					anybody knows <pb n="19"/> much about <persName key="Delamater, John Sherman" from="1895" to="1941" role="Ensign, U.S. Navy" ref="https://www.familysearch.org/ark:/61903/1:1:Q5R8-R6ZM">Del</persName>.
+					The poor boob writes about once a month. Last time I heard from him, he was
+					waiting around for an appointment to an Ensign school. He was rather optimistic
+					about it, and I sure hope he gets it. Have you heard about Joe? I don't know if
+					I have told you or not. Anyway he <supplied resp="#GH">h</supplied>as been isolated for
+					the past five weeks with scarlet fever. The poor cuss had quite time with it and
+					isn't on duty yet. He is out of the isolation tent <choice>
+						<orig>tho</orig>
+						<corr>though</corr>
+					</choice> and in one of the <seg xml:id="fn5">convalescent wards</seg><note type="annotation" target="#fn5" resp="#GH"><p>A convalescent ward, or
+							convalescent camp, was a place where soldiers were sent for
+							rehabiliation.</p><ref target="https://history.amedd.army.mil/booksdocs/wwi/adminamerexp/chapter16.html">Office of Medical History, 'CHAPTER XVI: THE DIVISION OF
+							HOSPITALIZATION'</ref></note>. That helps a bit, <choice>
+						<orig>tho</orig>
+						<corr>though</corr>
+					</choice>, for the time passed very slowly for him in the tents. His eyes are
+					bothering him now and so is his heart, but, I think they will come around all
+					right. He is pretty lucky to have no more serious complications than he has, for
+					he had a pretty severe attack. That's pretty fine, your
+					 having the offer of that commission and it's rather hard luck you
+					aren't in a position to accept it. It's just as well <choice>
+						<orig>tho</orig>
+						<corr>though</corr>
+					</choice> that you stay at home. I've been leading the same life as usual.
+					Haven't seen any excitement yet, but, there's a chance for <choice>
+						<orig>there</orig>
+						<corr>they're</corr>
+					</choice> sending operating teams to the front. I sure hope I'll be able to get
+					there. We may be doing our bit here, but, I'll be out of luck if this is as far
+					as I ever go. Write when you have time Sil, for it is certainly good to hear
+					from you </p>
+				<closer>
+					<salute>In the Bonds</salute>
+					<signed>Pi-an</signed>
+				</closer>
+			</div>
+			<div type="letter" decls="#brachereg_10">
+				<pb n="20"/>
+				<note type="letterhead"> AMERICAN YMCA <lb/> ON ACTIVE SERVICE <lb/> WITH THE <lb/>
+					AMERICAN EXPEDITIONARY FORCE </note>
+				<opener>
+					<add place="margin">Bracher</add>
+					<dateline><date when="1918-04-15">April 15 1918</date></dateline>
+					<salute>Dear Sil:</salute>
+				</opener>
+				<p>Do you know I haven't heard from you in a deuce of a while? I thought I would
+					drop you a line to see if you would answer it to let me know whether you're
+					still alive or not. I've been receiving the College letters regularly as have
+					all of the other fellows here. They are mighty good to read, but, I'd much
+					rather hear from you personally. I certainly have heard some surprising news
+					lately. Shrimp White's and <persName key="Browning, Oren Fogle" from="1893" to="1963" role="Corporal, Infantry" ref="https://doi.org/doi:10.7282/T3B56NM4"><sic>Bone's</sic> Browning</persName>'s engagements and
+					the <unclear>Louse's</unclear> marriage, <pb n="21"/> they certainly are things
+					I never did expect to hear at least not for some time to come. How are Eda and
+					the baby? I sure hope they are well and that you have nothing to worry about.
+					I've been put on a new job lately. Have charge of a new kitchen <add place="above">&amp; mess hall</add> which we have just started. It isn't
+					finished yet but, when it is it's going to be the best in the hospital. I have
+					to order the stores and draw them, make out the menu and see that the work
+					around the kitchen and hall is done right. With the exception of one cook all
+					the work is done by convalescent patients, and I generally <pb n="22"/> have
+					quite a job to find them and to do the work. Have three good men who are
+						detailed permanently and that helps a lot. The worst part
+					of it is that you generally get some good men broken in and then they are sent
+					back to duty again. — Have to start all over again then. We
+						still lead the staid respectable life as of yore. Go to
+					bed at a quarter to ten or before and go to <seg xml:id="fn6">reveille</seg><note type="gloss" resp="#GH" target="#fn6" anchored="true"><p>a signal used to awaken personnel in the armed forces, typically
+							sounded on the bugle or drums.</p><ref target="https://www-oed-com.proxy.libraries.rutgers.edu/view/Entry/164685?redirectedFrom=reveille#eid">reveille, n.</ref></note> at six in the morning. <quote>"Oh it's nice
+						to get up in the morning,"</quote> Sil <quote>"but its nicer to stay in
+						bed."</quote> I sure do hate to get up in the morning. Joe has been pretty
+					sick lately so today he went off on a seven day forlough for a rest. I guess
+					he'll be all right when he comes back at least I hope so for he has had quite a
+					time of it. Well Sil, if you should think to write, I'd be mighty glad to hear
+					from you.</p>
+				<closer>
+					<salute>In the Bonds</salute>
+					<signed>Pi-an</signed>
+				</closer>
+				<postscript>
+					<label>P.S.</label>
+					<p>Excuse the pencil. When I started to write with my pen, I found it was
+						dry and I had no ink handy.</p>
+					<signed>EGB.</signed>
+				</postscript>
+				<postscript><ab><add place="margin"><unclear>Capt M.C. Peary</unclear> <lb/> U.S. Army</add></ab></postscript>
+			</div>
+			<div type="letter" decls="#brachereg_11">
+				<pb n="23"/>
+				<note type="postscript" resp="#psn-egbra">P.S. Sil, this letter isn't written for publication so for
+					Pete's sake dont think that this is. EGB</note>
+				<opener>
+					<dateline><date when="1918-09-16">9-16-18</date></dateline>
+					<salute>Dear Sil;</salute>
+				</opener>
+				<p>Received your letter yesterday and it surely was as unexpected as it was welcome.
+					I had inde<subst><del rend="overwritten">d</del><add>e</add></subst> thought you had forgotten all about me, and had given up all hope of
+					hearing from you. I have been receiving the college letter right along and of
+					course receive all the college news thru it, but, it isn't near as good as
+					hearing from you directly. Things are going along here about the same as usual.
+					Of course the hospital is growing larger and expanding all the while. Instead of
+					one hospital now it has become <pb n="24"/> a hospital center. <seg xml:id="fn7">Base 8</seg><note type="annotation" resp="#GH" target="#fn7" anchored="true"><p>Base
+							Hospital No. 8 was the one of the largest American military-operated hospitals in
+							France. It handled both medical and surgical patients until August 1918.
+							From then until January 1919, the hospital received and prepared
+							patients ready for evacuation to the United States.</p><ref target="https://history.amedd.army.mil/booksdocs/wwi/adminamerexp/chapter24.html">U.S. Office of Medical History, CHAPTER XXIV: BASE
+						HOSPITALS</ref></note> will be the center of the group, but, there will be
+					quite a few other units forming the component parts of the center. I believe
+					that each unit is to have twenty five hundred beds and the center as a whole is
+					planned for thirty or fourty thousand. (I don't know whether that will be passed
+					by the censor or not). At present I am at a new Convalescent Camp which has
+					started up about two miles from <choice>
+						<abbr>B.H.8.</abbr>
+						<expan>Base Hospital 8</expan>
+					</choice> For the moment we only have three hundred beds, but, it is planned for
+					five thousand. I have charge of the <seg xml:id="fn8">QM</seg><note type="annotation" resp="#GH" target="#fn8" anchored="true"><p>Quartermasters are in charge
+							of providing food services and supplies, such as ammunition and
+							clothing, to troops.</p><ref target="https://quartermaster.army.mil/history/">U.S. Army: Quartermaster
+							Corps, 'Quartermaster History'</ref></note> and Medical storehouse and am
+					acting as supply man in <pb n="25"/> general. Am practically my own boss and
+					take my orders from the <choice>
+						<abbr>C.O.</abbr>
+						<expan>Commanding Officer</expan>
+					</choice> of the camp. He is a first Lieutenant in the Med. Corps and surely is
+					a fine fellow. One doesn't mind working for such a man as he is and it is more
+					of a pleasure than work. At present we are living in tents and the storeroom is
+					a room in an old French house which is on the grounds of the Camp. There is an
+					open fireplace in the room and it surely makes it mighty cosy and comfortable in
+					the evening when we have a fire agoing. The evenings <pb n="26"/> are generally
+					pretty cool now so I usually camp by the fire and read or write or work as the
+					spirit moves me. Sil, I don't believe you will receive many letters from the
+					fellows in this unit, for there really isn't a thing of interest to write about.
+					It seems to us all that we should be up at the front doing something worth
+					while, instead of being stuck away back here. We're just plain out of luck as it
+					is. I'm enclosing a little poem which is mighty applicable to the whole bunch
+					here. With the changing of a few words it would fit us to a T. <pb n="27"/> I
+					might be able to give you a bit of news about some of the fellows so I'll try.
+						<persName key="Broome, Frank Haviland" from="1895" to="1940" role="Second Lieutenant, Sanitary Corps" ref="https://www.familysearch.org/ark:/61903/1:1:KZVS-LTJ">Frank
+						Broome</persName> has been promoted to a sergeant and <persName key="Johnson, John William" from="1895" to="1960" role="Sergeant, Medical Department" ref="https://www.familysearch.org/tree/person/details/G754-5C5">Johnny
+						Johnson</persName> to a corporal. <persName key="Storck, Donald G." from="1897" to="1987" role="Sergeant, Medical Corps" ref="https://www.familysearch.org/tree/person/details/L2VB-2B8">Don
+							Storck</persName> and <seg xml:id="fn23">Mike <unclear>Merrit</unclear></seg><note type="annotation" target="#fn23"><p>Does Bracher mean Frank P. Merritt, a Rutgers classmate who was also stationed at Base Hospital No. 8? Hard to tell.</p></note> started back for the
+					states, a couple of days ago, with a <seg xml:id="fn9">convoy</seg><note type="annotation" resp="#GH" target="#fn9" anchored="true"><p>A convoy includes armed ships
+							that would escort Navy transport ships. Navy transports carried
+							soldiers, materials, animals and supplies across the Atlantic
+							Ocean.</p><ref target="https://abmc.gov/news-events/news/remembering-world-war-i-american-troop-ships-first-arrive-france">American Battle Monuments Commission, 'Remembering World War I:
+							American Troop Ships First Arrive in France'</ref></note> of patients,
+					so I expect that you may see them shortly. <persName key="Herben, Stephen Joseph Jr." from="1897" to="1967" role="Sergeant, Medical Corps" ref="https://www.familysearch.org/ark:/61903/1:1:Q5YZ-ZFMM">Joe
+						Herben</persName> has charge of the mess in one of the kitchens. <persName key="Miner, Ross H." from="1897" to="1958" role="Sergeant, Medical Department" ref="https://www.familysearch.org/ark:/61903/1:1:W99W-HBT2">Ross
+						Miner</persName> was promoted to a sergeant. The rest of the fellows are
+					plugging along and doing their bit, I hope. Saw <persName key="Durand, Frank Jr." from="1895" to="1978" role="Ensign, U.S. Naval Reserve Force" ref="https://www.familysearch.org/ark:/61903/1:1:JBTR-V2X">Bub
+						Durand</persName> about a month ago but haven't seen or heard from <pb n="28"/> him since. The Lunker is still sticking to his old job. Have heard
+					from <persName key="Ludlow, Clarence Van Tuyl" from="1894" to="1976" ref="https://www.familysearch.org/ark:/61903/1:1:7BDG-YL6Z" role="Aviation Signal Corps" cert="medium">Clarence Ludlow</persName>, who is stationed at Paris, several times. The
+					last time he wrote he mentioned of seeing <persName key="Austin, Raymond Munkittrick" from="1893" to="1949" role="Ensign, Naval Reserve Force, Naval Aviation" ref="https://www.familysearch.org/ark:/61903/1:1:QP86-W8ZN">Monk
+						Austin</persName> there. He was going up to the front to do night bombing.
+					He is a lucky devil. I sure wish that I were in his boots. I surely would give
+					my last sous to have been in aviation. Have also heard from <persName key="Armstrong, Obadiah Pellet" from="1893" to="1966" role="Sergeant, Ambulance Corps" ref="https://doi.org/doi:10.7282/T3HH6P82">Doc Armstrong</persName> several
+					times. He seems to like France pretty well, but is anxious to get up to where
+					one can see and do something. Had one letter from <persName key="Acken, Ronald Gorden" from="1893" to="1958" role="Corporal, Infantry" ref="https://www.familysearch.org/ark:/61903/1:1:QPCD-B1LG">Ron
+						Acken</persName> since he landed. He was just going up then and <pb n="29"/>
+					I haven't heard from since so I don't
+					know what has happened to him. Just had a letter from Del over here. It was his
+					first trip across and he landed too far away to make our town. Hope he has
+					better luck next time. <persName key="Ludlow, Clifford Woodruff" from="1892" to="1952" role="Ensign, U.S. Naval Reserve Force" ref="https://www.familysearch.org/ark:/61903/1:1:7BDG-YLPZ" cert="medium">Cliff Ludlow</persName> was able to come and see us on his first trip
+					across and it sure was fine to see him. Guess that is about all the news that I
+					know of the fellows over here, Sil. It probably is stale news at that, so if it
+					bores you, just skip it. Just <choice>
+						<orig>thot</orig>
+						<corr>thought</corr>
+					</choice> of it. <persName key="Abt, David Milton P." from="1895" to="1923" role="Second Lieutenant, Infantry" ref="https://www.familysearch.org/ark:/61903/1:1:QPCF-S1TX">Dave
+						Abt</persName> passed <choice>
+						<orig>thru</orig>
+						<corr>through</corr>
+					</choice>
+					<choice>
+						<abbr>B.H.8.</abbr>
+						<expan>Base Hospital 8</expan>
+					</choice> on his way to the States. He said war was worse than what <pb n="30"/>
+					<persName key="Sherman, Anson F." role="Sergeant, Cavalry" from="1894" to="1959" ref="https://www.familysearch.org/ark:/61903/1:1:WQB7-1FN2" cert="low">Sherman</persName> said it was. So the Voice has announced her engagement.
+					Since I have been dropped from her correspondence list, I don't dare write to
+					congratulate her. I wish you would convey to them both my heartiest
+					congratulations and well wishes, Sil. I sure wish them the best luck in the
+					world and privately I think that they will need it. You surely have quite a kid,
+					there in Mike. I'm mighty glad that you sent that picture of him. I only wish
+					that I could see him in action. Start early Sil and train him in the <pb n="31"/> right way. When he grows up and wants to play football I imagine you will
+					hear an awful yowl from Eda. Gosh, I was kicking a football around tonight for
+					the first time in many moons and it surely did feel good to have the old pigskin
+					in my hands again. Just at present it looks pretty black for my ever playing
+					again. You surely are out of luck with <choice>
+						<orig>you're</orig>
+						<corr>your</corr>
+					</choice> car, aren't you? How do you blame it on smoking? I think that I agree with
+					you about rather smoking than hear people talk. I sure hope the deafness passes
+					away <pb n="32"/> altogether. I think I have just about written myself out Sil,
+					so it is about time to knock off. I had a <unclear>hunch</unclear> that I would be able to write quite a lot of bull when I started so that is the reason why I used a pencil. I never
+					would have finished it with a pen. I tell you this is just about the longest
+					letter that I have written since I have been over here. Give my best to Eda and
+					Mike and all the rest and for Pete's sake live up to what you said you were
+					going to do in regards to writing. But, never expect such a long letter in
+					answer again. Be good.</p>
+				<closer>
+					<salute>As ever <lb/>In the Bonds</salute>
+					<signed>Pi-an</signed>
+					<add place="margin">O.K <lb/><unclear><gap reason="illegible" /></unclear></add>
+				</closer>
+			</div>
+			<div type="letter" decls="#brachereg_12">
+				<pb n="33"/>
+				<opener>
+					<add place="margin"><hi rend="underline">Bracher</hi></add>
+					<dateline><date when="1918-09-29">9-29-18</date></dateline>
+					<salute>Dear Sil:</salute>
+				</opener>
+				<p>Just received your letter dated Aug 28. tonight and it certainly was very
+					welcome. You know I answered your last letter with pencil and that sort of
+					started me in to write altogether that way. Have written several others, and I
+					find that it is so much easier that I think that I shall continue it. My Lord is
+					everybody getting married now <orig>adays</orig>. The old world certainly will
+					seem strange with everybody married and grown up. You know, Sil, I don't think
+					that I have changed a bit since I left. Haven't any more sense than I did have
+						<pb n="34"/> and I guess I am as much of a kid as I ever was. My Lord I'm
+					twenty five now, and I sure never am able to realize it. Such is life, without a
+					wife. I suppose if I had a wife I <unclear>damn</unclear> soon find out how old
+					I was and also how to be serious. <seg xml:id="fn10">Howsumever</seg><note type="gloss" resp="#GH" target="#fn10" anchored="true"><p>Howsomever--dialectal for 'however'</p><ref target="https://www.merriam-webster.com/dictionary/howsomever">Merriam-Webster</ref></note> I guess that will be a long time to
+					come. How does the Voice like her new job. From the way you wrote it must be a
+					rather important position and highly remunerative. Wouldn't be a bit surprised
+					if it would be able to keep her in <unclear>hairpins</unclear>. Poor Voice we
+					too surely have rather <unclear>panned</unclear> <pb n="35"/> her, haven't we. What does it
+					matter to us anyway, if she is happy. That is about the most important thing for
+					her at present. How are <persName key="Terrill, Schuyler Colfax" from="1869" to="1946" role="Earl Reed Silvers's father-in-law" ref="https://www.findagrave.com/memorial/105908058/schuyler-colfax-terrill">Mr.</persName> and <persName key="Day, Nellie Irona" from="1873" to="1949" role="Earl Reed Silvers's mother-in-law" ref="https://www.familysearch.org/tree/person/sources/LCRM-WY5">Mrs
+						Terrill</persName>? I sure would like to see them for they are a couple of
+					peaches. Give them my best regards the next time you see them. I'm glad that
+					Mike likes his duck. But, then look who the duck is named after why shouldn't he
+					like it? He sure must be quite a youngster by now. How are Eda and your mother.
+					Certainly hope that they are well. By th<del>e</del><add>is</add> time they must be playing football,
+					aren't they? Give my best regards and well wishes for a successful season, to
+						<pb n="36"/> Sandy. Another bunch of fellows went back to the States tonight
+					with a convoy of <add place="above">"nut"</add> patients. I may surprise you sometime by dropping in when you least expect me. <persName key="Jackson, Morris Bacon (Jill)" role="Private, Medical Department" from="1898" to="1918" ref="https://www.findagrave.com/memorial/27896281/morris-bacon-jackson">Jill Jackson</persName>
+					was the only fellow from college to go this time. He'll probably surprise you by
+					appearing unexpectedly upon the <unclear>scene</unclear>.
+					Haven't seen Joe lately so I don't know how he is. Haven't any news Sil, so I'll
+					have to close.</p>
+				<closer>
+					<salute>In The Bonds</salute>
+					<signed>Pi-an</signed>
+					<add place="margin">O.K. <lb/>LC <unclear><gap reason="illegible" unit="character" /></unclear>
+						<lb/>Capt. M.C. <unclear><gap reason="illegible" unit="character" /></unclear></add>
+				</closer>
+			</div>
+			<div type="letter" decls="#brachereg_13">
+				<pb n="37"/>
+				<opener>
+					<dateline><date when="1918-10-17">10-17-18</date></dateline>
+					<salute>Dear Sil:</salute>
+				</opener>
+
+				<p>Have a care as to how you address me next time. I might become sore and report
+					you for familiarity, mais je n'ai sais pas. But, joking aside, Sil, I meant to
+					answer your letter before this but, haven't had the time or the <unclear><gap reason="illegible" unit="character" atLeast="10"/></unclear>. Been busy as the deuce lately. Just
+					received about six hundred additional patients and have had to do some tall
+					hustling to get <choice>
+						<orig>accomadations</orig>
+						<corr>accommodations</corr>
+					</choice> for them. To make matters worse it has been raining for about the last
+					two weeks and the roads are something awful around the camp. Generally get stuck
+					two or three times a day and either <pb n="38"/> have to get another truck to
+					pull mine out or else dig it out. Was mighty lucky today, only was stuck once. <choice>
+						<orig>There</orig>
+						<corr>They're</corr>
+					</choice> building a good rock road now and when that is finished it sure will
+					help a lot. There's no telling when it will be finished <choice>
+						<orig>tho</orig>
+						<corr>though</corr>
+					</choice>, that is where the <seg xml:id="fn11">rub</seg><note type="gloss" resp="#GH" target="#fn11" anchored="true"><p>An obstacle, impediment, or difficulty of a
+						non-material nature.</p><ref target="https://www-oed-com.proxy.libraries.rutgers.edu/view/Entry/168274?rskey=K8OdN4result=1isAdvanced=false#eid">rub, n.1</ref></note> comes in. So <persName key="Berg, Henry Casper (Hank)" role="Sergeant, 25th Co., Central Officers' Training School" from="1894" to="1967" ref="https://www.findagrave.com/memorial/73198594/henry-casper-berg">Hank</persName> is going to a training school.
+					I sure am glad to hear it and the lucky beggar surely will make good. Wasn't he
+					a nut about that Ford. It surely was like him to sell it that way. Should have <choice>
+						<orig>thot</orig>
+						<corr>thought</corr>
+					</choice> that he would have given you first chance at it for the one hundred <choice>
+						<orig>tho</orig>
+						<corr>though</corr>
+					</choice>. Next time you write to Shrimp White tell him that he owes me a
+					letter. The poor boob wrote to me once <pb n="39"/> and I answered him, but
+					haven't heard a pup out of him since. Bawl him out for me. That is fine news
+					about Pete. He always will make good at anything he tries. Had a letter from
+					Bruce <unclear>MacWhi<gap reason="illegible" unit="character" extent="several"/>g</unclear> the other day. He thought I was
+					with <seg xml:id="fn12">B.H #6</seg><note type="annotation" target="#fn12" resp="#GH" anchored="true"><p>Base Hospital No. 6 was located in Bordeaux, France. The
+							hospital received both medical and surgical cases.</p><ref target="https://history.amedd.army.mil/booksdocs/wwi/adminamerexp/chapter24.html">U.S. Office of Medical History, Chapter XXIV:Base
+						Hospitals</ref></note> and passed right <choice>
+						<orig>thru</orig>
+						<corr>through</corr>
+					</choice> our town and never knew we were there. That is what I call pretty
+					stupid. He is up near the front and seeing something, the lucky <seg xml:id="fn13">cuss</seg><note type="gloss" resp="#GH" target="#fn13" anchored="true"><p>a
+							person of a specified (esp. stubborn or difficult) character or type
+							(used either depreciatively or affectionately).</p><ref target="https://www-oed-com.proxy.libraries.rutgers.edu/view/Entry/46285?rskey=AcA9nQresult=1isAdvanced=false#eid">cuss, n.</ref></note>. Gosh, Sil, many is the time that I have cussed
+					myself for joining this outfit and being marooned way back here. Doesn't do any
+					good <choice>
+						<orig>tho</orig>
+						<corr>though</corr>
+					</choice> and I'm almost reconciled to my fate. Also heard from Van Ludlow
+					today. He is still in Paris but, says it is becoming rather <pb n="40"/>
+					tiresome. He is pulling strings for a commission or at least to get to a
+					training school. Says it looks pretty prosperous for him. The old college must
+					be quite changed nowadays. Received the last college letter which explained
+					about the army training school. Sure must seem strange to see everybody in
+					uniform. You certainly must have had quite a job finding rooms for them all. How
+					are the Delts making out? Have we any freshmen pledged yet. Don't the
+					fraternities have a rather hard time to make both ends meet. Give my best
+					regards to all the brothers. Also to Mike and Eda and the rest. No more news so
+					I'll have to close.</p>
+				<closer>
+					<salute>Always in the Bonds</salute>
+					<signed>Pian</signed>
+				</closer>
+			</div>
+			<div type="letter" decls="#brachereg_14">
+				<pb n="41"/>
+				<opener>
+					<dateline><date when="1918-11-03">11-3-18</date></dateline>
+					<salute>Dear Sil;</salute>
+				</opener>
+				<p>Received your letter dated Oct 4<hi rend="superscript">th</hi> on the 31<hi rend="superscript">st</hi> and certainly was glad to hear from you. By the
+					way have you received any of my letters since I started working again? You
+					surely must have your hands full with college work now. Don Stork is back from
+					the States now and he said that he visited <choice>
+						<abbr>N.B.</abbr>
+						<expan>New Brunswick</expan>
+					</choice> but, didn't see a soul whom he knew. The old place certainly must seem
+					strange. You say that there are 42 men in the Delt house? Where the deuce are
+					they all sleeping? Is the Madam still helping house? If she is she certainly
+					must have her hands full. Remember me to her the next time you see her. That is
+					news <pb n="42"/> about <persName key="Chase, Newell Adams" from="1900" to="1981" role="Rutgers College, class of 1922" ref="https://www.familysearch.org/ark:/61903/1:1:QV9W-Z8CM" cert="low">Newall Chase</persName> and <persName key="Jones, James Carlton" from="1900" to="1969" cert="medium" ref="https://www.findagrave.com/memorial/163428958/james-carlton-jones" role="Rutgers College, class of 1922">Jones</persName> being Delts. I didn't know
+					that they were in college, even. What the deuce has become of all the fellows,
+					Sil, that were there when we were? I know about Hank and Del and Bub and <persName key="Durand, Edwin Martin" role="Corporal, Signal Corps" from="1898" to="1993" ref="https://www.findagrave.com/memorial/17720783/edwin-martin-durand">Eddie</persName>
+					but, of the rest I don't know a thing. Where are <persName key="Sniffen, Stewart Bralsted" from="1898" to="1932" role="Rutgers College, class of 1920" ref="http://www2.scc.rutgers.edu/ead/uarchives/studentbiofiles1f.html">Stewie Sniffen</persName> and <persName key="Boocock, Cornelius Brett" from="1898" to="1973" role="Seaman, Navy">Booch</persName> and <persName key="Letson, Walter (Bud) Colburne" from="1897" to="1981" role="Rutgers College, class of 1920" ref="https://www.familysearch.org/tree/person/details/G9W2-5QV">Bud Letzen</persName>. What is <persName key="Perkins, Henry Read" from="1898" to="1968" role="Second Lieutenant, Infantry"><unclear>Al</unclear> Perkins</persName> doing? Is he married to Mary or drafted or what? I
+					imagine that <persName key="Losee, James Knickerbocker" from="1898" to="1980" role="Rutgers College, class of 1920" ref="https://www.familysearch.org/tree/person/details/MD1G-C6V">Jimmie Losie</persName> is
+					just like the old "Louse" isn't he? Things are looking mighty
+					promising for the war to be over soon aren't they? With Turkey out of it and
+					Austria is on her last legs it certainly looks as if the <seg xml:id="fn14">Huns</seg><note type="gloss" resp="#GH" target="#fn14" anchored="true"><p>A derogatory
+							term used to refer to a German, especially a German soldier in World War
+							I or II.</p><ref target="https://www.dictionary.com/browse/hun">Collins
+							English Dictionary</ref></note> won't be able to hold out much
+					longer. It looks to me as if the war will be over by <pb n="43"/> Christmas.
+					But, if the Huns decide to fight to the bitter end it will last at least a year
+					longer. They would be mighty foolish <choice>
+						<orig>tho</orig>
+						<corr>though</corr>
+					</choice> if they did that so altogether the prospects are rather prosperous. So
+					Mike is a year old. Does he walk yet, or don't babies walk at that age? By the
+					time I see him <sic>he</sic> I guess he will be a pretty big youngster. Have you all been
+				free from the <seg xml:id="fn15">influenza</seg><note type="annotation" resp="#GH" target="#fn15" anchored="true"><p>The Influenza Pandemic of
+							1918-1919 killed 20 to 50 million people worldwide.
+							Approximately 45,000 U.S. soldiers succumbed to the flu. Many historians believe that the virus originated in the U.S. and circulated in American military camps before
+							becoming a worldwide epidemic.</p><ref target="https://www.leecountyhistoricalsociety.org/spanish-flu-in-the-military">The Toll of the Spanish Flu in the Military</ref></note>? It certainly
+					must be pretty bad in the States. There's quite a lot of it over here too. How
+					has Eda been? By the way, Sil, Eda must be quite a cook now, isn't she? Remember
+					how she used to fuss around when you were first married? I'll bet she is mighty
+					business like about it now. <pb n="44"/> Has anything happened to the football
+					team? I heard that we trimmed Ursinus 67-0 or
+					something like that. Is Sandy still on the job? Sil, do you know Shrimp White's
+					address? I had a letter from him a couple of weeks ago and I lost it and his
+					address with it. If you know it I sure wish you would let me have it.
+						<orig>Meet</orig> a fellow at the hospital who knows him very well and he
+					would like to have it also. Going to do a little work now so I'll have to
+					quit.</p>
+				<closer>
+					<salute>In the Bonds</salute>
+					<signed>Pi-an</signed>
+				</closer>
+			</div>
+			<div type="letter" decls="#brachereg_15">
+				<pb n="45"/>
+				<opener>
+					<dateline><date when="1918-11-15">November 15, 1918</date></dateline>
+					<address>
+						<addrLine>Sergeant Elmer G. Bracher,</addrLine>
+						<addrLine>Base Hospital #8</addrLine>
+						<addrLine>Am. E.F.</addrLine>
+					</address>
+					<salute>Dear Pian:—</salute>
+				</opener>
+				<p>How in the world do you expect me to know that you are a sergeant unless you tell
+					me? In one of your letters you gave notice of the promotion of everyone else
+					except yourself, and although I imagined that your great ability would not go
+					long unrewarded. I did not dare start addressing you as sergeant until the
+					definite word did come. I am mighty glad to hear that you have been
+					promoted.</p>
+
+				<p>Practically every one else in your gang has come back to the U.S. except you and
+					we are rooting very much for your return shortly. It sure will be good to see
+					you again.</p>
+
+				<p>This is only a short letter to fill in until I have time to write a longer one.
+					Captain <persName key="White, Ralph Pollock" role="Captain, Infantry" from="1894" to="1981" ref="https://www.familysearch.org/ark:/61903/1:1:W7V9-D4PZ">Ralph
+						White</persName> blew in from the South yesterday and spent the afternoon
+					talking over old times. He is going to write to you just as soon as he goes
+					back, so he says. His address is 48th Infantry, Camp Sevier, S.C.</p>
+
+				<p>Take good care of yourself and try to be among the first of the soldiers to
+					return to this country.</p>
+
+				<p>Good luck to you and all good wishes.</p>
+
+				<closer><salute>Cordially,</salute><signed><persName ref="#psn-ersil"/></signed></closer>
+			</div>
+			<div type="letter" decls="#brachereg_16">
+				<pb n="46"/>
+				<opener>
+					<address style="text-align: right;">
+						<addrLine>Convalescent Camp,</addrLine>
+						<addrLine>Hospital Center,Savenay.</addrLine>
+					</address>
+					<dateline><date when="1918-11-29">November 29, 1918.</date></dateline>
+					<salute>Dear Sil:</salute>
+				</opener>
+				<p>What the devil is the matter with you anyhow? You started off writing like a
+					house a-fire and kerplunk you stopped. Is it because you <choice>
+						<orig>havent</orig>
+						<corr>haven't</corr>
+					</choice> received any mail from me? You threatened to stop writing if you <choice>
+						<orig>didnt</orig>
+						<corr>didn't</corr>
+					</choice> hear <choice>
+						<orig>fromme</orig>
+						<corr>from me</corr>
+					</choice> but, if that is the reason it <choice>
+						<orig>isnt</orig>
+						<corr>isn't</corr>
+					</choice> my fault. I have answered every letter that I have received from you,
+					so what more can a man do? Anyway I'm giving you this last chance. Don't think
+					I'll write again until I hear from you. Steve White just came back from the
+					States the other day and said that he had been down to the college and that he
+					had seen you. He also said that we had trimmed Penn State and that we had a darn
+					good team. You know I sure would like to see a good game of football again. Guess that I'd pretty nearly go crazy to see the old team play again. If
+					this reaches you while Sandy is around give him my best regards. How is MIKE
+					getting along? You all haven't been hit with the "FLU" have you? <choice>
+						<orig>Isure</orig>
+						<corr>I sure</corr>
+					</choice> hope that you <choice>
+						<orig>havent</orig>
+						<corr>haven't</corr>
+					</choice> for I know that it is pretty bad. There has been a deuce of a lot of
+					cases of it over here and quite a lot of it in Rahway. Do you know Elmer Hansen?
+					He used to hang around with <persName key="Gehring, Herbert Henry" from="1889" to="1939" role="Corporal, Infantry" ref="https://www.familysearch.org/ark:/61903/1:1:QP5L-1MDW">Herb
+						Gehring</persName> and the Bachelor bunch. Just found out the other day that
+					he is in the hospital with a machine gun bullet in his leg. He is he first
+					Rahway boy that has been at the hospital and it was rather nice to see him even
+					if I <choice>
+						<orig>didnt</orig>
+						<corr>didn't</corr>
+					</choice> know him very well. Gosh I pretty nearly forgot to tell you that I had
+					seen old Delamater. Harry Janeway called up and said that he was in port so I
+					took a trip down to see him. First time I had seen him for pretty nearly a year
+					and a half but, he was the same old Del. <choice>
+						<orig>Dont</orig>
+						<corr>Don't</corr>
+					</choice> think that he has changed a bit. He was on a freight ship and thought
+					that his next trip would be to Belfast, Ireland and that he would return to St.
+					Nazaire so I may see him again in a couple of weeks. I sure hope so for it
+					certainly was fine to see him again. The peeper had another sick spell lately.
+					Think that it was the diptheria that he had this time. He is over now and on a
+					seven day leave in Paris. His dad is at Paris doing Red Cross work so that is
+					how he obtained his pass. It sure is pretty nice for him <choice>
+						<orig>isnt</orig>
+						<corr>isn't</corr>
+					</choice> it? Wish that I was in his <choice>
+						<orig>boot s</orig>
+						<corr>boots</corr>
+					</choice> for the time being. He also was promoted awhile ago. Is a sergeant
+					now. Guess that that is all the news that I know about the fellows. The rest of
+					the Rutgers Bunch are all in good health and crabbing about the same as usual.
+					Let me have Shrimp White's address, will you Sil? Had a letter from him awhile
+					ago and then lost it. Lost his address along with the letter and as I would like
+					to answer it I wish that you would sent it to me. What has ever become of
+					Pete Ainsworth and Bub and Eddie and the rest of the gang. I know that
+					they are over here but that is all that I do know about them. Heard from Ronald
+					Acken a while ago. He was in a hospital with a slight dose of mustard gas. he
+					was just about to be discharged then so I guess that he is all right. Must close
+					now and try to write a couple of other letters. Give my best regards to Eda and
+					the rest of the family.</p>
+				<closer>
+					<salute>In the Bonds</salute>
+					<signed>Pi-an</signed>
+				</closer>
+			</div>
+			<div type="letter" decls="#brachereg_17">
+				<pb n="47"/>
+				<opener>
+					<address style="text-align: right;">
+						<addrLine>Convalescent Camp,</addrLine>
+						<addrLine>Hospital Center, Savenay.</addrLine>
+					</address>
+					<dateline><date when="1918-12-03">December 3, 1918.</date></dateline>
+					<salute>Dear Sil;</salute>
+				</opener>
+				<p>Just received your letter dated November 2nd. the other day and as usual was very
+					glad to hear from you. Had written to you on the twenty-ninth, giving you a
+					bawling out for having stopped writing, but I guess that I'll have to take it
+					all back. <choice>
+						<orig>Wasnt</orig>
+						<corr>Wasn't</corr>
+					</choice> that hard luck about Jill Jackson? He had all the chances in the world
+					of connecting with a contagious disease during the months that he was over
+						here<del rend="overstrike"><gap reason="illegible" quantity="2" unit="character" /></del> and then to go home and catch the 'flu'. It
+					certainly was too bad. It was news about <persName key="Elmer, Rudolph (Dutch)" role="Second Lieutenant, Infantry" from="1896" to="1918" ref="https://www.findagrave.com/memorial/11360705/rudolph-elmer">Dutch Elmer</persName> and <persName key="Barr, Chapin Crawford (Dick)" from="1895" to="1918" role="Second lieutenant, Marine Corps" ref="https://www.findagrave.com/memorial/56097806/chapin-crawford-barr">Dick Barr</persName> "kicking
+					in". So <persName key="Farley, Walter Van Horne" role="Second Lieutenant, Infantry" from="1894" to="1975" ref="https://www.findagrave.com/memorial/196583310/walter-van_horn-farley">Walt</persName> is in England with a hole in his leg. All I can say is that he is
+					lucky that it <choice>
+						<orig>wasnt</orig>
+						<corr>wasn't</corr>
+					</choice> some where else. What ever became of <persName key="Farley, Worthington Shumway (Duck)" role="First Lieutenant, Infantry" from="1895" to="1963">"Duck<supplied>"</supplied> Farley</persName>? Did he ever come
+					across or is he still in the States? Before I forget it, Sil, I want to tell you
+					that I received the college letter of November 6th in the same mail as your
+					letter. The college letter was might interesting and contained a whole lot of
+					news. What are they going to do about the college now that the war is over? Is
+					it still to be a war college or will it go back to the old regime? Guess that I <choice>
+						<orig>cant</orig>
+						<corr>can't</corr>
+					</choice> ask you any more questions, Sil, and as I <choice>
+						<orig>havent</orig>
+						<corr>haven't</corr>
+					</choice> any news I think that this note had better come to a close.</p>
+				<closer>
+					<salute>In the Bonds</salute>
+					<signed>Pi-an</signed>
+				</closer>
+			</div>
+			<div type="letter" decls="#brachereg_18">
+				<pb n="48"/>
+				<opener>
+					<add place="margin"><hi rend="underlined">Bracher</hi><lb/></add>
+					<address style="text-align: right;">
+						<addrLine>Convalescent Camp,</addrLine>
+						<addrLine>Hospital Center, Savenay.</addrLine>
+					</address>
+					<dateline><date when="1918-12-14">December 14, 1918.</date></dateline>
+					<salute>Dear Sil;</salute>
+				</opener>
+				<p>Received your short note the other day and was <choice>
+						<orig>certainlt</orig>
+						<corr>certainly</corr>
+					</choice> glad to hear from you. I suspect that this will be somewhat similar to
+						<del rend="overstrike"><gap reason="illegible" unit="character" quantity="4" /></del> yours for unless a happy line of bull strikes me, I <choice>
+						<orig>havent</orig>
+						<corr>haven't</corr>
+					</choice> anything particular to say. I might make a few appropriate and
+					forceful remarks about the weather, but if I start in <choice>
+						<orig>sussing</orig>
+						<corr>cussing</corr>
+					</choice> about it the whole letter will be <del rend="overstrike"><gap reason="illegible" unit="character" quantity="2" /></del> nothing but a
+					line of swearing. Let it suffice that it has done nothing but rain for the last
+					two weeks or more and that everything is <choice>
+						<orig>asea</orig>
+						<corr>a sea</corr>
+					</choice> of mud. How are Eda and Mike? You <choice>
+						<orig>didnt</orig>
+						<corr>didn't</corr>
+					</choice> mention them so I take it that they are both in good health. You'll
+					have a Christmas tree for Mike, <choice>
+						<orig>wont</orig>
+						<corr>won't</corr>
+					</choice> you? I'll bet that he will be tickled to death with it and the
+					presents which he will receive. Christmas sure will be here before one realizes
+					it. I've been trying for the last month or so to buy something to send home and <choice>
+						<orig>havent</orig>
+						<corr>haven't</corr>
+					</choice> succeeded so I think that I <choice>
+						<orig>wont</orig>
+						<corr>won't</corr>
+					</choice> send anything. Thank<supplied resp="#GH">s</supplied> for the wish that I will
+					be among the first home. The way it looks now, we'll be here for quite some
+					time. There is really no telling <choice>
+						<orig>tho</orig>
+						<corr>though</corr>
+					</choice> at present. We may sail in a month <del rend="overstrike"><gap reason="illegible" unit="character" quantity="3" /></del> and then we may
+					not sail for six months. It surely would be pleasant to be in the States again.
+					I'm glad that you sent me Shrimp Whites address, for I had lost it and I owed
+					him a letter. He is mighty sore that he <choice>
+						<orig>wasnt</orig>
+						<corr>wasn't</corr>
+					</choice> able to come across, <choice>
+						<orig>isnt</orig>
+						<corr>isn't</corr>
+					</choice> he? Guess that he is just as well off <choice>
+						<orig>tho</orig>
+						<corr>though</corr>
+					</choice>. He might have been killed or have lost an arm or leg and then he sure
+					would have been out of luck. It <choice>
+						<orig>isnt</orig>
+						<corr>isn't</corr>
+					</choice> so here where I am now, Sil. One of <choice>
+						<orig>thegreatest</orig>
+						<corr>the greatest</corr>
+					</choice> benefits is that I <choice>
+						<orig>dont</orig>
+						<corr>don't</corr>
+					</choice> have to stand any formations. Get up when I please in the mornings and
+					turn in when I please in the evenings. Generally arise at eight or eight-thirty
+					or nine, and you know <del rend="overstrike"><gap reason="illegible" unit="character" quantity="4" /></del> how well that suits me. One little
+					piece of news that I know is that Joe has been sent home as unfit for further
+					duty. Had an attack of diptheria a while ago and it affected his heart. As a
+					result he received a <choice>
+						<abbr>S.C.D.</abbr>
+						<expan>Surgeon's Certificate of Disability</expan>
+					</choice> You will probably see him before this letter reaches you and learn all
+					about it. He will probably give you a great line about how he fought the
+					glorious battle of Savenay and how he is just recovering from a bad case of
+					shell-shock. Had more bull than I thought that I would have so I think that I
+					had better knock off now. Hope that you all have a most Merry Christmas and a
+					Happy New Year.</p>
+				<closer>
+					<salute>In the Bonds,</salute>
+					<signed>Pi-an</signed>
+				</closer>
+			</div>
+			<div type="letter" decls="#brachereg_19">
+				<pb n="49"/>
+				<opener>
+					<dateline><date when="1919-01-03">Jan. 3, 1919</date></dateline>
+					<salute>Dear Sil:</salute>
+				</opener>
+				<p>How the deuce are you all and why don't you write once in a while? Of course I
+					have received the college letter, but, I sure would like to hear from you
+					personally. How is Eda and the baby? I sure would like to see the little fellow.
+					I'll bet you are having a fine time with him keeping you awake at nights. Do you
+					have to get up and walk the floor with him? Say, what the deuce has become of
+					Mil? It certainly is some long time since I have heard a word about her. Sil,
+					that weekly letter from the college sure is a good thing. We all sure are glad
+					to keep in touch with the old place and I hope you <pb n="50"/> keep on getting
+					it out. Received the <seg xml:id="fn16">Alumni Quarterly</seg><note type="annotation" resp="#GH" target="#fn16" anchored="true"><p>This was the first
+							incarnation of what is now the Rutgers Magazine.</p><ref target="https://www.libraries.rutgers.edu/alumni/rutgers_magazine">Rutgers University Libraries</ref></note> which you sent and that was
+					highly appreciated. But, of all the nerves for Pete's sakes what the deuce did
+					you ever publish that letter I wrote? I sure never would have written if I had
+					ever thought you would publish it. I sure will wallop you for doing it when I
+					get back. I don't believe that there is any chance of sending any souvenirs of
+					the war back as you asked for in one of the letters. In the first place I'm not in
+					a postion to get any at present, and again, I don't know whether it would be
+					permitted or not. I have acquired a few things and hope to get more later. What
+					is doing at home Sil? Where is Dud? What is Father Pete doing, and Bub? I could
+					ask <pb n="51"/> a thousand questions, but I guess it would be too boring for
+					you to answer them. All the Rutgers bunch are well and
+					working hard. A lot of them have been in the hospital mostly with severe colds.
+					Joe and Doc Johnson have been in twice with very bad colds. I have been pretty
+					lucky and have managed to keep out. Joe is still on night duty in the wards. <choice>
+						<orig>Beleive</orig>
+						<corr>Believe</corr>
+					</choice> me every available man is working like the deuce, for we have an awful
+					amount of work to do. You know Sil, I think that it would have taken an awful
+					inducement to get me to enlist if I had known how much work I would have had to
+					have done. But, now that I'm in I don't mind it so much for I'm used to it now.
+					Believe me, I sure do sleep soundly <pb n="52"/> after working all day and it
+					sure is mighty hard to get up at quarter to six in the morning. We get very good
+					food <choice>
+						<orig>tho</orig>
+						<corr>though</corr>
+					</choice>, and that helps a lot. We haven't had hardly any snow, but, the
+					weather sure has been cold. The French people say it is the coldest winter they
+					have had for years and I sure do believe them. Wish I had more news, but, as I
+					haven't I'll have to close. Don't forget to write. Give my best regards to
+					people I know.</p>
+				<closer>
+					<salute>Yours in the Bonds,</salute>
+					<signed>Pi-an</signed>
+					<add place="margin">O.K. <lb/><unclear><gap reason="illegible" /></unclear></add>
+				</closer>
+			</div>
+			<div type="letter" decls="#brachereg_20">
+				<pb n="53"/>
+				<opener>
+					<address style="text-align: right;">
+						<addrLine>Convalescent Camp,</addrLine>
+						<addrLine>Hospital Center, Savenay.</addrLine>
+					</address>
+					<dateline><date when="1919-01-14">January 14, 1919.</date></dateline>
+					<salute>Dear Sil:</salute>
+				</opener>
+				<p>Received your letter of December 20 last night and it was the first in a devil of
+					a while. <choice>
+						<orig>Dont</orig>
+						<corr>Don't</corr>
+					</choice> know what has happened to your mail but it sure has gone astray some
+					where. I may receive the letter that I have missed in a month or so. The mail
+					system over here is pretty much balled up and we appreciate any that we do
+					receive. I'll forgive you seeing as you have written and that <choice>
+						<orig>isnt</orig>
+						<corr>isn't</corr>
+					</choice> your fault that I <choice>
+						<orig>didnt</orig>
+						<corr>didn't</corr>
+					</choice> get them. You sure told me a lot of news. I <choice>
+						<orig>didnt</orig>
+						<corr>didn't</corr>
+					</choice> know what had become of hardly any of the old gang. Yes the Scarr
+					family certainly <choice>
+						<orig>wasin</orig>
+						<corr>was in</corr>
+					</choice> hard luck and I sure di<supplied resp="#GH">d</supplied> feel sorry for them.
+					You want to know why none of the fellows <choice>
+						<orig>dont</orig>
+						<corr>don't</corr>
+					</choice> you? <choice>
+						<orig>I8ve</orig>
+						<corr>I've</corr>
+					</choice> told them<del rend="overstrike"><gap reason="illegible" unit="character" quantity="3" /></del> that you wished to hear from the
+					but can hardly blame them for not writing. Hells bells <choice>
+						<orig>dont</orig>
+						<corr>don't</corr>
+					</choice> you know by this time that there is nothing of interest to write about
+					here. I thought that I had impressed that upon your mind. If we had been up
+					where there was something going on it would have been different. But down here
+					where we have to get drunk for a little excitement it is a different matter. I
+					think that is the reason why none of the fellows have written. Did I tell you
+					that I had received the receipt for the payment of the Quarterly? I <choice>
+						<orig>dont</orig>
+						<corr>don't</corr>
+					</choice> know whom to thank for it but it was very kind of the ones who are
+					responsible for it. Have a little bit of news for you Cope Herbet is at this
+					center as a patient. He is at <seg xml:id="fn17">hospital #214</seg><note type="annotation" target="#fn17" resp="#GH" anchored="true"><p>Originally a section of Base
+							Hospital No.8 that provided neuropsychiatric services. It became its
+							own Base Hospital on November 6th, 1918.</p><ref target="https://history.amedd.army.mil/booksdocs/wwi/adminamerexp/chapter24.html">U.S. Army Office of Medical History, Chapter XXIV:Base
+						Hospitals</ref></note> which is a nut hospital. I <choice>
+						<orig>havent</orig>
+						<corr>haven't</corr>
+					</choice> seen him but I understand that he is suffering from Shell-shock. Will
+					try to see him in a day or so. <choice>
+						<orig>Dont</orig>
+						<corr>Don't</corr>
+					</choice> think that there will be any more of us going home with patients.
+					Expect to be home for good in a short time so <choice>
+						<orig>dont</orig>
+						<corr>don't</corr>
+					</choice> be surprised if I should blow in on you some time in the near future.
+					We know nothing definite for no one ever has any definite <seg xml:id="fn18">dope</seg><note type="gloss" resp="#GH" target="#fn18" anchored="true"><ref target="https://www-oed-com.proxy.libraries.rutgers.edu/view/Entry/56852">dope, n. OED Online. December 2020. Oxford University Press.</ref>
+						<p>Information, esp. on a particular subject or of a kind not widely
+							disseminated or easily obtained</p></note> in the army, but things look
+					very promising. Hard luck that the son had the "Flu" and sure am glad to hear
+					that he has suffered no damage from it. It is half past one now and I'm getting
+					sleepy as the devil so I think that I'll have to close this letter. Hope that I
+					see you soon.</p>
+				<closer>
+					<salute>In the Bonds</salute>
+					<signed>Pian</signed>
+				</closer>
+			</div>
+		</body>
+</text>
+</TEI>

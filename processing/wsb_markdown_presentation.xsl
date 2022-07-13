@@ -123,7 +123,11 @@
         <xsl:apply-templates/>
         <xsl:text>&lt;/p&gt;</xsl:text>
     </xsl:template>
-
+   <xsl:template match="note[@type = 'postscript' and @resp]"> <!-- need two attribute match to disambiguate -->
+       <xsl:text>&lt;p class="centered small"&gt;</xsl:text>
+       <xsl:apply-templates/>
+       <xsl:text>&lt;/p&gt;</xsl:text>
+   </xsl:template>
     <xsl:template match="opener/dateline">
         <xsl:text>&#x0A;</xsl:text>
         <xsl:text>&lt;p class="right"&gt;</xsl:text>
@@ -155,12 +159,12 @@
     </xsl:template>
     <xsl:template match="unclear">
         <xsl:if test="not(text())">
-            <xsl:text>_[?]_</xsl:text>
+            <xsl:text>&lt;i&gt;[?]&lt;/i&gt;</xsl:text>
         </xsl:if>
         <xsl:if test="text()">
-            <xsl:text>_</xsl:text>
+            <xsl:text>&lt;i&gt;</xsl:text>
             <xsl:apply-templates/>
-            <xsl:text> [?]_</xsl:text>
+            <xsl:text> [?]&lt;/i&gt;</xsl:text>
         </xsl:if>
     </xsl:template>
     <xsl:template match="choice"> <!-- take normalized text where available -->
@@ -181,7 +185,22 @@
             <xsl:apply-templates/>
         </xsl:for-each>
     </xsl:template>
-    
+
+    <xsl:template match="table"> <!-- convert TEI table to HTML table -->
+        <table>
+            <xsl:apply-templates select="row"/>
+        </table>
+    </xsl:template>
+    <xsl:template match="row">
+        <tr>
+            <xsl:apply-templates select="*"/>
+        </tr>
+    </xsl:template>
+    <xsl:template match="row/*">
+        <td>
+            <xsl:apply-templates select="node()"/>
+        </td>
+    </xsl:template>
     <xsl:template match="figure">
         <xsl:text>&lt;p class="small"&gt;</xsl:text>
         <xsl:text>&lt;i&gt;[</xsl:text><xsl:value-of select="figDesc"/><xsl:text>]&lt;/i&gt;</xsl:text>
@@ -200,6 +219,10 @@
         <xsl:text>**</xsl:text>
         <xsl:apply-templates/>
         <xsl:text>**</xsl:text>
+    </xsl:template>
+    
+    <xsl:template match="hi[@rend = 'underline']">
+        <xsl:text>&lt;u&gt;</xsl:text><xsl:apply-templates/><xsl:text>&lt;/u&gt;</xsl:text>
     </xsl:template>
     
     <xsl:template match="hi[@rend = 'superscript'] | add[@place = 'above']">
@@ -323,7 +346,7 @@
         </xsl:if>
     </xsl:template>
     
-    <xsl:template match="//note[not(@type='letterhead')]"/> <!-- ignore text of editorial notes -->
+    <xsl:template match="//note[not(@type='letterhead') and not(@type='postscript')]"/> <!-- ignore text of editorial notes -->
     <xsl:template match="//standOff"/> <!-- ignore standOff element -->
 
 </xsl:stylesheet>

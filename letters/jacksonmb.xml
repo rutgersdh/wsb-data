@@ -191,6 +191,7 @@
 					</correspDesc>
 				</profileDesc>
 		<revisionDesc>
+			<change who="#fg" when="2022-07-13">Updated Savenay coords.</change>
 			<change who="#fg" when="2021-12-09">Added <gi>standOff</gi>. Removed <gi>back</gi>.</change>
 			<change who="#bm" when="2021-06-22">Finished encoding letter anthology.</change>
 			<change who="#fg" when="2021-10-07">Edited letters, added listPlace.</change>
@@ -416,10 +417,10 @@
 				<placeName>Savenay, France</placeName>
 				<location>
 					<geo
-						sameAs="https://geohack.toolforge.org/geohack.php?params=47_21_43_N_1_56_26_W"
-						>47.3619 -1.9406</geo>
+						sameAs="https://geohack.toolforge.org/geohack.php?params=47_21_52_N_1_56_25_W"
+						>47.3665557 -1.9724944</geo>
 				</location>
-				<note><p>The location of U.S. Base Hospital no. 8.</p></note>
+				<note><p>The location of US Base Hospital No. 8, which occupied the Normal School of Savenay.</p></note>
 			</place>
 		</listPlace>
 	</standOff>

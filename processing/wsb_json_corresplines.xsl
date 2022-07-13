@@ -47,7 +47,7 @@
         <xsl:for-each-group select="$letterId" group-by="$letterId">
             <xsl:sort select="current-grouping-key()"/>
             <xsl:choose>
-               <xsl:when test="$senderLocId = $locId and position() eq 1 ">
+                <xsl:when test="$senderLocId = $locId [position() lt last()]"> 
                 <xsl:variable name="senderCoords" select="tokenize(normalize-space(ancestor::TEI//place[@xml:id = $senderLocId]/location/geo), '\s+')" />
                 <xsl:text>{"type": "Feature",
                                     "geometry": {
@@ -67,12 +67,12 @@
                     <xsl:text>&#x0a;},</xsl:text>
                 </xsl:if>
                 </xsl:when>
-                <xsl:when test="$senderLocId = $locId and position() eq last()">
+<!--                <xsl:when test="$senderLocId = $locId [position() eq last()]">
                     <xsl:text>]};</xsl:text>
-                </xsl:when>
-<!--                <xsl:otherwise>
+                </xsl:when>-->
+                <xsl:otherwise>
                     <xsl:text>]};</xsl:text>
-                </xsl:otherwise>-->
+                </xsl:otherwise>
             </xsl:choose>
         </xsl:for-each-group>
     </xsl:template>
