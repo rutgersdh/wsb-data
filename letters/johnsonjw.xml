@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="johnsonjw">
 	<teiHeader>
@@ -37,46 +38,46 @@
 		<profileDesc>
 			<correspDesc xml:id="johnsonjw_01">
 				<correspAction type="sent">
-					<persName>Jennie Opdyke Creveling</persName>
-					<placeName ref="#johnson-home">Stanton, New Jersey</placeName>
+					<persName ref="#psn-jocre">Jennie Opdyke Creveling</persName>
+					<placeName ref="#pla-stantnj">Stanton, New Jersey</placeName>
 					<date when="1917-10-30">October 30, 1917</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName>Earl Reed Silvers</persName>
-					<placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+					<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+					<placeName ref="#pla-rutgecon">New Brunswick, New Jersey</placeName>
 				</correspAction>
 			</correspDesc>
 			<correspDesc xml:id="johnsonjw_02">
 				<correspAction type="sent">
-					<persName>Jennie Opdyke Creveling</persName>
-					<placeName ref="#johnson-home">Stanton, New Jersey</placeName>
+					<persName ref="#psn-jocre">Jennie Opdyke Creveling</persName>
+					<placeName ref="#pla-stantnj">Stanton, New Jersey</placeName>
 					<date when="1918-01-30">January 30, 1918</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName>Earl Reed Silvers</persName>
-					<placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+					<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+					<placeName ref="#pla-rutgecon">New Brunswick, New Jersey</placeName>
 				</correspAction>
 			</correspDesc>
 			<correspDesc xml:id="johnsonjw_03">
 				<correspAction type="sent">
-					<persName>John W. Johnson</persName>
-					<placeName ref="#us-base-hospital-8">Savenay, France</placeName>
+					<persName ref="#psn-jwjoh">John W. Johnson</persName>
+					<placeName ref="#pla-usbah">Savenay, France</placeName>
 					<date when="1918-03-28">March 28, 1918</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName>Earl Reed Silvers</persName>
-					<placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+					<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+					<placeName ref="#pla-rutgecon">New Brunswick, New Jersey</placeName>
 				</correspAction>
 			</correspDesc>
 			<correspDesc xml:id="johnsonjw_04">
 				<correspAction type="sent">
-					<persName>Earl Reed Silvers</persName>
-					<placeName ref="#rutgers">New Brunswick, New Jersey</placeName>
+					<persName ref="#psn-ersil">Earl Reed Silvers</persName>
+					<placeName ref="#pla-rutgecon">New Brunswick, New Jersey</placeName>
 					<date when="1918-04-25">April 25, 1918</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName>John W. Johnson</persName>
-					<placeName ref="#us-base-hospital-8">Savenay, France</placeName>
+					<persName ref="#psn-jwjoh">John W. Johnson</persName>
+					<placeName ref="#pla-usbah">Savenay, France</placeName>
 				</correspAction>
 			</correspDesc>
 		</profileDesc>
@@ -87,9 +88,259 @@
 				descriptions.</change>
 			<change when="2021-02-05" who="#GH"> added in more data for soldiers
 				(Skinner,Burch,Costa,Norcum,Storck,Bracher); added more correspAction.</change>
-			<change when="2021-02-14" who="#fg">Edited letters and standardized/normalized elements and attributes.</change>
+			<change when="2021-02-14" who="#fg">Edited letters and standardized/normalized elements
+				and attributes.</change>
+			<change when="2022-11-29" who="#fg">Added <gi>standOff</gi> and removed <gi>back</gi>. Filled in some more research on people mentioned. Updated @ref identifiers in <gi>correspDesc</gi>.</change>
+			<change when="2022-12-06" who="#fg">Deleted likely erroneous mention of Base Hospital no. 6 and added explanatory annotation to text.</change>
 		</revisionDesc>
 	</teiHeader>
+	<standOff>
+		<listPerson>
+			<person xml:id="psn-egbra">
+				<persName type="display">Elmer Gladstone Bracher</persName>
+				<persName type="sort">Bracher, Elmer Gladstone</persName>
+				<state>
+					<p>Sergeant, Medical Corps</p>
+				</state>
+				<birth when="1894-09-03">1894</birth>
+				<death when="1923-09-30">1923</death>
+				<note><list type="links">
+						<item><ref
+								target="https://www.findagrave.com/memorial/210183871/elmer-gladstone-bracher"
+									><title>Find A Grave</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-wdbur">
+				<persName type="display">William Dement Burch</persName>
+				<persName type="sort">Burch, William Dement</persName>
+				<state>
+					<p>Sergeant, Ambulance Service</p>
+				</state>
+				<birth when="1898-08-03">1898</birth>
+				<death when="1962-12-15">1962</death>
+				<note><p>Served in Section 584 of the U.S. Army Ambulance Service from June 21, 1917
+						to May 19, 1919. Was involved in the Champagne-Marne, Aisne-Marne, Somme
+						Offensive, Oise-Aisne, and Ypres-Lys engagements.</p>
+					<list type="links">
+						<item><ref target="https://www.familysearch.org/ark:/61903/1:1:K4PV-JTZ"
+									><title>Family Search</title></ref></item>
+						<item><ref
+								target="https://www.ancestry.com/sharing/462878?mark=159081d9f1b6d6abf04ad7d97a4047a3bc743fd252c410d4925357798a5871a2"
+									><title>William D Burch, Pennsylvania, U.S., World War I
+									Veterans Service and Compensation Files, 1917-1919,
+									1934-1948</title></ref></item>
+						<item><ref
+								target="https://www.ancestry.com/sharing/462966?mark=c1c8699c66af8d521cb3a7a639562d193318ae8003c159bfd701588d99ea0e53"
+									><title>William Dement Burch in the U.S., Veterans
+									Administration Master Index, 1917-1940</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-fochu">
+				<persName type="display">Franklin Oscar Church</persName>
+				<persName type="sort">Church, Franklin Oscar</persName>
+				<state>
+					<p>First Lieutenant, Engineers</p>
+				</state>
+				<birth when="1892-11-21">1892</birth>
+				<death when="1971-03-06">1971</death>
+				<note><list type="links">
+						<item><ref target="https://doi.org/doi:10.7282/T38055VR"><title>Silvers,
+									Earl Reed. War records, C.</title></ref></item>
+						<item><ref
+								target="https://www.ancestry.com/sharing/529247?mark=a3ee118895e59fdff4aa8a2211e654b899b7bbb1de6d6414f9eda5a810f4f6f9"
+									><title>Franklin Oscar Church, in the U.S., World War I Draft
+									Registration Cards, 1917-1918</title></ref></item>
+						<item><ref
+								target="https://www.ancestry.com/sharing/529306?mark=2db79cbaf636523de0d63bc1a632feac8500fb4f09c4aef62175b32b2e2711c0"
+									><title>Franklin Oscar Church, in the U.S., Veterans
+									Administration Master Index, 1917-1940</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-jlcos">
+				<persName type="display">Joseph Louis Costa</persName>
+				<persName type="sort">Costa, Joseph Louis</persName>
+				<state>
+					<p>Lieutenant, French Foreign Legion</p>
+				</state>
+				<birth when="1897-12-01">1897</birth>
+				<death when="1969-03-22">1969</death>
+				<note><list type="links">
+						<item><ref target="https://doi.org/doi:10.7282/T38055VR"><title>Silvers,
+									Earl Reed. War records, C.</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-jocre">
+				<persName type="display">Jennie Opdyke Creveling</persName>
+				<persName type="sort">Creveling, Jennie Opdyke</persName>
+				<state>
+					<p>Mother to John W. Johnson</p>
+				</state>
+				<birth when="1863-01-26">1863</birth>
+				<death when="1929-01-06">1929</death>
+				<note><list type="links">
+						<item><ref
+								target="https://www.familysearch.org/tree/person/details/K4FW-FVP"
+									><title>Family Seasrch</title></ref></item>
+						<item><ref
+								target="https://www.findagrave.com/memorial/17175113/jennie-opdyke-johnson"
+									><title>Find a Grave</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-fljoh">
+				<persName type="display">Frederick Lincoln Johnson</persName>
+				<persName type="sort">Johnson, Frederick Lincoln</persName>
+				<state>
+					<p>Father to John W. Johnson and physician</p>
+				</state>
+				<birth when="1865-02-26">1865</birth>
+				<death when="1922-03-08">1922</death>
+				<note><list type="links">
+						<item><ref
+								target="https://www.familysearch.org/tree/person/details/KZC5-NYH"
+									><title>Family Search</title></ref></item>
+						<item><ref
+								target="https://www.findagrave.com/memorial/17175090/fredrick-lincoln-johnson"
+									><title>Find a Grave</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-jwjoh">
+				<persName type="display">John William Johnson</persName>
+				<persName type="sort">Johnson, John William</persName>
+				<state>
+					<p>Sergeant, Medical Department</p>
+				</state>
+				<birth when="1895-11-09">1895</birth>
+				<death when="1960-12-11">1960</death>
+				<note>
+					<p>John William Johnson (RC 1917) was born in 1895 in Stanton, NJ, to parents Jennie Opdyke Creveling and Dr. Frederick Lincoln Johnson. One of six children, he was the only son. Following perhaps in his father's physician footsteps, he enlisted as a private with the New York Post-Graduate Hospital, in New York City, which organized Base Hospital #8 in Savenay, France. Once in Savenay, he was joined by several other Rutgers men, including Elmer "Toady" Bracher, Frank Broome, Joe Herben, Morris "Jill" Jackson, Carl "Slates" Maar, Frank Merritt, Ross Miner, Meff Runyon, Ralph Spencer Voorhees Jr., and Anton Ward. Owing perhaps to his relatively congenial circumstances, surrounded by familiar faces and several hundred miles from the Front, and to the terrible crush of patients at BH #8 in the spring and summer of 1918, Johnson writes only once. Joe Costa's letter to Silvers suggests that Johnson may have suffered from a communicable disease of some sort (scarlet fever? mumps?) while working there, but he was apparently only briefly sidelined by it.</p>
+					<p>Johnson was mustered out of service at the rank of sergeant in March of 1919. He married Hilda Titus of East Orange, NJ, in 1921. His work drew him to chemical manufacturing and he soon after co-founded Pettit Paint Company, a manufacturer of marine coatings, where he worked for the remainder of his career.</p>
+					<list type="links">
+						<item><ref
+								target="https://www.familysearch.org/tree/person/details/G754-5C5"
+									><title>Family Search</title></ref></item>
+					</list>
+					<listBibl>
+						<bibl>John W. Johnson, 65; Board Vice-Chairman at Pettit Paint Co., The Belleville Times (Belleville, New Jersey), December 22, 1960, p. 2.</bibl>
+						<bibl>Patient Numbers, Base Hospital No. 8, Savenay, France, c. 1919, part of UNMC in Service, University of Nebraska Medical Center, https://wigton.unmc.edu/item/1789.</bibl>
+					</listBibl>
+				</note>
+			</person>
+			<person xml:id="psn-gdnor">
+				<persName type="display">George Dusenbery Norcom</persName>
+				<persName type="sort">Norcom, George Dusenbery</persName>
+				<state>
+					<p>Captain, Sanitary Corps, 26th Engineers</p>
+				</state>
+				<birth when="1892-10-13">1892</birth>
+				<death when="1964-05-12">1964</death>
+				<note><list type="links">
+						<item><ref target="https://www.familysearch.org/ark:/61903/1:1:7BN8-WS3Z"
+									><title>Family Search</title></ref></item>
+						<item><ref
+								target="https://www.findagrave.com/memorial/36681504/george-dusenbery-norcom"
+									><title>Find A Grave</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-jmsab">
+				<persName type="display">Jesse Monroe Sabbath</persName>
+				<persName type="sort">Sabbath, Jesse Monroe</persName>
+				<state>
+					<p>Private, Ambulance Service</p>
+				</state>
+				<birth when="1894-03-26">1894</birth>
+				<death when-custom="1947">1947</death>
+				<note><list type="links">
+						<item><ref target="https://www.familysearch.org/ark:/61903/1:1:W75F-K1PZ"
+									><title>Family Search</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-ersil">
+				<persName type="display">Earl Reed Silvers</persName>
+				<persName type="sort">Silvers, Earl Reed</persName>
+				<state>
+					<p>Director, War Service Bureau</p>
+				</state>
+				<birth when="1891-02-22">1891</birth>
+				<death when="1948-03-26">1948</death>
+				<note><list type="links">
+						<item><ref target="http://viaf.org/viaf/68516378"
+							><title>VIAF</title></ref></item>
+						<item><ref
+								target="https://www.findagrave.com/memorial/159029195/earl-reed-silvers"
+									><title>Find A Grave</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-apski">
+				<persName type="display">Alfred Phillips Skinner</persName>
+				<persName type="sort">Skinner, Alfred Phillips</persName>
+				<state>
+					<p>Private, Ambulance Service, Section 646</p>
+				</state>
+				<birth when="1895-02-09">1895</birth>
+				<death when="1955-02-03">1955</death>
+				<note><list type="links">
+						<item><ref target="https://www.familysearch.org/ark:/61903/1:1:QK1G-77NS"
+									><title>Family Search</title></ref></item>
+						<item><ref
+								target="https://www.ancestry.com/sharing/531911?mark=130618869233c35366e91a6ba9f26673a821c971ec662adfa594dc2ae60709b0"
+									><title>Alfred P. Skinner, in the U.S., Army Transport Service
+									Arriving and Departing Passenger Lists,
+							1910-1939</title></ref></item>
+						<item><ref
+								target="https://www.findagrave.com/memorial/145116605/alfred-phillip-skinner"
+									><title>Find A Grave</title></ref></item>
+					</list></note>
+			</person>
+			<person xml:id="psn-dgsto">
+				<persName type="display">Donald George Storck</persName>
+				<persName type="sort">Storck, Donald George</persName>
+				<state>
+					<p>Sergeant, Medical Corps</p>
+				</state>
+				<birth when="1897-02-13">1897</birth>
+				<death when="1987-03-21">1987</death>
+				<note><list type="links">
+						<item><ref
+								target="https://www.familysearch.org/tree/person/details/L2VB-2B8"
+									><title>Family Search</title></ref></item>
+						<item><ref
+								target="https://www.findagrave.com/memorial/131133802/donald-george-storck"
+									><title>Find A Grave</title></ref></item>
+					</list></note>
+			</person>
+		</listPerson>
+		<listPlace>
+			<place xml:id="pla-rutgecon">
+				<placeName>Rutgers College, New Brunswick, NJ</placeName>
+				<location>
+					<geo
+						sameAs="https://tools.wmflabs.org/geohack/geohack.php?params=40_29_55_N_74_26_54_W"
+						>40.500819 -74.447399</geo>
+				</location>
+				<note/>
+			</place>
+			<place xml:id="pla-stantnj">
+				<placeName>Stanton, NJ</placeName>
+				<location>
+					<geo
+						sameAs="https://geohack.toolforge.org/geohack.php?params=40_34_30_N_74_50_16_W"
+						>40.575 -74.837778</geo>
+				</location>
+				<note><p>Frederick L. Johnson practiced medicine in Stanton, NJ, in Readington
+						Township, Hunterdon County, where the family also resided at this time.
+					</p></note>
+			</place>
+			<place xml:id="pla-usbah">
+				<placeName>US Base Hospital #8, Savenay, France</placeName>
+				<location>
+					<geo
+						sameAs="https://geohack.toolforge.org/geohack.php?params=47_21_52_N_1_56_31_W"
+						>47.3665557 -1.9724944</geo>
+				</location>
+				<note/>
+			</place>
+		</listPlace>
+	</standOff>
 	<text>
 		<body>
 			<div type="letter" decls="#johnsonjw_01">
@@ -99,7 +350,8 @@
 						ref="https://geohack.toolforge.org/geohack.php?params=40_34_30_N_74_50_16_W"
 						> STANTON N.J.</placeName><lb/>
 					<date when="1917-10-30"> Oct <lb/> 30 <lb/> 1917 </date>
-				</ab><lb/>
+				</ab>
+				<lb/>
 				<ab type="pre-printed">THIS SIDE OF CARD IS FOR ADDRESS</ab>
 				<lb/>
 				<ab>
@@ -116,23 +368,21 @@
 				<pb n="2"/>
 				<ab>
 					<address>
-						<addrLine>Private <persName key="Johnson, John William" from="1895" to="1960" role="Sergeant, Medical Department"
+						<addrLine>Private <persName key="Johnson, John William" from="1895"
+								to="1960" role="Sergeant, Medical Department"
 								ref="https://www.familysearch.org/tree/person/details/G754-5C5">John
 								W. Johnson</persName>,</addrLine>
-						<addrLine><placeName
-								key="American Hospital of Paris, Neuilly-sur-Seine, France"
-								ref="https://geohack.toolforge.org/geohack.php?params=48_53_34_N_2_16_21_E"
-								>U.S. Army Hospital #6</placeName>,</addrLine>
+						<addrLine><seg xml:id="fn3">U.S. Army Hospital #6</seg><note target="#fn3" resp="#fg" type="annotation"><p>Although Base Hospital #6 is written, it is likely that the #8 in Savenay, France, was intended. Per Morris Jackson's father, there was some initial confusion between the two. Johnson enlisted with Base Hospital #8 at the New York Post-Graduate Hospital on May 22, 1917, per Silvers's files.</p></note>,</addrLine>
 						<addrLine>Paris, France</addrLine>
 						<addrLine>A.E.F via New York.</addrLine>
 					</address>
 				</ab>
 				<closer>
-					<signed><seg xml:id="fn1">Frederick L. Johnson</seg><note type="annotation" target="#fn1"
-								><p>Although this postcard is signed as if it were being sent by
-								Johnson's father, the handwriting bears a close resemblance to that
-								of the next letter from Johnson's mother, Jennie Johnson, née
-								Creveling.</p></note>.</signed>
+					<signed><seg xml:id="fn1">Frederick L. Johnson</seg><note type="annotation"
+							target="#fn1"><p>Although this postcard is signed as if it were being
+								sent by Johnson's father, the handwriting bears a close resemblance
+								to that of the next letter from Johnson's mother, Jennie Johnson,
+								née Creveling.</p></note>.</signed>
 				</closer>
 			</div>
 			<div type="letter" decls="#johnsonjw_02">
@@ -164,7 +414,8 @@
 							role="Director, War Service Bureau" ref="http://viaf.org/viaf/68516378"
 							>Sir</persName>, </salute>
 				</opener>
-				<p>I wish to notify you that <persName key="Johnson, John William" from="1895" to="1960" role="Sergeant, Medical Department"
+				<p>I wish to notify you that <persName key="Johnson, John William" from="1895"
+						to="1960" role="Sergeant, Medical Department"
 						ref="https://www.familysearch.org/tree/person/details/G754-5C5">John W.
 						Johnson</persName>'s '17 address has been changed to <placeName
 						key="US Base Hospital #8, Savenay, France"
@@ -206,36 +457,36 @@
 						to="1947" role="Private, Ambulance Service"
 						ref="https://www.familysearch.org/ark:/61903/1:1:W75F-K1PZ">Jesse
 						Sabbath</persName> in '17 who is over here with the <seg xml:id="fn2">165
-						Amb. Co. San. Tn. </seg><note type="annotation" target="#fn2"><p>Standing for
-							Ambulance Company Sanitary Train. The term 'train' is unique to the
+						Amb. Co. San. Tn.</seg><note type="annotation" target="#fn2"><p>Standing
+							for Ambulance Company Sanitary Train. The term 'train' is unique to the
 							first World War. There were four assigned to each infantry division:
 							ammunition, supply, engineer, and sanitary. All were mobile and used
 							either horse-drawn or motorized wagons to support the division. Sanitary
 							trains were composed of camp infirmaries, ambulance companies, and field
 							hospitals. An ambulance company's main objective was to transport
-							wounded soldiers from a batallion aid station back to a field hospital. In
-							cases where medical emergencies were dire, ambulance companies set up
+							wounded soldiers from a batallion aid station back to a field hospital.
+							In cases where medical emergencies were dire, ambulance companies set up
 							dressing stations en route to field hospitals in order to provide
 							continuous care to soldiers.</p><ref
 							target="https://hdl.handle.net/2027/nnc1.cu09332723">Ireland, M. W.
 							(1925). The medical department of the United States Army in the world
 							war, vol. VIII Field Operations.</ref></note>
-					<persName key="Burch, William. D." from="1899" to-iso="19--"
+					<persName key="Burch, William. D." from="1898" to="1962"
 						role="Sergeant, Ambulance Service"
-						ref="https://www.familysearch.org/ark:/61903/1:1:K4PV-JTZ"> Burch </persName>
-					'20 who is a Sergeant in the Med Corps stepped off to see us the other day. I
-					have also seen <pb n="5"/>
-					<persName key="Costa, Joseph Louis" role="Private, French Army" from="1897" to="1969" ref="https://doi.org/doi:10.7282/T38055VR">Joe
-						Costa</persName>, Y.M.C.A, <persName key="Church, Franklin Oscar"
-						from="1892" to="1971" role="1st Lieutenant, Engineers"
-						ref="https://doi.org/doi:10.7282/T38055VR">Lt. Church</persName> '14 and
-						<persName key="Norcom, George D." from="1892" to="1964"
-						role="Captain, Sanitary Corps"
+						ref="https://www.familysearch.org/ark:/61903/1:1:K4PV-JTZ"> Burch
+					</persName> '20 who is a Sergeant in the Med Corps stepped off to see us the
+					other day. I have also seen <pb n="5"/>
+					<persName key="Costa, Joseph Louis" role="Lieutenant, French Foreign Legion" from="1897"
+						to="1969" ref="https://doi.org/doi:10.7282/T38055VR">Joe Costa</persName>,
+					Y.M.C.A, <persName key="Church, Franklin Oscar" from="1892" to="1971"
+						role="First Lieutenant, Engineers" ref="https://doi.org/doi:10.7282/T38055VR"
+						>Lt. Church</persName> '14 and <persName key="Norcom, George D." from="1892"
+						to="1964" role="Captain, Sanitary Corps"
 						ref="https://www.familysearch.org/ark:/61903/1:1:7BN8-WS3Z">Lt.
 						Norcum</persName> '15. I think these are all the Rutgers men in the service
 					whom I have seen here.</p>
 				<p>Any news which I may be able to tell you about the hospital will no doubt be old
-					to you. We have been having a few fall games recently — three in all of which we
+					to you. We have been having a few ball games recently — three in all of which we
 					have won two. <persName key="Storck, Donald G." from="1897" to="1987"
 						role="Sergeant, Medical Corps"
 						ref="https://www.familysearch.org/tree/person/details/L2VB-2B8">"Don"
@@ -251,7 +502,8 @@
 				<closer>
 					<salute>I am <lb/> Sincerely<lb/></salute>
 					<signed>
-						<persName key="Johnson, John William" from="1895" to="1960" role="Sergeant, Medical Department">J.W. Johnson</persName> '17
+						<persName key="Johnson, John William" from="1895" to="1960"
+							role="Sergeant, Medical Department">J.W. Johnson</persName> '17
 					</signed>
 				</closer>
 			</div>
@@ -268,7 +520,9 @@
 								>U.S Base Hospital #8,</placeName></addrLine>
 						<addrLine>American Expeditionary Force.</addrLine>
 					</address>
-					<salute>Dear <persName key="Johnson, John William" from="1895" to="1960" role="Sergeant, Medical Department" ref="https://www.familysearch.org/tree/person/details/G754-5C5"
+					<salute>Dear <persName key="Johnson, John William" from="1895" to="1960"
+							role="Sergeant, Medical Department"
+							ref="https://www.familysearch.org/tree/person/details/G754-5C5"
 							>Johnson</persName>:</salute>
 				</opener>
 				<p>It was good of you to write your letter of <choice>
@@ -287,34 +541,5 @@
 				</closer>
 			</div>
 		</body>
-		<back>
-			<listPlace>
-				<place xml:id="johnson-home">
-					<placeName>Stanton, NJ</placeName>
-					<location>
-						<geo>40.575 -74.837778</geo>
-					</location>
-				</place>
-				<place xml:id="rutgers">
-					<placeName>Rutgers College, New Brunswick, NJ</placeName>
-					<location>
-						<geo>40.500819 -74.447399</geo>
-
-					</location>
-				</place>
-				<place xml:id="american-hospital-of-paris">
-					<placeName>American Hospital of Paris, Neuilly-sur-Seine, France</placeName>
-					<location>
-						<geo>48.8929 2.2725</geo>
-					</location>
-				</place>
-				<place xml:id="us-base-hospital-8">
-					<placeName>US Base Hospital #8, Savenay, France </placeName>
-					<location>
-						<geo>47.3619 -1.9406</geo>
-					</location>
-				</place>
-			</listPlace>
-		</back>
 	</text>
 </TEI>

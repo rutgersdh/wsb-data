@@ -272,7 +272,7 @@
 			<change when="2021-04-26" who="#GH">Corrected placeName refs</change>
 			<change when="2021-04-29" who="#GH">Corrected data under Correspdesc for brachereg_06, brachereg_15, and brachereg_16. Changed U.S. Base Hospital #6 location from Talence, France to Savenay France. Added annotation to explain the relationship between U.S. B.H. #6 and U.S. B.H. #8.</change>
 			<change when="2022-07-06" who="#fg">Edited Gabriel's letters. Cleaned up some structure. Tagged more RC alumni. Added <gi>standOff</gi>.</change>
-			<change when="2022-07-18" who="#fg">Fixed identification of "Sandy" and added Bracher's bio.</change>
+			<change when="2022-09-23" who="#fg">Minor change to get everyone's bibliography behaving appropriately in the <gi>listPerson</gi> element.</change>
 		</revisionDesc>
 	</teiHeader>
 	<standOff>
@@ -389,10 +389,13 @@
 				<birth when="1894-09-03">1894</birth>
 				<death when="1923-09-30">1923</death>
 				<note>
-					<p>Elmer G. Bracher, Rutgers College class of 1918, was born in 1894 in Rahway, New Jersey, to parents George S. Bracher (1839-1902) and Evelina Johnson (1853-1923). He was the youngest of six children (five sons and one daughter). As a local of Rahway, Bracher and Silvers knew each others' families well. Elmer goes by the nickname &quot;Pi-an&quot; or &quot;Pian&quot; in these letters, the origin of which remains mysterious (to us, at least). Elsewhere, classmates refer to him as &quot;Toady&quot; Bracher.</p>
-					<p>Bracher's desire to communicate fairly bursts from the page. It's clear that the College, his fellow football teammates (Bracher was a star halfback despite his small stature), and the Delta Phis (his and Silvers's fraternity) constitute his chosen family. He is conspicuously silent about his biological family, despite the fact that Silvers would have known them from town, and Bracher shipped out of Hoboken with his older brother Robert. Bracher's other topics---who is getting married or engaged, and being at the rear versus the front of the war effort---reveal a preoccupation with masculinity. One senses that the war to him is a giant impediment to maturity. Not only did it cut short his football career, but being stationed at a base hospital in Savenay, France, hundreds of miles from the Front, meant that he couldn't as easily demonstrate conventional soldierly notions of nobility or strength. Nor could he become engaged. He is clearly stung by the news of Mildred Terrill's engagement. Terrill, who Bracher calls "the Voice" (a singer?), was Earl Reed Silvers's sister-in-law and apparently Rahway's own Helen of Troy. Bracher is not the only one to write of her; in a more humorous vein, Ainsworth claims to be "sore as hell at being thrown over" for Lyle B. Reeb (RC 1919).</p>
-					<p>Bracher's letters show a certain tonedeafness on the subject of illness and death. He refers to "nut patients" and a "nut hospital" (Base Hospital No. 214, also at Savenay) when speaking of the war's shell shock victims. Of Morris B. Jackson (RC 1919) dying of the flu, he says "[i]t certainly was too bad." And of Chapin Barr (RC 1918) and Rudolph Elmer's (RC 1917) deaths, he merely states that it was news to him that they "kick[ed] in." Bracher himself would die four years after demobilization. He crashed his Stutz touring car into a stationary truck in the early hours of Sunday morning, September 30, 1923, after watching the Rutgers-Penn Military College football game the prior evening. He is thought to have died at the scene.</p>
-					<bibl>"Football Star Killed as Auto Hits Truck with Sleeping Driver," <title>The Philadelphia Inquirer</title>, October 1, 1923.</bibl>
+					<p>Elmer G. Bracher (RC 1918) was born in 1894 in Rahway, New Jersey, to parents George S. Bracher (1839-1902) and Evelina Johnson (1853-1923). He was the youngest of six children. As locals of Rahway, Bracher and Silvers knew each other’s families well. Elmer goes by the nickname “Pi-an” or “Pian” in these letters, the origin of which remains mysterious (to us, at least). Elsewhere, classmates refer to him as “Toady” Bracher.</p>
+					<p>Bracher’s desire to communicate fairly bursts from the page. It’s clear that the College, his fellow football teammates (Bracher was a star halfback despite his small stature), and the Delta Phis (his and Silvers’s fraternity) constitute his chosen family. He is conspicuously silent about his biological family, despite the fact that Silvers would have known them from town, and Bracher shipped out of Hoboken with his older brother Robert. Bracher’s other major topics—who is getting married or engaged, and being at the rear versus the front of the war effort—reveal a preoccupation with contemporaneous attitudes towards masculinity. One senses that the war to him is a giant impediment to maturity. Not only did it cut short his athletic career, but being stationed at a base hospital in Savenay, France, hundreds of miles from the Front, meant that he couldn’t as easily demonstrate soldierly notions of nobility or strength. Nor could he become engaged. He is clearly stung by the news of Mildred Terrill’s engagement. Terrill, who Bracher calls “the Voice” (a singer?), was Earl Reed Silvers’s sister-in-law, and apparently Rahway’s own Helen of Troy. Bracher is not the only one to write of her; in a more humorous vein, Ainsworth claims to be “sore as hell at being thrown over” for Lyle B. Reeb (RC 1919).</p>
+					<p>Bracher’s letters show a certain remove, or even tone-deafness, on the subject of illness and death. He refers to “nut patients” and a “nut hospital” (Base Hospital No. 214, also at Savenay) when speaking of the war’s shell shock victims. Of Morris B. Jackson (RC 1919) dying of the flu, he says “[i]t certainly was too bad.” And of Chapin Barr (RC 1918) and Rudolph Elmer’s (RC 1917) deaths, he merely states that it was news to him that they “kick[ed] in.” Bracher himself would die four years after demobilization. He crashed his Stutz touring car into a stationary truck in the early hours of Sunday morning, September 30, 1923, after watching the Rutgers-Penn Military College football game the prior evening. He is thought to have died at the scene.</p>
+					<listBibl>
+						<bibl>Elmer Gladstone "Toady" Bracher, "Find a Grave," 17 May 2020, https://www.findagrave.com/memorial/210183871/elmer-gladstone-bracher.</bibl>
+						<bibl>"Football Star Killed as Auto Hits Truck with Sleeping Driver," The Philadelphia Inquirer, October 1, 1923.</bibl>
+					</listBibl>
 					<list type="links">
 						<item>
 							<ref target="https://www.findagrave.com/memorial/210183871/elmer-gladstone-bracher">
@@ -718,7 +721,7 @@
 					</list></note>
 			</person>
 			<person xml:id="psn-rhmin">
-				<persName type="display">Ross H. Miner</persName>
+				<persName type="display">Ross H Miner</persName>
 				<persName type="sort">Miner, Ross H.</persName>
 				<state>
 					<p>Sergeant, Medical Department</p>
@@ -757,7 +760,7 @@
 						<item><ref
 								target="https://www.findagrave.com/memorial/208742046/john-d-morrison"
 						><title>Find a Grave</title></ref></item>
-						<item><ref target="https://www.ancestry.com/sharing/28937280?h=d5b048"/><title>Ancestry.com. U.S., Veterans Administration Master Index, 1917-1940 [database on-line]. Lehi, UT. USA: Ancestry.com Operations, Inc., 2019.</title></item>
+						<item><ref target="https://www.ancestry.com/sharing/28937280?h=d5b048"><title>Ancestry.com. U.S., Veterans Administration Master Index, 1917-1940 [database on-line]. Lehi, UT. USA: Ancestry.com Operations, Inc., 2019.</title></ref></item>
 					</list></note>
 			</person>
 			<person xml:id="psn-hrper">
@@ -770,17 +773,15 @@
 				<death when-custom="1968">1968</death>
 				<note/>
 			</person>
-			<person xml:id="psn-gfsan">
-				<persName type="display">George Foster (Sandy) Sanford</persName>
-				<persName type="sort">Sanford, George Foster (Sandy)</persName>
+			<person xml:id="psn-ersan">
+				<persName type="display">Edward Raymond Sandiford</persName>
+				<persName type="sort">Sandiford, Edward Raymond</persName>
 				<state>
-					<p>Rutgers College football coach from 1913 to 1923</p>
+					<p>Rutgers College, class of 1913</p>
 				</state>
-				<birth when="1870-06-04">1870</birth>
-				<death when="1938-05-23">1938</death>
-				<note><list type="links">
-					<item><ref target="https://en.wikipedia.org/wiki/George_Sanford_(American_football)">Wikipedia</ref></item>
-				</list></note>
+				<birth when-custom="1888">1888</birth>
+				<death when-custom="1971">1971</death>
+				<note/>
 			</person>
 			<person xml:id="psn-afshe">
 				<persName type="display">Anson F. Sherman</persName>
@@ -1192,7 +1193,7 @@
 					(A.P.O. 709), I know that they surely would like to hear the news from college.
 					We <pb n="12"/> had a pretty successful football team didn't we? I certainly was
 					mighty glad to hear when we won. It was too bad that we lost to Syracuse. Offer
-					my congratulations to <persName key="Sanford, George Foster (Sandy)" from="1870" to="1938" role="Rutgers College football coach from 1913 to 1923" ref="https://en.wikipedia.org/wiki/George_Sanford_(American_football)">Sandy</persName> and to <unclear>Thug</unclear> for the fine team
+					my congratulations to <persName key="Sandiford, Edward Raymond" from="1888" to="1971" role="Rutgers College, class of 1913" cert="medium">Sandy</persName> and to <unclear>Thug</unclear> for the fine team
 					they turned out, when you see them. It must have been great to watch them play
 					and practice and I sure do wish that I could have seen them. I hope I have
 					better luck next year, <choice>
@@ -1996,8 +1997,8 @@
 					</choice> get them. You sure told me a lot of news. I <choice>
 						<orig>didnt</orig>
 						<corr>didn't</corr>
-					</choice> know what had become of hardly any of the old gang. Yes the <seg xml:id="fn24">Scarr
-						family</seg><note target="#fn24"><p>Francis H. Scarr (RC 1917) was severely wounded in France. His brother, James B. Scarr, was killed in action at Chateau Thierry on June 6, 1918.</p></note> certainly <choice>
+					</choice> know what had become of hardly any of the old gang. Yes the Scarr
+					family certainly <choice>
 						<orig>wasin</orig>
 						<corr>was in</corr>
 					</choice> hard luck and I sure di<supplied resp="#GH">d</supplied> feel sorry for them.
@@ -2020,7 +2021,7 @@
 						<orig>dont</orig>
 						<corr>don't</corr>
 					</choice> know whom to thank for it but it was very kind of the ones who are
-					responsible for it. Have a little bit of news for you <persName key="Herbert, Wilbur Copley (Cope)" from="1895" to="1963" role="Second Lieutenant, Infantry" ref="https://www.ancestry.com/sharing/29466562?h=1aa5e6">Cope Herbet</persName> is at this
+					responsible for it. Have a little bit of news for you Cope Herbet is at this
 					center as a patient. He is at <seg xml:id="fn17">hospital #214</seg><note type="annotation" target="#fn17" resp="#GH" anchored="true"><p>Originally a section of Base
 							Hospital No.8 that provided neuropsychiatric services. It became its
 							own Base Hospital on November 6th, 1918.</p><ref target="https://history.amedd.army.mil/booksdocs/wwi/adminamerexp/chapter24.html">U.S. Army Office of Medical History, Chapter XXIV:Base

@@ -224,6 +224,7 @@
          </correspDesc>
       </profileDesc>
       <revisionDesc>
+         <change when="2022-11-29" who="#fg">Fixed Evelyn Reed's birth year.</change>
          <change when="2022-07-13" who="#fg">Clarified who Pian was.</change>
          <change when="2022-01-04" who="#fg">Added Ainsworth bio.</change>
          <change when="2021-11-18" who="#fg">Added <gi>standOff</gi> and removed <gi>back</gi>.</change>
@@ -353,7 +354,7 @@
             <state>
                <p>Mother to Earl Reed Silvers.</p>
             </state>
-            <birth when-custom="1896">1896</birth>
+            <birth when-custom="1869">1869</birth>
             <death when-custom="1938">1938</death>
             <note><list type="links">
                   <item><ref target="https://www.familysearch.org/tree/person/details/9HQZ-YZW"
@@ -798,7 +799,7 @@
          <div type="letter" decls="#ainsworthwpe_06">
             <pb n="12"/>
             <note type="letterhead">
-               <address>
+               <address style="text-align: center;">
                   <addrLine><placeName key="45 and 47 Wall Street, New York, NY" ref="https://geohack.toolforge.org/geohack.php?params=40_42_23_N_74_0_37_W">45 &amp; 47 WALL STREET</placeName>.</addrLine>
                   <addrLine>NEW YORK.</addrLine>
                </address>
@@ -951,7 +952,7 @@
                   <p>According to Joe Costa, there were at least 8 Rutgers men stationed at Base
                      Hospital #8, located in Savenay, France.</p>
                </note> yet but will <unclear>chap</unclear>
-               <persName key="Bracher, Elmer G." from="1894" to="1923" role="Sergeant, Medical Corps" ref="https://www.findagrave.com/memorial/210183871/elmer-gladstone-bracher">Toady</persName> a line to let <pb n="22"/> him know that I am here </p>
+               <persName key="Bracher, Elmer G." from="1894" to="1923" role="Sergeant, Medical Corps" ref="https://www.findagrave.com/memorial/210183871/elmer-gladstone-bracher"> Toady</persName> a line to let <pb n="22"/> him know that I am here </p>
             <p> We are still located in the same place, living comfortably and working like the
                devil. Of my work I can say little as I have little time to spend in gadding around
                my letters are bound to be very uninteresting. The war news of the past few weeks has
@@ -1276,7 +1277,7 @@
             <p> Tuesday I leave for <placeName key="Nice, France" ref="https://geohack.toolforge.org/geohack.php?params=43_42_12_N_7_15_59_E">Nice</placeName> on a leave of about 14 days. I am going by way of <placeName key="Lyon, France" ref="https://geohack.toolforge.org/geohack.php?params=45_46__N_4_50__E">Lyon</placeName>, <placeName key="Marseille, France" ref="https://geohack.toolforge.org/geohack.php?params=43_17_47_N_5_22_12_E">Marseille</placeName> and up along the Mediterranean. If possible I am going to
                go to <placeName key="Italy" ref="https://geohack.toolforge.org/geohack.php?params=43___N_12___E">Italy</placeName> and will possibly cover the <placeName key="Pyrenees Mountains" ref="https://geohack.toolforge.org/geohack.php?params=42_40__N_1_00__E">
                   Pyrenees</placeName>. When I get back I may be sent to <placeName key="Germany" ref="https://geohack.toolforge.org/geohack.php?params=51___N_9___E">Germany</placeName> or <placeName key="Russia" ref="https://geohack.toolforge.org/geohack.php?params=60___N_90___E">Russia</placeName>. I don't know which at present. </p>
-            <p> Have you heard from <persName key="Bracher, Elmer Gladstone" from="1894" to="1923" role="Sergeant, Medical Corps" ref="https://www.findagrave.com/memorial/210183871/elmer-gladstone-bracher">Pian</persName>lately? I have not received any letters at
+            <p> Have you heard from <persName key="Bracher, Elmer Gladstone" from="1894" to="1923" role="Sergeant, Medical Corps" ref="https://www.findagrave.com/memorial/210183871/elmer-gladstone-bracher">Pian</persName> lately? I have not received any letters at
                all lately and cannot <pb n="46"/> <add place="margin">(5)</add> expect any very well with all of the changes in
                address. At present it is</p>
             <p> C.O.R.D.- A.P.O. #703 <lb/>
