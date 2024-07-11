@@ -82,17 +82,14 @@
         </xsl:if>
     </xsl:template>
 
-    <!-- generate toc in YAML header 
-    <xsl:template mode="toc" match="$title">
-        <xsl:text>&#xa; - </xsl:text>
-        <xsl:apply-templates />
-    </xsl:template> 
-    -->
-
     <!-- retrieve title and body for each letter -->
     <xsl:template match="/TEI/text/body/div">
         <xsl:for-each select=".">
             <xsl:variable name="targetDivId" select="substring-after(@decls, '#')"/>
+            <xsl:variable name="letterTags" select="tokenize(@ana, ' ') ! substring-after(. , '#')"/> <!-- first split string, then remove '#' and space characters -->
+            <xsl:text>&#xa;&lt;div class="letter" data-tags=&quot;</xsl:text>
+            <xsl:value-of select="$letterTags"/>
+            <xsl:text>&quot;&gt;</xsl:text>
             <xsl:text>&#xa;## </xsl:text>
             <xsl:value-of
                 select="/TEI/teiHeader/profileDesc/correspDesc[@xml:id=$targetDivId]/correspAction[@type='sent']/persName"/>
@@ -104,6 +101,7 @@
                 select="/TEI/teiHeader/profileDesc/correspDesc[@xml:id=$targetDivId]/correspAction[@type='sent']/date"/>
             <xsl:text>&#xa;&#xa;</xsl:text>
             <xsl:apply-templates/>
+            <xsl:text>&lt;/div&gt;</xsl:text>
             <xsl:text>&#x0A;* * * &#x0A;</xsl:text>
         </xsl:for-each>
     </xsl:template>
@@ -229,7 +227,7 @@
         <xsl:text>&lt;sup&gt;</xsl:text><xsl:apply-templates/><xsl:text>&lt;/sup&gt;</xsl:text>
     </xsl:template>
     
-    <xsl:template match="sic">
+    <xsl:template match="sic | orig">
         <xsl:text>*</xsl:text>
         <xsl:apply-templates/>
         <xsl:text>* [sic]</xsl:text>

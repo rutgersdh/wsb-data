@@ -10,7 +10,7 @@
         <xd:desc>
             <xd:p><xd:b>Created on:</xd:b> Dec 30, 2021</xd:p>
             <xd:p><xd:b>Author:</xd:b> Francesca Giannetti</xd:p>
-            <xd:p>This stylesheet will create a .js file with a FeatureCollection of LineStrings for use in Leaflet. I can't get the position stuff to work for some reason, so the end of the file needs to be fixed manually. Still infinitely better than assembly by hand.</xd:p>
+            <xd:p>This stylesheet will create a .js file with a FeatureCollection of LineStrings for use in Leaflet. I can't get the position stuff to work for some reason, so the end of the array will need to have a stray comma deleted. Still infinitely better than assembly by hand.</xd:p>
         </xd:desc>
     </xd:doc>
     
@@ -32,6 +32,7 @@
         "features": [
         </xsl:text>
         <xsl:apply-templates select="//correspDesc"/>
+        <xsl:text>]};</xsl:text> <!-- close array -->
     </xsl:template>
     
     <xd:doc>
@@ -69,10 +70,10 @@
                 </xsl:when>
 <!--                <xsl:when test="$senderLocId = $locId [position() eq last()]">
                     <xsl:text>]};</xsl:text>
-                </xsl:when>-->
+                </xsl:when>
                 <xsl:otherwise>
                     <xsl:text>]};</xsl:text>
-                </xsl:otherwise>
+                </xsl:otherwise> -->
             </xsl:choose>
         </xsl:for-each-group>
     </xsl:template>
