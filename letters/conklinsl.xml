@@ -230,6 +230,7 @@
             </correspDesc>
         </profileDesc>
         <revisionDesc>
+            <change when="2024-07-12" who="#fg">Added keywords to letters and <gi>profileDesc</gi>.</change>
             <change when="2023-06-22" who="#fg">Updated to include <gi>standOff</gi>. Tweaked attributes in <gi>correspDesc</gi>.</change>
             <change when="2021-02-19" who="#fg">Fixed up some metadata problems in the correspDesc element.</change>
             <change when="2020-11-04" who="#fg">Added Alissa's encodings and updated correspDesc and
