@@ -36,6 +36,30 @@
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
+			<textClass>
+				<keywords scheme="#lcsh">
+					<term xml:id="u-boats" ref="https://lccn.loc.gov/sh96004737">Submarines (Ships)--Germany</term>
+					<term xml:id="transatlantic-travel" ref="https://lccn.loc.gov/sh96003768">Transatlantic voyages</term>
+					<term xml:id="censorship" ref="https://lccn.loc.gov/sh85021828">Censorship</term>
+					<term xml:id="loneliness" ref="https://lccn.loc.gov/sh85078243">Loneliness</term>
+					<term xml:id="routine" ref="https://lccn.loc.gov/sh85135416">Time management</term>
+					<term xml:id="officers" ref="https://lccn.loc.gov/sh85140673">United States. Army--Officers</term>
+					<term xml:id="football" ref="https://lccn.loc.gov/sh85050405">Football</term>
+					<term xml:id="marriage" ref="https://lccn.loc.gov/sh85081416">Marriage</term>
+					<term xml:id="greek-life" ref="https://lccn.loc.gov/sh85057168">Greek letter societies</term>
+					<term xml:id="correspondence" ref="https://lccn.loc.gov/sh85085176">Military correspondence</term>
+					<term xml:id="families" ref="https://lccn.loc.gov/sh85047009">Families</term>
+					<term xml:id="money" ref="https://lccn.loc.gov/sh85086790">Money</term>
+					<term xml:id="collectibles" ref="https://lccn.loc.gov/sh85148260">World War, 1914-1918--Collectibles</term>
+					<term xml:id="ptsd" ref="https://lccn.loc.gov/sh85105424">Post-traumatic stress disorder</term>
+					<term xml:id="masculinity" ref="https://lccn.loc.gov/sh85081797">Masculinity</term>
+					<term xml:id="flu" ref="https://lccn.loc.gov/sj2021053099">Influenza Pandemic, 1918-1919</term>
+					<term xml:id="military-hospitals" ref="https://lccn.loc.gov/sh85062387">Military hospitals</term>
+					<term xml:id="diseases" ref="https://lccn.loc.gov/sj2021050243">Diseases</term>
+					<term xml:id="casualties" ref="https://lccn.loc.gov/sh2019000257">Military casualties</term>
+					<term xml:id="military-operations" ref="https://lccn.loc.gov/sh85148240">World War, 1914-1918 Campaigns</term>
+				</keywords>
+			</textClass>
 			<correspDesc xml:id="brachereg_01">
 				<correspAction type="sent">
 					<persName ref="#psn-egbra">Elmer G. Bracher</persName>
@@ -273,6 +297,7 @@
 			<change when="2021-04-29" who="#GH">Corrected data under Correspdesc for brachereg_06, brachereg_15, and brachereg_16. Changed U.S. Base Hospital #6 location from Talence, France to Savenay France. Added annotation to explain the relationship between U.S. B.H. #6 and U.S. B.H. #8.</change>
 			<change when="2022-07-06" who="#fg">Edited Gabriel's letters. Cleaned up some structure. Tagged more RC alumni. Added <gi>standOff</gi>.</change>
 			<change when="2022-09-23" who="#fg">Minor change to get everyone's bibliography behaving appropriately in the <gi>listPerson</gi> element.</change>
+			<change when="2024-09-25" who="#fg">Added keywords to letters and <gi>profileDesc</gi></change>
 		</revisionDesc>
 	</teiHeader>
 	<standOff>
@@ -942,7 +967,7 @@
 	</standOff>
 	<text>
 		<body>
-			<div type="letter" decls="#brachereg_01">
+			<div type="letter" decls="#brachereg_01" ana="#transatlantic-travel #correspondence">
 				<pb n="1"/>
 				<note type="letterhead" anchored="true">WAR WORK COUNCIL <lb/>ARMY AND NAVY
 					<lb/>YOUNG MEN'S CHRISTIAN ASSOCIATION <lb/>"WITH THE COLORS" </note>
@@ -998,7 +1023,7 @@
 				</closer>
 			</div>
 			
-			<div type="letter" decls="#brachereg_02">
+			<div type="letter" decls="#brachereg_02" ana="#transatlantic-travel #u-boats">
 				<pb n="3"/>
 				<ab><add place="margin"><seg xml:id="fn19">From Sergeant Elmer G. Bracher, July 1917.</seg><note target="#fn19" type="annotation"><p>This is a typewritten transcript of an original letter that was not kept. Silvers likely misdated the letter, since a U.S. Army transport list shows that the S.S. Finland did not leave the port of Hoboken until August 7, 1917.</p></note></add></ab>                      
 				<p>We have finally arrived in France. The voyage over was calm and uneventful until
@@ -1019,7 +1044,7 @@
 					quite a bunch that had to fall out. We are situated about four hundred miles
 					from the front, and I think that it will be permanent.</p>
 			</div>
-			<div type="letter" decls="#brachereg_03">
+			<div type="letter" decls="#brachereg_03" ana="#transatlantic-travel">
 				<pb n="4"/>
 
 				<figure>
@@ -1045,7 +1070,7 @@
 				</ab>
 				<ab type="pre-printed">Publié au bénéfice des Asiles des Soldats Invalides Belges <lb/> Siège social provisoire : 79 Mark Lane (Londres) <lb/> Imprimé par GEO. W. JONES, à l'Enseigne du Dauphin. 12-14 Gough Sq., Londres.</ab>
 			</div>
-			<div type="letter" decls="#brachereg_04">
+			<div type="letter" decls="#brachereg_04" ana="#censorship #loneliness #routine">
 				<pb n="6"/>
 				<note type="letterhead" anchored="true"> AMERICAN Y.M.C.A. <lb/> ON ACTIVE SERVICE <lb/> WITH THE <lb/>
 					AMERICAN EXPEDITIONARY FORCES </note>
@@ -1085,7 +1110,7 @@
 					<add place="margin">Censored by <unclear reason="ilegible">J rais Noyes</unclear><lb/> 1st Lt. <unclear>M.R.C.</unclear><!-- fg: Medical Corps --></add>
 				</closer>
 			</div>
-			<div type="letter" decls="#brachereg_05">
+			<div type="letter" decls="#brachereg_05" ana="#officers #football #marriage">
 			<pb n="7"/>
 			<note type="letterhead" anchored="true"> AMERICAN YMCA <lb/> ON ACTIVE SERVICE <lb/> WITH THE <lb/>
 				AMERICAN EXPEDITIONARY FORCES </note>
@@ -1116,7 +1141,7 @@
 					<add place="margin">Censored <unclear>JE Dunley</unclear><lb/> 1st Lieut. <unclear>M.O.R.C.</unclear><!-- fg: Medical Officer Reserve Corps --></add>
 				</closer>
 			</div>
-			<div type="letter" decls="#brachereg_06">
+			<div type="letter" decls="#brachereg_06" ana="#correspondence #marriage #loneliness #families">
 				<pb n="8"/>
 				<opener>
 					<dateline><date when="1917-09-27">Sept. 27, 1917.</date></dateline>
@@ -1167,7 +1192,7 @@
 						<lb/>1st Lieut <lb/><unclear>MOMC</unclear></add></ab><!-- fg: Medical Officer Medical Corps? -->
 				</postscript>
 			</div>
-			<div type="letter" decls="#brachereg_07">
+			<div type="letter" decls="#brachereg_07" ana="#families #greek-life #football #money #censorship #collectibles">
 				<pb n="11"/>
 				<opener>
 					<dateline><date when="1917-12-06">Dec. 6, 1917</date></dateline>
@@ -1244,7 +1269,7 @@
 				</postscript>
 			</div>
 
-			<div type="letter" decls="#brachereg_08">
+			<div type="letter" decls="#brachereg_08" ana="#marriage #money">
 				<pb n="15"/>
 
 				<note type="letterhead"> AMERICAN YMCA <lb/> ON ACTIVE SERVICE <lb/> WITH THE <lb/>
@@ -1285,7 +1310,7 @@
 						<lb/>1<hi rend="superscript">st</hi> Lt FA </add><!-- fg: field artillery? judge advocate? -->
 				</closer>
 			</div>
-			<div type="letter" decls="#brachereg_09">
+			<div type="letter" decls="#brachereg_09" ana="#correspondence #collectibles #marriage #officers #diseases #masculinity">
 				<pb n="17"/>
 				<note type="letterhead"> AMERICAN YMCA <lb/> ON ACTIVE SERVICE <lb/> WITH THE <lb/>
 					AMERICAN EXPEDITIONARY FORCE </note>
@@ -1345,7 +1370,7 @@
 					<signed>Pi-an</signed>
 				</closer>
 			</div>
-			<div type="letter" decls="#brachereg_10">
+			<div type="letter" decls="#brachereg_10" ana="#loneliness #correspondence #marriage #routine">
 				<pb n="20"/>
 				<note type="letterhead"> AMERICAN YMCA <lb/> ON ACTIVE SERVICE <lb/> WITH THE <lb/>
 					AMERICAN EXPEDITIONARY FORCE </note>
@@ -1393,7 +1418,7 @@
 				</postscript>
 				<postscript><ab><add place="margin"><unclear>Capt M.C. Peary</unclear> <lb/> U.S. Army</add></ab></postscript>
 			</div>
-			<div type="letter" decls="#brachereg_11">
+			<div type="letter" decls="#brachereg_11" ana="#correspondence #military-hospitals #masculinity #marriage #families #football">
 				<pb n="23"/>
 				<note type="postscript" resp="#psn-egbra">P.S. Sil, this letter isn't written for publication so for
 					Pete's sake dont think that this is. EGB</note>
@@ -1511,7 +1536,7 @@
 					<add place="margin">O.K <lb/><unclear><gap reason="illegible" /></unclear></add>
 				</closer>
 			</div>
-			<div type="letter" decls="#brachereg_12">
+			<div type="letter" decls="#brachereg_12" ana="#correspondence #marriage #families #ptsd">
 				<pb n="33"/>
 				<opener>
 					<add place="margin"><hi rend="underline">Bracher</hi></add>
@@ -1554,7 +1579,7 @@
 						<lb/>Capt. M.C. <unclear><gap reason="illegible" unit="character" /></unclear></add>
 				</closer>
 			</div>
-			<div type="letter" decls="#brachereg_13">
+			<div type="letter" decls="#brachereg_13" ana="#military-hospitals #masculinity #officers">
 				<pb n="37"/>
 				<opener>
 					<dateline><date when="1918-10-17">10-17-18</date></dateline>
@@ -1621,7 +1646,7 @@
 					<signed>Pian</signed>
 				</closer>
 			</div>
-			<div type="letter" decls="#brachereg_14">
+			<div type="letter" decls="#brachereg_14" ana="#greek-life #flu #marriage #military-operations">
 				<pb n="41"/>
 				<opener>
 					<dateline><date when="1918-11-03">11-3-18</date></dateline>
@@ -1676,7 +1701,7 @@
 					<signed>Pi-an</signed>
 				</closer>
 			</div>
-			<div type="letter" decls="#brachereg_15">
+			<div type="letter" decls="#brachereg_15" ana="#officers">
 				<pb n="45"/>
 				<opener>
 					<dateline><date when="1918-11-15">November 15, 1918</date></dateline>
@@ -1711,7 +1736,7 @@
 
 				<closer><salute>Cordially,</salute><signed><persName ref="#psn-ersil"/></signed></closer>
 			</div>
-			<div type="letter" decls="#brachereg_16">
+			<div type="letter" decls="#brachereg_16" ana="#correspondence #football #flu #casualties #diseases">
 				<pb n="46"/>
 				<opener>
 					<address style="text-align: right;">
@@ -1791,7 +1816,7 @@
 					<signed>Pi-an</signed>
 				</closer>
 			</div>
-			<div type="letter" decls="#brachereg_17">
+			<div type="letter" decls="#brachereg_17" ana="#flu #casualties">
 				<pb n="47"/>
 				<opener>
 					<address style="text-align: right;">
@@ -1832,7 +1857,7 @@
 					<signed>Pi-an</signed>
 				</closer>
 			</div>
-			<div type="letter" decls="#brachereg_18">
+			<div type="letter" decls="#brachereg_18" ana="#correspondence #routine #diseases">
 				<pb n="48"/>
 				<opener>
 					<add place="margin"><hi rend="underlined">Bracher</hi><lb/></add>
@@ -1920,7 +1945,7 @@
 					<signed>Pi-an</signed>
 				</closer>
 			</div>
-			<div type="letter" decls="#brachereg_19">
+			<div type="letter" decls="#brachereg_19" ana="#correspondence #families #collectibles #diseases #routine">
 				<pb n="49"/>
 				<opener>
 					<dateline><date when="1919-01-03">Jan. 3, 1919</date></dateline>
@@ -1971,7 +1996,7 @@
 					<add place="margin">O.K. <lb/><unclear><gap reason="illegible" /></unclear></add>
 				</closer>
 			</div>
-			<div type="letter" decls="#brachereg_20">
+			<div type="letter" decls="#brachereg_20" ana="#correspondence #ptsd #flu">
 				<pb n="53"/>
 				<opener>
 					<address style="text-align: right;">

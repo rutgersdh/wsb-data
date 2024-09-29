@@ -97,11 +97,11 @@
             <xsl:value-of
                 select="/TEI/teiHeader/profileDesc/correspDesc[@xml:id=$targetDivId]/correspAction[@type='sent']/date"/>
             <xsl:text>&#xa;&#xa;</xsl:text>
-            <xsl:text>&#xa;&lt;div class="letter" data-tags=&quot;</xsl:text> <!-- add div and tags after markdown heading -->
+            <xsl:text>&#xa;&lt;section class="letter" data-tags=&quot;all&#x20;</xsl:text> <!-- add section and tags after markdown heading, include all tag -->
             <xsl:value-of select="$letterTags"/>
             <xsl:text>&quot;&gt;</xsl:text>
             <xsl:apply-templates/>
-            <xsl:text>&#xa;&lt;/div&gt;</xsl:text>
+            <xsl:text>&#xa;&lt;/section&gt;</xsl:text>
             <xsl:text>&#x0A;* * * &#x0A;</xsl:text>
         </xsl:for-each>
     </xsl:template>
@@ -228,9 +228,9 @@
     </xsl:template>
     
     <xsl:template match="sic | orig">
-        <xsl:text>*</xsl:text>
+        <xsl:text>&lt;i&gt;</xsl:text>
         <xsl:apply-templates/>
-        <xsl:text>* [sic]</xsl:text>
+        <xsl:text>&lt;/i&gt; [sic]</xsl:text>
     </xsl:template>
     
     <!-- make marginal additions centered, smaller; use add class to pick up green text color -->
